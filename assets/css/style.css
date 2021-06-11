@@ -1,0 +1,87 @@
+body {
+    font-family: "Roboto", sans-serif;
+    background-color: #d3d3d3;
+}
+
+.title-section {
+    height: 20vh;
+    background-color: #d3d3d3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.title-heading {
+    font-size: 4rem;
+    color: #fafafa;
+    justify-content: center;
+    margin-left: 10%;
+}
+
+.title-image {
+    vertical-align: middle;
+    width: 15%;
+}
+
+.menu-section {
+    height: 70vh;
+    background-color: #d3d3d3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.menu-style {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 50%;
+    width: 25%;
+    background-color: #fafafa;
+    border-radius: 10%;
+    gap: 10%;
+    margin-bottom: 100px;
+}
+
+.play-button {
+    font-size: 1.5rem;
+    padding: 1rem;
+    width: 15rem;
+    background-color: green;
+    color: white;
+    border-radius: 25px;
+}
+
+.play-button a {
+    text-decoration: none;
+    color: #fafafa;
+}
+
+.play-button a:hover {
+    color: red;
+}
+
+.how-to-button {
+    font-size: 1.5rem;
+    padding: 1rem;
+    width: 15rem;
+    background-color: green;
+    color: white;
+    border-radius: 25px;
+}
+
+.contact-button {
+    font-size: 1.5rem;
+    padding: 1rem;
+    width: 15rem;
+    background-color: green;
+    color: white;
+    border-radius: 25px;
+}
+
+.footer-section {
+    height: 10vh;
+    background-color: red;
+}
