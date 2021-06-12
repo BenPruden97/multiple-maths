@@ -256,7 +256,7 @@ body {
 /* game.html code */
 
 .game-section {
-    height: 70vh;
+    height: 65vh;
     background-color: #d3d3d3;
     display: flex;
     justify-content: center;
@@ -277,7 +277,7 @@ body {
     margin-bottom: 100px;
 }
 
-.reset-button {
+.game-reset-button {
     font-size: 1.5rem;
     padding: 1rem;
     width: 10rem;
@@ -290,7 +290,20 @@ body {
     bottom: 130px;
 }
 
-.options-button {
+.option-reset-button {
+    font-size: 1.5rem;
+    padding: 1rem;
+    width: 10rem;
+    background-color: #D40C00;
+    color: white;
+    border-radius: 25px;
+    border: 3px solid #2F5597;
+    position: absolute;
+    left: 218px;
+    bottom: 130px;
+}
+
+.game-options-button {
     font-size: 1.5rem;
     padding: 1rem;
     width: 20rem;
@@ -303,7 +316,7 @@ body {
     bottom: 130px;
 }
 
-.main-menu-button {
+.game-main-menu-button {
     font-size: 1.5rem;
     padding: 1rem;
     width: 20rem;
@@ -314,4 +327,58 @@ body {
     position: absolute;
     right: 218px;
     bottom: 130px;
+}
+
+.option-main-menu-button {
+    font-size: 1.5rem;
+    padding: 1rem;
+    width: 30rem;
+    background-color: #7C5295;
+    color: white;
+    border-radius: 25px;
+    border: 3px solid #2F5597;
+    position: absolute;
+    right: 218px;
+    bottom: 130px;
+}
+
+.button-section {
+    height: 5vh;
+    background-color: #d3d3d3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.reset-option {
+    flex-grow: 50%;
+    width: 50%;
+}
+
+.main-menu-option {
+    flex-grow: 50%;
+    width: 50%;
+}
+
+.option-section {
+    height: 65vh;
+    background-color: #d3d3d3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.option-style {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 450px;
+    width: 1200px;
+    background-color: #fafafa;
+    border-radius: 50px;
+    border: 3px solid #2F5597;
+    margin-bottom: 100px;
 }
