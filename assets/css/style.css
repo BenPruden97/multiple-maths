@@ -135,7 +135,7 @@ body {
     color: #fafafa;
 }
 
-.how-to-close {
+.close-how-to {
     position: absolute;
     font-size: 1.5rem;
     padding: 0.5rem;
@@ -173,15 +173,57 @@ body {
 
 .contact-form {
     display: none;
+    position: fixed;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #7C5295;
+    border-radius: 25px;
+    border: 3px solid #2F5597;
+    width: 800px;
+    max-width: 75%;
+    height: 60vh;
 }
 
-.contact-style {
-    display: block;
-    height: 500px;
-    width: 600px;
-    background-color: #fafafa;
-    border-radius: 50px;
-    border: 3px solid #2F5597;
+.contact-header {
+    padding-top: 50px;
+    padding-bottom: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-header .header {
+    color: #fafafa;
+    font-size: 2rem;
+}
+
+.form-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.close-contact-form {
+    font-size: 1.5rem;
+    padding: 0.5rem;
+    width: 10rem;
+    background-color: #D40C00;
+    color: #fafafa;
+    border-radius: 1rem;
+    border: 3px solid #fafafa;
+    left: 40%;
+}
+
+.submit-button {
+    font-size: 1.5rem;
+    padding: 0.5rem;
+    width: 15rem;
+    background-color: #38761D;
+    color: #fafafa;
+    border-radius: 1rem;
+    border: 3px solid #fafafa;
+    left: 40%;
 }
 
 /* Footer Section of index.html */

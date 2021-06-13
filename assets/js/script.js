@@ -11,10 +11,11 @@ document.getElementById("close-how-to").addEventListener('click', function() {
 
 /* Contact button to open and close the contact form */
 
-function openContactForm() {
-    document.getElementById("contact-form").style.display = "block"
-}
+document.getElementById("open-contact-form").addEventListener('click', function() {
+    document.querySelector(".contact-form").style.display = "block";
+});
 
-function closeContactForm() {
-    document.getElementById("contact-form").style.display = "none"
-}
+document.getElementById("close-contact-form").addEventListener('click', function() {
+    document.querySelector(".contact-form").style.display = "none";
+});
+
