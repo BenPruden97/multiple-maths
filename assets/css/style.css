@@ -88,15 +88,66 @@ body {
     color: #2F5597;
 }
 
+/* how to play button and how to play pop up text for index.html */
+
 .how-to-button {
     font-size: 1.5rem;
     padding: 1rem;
     width: 15rem;
     background-color: #FF8B3D;
-    color: white;
+    color: #fafafa;
     border-radius: 25px;
     border: 3px solid #2F5597;
 }
+
+.how-to {
+    display: none;
+    position: fixed;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #FF8B3D;
+    border-radius: 25px;
+    border: 3px solid #2F5597;
+    width: 800px;
+    max-width: 75%;
+    height: 60vh;
+}
+
+.how-to-header {
+    padding-top: 30px;
+    padding-bottom: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.how-to-header .header {
+    color: #fafafa;
+    font-size: 2rem;
+    text-decoration: underline;
+}
+
+.how-to-text {
+    padding: 30px;
+    padding-bottom: 10px;
+    font-size: 1rem;
+    color: #fafafa;
+}
+
+.how-to-close {
+    position: absolute;
+    font-size: 1.5rem;
+    padding: 0.5rem;
+    width: 10rem;
+    background-color: #D40C00;
+    color: #fafafa;
+    border-radius: 1rem;
+    border: 3px solid #fafafa;
+    left: 40%;
+}
+
+/* high score button and high score pop up text for index.html */
 
 .high-score {
     font-size: 1.5rem;
@@ -108,6 +159,8 @@ body {
     border: 3px solid #2F5597;
 }
 
+/* contact button and contact form for index.html */
+
 .contact-button {
     font-size: 1.5rem;
     padding: 1rem;
@@ -115,6 +168,19 @@ body {
     background-color: #7C5295;
     color: white;
     border-radius: 25px;
+    border: 3px solid #2F5597;
+}
+
+.contact-form {
+    display: none;
+}
+
+.contact-style {
+    display: block;
+    height: 500px;
+    width: 600px;
+    background-color: #fafafa;
+    border-radius: 50px;
     border: 3px solid #2F5597;
 }
 
