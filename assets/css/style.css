@@ -106,17 +106,16 @@ body {
     top: 55%;
     left: 50%;
     transform: translate(-50%, -50%);
-    background-color: #FF8B3D;
+    background-color: #FF883D;
     border-radius: 25px;
     border: 3px solid #2F5597;
-    width: 800px;
-    max-width: 75%;
-    height: 60vh;
+    width: 750px;
+    max-width: 750px;
+    height: 64vh;
 }
 
 .how-to-header {
-    padding-top: 30px;
-    padding-bottom: 0px;
+    padding-top: 20px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -130,15 +129,15 @@ body {
 
 .how-to-text {
     padding: 30px;
-    padding-bottom: 10px;
-    font-size: 1rem;
+    padding-bottom: 5px;
+    font-size: 0.95rem;
     color: #fafafa;
 }
 
 .close-how-to {
     position: absolute;
-    font-size: 1.5rem;
-    padding: 0.5rem;
+    font-size: 1rem;
+    padding: 1rem;
     width: 10rem;
     background-color: #D40C00;
     color: #fafafa;
@@ -180,50 +179,84 @@ body {
     background-color: #7C5295;
     border-radius: 25px;
     border: 3px solid #2F5597;
-    width: 800px;
-    max-width: 75%;
-    height: 60vh;
-}
-
-.contact-header {
-    padding-top: 50px;
-    padding-bottom: 0px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    width: 750px;
+    max-width: 750px;
+    height: 55vh;
 }
 
 .contact-header .header {
+    padding: 10px;
     color: #fafafa;
-    font-size: 2rem;
+    font-size: 1.5rem;
+    text-align: center;
 }
 
 .form-content {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    position: absolute;
+    padding: 30px;
+    height: 575px;
+    width: 800px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #2F5597;
+    border: 3px solid #fafafa;
+    border-radius: 25px;
+}
+
+.form-content label {
+    color: #fafafa;
+    font-weight: bold;
+    font-size: 1rem;
+    padding: 5px;
+    text-align: left;
+    margin: 5px;
+}
+
+::placeholder {
+    color: #fafafa;
+}
+
+.form-content input {
+    border: 2px solid #fafafa;
+    background-color: #7C5295;
+    color: #fafafa;
+    margin-left: 10px;
+    width: 96%;
+}
+
+.form-content textarea {
+    border: 2px solid #fafafa;
+    background-color: #7C5295;
+    color: #fafafa;
+    margin-left: 10px;
+    width: 96%;
 }
 
 .close-contact-form {
-    font-size: 1.5rem;
-    padding: 0.5rem;
+    position: absolute;
+    top: 485px;
+    right: 49px;
+    font-size: 1rem;
+    padding: 0.8rem;
     width: 10rem;
     background-color: #D40C00;
     color: #fafafa;
     border-radius: 1rem;
     border: 3px solid #fafafa;
-    left: 40%;
 }
 
 .submit-button {
-    font-size: 1.5rem;
-    padding: 0.5rem;
-    width: 15rem;
+    position: absolute;
+    top: 485px;
+    left: 40px;
+    font-size: 1rem;
+    padding: 0.8rem;
+    width: 10rem;
     background-color: #38761D;
     color: #fafafa;
     border-radius: 1rem;
     border: 3px solid #fafafa;
-    left: 40%;
 }
 
 /* Footer Section of index.html */
