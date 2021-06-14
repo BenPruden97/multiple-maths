@@ -9,6 +9,28 @@ body {
     padding: 0;
 }
 
+.align-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.line-h {
+    border: 2px solid #2f5597;
+    width: 175px;
+    position: absolute;
+    top: 62.5px;
+    left: 0;
+}
+
+.line-v {
+    border: 2px solid #2f5597;
+    height: 131px;
+    position: absolute;
+    top: 0px;
+    left: 87.5px;
+}
+
 .row {
     margin-right: 0;
     margin-left: 0;
@@ -394,6 +416,195 @@ body {
     margin-top: 5px;
 }
 
+/* options.html code */
+
+.reset-option {
+    flex-grow: 50%;
+    width: 50%;
+}
+
+.main-menu-option {
+    flex-grow: 50%;
+    width: 50%;
+}
+
+.option-section {
+    height: 70vh;
+    background-color: #d3d3d3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.option-style {
+    height: 450px;
+    width: 1200px;
+    background-color: #fafafa;
+    border-radius: 50px;
+    border: 3px solid #2F5597;
+    margin-bottom: 100px;
+    padding: 25px;
+}
+
+.maths-questions {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 10px;
+    margin: 10px;
+}
+
+.add-button {
+    background-color: #2F5597;
+    width: 175px;
+    height: 125px;
+    color: #fafafa;
+    font-size: 5rem;
+    padding: 0rem 1rem 8rem;
+    border-radius: 10px;
+    border: 2px solid #2F5597;
+}
+
+.sub-button {
+    background-color: #D40C00;
+    width: 175px;
+    height: 125px;
+    color: #fafafa;
+    font-size: 5rem;
+    padding: 0rem 1rem 8rem;
+    border-radius: 10px;
+    border: 2px solid #2F5597;
+}
+
+.multiply-button {
+    background-color: #FF8B3D;
+    width: 175px;
+    height: 125px;
+    color: #fafafa;
+    font-size: 5rem;
+    padding: 0rem 1rem 8rem;
+    border-radius: 10px;
+    border: 2px solid #2F5597;
+}
+
+.divide-button {
+    background-color: #38761D;
+    width: 175px;
+    height: 125px;
+    color: #fafafa;
+    font-size: 5rem;
+    padding: 0rem 1rem 8rem;
+    border-radius: 10px;
+    border: 2px solid #2F5597;
+}
+
+.multiple-style {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    position: relative;
+}
+
+.multiple-button {
+    background-color: #7C5295;
+    width: 175px;
+    height: 125px;
+    color: #fafafa;
+    font-size: 4rem;
+    padding: 0rem 1rem 8rem;
+    border-radius: 10px;
+    border: 2px solid #2F5597;
+}
+
+.add {
+    position: absolute;
+    top: -20px;
+    left: 25px;
+}
+
+.sub {
+    top: -20px;
+    position: absolute;
+    right: 30px;
+}
+
+.multiply {
+    position: absolute;
+    bottom: -5px;
+    left: 35px;
+}
+
+.divide {
+    position: absolute;
+    bottom: -7px;
+    right: 20px;
+}
+
+.maths-difficulty {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 10px;
+    margin: 10px;
+}
+
+.easy-button {
+    font-size: 1.5rem;
+    padding: 1rem;
+    width: 10rem;
+    background-color: #2f5597;
+    color: white;
+    border-radius: 25px;
+    border: 3px solid #2F5597;
+
+}
+
+.medium-button {
+    font-size: 1.5rem;
+    padding: 1rem;
+    width: 10rem;
+    background-color: #FF883D;
+    color: white;
+    border-radius: 25px;
+    border: 3px solid #2F5597;
+
+}
+
+.hard-button {
+    font-size: 1.5rem;
+    padding: 1rem;
+    width: 10rem;
+    background-color: #7C5295;
+    color: white;
+    border-radius: 25px;
+    border: 3px solid #2F5597;
+}
+
+.start-button {
+    font-size: 1.5rem;
+    padding: 1rem;
+    width: 25rem;
+    background-color: #38761d;
+    color: white;
+    border-radius: 25px;
+    border: 3px solid #2F5597;
+    margin-top: 20px;
+}
+
+.option-main-menu-button {
+    font-size: 1.5rem;
+    padding: 1rem;
+    width: 20rem;
+    background-color: #7C5295;
+    color: white;
+    border-radius: 25px;
+    border: 3px solid #2F5597;
+    position: absolute;
+    right: 218px;
+    bottom: 130px;
+}
+
 /* game.html code */
 
 .game-section {
@@ -431,19 +642,6 @@ body {
     bottom: 130px;
 }
 
-.option-reset-button {
-    font-size: 1.5rem;
-    padding: 1rem;
-    width: 10rem;
-    background-color: #D40C00;
-    color: white;
-    border-radius: 25px;
-    border: 3px solid #2F5597;
-    position: absolute;
-    left: 218px;
-    bottom: 130px;
-}
-
 .game-options-button {
     font-size: 1.5rem;
     padding: 1rem;
@@ -468,58 +666,4 @@ body {
     position: absolute;
     right: 218px;
     bottom: 130px;
-}
-
-.option-main-menu-button {
-    font-size: 1.5rem;
-    padding: 1rem;
-    width: 30rem;
-    background-color: #7C5295;
-    color: white;
-    border-radius: 25px;
-    border: 3px solid #2F5597;
-    position: absolute;
-    right: 218px;
-    bottom: 130px;
-}
-
-.button-section {
-    height: 5vh;
-    background-color: #d3d3d3;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-}
-
-.reset-option {
-    flex-grow: 50%;
-    width: 50%;
-}
-
-.main-menu-option {
-    flex-grow: 50%;
-    width: 50%;
-}
-
-.option-section {
-    height: 65vh;
-    background-color: #d3d3d3;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-}
-
-.option-style {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    height: 450px;
-    width: 1200px;
-    background-color: #fafafa;
-    border-radius: 50px;
-    border: 3px solid #2F5597;
-    margin-bottom: 100px;
 }
