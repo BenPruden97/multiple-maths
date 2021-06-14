@@ -17,18 +17,18 @@ body {
 
 .line-h {
     border: 2px solid #2f5597;
-    width: 175px;
+    width: 150px;
     position: absolute;
-    top: 62.5px;
+    top: 75px;
     left: 0;
 }
 
 .line-v {
     border: 2px solid #2f5597;
-    height: 131px;
+    height: 150px;
     position: absolute;
     top: 0px;
-    left: 87.5px;
+    left: 75px;
 }
 
 .row {
@@ -438,7 +438,11 @@ body {
 }
 
 .option-style {
-    height: 450px;
+    position: fixed;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 65vh;
     width: 1200px;
     background-color: #fafafa;
     border-radius: 50px;
@@ -457,46 +461,46 @@ body {
 
 .add-button {
     background-color: #2F5597;
-    width: 175px;
-    height: 125px;
+    width: 150px;
+    height: 150px;
     color: #fafafa;
     font-size: 5rem;
     padding: 0rem 1rem 8rem;
-    border-radius: 10px;
+    border-radius: 100%;
     border: 2px solid #2F5597;
 }
 
 .sub-button {
     background-color: #D40C00;
-    width: 175px;
-    height: 125px;
+    width: 150px;
+    height: 150px;
     color: #fafafa;
     font-size: 5rem;
     padding: 0rem 1rem 8rem;
-    border-radius: 10px;
-    border: 2px solid #2F5597;
+    border-radius: 100%;
+    border: 4px solid #2F5597;
 }
 
 .multiply-button {
     background-color: #FF8B3D;
-    width: 175px;
-    height: 125px;
+    width: 150px;
+    height: 150px;
     color: #fafafa;
     font-size: 5rem;
     padding: 0rem 1rem 8rem;
-    border-radius: 10px;
-    border: 2px solid #2F5597;
+    border-radius: 100%;
+    border: 4px solid #2F5597;
 }
 
 .divide-button {
     background-color: #38761D;
-    width: 175px;
-    height: 125px;
+    width: 150px;
+    height: 150px;
     color: #fafafa;
     font-size: 5rem;
     padding: 0rem 1rem 8rem;
-    border-radius: 10px;
-    border: 2px solid #2F5597;
+    border-radius: 100%;
+    border: 4px solid #2F5597;
 }
 
 .multiple-style {
@@ -508,13 +512,13 @@ body {
 
 .multiple-button {
     background-color: #7C5295;
-    width: 175px;
-    height: 125px;
+    width: 150px;
+    height: 150px;
     color: #fafafa;
     font-size: 4rem;
     padding: 0rem 1rem 8rem;
-    border-radius: 10px;
-    border: 2px solid #2F5597;
+    border-radius: 100%;
+    border: 4px solid #2F5597;
 }
 
 .add {
@@ -552,21 +556,22 @@ body {
 .easy-button {
     font-size: 1.5rem;
     padding: 1rem;
-    width: 10rem;
+    width: 200px;
+    height: 75px;
     background-color: #2f5597;
     color: white;
-    border-radius: 25px;
+    border-radius: 10px;
     border: 3px solid #2F5597;
-
 }
 
 .medium-button {
     font-size: 1.5rem;
     padding: 1rem;
-    width: 10rem;
+    width: 200px;
+    height: 75px;
     background-color: #FF883D;
     color: white;
-    border-radius: 25px;
+    border-radius: 10px;
     border: 3px solid #2F5597;
 
 }
@@ -574,35 +579,116 @@ body {
 .hard-button {
     font-size: 1.5rem;
     padding: 1rem;
-    width: 10rem;
+    width: 200px;
+    height: 75px;
     background-color: #7C5295;
     color: white;
-    border-radius: 25px;
+    border-radius: 10px;
+    border: 3px solid #2F5597;
+}
+
+.maths-timer {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 10px;
+    margin: 10px;
+}
+
+.lowminutes-button {
+    font-size: 1.5rem;
+    padding: 1rem;
+    width: 200px;
+    height: 75px;
+    background-color: #2f5597;
+    color: white;
+    border-radius: 10px;
+    border: 3px solid #2F5597;
+}
+
+.midminutes-button {
+    font-size: 1.5rem;
+    padding: 1rem;
+    width: 200px;
+    height: 75px;
+    background-color: #FF883D;
+    color: white;
+    border-radius: 10px;
+    border: 3px solid #2F5597;
+}
+
+.highminutes-button {
+    font-size: 1.5rem;
+    padding: 1rem;
+    width: 200px;
+    height: 75px;
+    background-color: #7C5295;
+    color: white;
+    border-radius: 10px;
+    border: 3px solid #2F5597;
+}
+
+.maths-questions-limit {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 10px;
+    margin: 10px;
+}
+
+.lowquestions-button {
+    font-size: 1.5rem;
+    padding: 1rem;
+    width: 200px;
+    height: 75px;
+    background-color: #2f5597;
+    color: white;
+    border-radius: 10px;
+    border: 3px solid #2F5597;
+}
+
+.midquestions-button {
+    font-size: 1.5rem;
+    padding: 1rem;
+    width: 200px;
+    height: 75px;
+    background-color: #FF883D;
+    color: white;
+    border-radius: 10px;
+    border: 3px solid #2F5597;
+}
+
+.highquestions-button {
+    font-size: 1.5rem;
+    padding: 1rem;
+    width: 200px;
+    height: 75px;
+    background-color: #7C5295;
+    color: white;
+    border-radius: 10px;
     border: 3px solid #2F5597;
 }
 
 .start-button {
     font-size: 1.5rem;
     padding: 1rem;
-    width: 25rem;
+    width: 18rem;
     background-color: #38761d;
     color: white;
     border-radius: 25px;
     border: 3px solid #2F5597;
-    margin-top: 20px;
+    margin-top: 10px;
 }
 
 .option-main-menu-button {
     font-size: 1.5rem;
     padding: 1rem;
-    width: 20rem;
+    width: 18rem;
     background-color: #7C5295;
     color: white;
     border-radius: 25px;
     border: 3px solid #2F5597;
-    position: absolute;
-    right: 218px;
-    bottom: 130px;
+    margin-top: 10px;
 }
 
 /* game.html code */
