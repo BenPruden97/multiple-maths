@@ -35,7 +35,7 @@ body {
     padding-left: 0;
 }
 
-/* Title section of index.html */
+/* Title section Stlying of index.html */
 
 .title-section {
     height: 20vh;
@@ -44,6 +44,8 @@ body {
     justify-content: center;
     align-items: center;
 }
+
+/* Title section Anchor Tag Styling of index.html */
 
 .title-section a {
     text-decoration: none;
@@ -647,6 +649,7 @@ body {
     color: white;
     border-radius: 10px;
     border: 3px solid #2F5597;
+    margin-right: -1px;
 }
 
 /* Maths Timer section for the options.html file*/
@@ -797,7 +800,7 @@ body {
 /* game.html code */
 
 .game-section {
-    height: 65vh;
+    height: 70vh;
     background-color: #d3d3d3;
     display: flex;
     justify-content: center;
@@ -806,12 +809,12 @@ body {
 }
 
 .game-style {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    height: 450px;
-    width: 700px;
+    position: fixed;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 65vh;
+    width: 1000px;
     background-color: #fafafa;
     border-radius: 50px;
     border: 3px solid #2F5597;
@@ -827,8 +830,8 @@ body {
     border-radius: 25px;
     border: 3px solid #2F5597;
     position: absolute;
-    left: 218px;
-    bottom: 130px;
+    left: 500px;
+    bottom: 150px;
 }
 
 .game-options-button {
@@ -840,19 +843,54 @@ body {
     border-radius: 25px;
     border: 3px solid #2F5597;
     position: absolute;
-    left: 625px;
-    bottom: 130px;
+    left: 735px;
+    bottom: 150px;
 }
 
 .game-main-menu-button {
     font-size: 1.5rem;
     padding: 1rem;
-    width: 20rem;
+    width: 18rem;
     background-color: #7C5295;
     color: white;
     border-radius: 25px;
     border: 3px solid #2F5597;
     position: absolute;
-    right: 218px;
-    bottom: 130px;
+    right: 500px;
+    bottom: 150px;
+}
+
+.game-menu {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 40px;
+}
+
+.game-question-audio {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+}
+
+.game-question-area {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+}
+
+.game-answer-1-2 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 30px;
+}
+
+.game-answer-3-4 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 30px;
 }
