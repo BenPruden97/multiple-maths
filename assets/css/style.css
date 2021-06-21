@@ -41,7 +41,7 @@ body {
     padding-left: 0;
 }
 
-/* Title section Stlying of index.html */
+/* Title section Styling of index.html */
 
 .title-section {
     height: 20vh;
@@ -166,6 +166,10 @@ body {
     color: #fafafa;
 }
 
+.how-to-text-small {
+    display: none;
+}
+
 .close-how-to {
     position: fixed;
     font-size: 1rem;
@@ -176,7 +180,7 @@ body {
     border-radius: 1rem;
     border: 3px solid #2F5597;
     left: 37.5%;
-    bottom: 5%;
+    bottom: 2.5%;
 }
 
 .close-how-to:hover {
@@ -237,7 +241,7 @@ body {
 
 .contact-header .header {
     padding: 20px;
-    padding-top: 30px;
+    padding-bottom: 0px;
     color: #fafafa;
     font-size: 1.5rem;
     text-align: center;
@@ -275,29 +279,9 @@ body {
     font-weight: bold;
 }
 
-.close-contact-form {
-    position: absolute;
-    top: 485px;
-    right: 49px;
-    font-size: 1rem;
-    padding: 0.8rem;
-    width: 10rem;
-    background-color: #D40C00;
-    color: #fafafa;
-    border-radius: 1rem;
-    border: 3px solid #fafafa;
-}
-
-.close-contact-form:hover {
-    background-color: #fafafa;
-    color: #2f5295;
-    font-weight: bold;
-    border: 3px solid #2f5295;
-}
-
 .submit-button {
     position: absolute;
-    top: 485px;
+    top: 460px;
     left: 40px;
     font-size: 1rem;
     padding: 0.8rem;
@@ -309,6 +293,26 @@ body {
 }
 
 .submit-button:hover {
+    background-color: #fafafa;
+    color: #2f5295;
+    font-weight: bold;
+    border: 3px solid #2f5295;
+}
+
+.close-contact-form {
+    position: absolute;
+    top: 460px;
+    right: 49px;
+    font-size: 1rem;
+    padding: 0.8rem;
+    width: 10rem;
+    background-color: #D40C00;
+    color: #fafafa;
+    border-radius: 1rem;
+    border: 3px solid #fafafa;
+}
+
+.close-contact-form:hover {
     background-color: #fafafa;
     color: #2f5295;
     font-weight: bold;
@@ -512,7 +516,14 @@ body {
     font-size: 5rem;
     padding: 0rem 1rem 8rem;
     border-radius: 100%;
-    border: 2px solid #2F5597;
+    border: 4px solid #2F5597;
+    font-weight: bold;
+}
+
+.add-button:hover {
+    background-color: #fafafa;
+    color: #2f5295;
+    font-weight: bold;
 }
 
 /* Maths Questions - Subtraction Button Styling */
@@ -526,6 +537,13 @@ body {
     padding: 0rem 1rem 8rem;
     border-radius: 100%;
     border: 4px solid #2F5597;
+    font-weight: bold;
+}
+
+.sub-button:hover {
+    background-color: #fafafa;
+    color: #2f5295;
+    font-weight: bold;
 }
 
 /* Maths Questions - Multiplication Button Styling */
@@ -539,6 +557,13 @@ body {
     padding: 0rem 1rem 8rem;
     border-radius: 100%;
     border: 4px solid #2F5597;
+    font-weight: bold;
+}
+
+.multiply-button:hover {
+    background-color: #fafafa;
+    color: #2f5295;
+    font-weight: bold;
 }
 
 /* Maths Questions - Division Button Styling */
@@ -552,6 +577,13 @@ body {
     padding: 0rem 1rem 8rem;
     border-radius: 100%;
     border: 4px solid #2F5597;
+    font-weight: bold;
+}
+
+.divide-button:hover {
+    background-color: #fafafa;
+    color: #2f5295;
+    font-weight: bold;
 }
 
 /* Maths Questions - Multiple Maths Button Styling */
@@ -573,6 +605,11 @@ body {
     padding: 0rem 1rem 8rem;
     border-radius: 100%;
     border: 4px solid #2F5597;
+}
+
+.multiple-button:hover {
+    background-color: #fafafa;
+    color: #2f5295;
 }
 
 /* Multiple Maths Button - Addition Symbol Styling */
@@ -857,7 +894,7 @@ body {
     padding: 1rem;
     width: 18rem;
     background-color: #38761d;
-    color: white;
+    color: #fafafa;
     border-radius: 25px;
     border: 3px solid #2F5597;
     position: absolute;
@@ -865,6 +902,15 @@ body {
     margin-left: -450px;
 }
 
+.start-button a {
+    text-decoration: none;
+}
+
+.start-button:hover {
+    background-color: #fafafa;
+    color: #2f5295;
+    font-weight: bold;
+}
 /* Maths Questions - Back to Main Menu Button Styling */
 
 .option-main-menu-button {
@@ -878,6 +924,12 @@ body {
     position: absolute;
     margin-top: 27px;
     margin-left: 75px;
+}
+
+.option-main-menu-button:hover {
+    background-color: #fafafa;
+    color: #2f5295;
+    font-weight: bold;
 }
 
 /* game.html code */
@@ -986,6 +1038,8 @@ body {
 
 @media screen and (max-width: 768px) {
 
+    /* Title section Styling of index.html */
+
     .title-heading {
         font-size: 2.5rem;
         color: #2F5597;
@@ -1054,21 +1108,26 @@ body {
     
     .how-to-header .header {
         color: #fafafa;
-        font-size: 1rem;
+        font-size: 1.2rem;
+        padding-bottom: 0px;
         text-decoration: underline;
     }
     
     .how-to-text {
         padding: 30px;
         padding-bottom: 5px;
-        font-size: 0.8rem;
+        font-size: 0.74rem;
         color: #fafafa;
+    }
+
+    .how-to-text-small {
+        display: none;
     }
     
     .close-how-to {
         position: absolute;
         font-size: 1rem;
-        padding: 0.75rem;
+        padding: 0.65rem;
         width: 8rem;
         background-color: #D40C00;
         color: #fafafa;
@@ -1077,7 +1136,7 @@ body {
         bottom: 20px;
     }
 
-    .high-score {
+    .high-score-button {
         font-size: 1rem;
         padding: 1rem;
         width: 12rem;
@@ -1108,7 +1167,7 @@ body {
         border: 3px solid #2F5597;
         width: 450px;
         max-width: 450px;
-        height: 55vh;
+        height: 60vh;
     }
     
     .contact-header .header {
@@ -1118,20 +1177,7 @@ body {
         text-align: center;
     }
     
-    .form-content {
-        position: absolute;
-        padding: 30px;
-        height: 575px;
-        width: 800px;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        background-color: #2F5597;
-        border: 3px solid #fafafa;
-        border-radius: 25px;
-    }
-    
-    .form-content label {
+    .contact-form label {
         color: #fafafa;
         font-weight: bold;
         font-size: 1rem;
@@ -1140,7 +1186,7 @@ body {
         margin: 5px;
     }
     
-    .form-content input {
+    .contact-form input {
         border: 2px solid #fafafa;
         background-color: #7C5295;
         color: #fafafa;
@@ -1148,30 +1194,17 @@ body {
         width: 96%;
     }
     
-    .form-content textarea {
+    .contact-form textarea {
         border: 2px solid #fafafa;
         background-color: #7C5295;
         color: #fafafa;
         margin-left: 10px;
         width: 96%;
     }
-    
-    .close-contact-form {
-        position: absolute;
-        top: 485px;
-        right: 49px;
-        font-size: 1rem;
-        padding: 0.8rem;
-        width: 10rem;
-        background-color: #D40C00;
-        color: #fafafa;
-        border-radius: 1rem;
-        border: 3px solid #fafafa;
-    }
-    
+
     .submit-button {
         position: absolute;
-        top: 485px;
+        top: 450px;
         left: 40px;
         font-size: 1rem;
         padding: 0.8rem;
@@ -1182,7 +1215,18 @@ body {
         border: 3px solid #fafafa;
     }
 
-
+    .close-contact-form {
+        position: absolute;
+        top: 450px;
+        right: 49px;
+        font-size: 1rem;
+        padding: 0.8rem;
+        width: 10rem;
+        background-color: #D40C00;
+        color: #fafafa;
+        border-radius: 1rem;
+        border: 3px solid #fafafa;
+    }
 
 }
 
@@ -1198,6 +1242,15 @@ body {
     .title-image {
         vertical-align: middle;
         width: 75px;
+    }
+
+    .menu-section {
+        height: 66vh;
+        background-color: #d3d3d3;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
     }
     
     .menu-style {
@@ -1233,7 +1286,58 @@ body {
         border: 3px solid #2F5597;
     }
 
-    .high-score {
+    .how-to {
+        display: none;
+        position: fixed;
+        top: 52.5%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        background-color: #FF883D;
+        border-radius: 25px;
+        border: 3px solid #2F5597;
+        max-width: 350px;
+        height: 400px;
+    }
+    
+    .how-to-header {
+        padding-top: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .how-to-header .header {
+        color: #fafafa;
+        font-size: 0.8rem;
+        text-decoration: underline;
+    }
+
+    .how-to-text {
+        display: none;
+    }
+    
+    .how-to-text-small {
+        display: list-item;
+        padding: 10px;
+        padding-bottom: 5px;
+        font-size: 0.55rem;
+        color: #fafafa;
+    }
+    
+    .close-how-to {
+        position: fixed;
+        font-size: 0.75rem;
+        padding: 0.75rem;
+        width: 8rem;
+        background-color: #D40C00;
+        color: #fafafa;
+        border-radius: 1rem;
+        border: 3px solid #2F5597;
+        left: 50%;
+        bottom: 2.5%;
+    }
+
+    .high-score-button {
         font-size: 0.9rem;
         padding: 1rem;
         width: 9rem;
@@ -1253,12 +1357,97 @@ body {
         border: 3px solid #2F5597;
     }
 
+    .contact-form {
+        display: none;
+        position: fixed;
+        top: 52.5%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        background-color: #7C5295;
+        border-radius: 25px;
+        border: 3px solid #2F5597;
+        max-width: 350px;
+        height: 400px;
+    }
+    
+    .contact-header .header {
+        padding: 10px;
+        color: #fafafa;
+        font-size: 0.8rem;
+        text-align: center;
+    }
+
+    .contact-form label {
+        color: #fafafa;
+        font-weight: bold;
+        font-size: 0.7rem;
+        padding: 0px;
+        text-align: left;
+        margin-left: 5px;
+        padding-left: 6px;
+    }
+    
+    .contact-form input {
+        border: 2px solid #2f5195;
+        background-color: #fafafa;
+        color: #2f5295;
+        font-size: 0.75rem;
+        margin-left: 10px;
+        width: 96%;
+        line-height: 0rem;
+    }
+
+    ::placeholder {
+        color: #2f5295;
+        font-size: 0.75rem;
+    }
+    
+    .contact-form textarea {
+        border: 2px solid #2f5195;
+        background-color: #fafafa;
+        color: #fafafa;
+        margin-left: 10px;
+        width: 96%;
+    }
+
+    .submit-button {
+        position: absolute;
+        top: 325px;
+        left: 25px;
+        font-size: 0.8rem;
+        padding: 0.8rem;
+        width: 9rem;
+        background-color: #38761D;
+        color: #fafafa;
+        border-radius: 1rem;
+        border: 3px solid #fafafa;
+    }
+
+    .close-contact-form {
+        position: absolute;
+        top: 325px;
+        right: 25px;
+        font-size: 0.8rem;
+        padding: 0.8rem;
+        width: 8rem;
+        background-color: #D40C00;
+        color: #fafafa;
+        border-radius: 1rem;
+        border: 3px solid #fafafa;
+    }
+
+    .footer-section {
+        height: 14vh;
+        background-color: #2F5597;
+        display: flex;
+    }
+
     .linkedin-index i {
         font-size: 2.2rem;
         color: #fafafa;
         display: flex;
         justify-content: center;
-        margin-top: 7.5px;
+        margin-top: 1rem;
     }
     
     .linkedin-index h6 {
@@ -1266,14 +1455,14 @@ body {
         color: #fafafa;
         display: flex;
         justify-content: center;
-        margin-top: 5px;
+        margin-top: 0.5rem;
     }
     .github-index i {
         font-size: 2.2rem;
         color: #fafafa;
         display: flex;
         justify-content: center;
-        margin-top: 7.5px;
+        margin-top: 1rem;
     }
     
     .github-index h6 {
@@ -1281,7 +1470,7 @@ body {
         color: #fafafa;
         display: flex;
         justify-content: center;
-        margin-top: 5px;
+        margin-top: 0.5rem;
     }
 
 
