@@ -932,6 +932,28 @@ body {
     color: #2F5597;
 }
 
+/* Maths Questions - Reset Button Styling */
+
+.options-reset-button {
+    font-size: 1.5rem;
+    padding: 1rem;
+    width: 10rem;
+    background-color: #D40C00;
+    color: #fafafa;
+    border-radius: 25px;
+    border: 3px solid #2F5597;
+    position: absolute;
+    margin-top: 128px;
+    margin-left: -800px;
+}
+
+
+.options-reset-button:hover {
+    background-color: #fafafa;
+    color: #2f5295;
+    font-weight: bold;
+}
+
 /* Maths Questions - Start Button Styling */
 
 .start-button {
@@ -943,8 +965,8 @@ body {
     border-radius: 25px;
     border: 3px solid #2F5597;
     position: absolute;
-    margin-top: 130px;
-    margin-left: -450px;
+    margin-top: 27px;
+    margin-left: -200px;
 }
 
 .start-button a {
@@ -968,7 +990,7 @@ body {
     border: 3px solid #2F5597;
     position: absolute;
     margin-top: 27px;
-    margin-left: 75px;
+    margin-left: 205px;
 }
 
 .option-main-menu-button:hover {
@@ -994,7 +1016,7 @@ body {
     left: 50%;
     transform: translate(-50%, -50%);
     height: 65vh;
-    width: 1000px;
+    width: 1200px;
     background-color: #fafafa;
     border-radius: 50px;
     border: 3px solid #2F5597;
@@ -1014,6 +1036,12 @@ body {
     bottom: 150px;
 }
 
+.game-reset-button:hover {
+    background-color: #fafafa;
+    color: #2f5195;
+    font-weight: bold;
+}
+
 .game-options-button {
     font-size: 1.5rem;
     padding: 1rem;
@@ -1025,6 +1053,12 @@ body {
     position: absolute;
     left: 735px;
     bottom: 150px;
+}
+
+.game-options-button:hover {
+    background-color: #fafafa;
+    color: #2f5195;
+    font-weight: bold;
 }
 
 .game-main-menu-button {
@@ -1040,25 +1074,86 @@ body {
     bottom: 150px;
 }
 
+.game-main-menu-button:hover {
+    background-color: #fafafa;
+    color: #2f5195;
+    font-weight: bold;
+}
+
 .game-menu {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    padding: 40px;
+    padding-top: 20px;
 }
 
-.game-question-audio {
+.game-timer {
+    background-color: #fafafa;
+    border: 3px solid #2f5195;
+    border-radius: 15px;
+    width: 15rem;
+    padding: 0.5rem;
+    text-align: center;
+}
+
+.game-timer-text {
+    background-color: #fafafa;
+    color: #2f5195;
+    font-size: 1.5rem;
+}
+
+.game-question-number {
+    background-color: #fafafa;
+    border: 3px solid #2f5195;
+    border-radius: 15px;
+    width: 15rem;
+    padding: 0.5rem;
+    text-align: center;
+}
+
+.game-question-text {
+    background-color: #fafafa;
+    color: #2f5195;
+    font-size: 1.5rem;
+}
+
+.game-audio {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 30px;
+    padding-top: 15px;
+}
+
+.game-question-audio {
+    background-color: #fafafa;
+    border: none;
+    color: #2f5195;
+    font-size: 2.5rem;
+}
+
+.game-question-audio:hover {
+    background-color: #fafafa;
+    border: none;
+    color: #38761d;
+    font-size: 2.5rem;
 }
 
 .game-question-area {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 30px;
+    padding: 10px;
+}
+
+.game-question {
+    background-color: #fafafa;
+    border: 3px solid #2f5195;
+    border-radius: 15px;
+    width: 40rem;
+    padding: 0.5rem;
+    text-align: center;
+    font-size: 2rem;
+    color: #2f5195;
 }
 
 .game-answer-1-2 {
@@ -1068,11 +1163,139 @@ body {
     padding: 30px;
 }
 
+.game-answer-1-audio {
+    background-color: #fafafa;
+    border: none;
+    color: #2f5195;
+    font-size: 2.5rem;
+    padding-right: 5px;
+}
+
+.game-answer-1-audio:hover {
+    background-color: #fafafa;
+    border: none;
+    color: #38761d;
+    font-size: 2.5rem;
+}
+
+.game-answer-1 {
+    font-size: 1.2rem;
+    padding: 1rem;
+    width: 7.5rem;
+    background-color: #7C5295;
+    color: white;
+    border-radius: 25px;
+    border: 3px solid #2F5597;
+    text-align: center;
+}
+
+.game-answer-1:hover {
+    background-color: #fafafa;
+    color: #2f5195;
+    font-weight: bold;
+}
+
+.game-answer-2-audio {
+    background-color: #fafafa;
+    border: none;
+    color: #2f5195;
+    font-size: 2.5rem;
+    padding-right: 5px;
+}
+
+.game-answer-2-audio:hover {
+    background-color: #fafafa;
+    border: none;
+    color: #38761d;
+    font-size: 2.5rem;
+}
+
+.game-answer-2 {
+    font-size: 1.2rem;
+    padding: 1rem;
+    width: 7.5rem;
+    background-color: #7C5295;
+    color: white;
+    border-radius: 25px;
+    border: 3px solid #2F5597;
+    text-align: center;
+}
+
+.game-answer-2:hover {
+    background-color: #fafafa;
+    color: #2f5195;
+    font-weight: bold;
+}
+
 .game-answer-3-4 {
     display: flex;
     justify-content: space-around;
     align-items: center;
     padding: 30px;
+}
+
+.game-answer-3-audio {
+    background-color: #fafafa;
+    border: none;
+    color: #2f5195;
+    font-size: 2.5rem;
+    padding-right: 5px;
+}
+
+.game-answer-3-audio:hover {
+    background-color: #fafafa;
+    border: none;
+    color: #38761d;
+    font-size: 2.5rem;
+}
+
+.game-answer-3 {
+    font-size: 1.2rem;
+    padding: 1rem;
+    width: 7.5rem;
+    background-color: #7C5295;
+    color: white;
+    border-radius: 25px;
+    border: 3px solid #2F5597;
+    text-align: center;
+}
+
+.game-answer-3:hover {
+    background-color: #fafafa;
+    color: #2f5195;
+    font-weight: bold;
+}
+
+.game-answer-4-audio {
+    background-color: #fafafa;
+    border: none;
+    color: #2f5195;
+    font-size: 2.5rem;
+    padding-right: 5px;
+}
+
+.game-answer-4-audio:hover {
+    background-color: #fafafa;
+    border: none;
+    color: #38761d;
+    font-size: 2.5rem;
+}
+
+.game-answer-4 {
+    font-size: 1.2rem;
+    padding: 1rem;
+    width: 7.5rem;
+    background-color: #7C5295;
+    color: white;
+    border-radius: 25px;
+    border: 3px solid #2F5597;
+    text-align: center;
+}
+
+.game-answer-4:hover {
+    background-color: #fafafa;
+    color: #2f5195;
+    font-weight: bold;
 }
 
 @media screen and (max-width: 1200px) {
@@ -1273,16 +1496,16 @@ body {
     
     .contact-form input {
         border: 2px solid #fafafa;
-        background-color: #7C5295;
-        color: #fafafa;
+        background-color: #fafafa;
+        color: #2f5295;
         margin-left: 10px;
         width: 96%;
     }
     
     .contact-form textarea {
         border: 2px solid #fafafa;
-        background-color: #7C5295;
-        color: #fafafa;
+        background-color: #fafafa;
+        color: #2f5295;
         margin-left: 10px;
         width: 96%;
     }
