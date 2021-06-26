@@ -1300,7 +1300,396 @@ body {
 
 @media screen and (max-width: 1200px) {
 
+    .option-section {
+        height: 70vh;
+        background-color: #d3d3d3;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    
+    .option-style {
+        position: fixed;
+        top: 55%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        height: 65vh;
+        width: 750px;
+        background-color: #fafafa;
+        border-radius: 50px;
+        border: 3px solid #2F5597;
+        margin-bottom: 100px;
+        padding: 25px;
+    }
+    
+    .maths-questions-text {
+        text-align: center;
+        font-size: 1.5rem;
+        color: #333;
+        text-transform: uppercase;
+        padding: 10px;
+        font-weight: bold;
+    }
+    
+    .maths-questions {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        padding: 15px;
+        margin: 5px;
+    }
+    
+    /* Maths Questions - Addition Button Styling */
+    
+    .add-button {
+        background-color: #2F5597;
+        width: 115px;
+        height: 115px;
+        color: #fafafa;
+        font-size: 3.75rem;
+        padding-bottom: 5rem;
+        border-radius: 100%;
+        border: 4px solid #2F5597;
+        font-weight: bold;
+    }
+    
+    /* Maths Questions - Subtraction Button Styling */
+    
+    .sub-button {
+        background-color: #D40C00;
+        width: 115px;
+        height: 115px;
+        color: #fafafa;
+        font-size: 3.75rem;
+        padding-bottom: 5rem;
+        border-radius: 100%;
+        border: 4px solid #2F5597;
+        font-weight: bold;
+    }
+    
+    /* Maths Questions - Multiplication Button Styling */
+    
+    .multiply-button {
+        background-color: #FF8B3D;
+        width: 115px;
+        height: 115px;
+        color: #fafafa;
+        font-size: 3.75rem;
+        padding-bottom: 5rem;
+        border-radius: 100%;
+        border: 4px solid #2F5597;
+        font-weight: bold;
+    }
+    
+    /* Maths Questions - Division Button Styling */
+    
+    .divide-button {
+        background-color: #38761D;
+        width: 115px;
+        height: 115px;
+        color: #fafafa;
+        font-size: 3.75rem;
+        padding-bottom: 5rem;
+        border-radius: 100%;
+        border: 4px solid #2F5597;
+        font-weight: bold;
+    }
+    
+    /* Maths Questions - Multiple Maths Button Styling */
+    
+    .multiple-style {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        position: relative;
+    }
+    
+    /* Maths Questions - Multiple Maths Button Styling */
+    
+    .multiple-button {
+        background-color: #7C5295;
+        width: 115px;
+        height: 115px;
+        color: #fafafa;
+        padding: 1rem;
+        border-radius: 100%;
+        border: 4px solid #2F5597;
+    }
+    
+    /* Multiple Maths Button - Addition Symbol Styling */
+    
+    .add {
+        position: absolute;
+        top: -10px;
+        left: 17.5px;
+        font-size: 3rem;
+    }
+    
+    /* Multiple Maths Button - Subtraction Symbol Styling */
+    
+    .sub {
+        top: -25px;
+        position: absolute;
+        right: 23px;
+        font-size: 4rem;
+    }
+    
+    /* Multiple Maths Button - Multiplication Symbol Styling */
+    
+    .multiply {
+        position: absolute;
+        bottom: 10px;
+        left: 25px;
+        font-size: 2.5rem;
+    }
+    
+    /* Multiple Maths Button - Division Symbol Styling */
+    
+    .divide {
+        position: absolute;
+        bottom: 8px;
+        right: 22.5px;
+        font-size: 2.5rem;
+    }
+    
+    /* Horizontal Line Styling for Multiple Maths Button */
+    
+    .line-h {
+        border: 2px solid #2f5597;
+        width: 115px;
+        position: absolute;
+        top: 55px;
+        left: 0;
+    }
+    
+    /* Vertical Line Styling for Multiple Maths Button */
+    
+    .line-v {
+        border: 2px solid #2f5597;
+        height: 112px;
+        position: absolute;
+        top: 1px;
+        left: 55px;
+    }
+    
+    /* Maths Difficulty section for the options.html file*/
+    
+    /* Maths Difficulty section styling */
+    
+    .maths-difficulty {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        padding-top: 25px;
+    }
+    
+    /* Maths Difficulty - Title Styling */
+    
+    .maths-difficulty-text {
+        color: #333;
+        font-size: 0.75rem;
+        text-transform: uppercase;
+        font-weight: bold;
+    }
+    
+    /* Maths Difficulty - Easy Button Styling */
+    
+    .easy-button {
+        font-size: 1rem;
+        width: 125px;
+        height: 40px;
+        background-color: #2f5597;
+        color: white;
+        border-radius: 10px;
+        border: 3px solid #2F5597;
+    }
+    
+    /* Maths Difficulty - Medium Button Styling */
+    
+    .medium-button {
+        font-size: 1rem;
+        width: 125px;
+        height: 40px;
+        background-color: #FF883D;
+        color: white;
+        border-radius: 10px;
+        border: 3px solid #2F5597;
+        margin-left: -1px;
+    }
+    
+    /* Maths Difficulty - Hard Button Styling */
+    
+    .hard-button {
+        font-size: 1rem;
+        width: 125px;
+        height: 40px;
+        background-color: #7C5295;
+        color: white;
+        border-radius: 10px;
+        border: 3px solid #2F5597;
+        margin-right: -1px;
+    }
+    
+    /* Maths Timer section for the options.html file*/
+    
+    /* Maths Timer section styling */
+    
+    .maths-timer {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        padding: 10px;
+    }
+    
+    /* Maths Timer - Title Styling */
+    
+    .maths-timer-text {
+        color: #333;
+        font-size: 0.75rem;
+        text-transform: uppercase;
+        font-weight: bold;
+    }
+    
+    /* Maths Timer - 1 Minute Button Styling */
+    
+    .lowminutes-button {
+        font-size: 1rem;
+        width: 125px;
+        height: 40px;
+        background-color: #2f5597;
+        color: white;
+        border-radius: 10px;
+        border: 3px solid #2F5597;
+    }
+    
+    /* Maths Timer - 3 Minutes Button Styling */
+    
+    .midminutes-button {
+        font-size: 1rem;
+        width: 125px;
+        height: 40px;
+        background-color: #FF883D;
+        color: white;
+        border-radius: 10px;
+        border: 3px solid #2F5597;
+        margin-right: 1px;
+    }
+    
+    /* Maths Timer - 5 Minutes Button Styling */
+    
+    .highminutes-button {
+        font-size: 1rem;
+        width: 125px;
+        height: 40px;
+        background-color: #7C5295;
+        color: white;
+        border-radius: 10px;
+        border: 3px solid #2F5597;
+        margin-right: -5px;
+    }
+    
+    /* Maths Questions Amount section for the options.html file*/
+    
+    /* Maths Questions Amount section styling */
+    
+    .maths-questions-limit {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        margin-left: 15px;
+    }
+    
+    /* Maths Questions Amount - Title Styling */
+    
+    .maths-questions-limit-text {
+        color: #333;
+        margin-left: -60px;
+        font-size: 0.75rem;
+        text-transform: uppercase;
+        font-weight: bold;
+    }
+    
+    /* Maths Questions Amount - 12 Questions Button Styling */
+    
+    .lowquestions-button {
+        font-size: 1rem;
+        width: 125px;
+        height: 40px;
+        background-color: #2f5597;
+        color: white;
+        border-radius: 10px;
+        border: 3px solid #2F5597;
+    }
 
+    /* Maths Questions Amount - 15 Questions Button Styling */
+    
+    .midquestions-button {
+        font-size: 1rem;
+        width: 125px;
+        height: 40px;
+        background-color: #FF883D;
+        color: white;
+        border-radius: 10px;
+        border: 3px solid #2F5597;
+    }
+    
+    /* Maths Questions Amount - 18 Questions Button Styling */
+    
+    .highquestions-button {
+        font-size: 1rem;
+        width: 125px;
+        height: 40px;
+        background-color: #7C5295;
+        color: white;
+        border-radius: 10px;
+        border: 3px solid #2F5597;
+    }
+    
+    /* Maths Questions - Reset Button Styling */
+    
+    .options-reset-button {
+        font-size: 1.25rem;
+        padding: 1rem;
+        width: 7rem;
+        background-color: #D40C00;
+        color: #fafafa;
+        border-radius: 25px;
+        border: 3px solid #2F5597;
+        position: absolute;
+        margin-top: 142px;
+        margin-left: -600px;
+    }
+    
+    /* Maths Questions - Start Button Styling */
+    
+    .start-button {
+        font-size: 1.25rem;
+        padding: 1rem;
+        width: 10rem;
+        background-color: #38761d;
+        color: #fafafa;
+        border-radius: 25px;
+        border: 3px solid #2F5597;
+        position: absolute;
+        margin-top: 37px;
+        margin-left: -150px;
+    }
+
+    /* Maths Questions - Back to Main Menu Button Styling */
+    
+    .option-main-menu-button {
+        font-size: 1.25rem;
+        padding: 1rem;
+        width: 15rem;
+        background-color: #7C5295;
+        color: white;
+        border-radius: 25px;
+        border: 3px solid #2F5597;
+        position: absolute;
+        margin-top: 37px;
+        margin-left: 115px;
+    }
 
 }
 
@@ -1534,6 +1923,397 @@ body {
         color: #fafafa;
         border-radius: 1rem;
         border: 3px solid #fafafa;
+    }
+
+    .option-section {
+        height: 70vh;
+        background-color: #d3d3d3;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    
+    .option-style {
+        position: fixed;
+        top: 55%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        height: 65vh;
+        width: 550px;
+        background-color: #fafafa;
+        border-radius: 50px;
+        border: 3px solid #2F5597;
+        margin-bottom: 100px;
+        padding: 15px;
+    }
+    
+    .maths-questions-text {
+        text-align: center;
+        font-size: 1.2rem;
+        color: #333;
+        text-transform: uppercase;
+        padding: 10px;
+        font-weight: bold;
+    }
+    
+    .maths-questions {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        padding: 5px;
+        margin: 5px;
+    }
+    
+    /* Maths Questions - Addition Button Styling */
+    
+    .add-button {
+        background-color: #2F5597;
+        width: 90px;
+        height: 90px;
+        color: #fafafa;
+        font-size: 3rem;
+        padding-bottom: 5rem;
+        border-radius: 100%;
+        border: 3px solid #2F5597;
+        font-weight: bold;
+    }
+    
+    /* Maths Questions - Subtraction Button Styling */
+    
+    .sub-button {
+        background-color: #D40C00;
+        width: 90px;
+        height: 90px;
+        color: #fafafa;
+        font-size: 3rem;
+        padding-bottom: 4rem;
+        border-radius: 100%;
+        border: 3px solid #2F5597;
+        font-weight: bold;
+    }
+    
+    /* Maths Questions - Multiplication Button Styling */
+    
+    .multiply-button {
+        background-color: #FF8B3D;
+        width: 90px;
+        height: 90px;
+        color: #fafafa;
+        font-size: 3rem;
+        padding-bottom: 4rem;
+        border-radius: 100%;
+        border: 3px solid #2F5597;
+        font-weight: bold;
+    }
+    
+    /* Maths Questions - Division Button Styling */
+    
+    .divide-button {
+        background-color: #38761D;
+        width: 90px;
+        height: 90px;
+        color: #fafafa;
+        font-size: 3rem;
+        padding-bottom: 4rem;
+        border-radius: 100%;
+        border: 3px solid #2F5597;
+        font-weight: bold;
+    }
+    
+    /* Maths Questions - Multiple Maths Button Styling */
+    
+    .multiple-style {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        position: relative;
+    }
+    
+    /* Maths Questions - Multiple Maths Button Styling */
+    
+    .multiple-button {
+        background-color: #7C5295;
+        width: 90px;
+        height: 90px;
+        color: #fafafa;
+        padding: 1rem;
+        border-radius: 100%;
+        border: 3px solid #2F5597;
+    }
+    
+    /* Multiple Maths Button - Addition Symbol Styling */
+    
+    .add {
+        position: absolute;
+        top: -2.5px;
+        left: 15px;
+        font-size: 2rem;
+    }
+    
+    /* Multiple Maths Button - Subtraction Symbol Styling */
+    
+    .sub {
+        top: -16.5px;
+        position: absolute;
+        right: 20px;
+        font-size: 3rem;
+    }
+    
+    /* Multiple Maths Button - Multiplication Symbol Styling */
+    
+    .multiply {
+        position: absolute;
+        bottom: 12.5px;
+        left: 20px;
+        font-size: 1.75rem;
+    }
+    
+    /* Multiple Maths Button - Division Symbol Styling */
+    
+    .divide {
+        position: absolute;
+        bottom: 10px;
+        right: 18px;
+        font-size: 2rem;
+    }
+    
+    /* Horizontal Line Styling for Multiple Maths Button */
+    
+    .line-h {
+        border: 1px solid #2f5597;
+        width: 90px;
+        position: absolute;
+        top: 42.5px;
+        left: 0;
+    }
+    
+    /* Vertical Line Styling for Multiple Maths Button */
+    
+    .line-v {
+        border: 1px solid #2f5597;
+        height: 88px;
+        position: absolute;
+        top: 1px;
+        left: 42.5px;
+    }
+    
+    /* Maths Difficulty section for the options.html file*/
+    
+    /* Maths Difficulty section styling */
+    
+    .maths-difficulty {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        padding-top: 25px;
+    }
+    
+    /* Maths Difficulty - Title Styling */
+    
+    .maths-difficulty-text {
+        color: #333;
+        font-size: 0.5rem;
+        text-transform: uppercase;
+        font-weight: bold;
+    }
+    
+    /* Maths Difficulty - Easy Button Styling */
+    
+    .easy-button {
+        font-size: 0.9rem;
+        width: 100px;
+        height: 30px;
+        background-color: #2f5597;
+        color: white;
+        border-radius: 5px;
+        border: 2px solid #2F5597;
+    }
+    
+    /* Maths Difficulty - Medium Button Styling */
+    
+    .medium-button {
+        font-size: 0.9rem;
+        width: 100px;
+        height: 30px;
+        background-color: #FF883D;
+        color: white;
+        border-radius: 5px;
+        border: 2px solid #2F5597;
+        margin-left: -1px;
+    }
+    
+    /* Maths Difficulty - Hard Button Styling */
+    
+    .hard-button {
+        font-size: 0.9rem;
+        width: 100px;
+        height: 30px;
+        background-color: #7C5295;
+        color: white;
+        border-radius: 5px;
+        border: 2px solid #2F5597;
+        margin-right: -1px;
+    }
+    
+    /* Maths Timer section for the options.html file*/
+    
+    /* Maths Timer section styling */
+    
+    .maths-timer {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        padding: 10px;
+    }
+    
+    /* Maths Timer - Title Styling */
+    
+    .maths-timer-text {
+        color: #333;
+        font-size: 0.5rem;
+        text-transform: uppercase;
+        font-weight: bold;
+    }
+    
+    /* Maths Timer - 1 Minute Button Styling */
+    
+    .lowminutes-button {
+        font-size: 0.9rem;
+        width: 100px;
+        height: 30px;
+        background-color: #2f5597;
+        color: white;
+        border-radius: 5px;
+        border: 2px solid #2F5597;
+    }
+    
+    /* Maths Timer - 3 Minutes Button Styling */
+    
+    .midminutes-button {
+        font-size: 0.9rem;
+        width: 100px;
+        height: 30px;
+        background-color: #FF883D;
+        color: white;
+        border-radius: 5px;
+        border: 2px solid #2F5597;
+        margin-right: 1px;
+    }
+    
+    /* Maths Timer - 5 Minutes Button Styling */
+    
+    .highminutes-button {
+        font-size: 0.9rem;
+        width: 100px;
+        height: 30px;
+        background-color: #7C5295;
+        color: white;
+        border-radius: 5px;
+        border: 2px solid #2F5597;
+        margin-right: -5px;
+    }
+    
+    /* Maths Questions Amount section for the options.html file*/
+    
+    /* Maths Questions Amount section styling */
+    
+    .maths-questions-limit {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        margin-left: 15px;
+    }
+    
+    /* Maths Questions Amount - Title Styling */
+    
+    .maths-questions-limit-text {
+        color: #333;
+        margin-left: -10px;
+        font-size: 0.5rem;
+        text-transform: uppercase;
+        font-weight: bold;
+    }
+    
+    /* Maths Questions Amount - 12 Questions Button Styling */
+    
+    .lowquestions-button {
+        font-size: 0.9rem;
+        width: 100px;
+        height: 30px;
+        background-color: #2f5597;
+        color: white;
+        border-radius: 5px;
+        border: 2px solid #2F5597;
+    }
+
+    /* Maths Questions Amount - 15 Questions Button Styling */
+    
+    .midquestions-button {
+        font-size: 0.9rem;
+        width: 100px;
+        height: 30px;
+        background-color: #FF883D;
+        color: white;
+        border-radius: 5px;
+        border: 2px solid #2F5597;
+    }
+    
+    /* Maths Questions Amount - 18 Questions Button Styling */
+    
+    .highquestions-button {
+        font-size: 0.9rem;
+        width: 100px;
+        height: 30px;
+        background-color: #7C5295;
+        color: white;
+        border-radius: 5px;
+        border: 2px solid #2F5597;
+    }
+    
+    /* Maths Questions - Reset Button Styling */
+    
+    .options-reset-button {
+        font-size: 1.1rem;
+        padding: 0.75rem;
+        width: 7rem;
+        background-color: #D40C00;
+        color: #fafafa;
+        border-radius: 20px;
+        border: 2px solid #2F5597;
+        position: absolute;
+        margin-top: 142px;
+        margin-left: -200px;
+    }
+    
+    /* Maths Questions - Start Button Styling */
+    
+    .start-button {
+        font-size: 1.1rem;
+        padding: 0.75rem;
+        width: 10rem;
+        background-color: #38761d;
+        color: #fafafa;
+        border-radius: 20px;
+        border: 2px solid #2F5597;
+        position: absolute;
+        margin-top: 44px;
+        margin-left: 10px;
+    }
+
+    /* Maths Questions - Back to Main Menu Button Styling */
+    
+    .option-main-menu-button {
+        font-size: 1.1rem;
+        padding: 0.75rem;
+        width: 15rem;
+        background-color: #7C5295;
+        color: white;
+        border-radius: 20px;
+        border: 2px solid #2F5597;
+        position: absolute;
+        margin-top: 120px;
+        margin-left: -100px;
     }
 
 }
