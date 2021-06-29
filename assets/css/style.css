@@ -281,7 +281,7 @@ body {
     border: 3px solid #2f5597;
     width: 750px;
     max-width: 750px;
-    height: 60vh;
+    height: 65vh;
 }
 
 .contact-header .header {
@@ -313,6 +313,7 @@ body {
     width: 96%;
     font-weight: bold;
     line-height: 1.75rem;
+    padding: 2px;
 }
 
 .contact-form textarea {
@@ -326,7 +327,7 @@ body {
 
 .submit-button {
     position: absolute;
-    top: 460px;
+    top: 475px;
     left: 40px;
     font-size: 1rem;
     padding: 0.8rem;
@@ -346,7 +347,7 @@ body {
 
 .close-contact-form {
     position: absolute;
-    top: 460px;
+    top: 475px;
     right: 49px;
     font-size: 1rem;
     padding: 0.8rem;
@@ -1650,22 +1651,22 @@ body {
     
     .options-reset-button {
         font-size: 1.25rem;
-        padding: 1rem;
+        padding: 0.75rem 1rem;
         width: 7rem;
         background-color: #D40C00;
         color: #fafafa;
         border-radius: 25px;
         border: 3px solid #2F5597;
         position: absolute;
-        margin-top: 142px;
-        margin-left: -600px;
+        margin-top: 133px;
+        margin-left: -550px;
     }
     
     /* Maths Questions - Start Button Styling */
     
     .start-button {
         font-size: 1.25rem;
-        padding: 1rem;
+        padding: 0.75rem 1rem;
         width: 10rem;
         background-color: #38761d;
         color: #fafafa;
@@ -1680,7 +1681,7 @@ body {
     
     .option-main-menu-button {
         font-size: 1.25rem;
-        padding: 1rem;
+        padding: 0.75rem 1rem;
         width: 15rem;
         background-color: #7C5295;
         color: white;
@@ -1688,7 +1689,7 @@ body {
         border: 3px solid #2F5597;
         position: absolute;
         margin-top: 37px;
-        margin-left: 115px;
+        margin-left: 85px;
     }
 
 }
@@ -1864,7 +1865,7 @@ body {
         border: 3px solid #2F5597;
         width: 450px;
         max-width: 450px;
-        height: 60vh;
+        height: 65vh;
     }
     
     .contact-header .header {
@@ -1889,6 +1890,7 @@ body {
         color: #2f5295;
         margin-left: 10px;
         width: 96%;
+        padding: 2px;
     }
     
     .contact-form textarea {
@@ -2522,6 +2524,7 @@ body {
         margin-left: 10px;
         width: 96%;
         line-height: 0rem;
+        padding: 1px;
     }
 
     ::placeholder {
@@ -2532,7 +2535,7 @@ body {
     .contact-form textarea {
         border: 2px solid #2f5195;
         background-color: #fafafa;
-        color: #fafafa;
+        color: #2f5195;
         margin-left: 10px;
         width: 96%;
     }
