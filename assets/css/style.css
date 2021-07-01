@@ -502,16 +502,6 @@ body {
 
 /* options.html code */
 
-.reset-option {
-    flex-grow: 50%;
-    width: 50%;
-}
-
-.main-menu-option {
-    flex-grow: 50%;
-    width: 50%;
-}
-
 .option-section {
     height: 70vh;
     background-color: #d3d3d3;
@@ -526,7 +516,7 @@ body {
     top: 55%;
     left: 50%;
     transform: translate(-50%, -50%);
-    height: 65vh;
+    height: 68vh;
     width: 1200px;
     background-color: #fafafa;
     border-radius: 50px;
@@ -537,10 +527,10 @@ body {
 
 .maths-questions-text {
     text-align: center;
-    font-size: 2rem;
+    font-size: 1.5rem;
     color: #333;
     text-transform: uppercase;
-    padding: 10px;
+    padding: 5px;
     font-weight: bold;
 }
 
@@ -549,18 +539,17 @@ body {
     justify-content: space-evenly;
     align-items: center;
     padding: 10px;
-    margin: 10px;
 }
 
 /* Maths Questions - Addition Button Styling */
 
 .add-button {
     background-color: #2F5597;
-    width: 150px;
-    height: 150px;
+    width: 135px;
+    height: 135px;
     color: #fafafa;
     font-size: 5rem;
-    padding: 0rem 1rem 8rem;
+    padding-bottom: 1rem;
     border-radius: 100%;
     border: 4px solid #2F5597;
     font-weight: bold;
@@ -576,11 +565,11 @@ body {
 
 .sub-button {
     background-color: #D40C00;
-    width: 150px;
-    height: 150px;
+    width: 135px;
+    height: 135px;
     color: #fafafa;
     font-size: 5rem;
-    padding: 0rem 1rem 8rem;
+    padding-bottom: 7rem;
     border-radius: 100%;
     border: 4px solid #2F5597;
     font-weight: bold;
@@ -596,11 +585,10 @@ body {
 
 .multiply-button {
     background-color: #FF8B3D;
-    width: 150px;
-    height: 150px;
+    width: 135px;
+    height: 135px;
     color: #fafafa;
     font-size: 5rem;
-    padding: 0rem 1rem 8rem;
     border-radius: 100%;
     border: 4px solid #2F5597;
     font-weight: bold;
@@ -616,8 +604,8 @@ body {
 
 .divide-button {
     background-color: #38761D;
-    width: 150px;
-    height: 150px;
+    width: 135px;
+    height: 135px;
     color: #fafafa;
     font-size: 5rem;
     padding: 0rem 1rem 8rem;
@@ -645,8 +633,8 @@ body {
 
 .multiple-button {
     background-color: #7C5295;
-    width: 150px;
-    height: 150px;
+    width: 135px;
+    height: 135px;
     color: #fafafa;
     padding: 0rem 1rem 8rem;
     border-radius: 100%;
@@ -722,7 +710,6 @@ body {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    padding-top: 15px;
 }
 
 /* Maths Difficulty - Title Styling */
@@ -732,7 +719,9 @@ body {
     font-size: 1rem;
     text-transform: uppercase;
     font-weight: bold;
-    margin-left: 10px;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 5px;
 }
 
 /* Maths Difficulty - Easy Button Styling */
@@ -762,7 +751,6 @@ body {
     color: white;
     border-radius: 10px;
     border: 3px solid #2F5597;
-    margin-left: -1px;
 }
 
 .medium-button:hover {
@@ -780,7 +768,6 @@ body {
     color: white;
     border-radius: 10px;
     border: 3px solid #2F5597;
-    margin-right: -1px;
 }
 
 .hard-button:hover {
@@ -806,12 +793,14 @@ body {
     font-size: 1rem;
     text-transform: uppercase;
     font-weight: bold;
-    margin-left: 7px;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 5px;
 }
 
 /* Maths Timer - 1 Minute Button Styling */
 
-.lowminutes-button {
+.one-minute-button {
     font-size: 1.5rem;
     width: 175px;
     height: 50px;
@@ -821,14 +810,14 @@ body {
     border: 3px solid #2F5597;
 }
 
-.lowminutes-button:hover {
+.one-minute-button:hover {
     background-color: #fafafa;
     color: #2F5597;
 }
 
 /* Maths Timer - 3 Minutes Button Styling */
 
-.midminutes-button {
+.three-minutes-button {
     font-size: 1.5rem;
     width: 175px;
     height: 50px;
@@ -836,17 +825,16 @@ body {
     color: white;
     border-radius: 10px;
     border: 3px solid #2F5597;
-    margin-right: 1px;
 }
 
-.midminutes-button:hover {
+.three-minutes-button:hover {
     background-color: #fafafa;
     color: #2F5597;
 }
 
 /* Maths Timer - 5 Minutes Button Styling */
 
-.highminutes-button {
+.five-minutes-button {
     font-size: 1.5rem;
     width: 175px;
     height: 50px;
@@ -854,10 +842,9 @@ body {
     color: white;
     border-radius: 10px;
     border: 3px solid #2F5597;
-    margin-right: -5px;
 }
 
-.highminutes-button:hover {
+.five-minutes-button:hover {
     background-color: #fafafa;
     color: #2F5597;
 }
@@ -876,15 +863,17 @@ body {
 
 .maths-questions-limit-text {
     color: #333;
-    margin-left: -60px;
     font-size: 1rem;
     text-transform: uppercase;
     font-weight: bold;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 10px;
 }
 
 /* Maths Questions Amount - 12 Questions Button Styling */
 
-.lowquestions-button {
+.twelve-questions-button {
     font-size: 1.5rem;
     width: 175px;
     height: 50px;
@@ -894,14 +883,14 @@ body {
     border: 3px solid #2F5597;
 }
 
-.lowquestions-button:hover {
+.twelve-questions-button:hover {
     background-color: #fafafa;
     color: #2F5597;
 }
 
 /* Maths Questions Amount - 15 Questions Button Styling */
 
-.midquestions-button {
+.sixteen-questions-button {
     font-size: 1.5rem;
     width: 175px;
     height: 50px;
@@ -911,14 +900,14 @@ body {
     border: 3px solid #2F5597;
 }
 
-.midquestions-button:hover {
+.sixteen-questions-button:hover {
     background-color: #fafafa;
     color: #2F5597;
 }
 
 /* Maths Questions Amount - 18 Questions Button Styling */
 
-.highquestions-button {
+.twenty-questions-button {
     font-size: 1.5rem;
     width: 175px;
     height: 50px;
@@ -928,7 +917,7 @@ body {
     border: 3px solid #2F5597;
 }
 
-.highquestions-button:hover {
+.twenty-questions-button:hover {
     background-color: #fafafa;
     color: #2F5597;
 }
@@ -937,7 +926,7 @@ body {
 
 .options-reset-button {
     font-size: 1.5rem;
-    padding: 1rem;
+    padding: 0.5rem;
     width: 10rem;
     background-color: #D40C00;
     color: #fafafa;
@@ -959,7 +948,7 @@ body {
 
 .start-button {
     font-size: 1.5rem;
-    padding: 1rem;
+    padding: 0.5rem;
     width: 18rem;
     background-color: #38761d;
     color: #fafafa;
@@ -983,7 +972,7 @@ body {
 
 .option-main-menu-button {
     font-size: 1.5rem;
-    padding: 1rem;
+    padding: 0.5rem;
     width: 18rem;
     background-color: #7C5295;
     color: white;
@@ -1554,7 +1543,7 @@ body {
     
     /* Maths Timer - 1 Minute Button Styling */
     
-    .lowminutes-button {
+    .one-minute-button {
         font-size: 1rem;
         width: 125px;
         height: 40px;
@@ -1566,7 +1555,7 @@ body {
     
     /* Maths Timer - 3 Minutes Button Styling */
     
-    .midminutes-button {
+    .three-minutes-button {
         font-size: 1rem;
         width: 125px;
         height: 40px;
@@ -1579,7 +1568,7 @@ body {
     
     /* Maths Timer - 5 Minutes Button Styling */
     
-    .highminutes-button {
+    .five-minutes-button {
         font-size: 1rem;
         width: 125px;
         height: 40px;
@@ -1613,7 +1602,7 @@ body {
     
     /* Maths Questions Amount - 12 Questions Button Styling */
     
-    .lowquestions-button {
+    .twelve-questions-button {
         font-size: 1rem;
         width: 125px;
         height: 40px;
@@ -1625,7 +1614,7 @@ body {
 
     /* Maths Questions Amount - 15 Questions Button Styling */
     
-    .midquestions-button {
+    .sixteen-questions-button {
         font-size: 1rem;
         width: 125px;
         height: 40px;
@@ -1637,7 +1626,7 @@ body {
     
     /* Maths Questions Amount - 18 Questions Button Styling */
     
-    .highquestions-button {
+    .twenty-questions-button {
         font-size: 1rem;
         width: 125px;
         height: 40px;
@@ -2180,7 +2169,7 @@ body {
     
     /* Maths Timer - 1 Minute Button Styling */
     
-    .lowminutes-button {
+    .one-minutes-button {
         font-size: 0.9rem;
         width: 100px;
         height: 30px;
@@ -2192,7 +2181,7 @@ body {
     
     /* Maths Timer - 3 Minutes Button Styling */
     
-    .midminutes-button {
+    .three-minutes-button {
         font-size: 0.9rem;
         width: 100px;
         height: 30px;
@@ -2205,7 +2194,7 @@ body {
     
     /* Maths Timer - 5 Minutes Button Styling */
     
-    .highminutes-button {
+    .five-minutes-button {
         font-size: 0.9rem;
         width: 100px;
         height: 30px;
@@ -2239,7 +2228,7 @@ body {
     
     /* Maths Questions Amount - 12 Questions Button Styling */
     
-    .lowquestions-button {
+    .twelve-questions-button {
         font-size: 0.9rem;
         width: 100px;
         height: 30px;
@@ -2251,7 +2240,7 @@ body {
 
     /* Maths Questions Amount - 15 Questions Button Styling */
     
-    .midquestions-button {
+    .sixteen-questions-button {
         font-size: 0.9rem;
         width: 100px;
         height: 30px;
@@ -2263,7 +2252,7 @@ body {
     
     /* Maths Questions Amount - 18 Questions Button Styling */
     
-    .highquestions-button {
+    .twenty-questions-button {
         font-size: 0.9rem;
         width: 100px;
         height: 30px;
