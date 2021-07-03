@@ -1011,7 +1011,7 @@ body {
     margin-bottom: 100px;
 }
 
-.game-reset-button {
+.game-restart-button {
     font-size: 1.5rem;
     padding: 1rem;
     width: 10rem;
@@ -1024,7 +1024,7 @@ body {
     bottom: 150px;
 }
 
-.game-reset-button:hover {
+.game-restart-button:hover {
     background-color: #fafafa;
     color: #2f5195;
     font-weight: bold;
@@ -1152,11 +1152,13 @@ body {
 }
 
 .game-answer-1-audio {
+    position: absolute;
     background-color: #fafafa;
     border: none;
     color: #2f5195;
     font-size: 2.5rem;
-    padding-right: 5px;
+    top: 44.25%;
+    left: 17%;
 }
 
 .game-answer-1-audio:hover {
@@ -1170,7 +1172,7 @@ body {
     font-size: 1.2rem;
     padding: 1rem;
     width: 7.5rem;
-    background-color: #7C5295;
+    background-color: #2F5597;
     color: white;
     border-radius: 25px;
     border: 3px solid #2F5597;
@@ -1184,11 +1186,13 @@ body {
 }
 
 .game-answer-2-audio {
+    position: absolute;
     background-color: #fafafa;
     border: none;
     color: #2f5195;
     font-size: 2.5rem;
-    padding-right: 5px;
+    top: 64.5%;
+    left: 17%;
 }
 
 .game-answer-2-audio:hover {
@@ -1202,7 +1206,7 @@ body {
     font-size: 1.2rem;
     padding: 1rem;
     width: 7.5rem;
-    background-color: #7C5295;
+    background-color: #2F5597;
     color: white;
     border-radius: 25px;
     border: 3px solid #2F5597;
@@ -1223,11 +1227,13 @@ body {
 }
 
 .game-answer-3-audio {
+    position: absolute;
     background-color: #fafafa;
     border: none;
     color: #2f5195;
     font-size: 2.5rem;
-    padding-right: 5px;
+    top: 44.25%;
+    right: 17%;
 }
 
 .game-answer-3-audio:hover {
@@ -1241,7 +1247,7 @@ body {
     font-size: 1.2rem;
     padding: 1rem;
     width: 7.5rem;
-    background-color: #7C5295;
+    background-color: #2F5597;
     color: white;
     border-radius: 25px;
     border: 3px solid #2F5597;
@@ -1255,11 +1261,13 @@ body {
 }
 
 .game-answer-4-audio {
+    position: absolute;
     background-color: #fafafa;
     border: none;
     color: #2f5195;
     font-size: 2.5rem;
-    padding-right: 5px;
+    top: 64.5%;
+    right: 17%;
 }
 
 .game-answer-4-audio:hover {
@@ -1273,7 +1281,7 @@ body {
     font-size: 1.2rem;
     padding: 1rem;
     width: 7.5rem;
-    background-color: #7C5295;
+    background-color: #2F5597;
     color: white;
     border-radius: 25px;
     border: 3px solid #2F5597;
@@ -1284,6 +1292,28 @@ body {
     background-color: #fafafa;
     color: #2f5195;
     font-weight: bold;
+}
+
+.correct-answer {
+    font-size: 1.2rem;
+    padding: 1rem;
+    width: 7.5rem;
+    background-color: #38761D;
+    color: white;
+    border-radius: 25px;
+    border: 3px solid #38761D;
+    text-align: center;
+}
+
+.wrong-answer {
+    font-size: 1.2rem;
+    padding: 1rem;
+    width: 7.5rem;
+    background-color: #D40C00;
+    color: white;
+    border-radius: 25px;
+    border: 3px solid #D40C00;
+    text-align: center;
 }
 
 @media screen and (max-width: 1200px) {
