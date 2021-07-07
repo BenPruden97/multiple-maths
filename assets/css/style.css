@@ -1151,23 +1151,6 @@ body {
     padding: 30px;
 }
 
-.game-answer-1-audio {
-    position: absolute;
-    background-color: #fafafa;
-    border: none;
-    color: #2f5195;
-    font-size: 2.5rem;
-    top: 44.25%;
-    left: 17%;
-}
-
-.game-answer-1-audio:hover {
-    background-color: #fafafa;
-    border: none;
-    color: #38761d;
-    font-size: 2.5rem;
-}
-
 .game-answer-1 {
     font-size: 1.2rem;
     padding: 1rem;
@@ -1183,23 +1166,6 @@ body {
     background-color: #fafafa;
     color: #2f5195;
     font-weight: bold;
-}
-
-.game-answer-2-audio {
-    position: absolute;
-    background-color: #fafafa;
-    border: none;
-    color: #2f5195;
-    font-size: 2.5rem;
-    top: 64.5%;
-    left: 17%;
-}
-
-.game-answer-2-audio:hover {
-    background-color: #fafafa;
-    border: none;
-    color: #38761d;
-    font-size: 2.5rem;
 }
 
 .game-answer-2 {
@@ -1226,23 +1192,6 @@ body {
     padding: 30px;
 }
 
-.game-answer-3-audio {
-    position: absolute;
-    background-color: #fafafa;
-    border: none;
-    color: #2f5195;
-    font-size: 2.5rem;
-    top: 44.25%;
-    right: 17%;
-}
-
-.game-answer-3-audio:hover {
-    background-color: #fafafa;
-    border: none;
-    color: #38761d;
-    font-size: 2.5rem;
-}
-
 .game-answer-3 {
     font-size: 1.2rem;
     padding: 1rem;
@@ -1258,23 +1207,6 @@ body {
     background-color: #fafafa;
     color: #2f5195;
     font-weight: bold;
-}
-
-.game-answer-4-audio {
-    position: absolute;
-    background-color: #fafafa;
-    border: none;
-    color: #2f5195;
-    font-size: 2.5rem;
-    top: 64.5%;
-    right: 17%;
-}
-
-.game-answer-4-audio:hover {
-    background-color: #fafafa;
-    border: none;
-    color: #38761d;
-    font-size: 2.5rem;
 }
 
 .game-answer-4 {
