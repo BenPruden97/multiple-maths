@@ -42,17 +42,17 @@
 
                     <div class="maths-questions">
 
-                        <button class="add-button">+</button>
+                        <button class="add-button" id="addition-questions">+</button>
 
-                        <button class="sub-button">-</button>
+                        <button class="sub-button" id="subtraction-questions">-</button>
 
-                        <button class="multiply-button">x</button>
+                        <button class="multiply-button" id="multiplication-questions">x</button>
 
-                        <button class="divide-button">÷</button>
+                        <button class="divide-button" id="division-questions">÷</button>
 
                         <div class="multiple-style">
 
-                        <button class="multiple-button">
+                        <button class="multiple-button" id="multi-questions">
 
                             <div class="line-h"></div>
 
@@ -76,11 +76,11 @@
 
                     <div class="maths-difficulty">
 
-                        <button class="easy-button">Easy</button>
+                        <button class="easy-button" id="easy-difficulty" onclick="easyQuestions()">Easy</button>
 
-                        <button class="medium-button">Medium</button>
+                        <button class="medium-button" id="medium-difficulty" onclick="mediumQuestions()">Medium</button>
 
-                        <button class="hard-button">Hard</button>                        
+                        <button class="hard-button" id="hard-difficulty" onclick="hardQuestions()">Hard</button>                        
 
                     </div>
 
@@ -88,11 +88,11 @@
 
                     <div class="maths-timer">
 
-                        <button class="one-minute-button" id="one-minute-button" onclick="oneMinuteTimer()">1 Minute</button>
+                        <button class="one-minute-button" id="one-minute" onclick="oneMinuteTimer()">1 Minute</button>
 
-                        <button class="three-minutes-button" id="three-minutes-button" onclick="threeMinuteTimer()">3 Minutes</button>
+                        <button class="three-minutes-button" id="three-minute" onclick="threeMinuteTimer()">3 Minutes</button>
 
-                        <button class="five-minutes-button" id="five-minutes-button" onclick="fiveMinuteTimer()">5 Minutes</button>                        
+                        <button class="five-minutes-button" id="five-minutes" onclick="fiveMinuteTimer()">5 Minutes</button>                        
 
                     </div>
 
@@ -100,11 +100,11 @@
 
                     <div class="maths-questions-limit">
 
-                        <button class="twelve-questions-button">8 Questions</button>
+                        <button class="twelve-questions-button" id="eight-questions">8 Questions</button>
 
-                        <button class="sixteen-questions-button">12 Questions</button>
+                        <button class="sixteen-questions-button" id="twelve-questions">12 Questions</button>
 
-                        <button class="twenty-questions-button">16 Questions</button>                        
+                        <button class="twenty-questions-button" id="sixteen-questions">16 Questions</button>                        
 
                     </div>
 

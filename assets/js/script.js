@@ -29,7 +29,14 @@ document.getElementById("close-contact-form").addEventListener('click', function
     document.querySelector(".contact-form").style.display = "none";
 });
 
-document.getElementById("start-button").onclick = function() {
-    location.href = "https://benpruden97.github.io/multiple-maths/game.html"
-};
+const start = document.getElementById("start-button");
+const timer = document.getElementById("game-timer");
+const questionLimit = document.getElementById("game-question-number");
+const question = document.getElementById("game-question");
+const answer1= document.getElementById("game-answer-1");
+const answer2 = document.getElementById("game-answer-2");
+const answer3 = document.getElementById("game-answer-3");
+const answer4 = document.getElementById("game-answer-4");
+
+
 
