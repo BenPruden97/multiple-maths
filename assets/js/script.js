@@ -33,10 +33,7 @@ const start = document.getElementById("start-button");
 const timer = document.getElementById("game-timer");
 const questionLimit = document.getElementById("game-question-number");
 const question = document.getElementById("game-question");
-const answer1= document.getElementById("game-answer-1");
+const answer1 = document.getElementById("game-answer-1");
 const answer2 = document.getElementById("game-answer-2");
 const answer3 = document.getElementById("game-answer-3");
 const answer4 = document.getElementById("game-answer-4");
-
-
-
