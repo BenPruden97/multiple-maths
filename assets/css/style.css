@@ -93,6 +93,8 @@ body {
     gap: 20px;
 }
 
+/* Play Button Styling for index.html */
+
 .play-button {
     font-size: 1.5rem;
     padding: 1rem;
@@ -373,6 +375,8 @@ body {
     display: flex;
 }
 
+/* Linkedin Button Styling for index.html */
+
 .linkedin-index {
     flex-grow: 50%;
     width: 50%;
@@ -397,6 +401,8 @@ body {
     justify-content: center;
     margin-top: 5px;
 }
+
+/* Github Button Styling for index.html */
 
 .github-index {
     flex-grow: 50%;
@@ -425,6 +431,8 @@ body {
 
 /* game.html footer section */
 
+/* Linkedin Button Styling for options & game.html */
+
 .linkedin-game {
     flex-grow: 33.33%;
     width: 33.33%;
@@ -450,6 +458,8 @@ body {
     margin-top: 5px;
 }
 
+/* Contact Button Styling for options & game.html */
+
 .contact-game {
     flex-grow: 33.33%;
     width: 33.33%;
@@ -474,6 +484,8 @@ body {
     justify-content: center;
     margin-top: 5px;
 }
+
+/* GitHub Button Styling for options & game.html */
 
 .github-game {
     flex-grow: 33.33%;
@@ -502,6 +514,8 @@ body {
 
 /* options.html code */
 
+/* options section styling */
+
 .option-section {
     height: 70vh;
     background-color: #d3d3d3;
@@ -524,6 +538,8 @@ body {
     margin-bottom: 100px;
     padding: 25px;
 }
+
+/* Maths Questions Text Styling */
 
 .maths-questions-text {
     text-align: center;
@@ -871,13 +887,30 @@ body {
     padding-bottom: 10px;
 }
 
+/* Maths Questions Amount - 8 Questions Button Styling */
+
+.eight-questions-button {
+    font-size: 1.5rem;
+    width: 175px;
+    height: 50px;
+    background-color: #2f5597;
+    color: white;
+    border-radius: 10px;
+    border: 3px solid #2F5597;
+}
+
+.eight-questions-button:hover {
+    background-color: #fafafa;
+    color: #2F5597;
+}
+
 /* Maths Questions Amount - 12 Questions Button Styling */
 
 .twelve-questions-button {
     font-size: 1.5rem;
     width: 175px;
     height: 50px;
-    background-color: #2f5597;
+    background-color: #FF883D;
     color: white;
     border-radius: 10px;
     border: 3px solid #2F5597;
@@ -888,26 +921,9 @@ body {
     color: #2F5597;
 }
 
-/* Maths Questions Amount - 15 Questions Button Styling */
+/* Maths Questions Amount - 16 Questions Button Styling */
 
 .sixteen-questions-button {
-    font-size: 1.5rem;
-    width: 175px;
-    height: 50px;
-    background-color: #FF883D;
-    color: white;
-    border-radius: 10px;
-    border: 3px solid #2F5597;
-}
-
-.sixteen-questions-button:hover {
-    background-color: #fafafa;
-    color: #2F5597;
-}
-
-/* Maths Questions Amount - 18 Questions Button Styling */
-
-.twenty-questions-button {
     font-size: 1.5rem;
     width: 175px;
     height: 50px;
@@ -917,7 +933,7 @@ body {
     border: 3px solid #2F5597;
 }
 
-.twenty-questions-button:hover {
+.sixteen-questions-button:hover {
     background-color: #fafafa;
     color: #2F5597;
 }
@@ -967,6 +983,7 @@ body {
     color: #2f5295;
     font-weight: bold;
 }
+
 /* Maths Questions - Back to Main Menu Button Styling */
 
 .option-main-menu-button {
@@ -988,6 +1005,8 @@ body {
 }
 
 /* game.html code */
+
+/* game section styling code */
 
 .game-section {
     height: 70vh;
@@ -1011,6 +1030,8 @@ body {
     margin-bottom: 100px;
 }
 
+/* game reset button styling */
+
 .game-restart-button {
     font-size: 1.5rem;
     padding: 1rem;
@@ -1030,6 +1051,8 @@ body {
     font-weight: bold;
 }
 
+/* game options button styling */
+
 .game-options-button {
     font-size: 1.5rem;
     padding: 1rem;
@@ -1048,6 +1071,8 @@ body {
     color: #2f5195;
     font-weight: bold;
 }
+
+/* game main menu button styling */
 
 .game-main-menu-button {
     font-size: 1.5rem;
@@ -1075,6 +1100,8 @@ body {
     padding-top: 20px;
 }
 
+/* game timer styling */
+
 .game-timer {
     background-color: #fafafa;
     border: 3px solid #2f5195;
@@ -1090,6 +1117,8 @@ body {
     font-size: 1.5rem;
 }
 
+/* game question number styling */
+
 .game-question-number {
     background-color: #fafafa;
     border: 3px solid #2f5195;
@@ -1104,6 +1133,8 @@ body {
     color: #2f5195;
     font-size: 1.5rem;
 }
+
+/* game question audio button styling */
 
 .game-audio {
     display: flex;
@@ -1126,12 +1157,16 @@ body {
     font-size: 2.5rem;
 }
 
+/* game question area styling */
+
 .game-question-area {
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 10px;
 }
+
+/* game question styling */
 
 .game-question {
     background-color: #fafafa;
@@ -1144,12 +1179,16 @@ body {
     color: #2f5195;
 }
 
+/* game questions 1 & 2 styling */
+
 .game-answer-1-2 {
     display: flex;
     justify-content: space-around;
     align-items: center;
     padding: 30px;
 }
+
+/* game question 1 styling */
 
 .game-answer-1 {
     font-size: 1.2rem;
@@ -1168,6 +1207,8 @@ body {
     font-weight: bold;
 }
 
+/* game question 2 styling */
+
 .game-answer-2 {
     font-size: 1.2rem;
     padding: 1rem;
@@ -1185,12 +1226,16 @@ body {
     font-weight: bold;
 }
 
+/* game questions 1 & 2 styling */
+
 .game-answer-3-4 {
     display: flex;
     justify-content: space-around;
     align-items: center;
     padding: 30px;
 }
+
+/* game question 3 styling */
 
 .game-answer-3 {
     font-size: 1.2rem;
@@ -1209,6 +1254,8 @@ body {
     font-weight: bold;
 }
 
+/* game question 4 styling */
+
 .game-answer-4 {
     font-size: 1.2rem;
     padding: 1rem;
@@ -1226,6 +1273,8 @@ body {
     font-weight: bold;
 }
 
+/* game correct answer styling */
+
 .correct-answer {
     font-size: 1.2rem;
     padding: 1rem;
@@ -1236,6 +1285,8 @@ body {
     border: 3px solid #38761D;
     text-align: center;
 }
+
+/* game wrong answer styling */
 
 .wrong-answer {
     font-size: 1.2rem;
@@ -1249,6 +1300,8 @@ body {
 }
 
 @media screen and (max-width: 1200px) {
+
+    /* Options section styling for options.html */
 
     .option-section {
         height: 70vh;
@@ -1272,6 +1325,8 @@ body {
         margin-bottom: 100px;
         padding: 25px;
     }
+
+    /* Maths questions text styling */
     
     .maths-questions-text {
         text-align: center;
@@ -1557,9 +1612,9 @@ body {
         padding-bottom: 10px;
     }
     
-    /* Maths Questions Amount - 12 Questions Button Styling */
+    /* Maths Questions Amount - 8 Questions Button Styling */
     
-    .twelve-questions-button {
+    .eight-questions-button {
         font-size: 1rem;
         width: 125px;
         height: 40px;
@@ -1569,9 +1624,9 @@ body {
         border: 3px solid #2F5597;
     }
 
-    /* Maths Questions Amount - 15 Questions Button Styling */
+    /* Maths Questions Amount - 12 Questions Button Styling */
     
-    .sixteen-questions-button {
+    .twelve-questions-button {
         font-size: 1rem;
         width: 125px;
         height: 40px;
@@ -1581,9 +1636,9 @@ body {
         border: 3px solid #2F5597;
     }
     
-    /* Maths Questions Amount - 18 Questions Button Styling */
+    /* Maths Questions Amount - 16 Questions Button Styling */
     
-    .twenty-questions-button {
+    .sixteen-questions-button {
         font-size: 1rem;
         width: 125px;
         height: 40px;
@@ -1655,6 +1710,8 @@ body {
         width: 100px;
     }
 
+    /* Menu section Styling of index.html */
+
     .menu-style {
         display: flex;
         justify-content: center;
@@ -1667,6 +1724,8 @@ body {
         border: 3px solid #2F5597;
         gap: 20px;
     }
+
+    /* Play button Styling of index.html */
     
     .play-button {
         font-size: 1rem;
@@ -1678,6 +1737,8 @@ body {
         border: 3px solid #2F5597;
     }
 
+    /* How to button Styling of index.html */
+
     .how-to-button {
         font-size: 1rem;
         padding: 1rem;
@@ -1687,6 +1748,8 @@ body {
         border-radius: 15px;
         border: 3px solid #2F5597;
     }
+
+    /* How to pop up styling of index.html */
     
     .how-to {
         display: none;
@@ -1739,6 +1802,8 @@ body {
         bottom: 20px;
     }
 
+    /* High score pop up styling of index.html */
+
     .high-score-button {
         font-size: 1rem;
         padding: 1rem;
@@ -1788,6 +1853,8 @@ body {
         left: 37.5%;
         bottom: 2.5%;
     }
+
+    /* Contact form pop up styling of index.html */
 
     .contact-button {
         font-size: 1rem;
@@ -1872,6 +1939,8 @@ body {
         border: 3px solid #fafafa;
     }
 
+    /* Option section styling for options.html */
+
     .option-section {
         height: 70vh;
         background-color: #d3d3d3;
@@ -1894,6 +1963,8 @@ body {
         margin-bottom: 100px;
         padding: 15px;
     }
+
+    /* Maths questions text styling */
     
     .maths-questions-text {
         text-align: center;
@@ -2182,9 +2253,9 @@ body {
         padding-bottom: 10px;
     }
     
-    /* Maths Questions Amount - 12 Questions Button Styling */
+    /* Maths Questions Amount - 8 Questions Button Styling */
     
-    .twelve-questions-button {
+    .eight-questions-button {
         font-size: 0.9rem;
         width: 100px;
         height: 30px;
@@ -2194,9 +2265,9 @@ body {
         border: 2px solid #2F5597;
     }
 
-    /* Maths Questions Amount - 15 Questions Button Styling */
+    /* Maths Questions Amount - 12 Questions Button Styling */
     
-    .sixteen-questions-button {
+    .twelve-questions-button {
         font-size: 0.9rem;
         width: 100px;
         height: 30px;
@@ -2206,9 +2277,9 @@ body {
         border: 2px solid #2F5597;
     }
     
-    /* Maths Questions Amount - 18 Questions Button Styling */
+    /* Maths Questions Amount - 16 Questions Button Styling */
     
-    .twenty-questions-button {
+    .sixteen-questions-button {
         font-size: 0.9rem;
         width: 100px;
         height: 30px;
@@ -2267,6 +2338,8 @@ body {
 
 @media screen and (max-width: 576px) {
 
+    /* Title styling for index.html */
+
     .title-heading {
         font-size: 1.75rem;
         color: #2F5597;
@@ -2278,6 +2351,8 @@ body {
         vertical-align: middle;
         width: 75px;
     }
+
+    /* Menu section styling for index.html */
 
     .menu-section {
         height: 66vh;
@@ -2300,6 +2375,8 @@ body {
         border: 3px solid #2F5597;
         gap: 20px;
     }
+
+    /* Play button styling */
     
     .play-button {
         font-size: 0.9rem;
@@ -2311,6 +2388,8 @@ body {
         border: 3px solid #2F5597;
     }
 
+    /* How to button styling */
+
     .how-to-button {
         font-size: 0.9rem;
         padding: 1rem;
@@ -2320,6 +2399,8 @@ body {
         border-radius: 15px;
         border: 3px solid #2F5597;
     }
+
+    /* How to pop up styling */
 
     .how-to {
         display: none;
@@ -2372,6 +2453,8 @@ body {
         bottom: 2.5%;
     }
 
+    /* High score button styling */
+
     .high-score-button {
         font-size: 0.9rem;
         padding: 1rem;
@@ -2381,6 +2464,8 @@ body {
         border-radius: 15px;
         border: 3px solid #2F5597;
     }
+
+    /* High score pop up styling */
 
     .high-score-popup {
         display: none;
@@ -2421,6 +2506,8 @@ body {
         bottom: 2.5%;
     }
 
+    /* Contact Form button styling */
+
     .contact-button {
         font-size: 0.9rem;
         padding: 1rem;
@@ -2430,6 +2517,8 @@ body {
         border-radius: 15px;
         border: 3px solid #2F5597;
     }
+
+    /* Contact Form pop up styling */
 
     .contact-form {
         display: none;
@@ -2510,12 +2599,16 @@ body {
         border-radius: 1rem;
         border: 3px solid #fafafa;
     }
+    
+    /* Footer Section of index.html */
 
     .footer-section {
         height: 14vh;
         background-color: #2F5597;
         display: flex;
     }
+
+    /* Linkedin Button Styling for index.html */
 
     .linkedin-index i {
         font-size: 2.2rem;
@@ -2532,6 +2625,9 @@ body {
         justify-content: center;
         margin-top: 0.5rem;
     }
+
+    /* Github Button Styling for index.html */
+
     .github-index i {
         font-size: 2.2rem;
         color: #fafafa;
@@ -2548,7 +2644,7 @@ body {
         margin-top: 0.5rem;
     }
 
-    /* Options Section CSS */
+    /* Options Section styling for options.hmtl */
 
     .option-section {
         height: 100vh;
@@ -2569,6 +2665,8 @@ body {
         margin-bottom: 100px;
         padding: 15px;
     }
+
+    /* Maths questions text styling */
     
     .maths-questions-text {
         text-align: center;
@@ -2857,9 +2955,9 @@ body {
         padding-bottom: 10px;
     }
     
-    /* Maths Questions Amount - 12 Questions Button Styling */
+    /* Maths Questions Amount - 8 Questions Button Styling */
     
-    .twelve-questions-button {
+    .eight-questions-button {
         font-size: 0.9rem;
         width: 100px;
         height: 30px;
@@ -2869,9 +2967,9 @@ body {
         border: 2px solid #2F5597;
     }
 
-    /* Maths Questions Amount - 15 Questions Button Styling */
+    /* Maths Questions Amount - 12 Questions Button Styling */
     
-    .sixteen-questions-button {
+    .twelve-questions-button {
         font-size: 0.9rem;
         width: 100px;
         height: 30px;
@@ -2881,9 +2979,9 @@ body {
         border: 2px solid #2F5597;
     }
     
-    /* Maths Questions Amount - 18 Questions Button Styling */
+    /* Maths Questions Amount - 16 Questions Button Styling */
     
-    .twenty-questions-button {
+    .sixteen-questions-button {
         font-size: 0.9rem;
         width: 100px;
         height: 30px;
@@ -2937,7 +3035,5 @@ body {
         margin-top: 75px;
         margin-left: -200px;
     }
-
-
 
 }
