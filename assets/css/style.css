@@ -719,79 +719,6 @@ body {
     left: 67.5px;
 }
 
-/* Maths Difficulty section for the options.html file*/
-
-/* Maths Difficulty section styling */
-
-.maths-difficulty {
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-}
-
-/* Maths Difficulty - Title Styling */
-
-.maths-difficulty-text {
-    color: #2f5195;
-    font-size: 1.25rem;
-    text-transform: uppercase;
-    font-weight: bold;
-    text-align: center;
-    padding-top: 10px;
-    padding-bottom: 10px;
-}
-
-/* Maths Difficulty - Easy Button Styling */
-
-.easy-button {
-    font-size: 1.5rem;
-    width: 175px;
-    height: 50px;
-    background-color: #2f5597;
-    color: white;
-    border-radius: 10px;
-    border: 3px solid #2F5597;
-}
-
-.easy-button:hover {
-    background-color: #fafafa;
-    color: #2F5597;
-}
-
-/* Maths Difficulty - Medium Button Styling */
-
-.medium-button {
-    font-size: 1.5rem;
-    width: 175px;
-    height: 50px;
-    background-color: #FF883D;
-    color: white;
-    border-radius: 10px;
-    border: 3px solid #2F5597;
-}
-
-.medium-button:hover {
-    background-color: #fafafa;
-    color: #2F5597;
-}
-
-/* Maths Difficulty - Hard Button Styling */
-
-.hard-button {
-    font-size: 1.5rem;
-    width: 175px;
-    height: 50px;
-    background-color: #7C5295;
-    color: white;
-    border-radius: 10px;
-    border: 3px solid #2F5597;
-}
-
-.hard-button:hover {
-    background-color: #fafafa;
-    color: #2F5597;
-}
-
 /* Maths Timer section for the options.html file*/
 
 /* Maths Timer section styling */
@@ -1477,63 +1404,6 @@ body {
         left: 55px;
     }
     
-    /* Maths Difficulty section for the options.html file*/
-    
-    /* Maths Difficulty section styling */
-    
-    .maths-difficulty {
-        display: flex;
-        justify-content: space-evenly;
-        align-items: center;
-    }
-    
-    /* Maths Difficulty - Title Styling */
-    
-    .maths-difficulty-text {
-        color: #2f5195;
-        font-size: 1rem;
-        text-transform: uppercase;
-        font-weight: bold;
-        padding-top: 10px;
-        padding-bottom: 10px;
-    }
-    
-    /* Maths Difficulty - Easy Button Styling */
-    
-    .easy-button {
-        font-size: 1rem;
-        width: 125px;
-        height: 40px;
-        background-color: #2f5597;
-        color: white;
-        border-radius: 10px;
-        border: 3px solid #2F5597;
-    }
-    
-    /* Maths Difficulty - Medium Button Styling */
-    
-    .medium-button {
-        font-size: 1rem;
-        width: 125px;
-        height: 40px;
-        background-color: #FF883D;
-        color: white;
-        border-radius: 10px;
-        border: 3px solid #2F5597;
-    }
-    
-    /* Maths Difficulty - Hard Button Styling */
-    
-    .hard-button {
-        font-size: 1rem;
-        width: 125px;
-        height: 40px;
-        background-color: #7C5295;
-        color: white;
-        border-radius: 10px;
-        border: 3px solid #2F5597;
-    }
-    
     /* Maths Timer section for the options.html file*/
     
     /* Maths Timer section styling */
@@ -2113,64 +1983,6 @@ body {
         position: absolute;
         top: 1px;
         left: 42.5px;
-    }
-    
-    /* Maths Difficulty section for the options.html file*/
-    
-    /* Maths Difficulty section styling */
-    
-    .maths-difficulty {
-        display: flex;
-        justify-content: space-evenly;
-        align-items: center;
-        padding-bottom: 15px;
-    }
-    
-    /* Maths Difficulty - Title Styling */
-    
-    .maths-difficulty-text {
-        color: #2f5195;
-        font-size: 0.75rem;
-        text-transform: uppercase;
-        font-weight: bold;
-        padding-top: 10px;
-        padding-bottom: 10px;
-    }
-    
-    /* Maths Difficulty - Easy Button Styling */
-    
-    .easy-button {
-        font-size: 0.9rem;
-        width: 100px;
-        height: 30px;
-        background-color: #2f5597;
-        color: white;
-        border-radius: 5px;
-        border: 2px solid #2F5597;
-    }
-    
-    /* Maths Difficulty - Medium Button Styling */
-    
-    .medium-button {
-        font-size: 0.9rem;
-        width: 100px;
-        height: 30px;
-        background-color: #FF883D;
-        color: white;
-        border-radius: 5px;
-        border: 2px solid #2F5597;
-    }
-    
-    /* Maths Difficulty - Hard Button Styling */
-    
-    .hard-button {
-        font-size: 0.9rem;
-        width: 100px;
-        height: 30px;
-        background-color: #7C5295;
-        color: white;
-        border-radius: 5px;
-        border: 2px solid #2F5597;
     }
     
     /* Maths Timer section for the options.html file*/
@@ -2815,64 +2627,6 @@ body {
         position: absolute;
         top: 1px;
         left: 42.5px;
-    }
-    
-    /* Maths Difficulty section for the options.html file*/
-    
-    /* Maths Difficulty section styling */
-    
-    .maths-difficulty {
-        display: flex;
-        justify-content: space-evenly;
-        align-items: center;
-        padding-bottom: 15px;
-    }
-    
-    /* Maths Difficulty - Title Styling */
-    
-    .maths-difficulty-text {
-        color: #2f5195;
-        font-size: 0.75rem;
-        text-transform: uppercase;
-        font-weight: bold;
-        padding-top: 10px;
-        padding-bottom: 10px;
-    }
-    
-    /* Maths Difficulty - Easy Button Styling */
-    
-    .easy-button {
-        font-size: 0.9rem;
-        width: 100px;
-        height: 30px;
-        background-color: #2f5597;
-        color: white;
-        border-radius: 5px;
-        border: 2px solid #2F5597;
-    }
-    
-    /* Maths Difficulty - Medium Button Styling */
-    
-    .medium-button {
-        font-size: 0.9rem;
-        width: 100px;
-        height: 30px;
-        background-color: #FF883D;
-        color: white;
-        border-radius: 5px;
-        border: 2px solid #2F5597;
-    }
-    
-    /* Maths Difficulty - Hard Button Styling */
-    
-    .hard-button {
-        font-size: 0.9rem;
-        width: 100px;
-        height: 30px;
-        background-color: #7C5295;
-        color: white;
-        border-radius: 5px;
-        border: 2px solid #2F5597;
     }
     
     /* Maths Timer section for the options.html file*/
