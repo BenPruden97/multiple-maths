@@ -530,7 +530,7 @@ body {
     top: 55%;
     left: 50%;
     transform: translate(-50%, -50%);
-    height: 68vh;
+    height: 62vh;
     width: 1200px;
     background-color: #fafafa;
     border-radius: 50px;
@@ -1244,7 +1244,7 @@ body {
         top: 55%;
         left: 50%;
         transform: translate(-50%, -50%);
-        height: 65vh;
+        height: 62vh;
         width: 750px;
         background-color: #fafafa;
         border-radius: 50px;
@@ -1825,7 +1825,7 @@ body {
         top: 55%;
         left: 50%;
         transform: translate(-50%, -50%);
-        height: 65vh;
+        height: 60vh;
         width: 550px;
         background-color: #fafafa;
         border-radius: 50px;
@@ -2415,27 +2415,22 @@ body {
     /* Footer Section of index.html */
 
     .footer-section {
-        height: 14vh;
+        height: 60vh;
         background-color: #2F5597;
-        display: flex;
+        display: grid;
+        grid-template-rows: 125px 125px;
     }
 
     /* Linkedin Button Styling for index.html */
 
     .linkedin-index i {
-        font-size: 2.2rem;
+        font-size: 1.5rem;
         color: #fafafa;
-        display: flex;
-        justify-content: center;
-        margin-top: 1rem;
     }
     
     .linkedin-index h6 {
         font-size: 0.75rem;
         color: #fafafa;
-        display: flex;
-        justify-content: center;
-        margin-top: 0.5rem;
     }
 
     /* Github Button Styling for index.html */
@@ -2443,33 +2438,29 @@ body {
     .github-index i {
         font-size: 2.2rem;
         color: #fafafa;
-        display: flex;
-        justify-content: center;
-        margin-top: 1rem;
     }
     
     .github-index h6 {
         font-size: 0.75rem;
         color: #fafafa;
-        display: flex;
-        justify-content: center;
-        margin-top: 0.5rem;
     }
 
     /* Options Section styling for options.hmtl */
 
     .option-section {
-        height: 100vh;
+        height: 150vh;
         background-color: #d3d3d3;
         display: flex;
         justify-content: center;
         align-items: center;
-        flex-direction: column;
     }
     
     .option-style {
-        top: 67%;
-        height: 800px;
+        position: absolute;
+        top: 95%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        height: 140vh;
         width: 300px;
         background-color: #fafafa;
         border-radius: 50px;
@@ -2490,10 +2481,12 @@ body {
     }
     
     .maths-questions {
-        display: flex;
-        justify-content: space-evenly;
+        display: grid;
+        grid-template-columns: 90px 90px;
+        justify-content: space-around;
         align-items: center;
-        padding: 10px;
+        gap: 10px;
+        padding: 5px;
     }
     
     /* Maths Questions - Addition Button Styling */
@@ -2555,10 +2548,10 @@ body {
     /* Maths Questions - Multiple Maths Button Styling */
     
     .multiple-style {
-        display: flex;
-        flex-wrap: wrap;
+        display: grid;
+        justify-content: center;
         align-items: center;
-        position: relative;
+        left: 75%;
     }
     
     /* Maths Questions - Multiple Maths Button Styling */
@@ -2634,10 +2627,11 @@ body {
     /* Maths Timer section styling */
     
     .maths-timer {
-        display: flex;
-        justify-content: space-evenly;
+        display: grid;
+        justify-content: space-around;
         align-items: center;
-        padding-bottom: 15px;
+        gap: 10px;
+        padding: 5px;
     }
     
     /* Maths Timer - Title Styling */
@@ -2692,10 +2686,11 @@ body {
     /* Maths Questions Amount section styling */
     
     .maths-questions-limit {
-        display: flex;
-        justify-content: space-evenly;
+        display: grid;
+        justify-content: space-around;
         align-items: center;
-        padding-bottom: 15px;
+        gap: 10px;
+        padding: 5px;
     }
     
     /* Maths Questions Amount - Title Styling */
@@ -2756,8 +2751,8 @@ body {
         border-radius: 20px;
         border: 2px solid #2F5597;
         position: absolute;
-        margin-top: 75px;
-        margin-left: -175px;
+        margin-top: 90px;
+        margin-left: 0px;
     }
     
     /* Maths Questions - Start Button Styling */
@@ -2771,8 +2766,8 @@ body {
         border-radius: 20px;
         border: 2px solid #2F5597;
         position: absolute;
-        margin-top: 11px;
-        margin-left: 75px;
+        margin-top: 85px;
+        margin-left: -35px;
     }
 
     /* Maths Questions - Back to Main Menu Button Styling */
@@ -2786,8 +2781,8 @@ body {
         border-radius: 20px;
         border: 2px solid #2F5597;
         position: absolute;
-        margin-top: 75px;
-        margin-left: -200px;
+        margin-top: 150px;
+        margin-left: -165px;
     }
 
 }
