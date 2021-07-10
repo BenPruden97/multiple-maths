@@ -522,7 +522,7 @@ body {
 /* game.html footer section */
 
 .footer-section-game {
-    height: 12vh;
+    height: 10vh;
     background-color: #2F5597;
     display: flex;
 }
@@ -1057,15 +1057,15 @@ body {
 
 .game-restart-button {
     font-size: 1.5rem;
-    padding: 1rem;
+    padding: 0.75rem;
     width: 10rem;
     background-color: #D40C00;
     color: white;
     border-radius: 25px;
     border: 3px solid #2F5597;
     position: absolute;
-    left: 500px;
-    bottom: 150px;
+    left: 100px;
+    bottom: 25px;
 }
 
 .game-restart-button:hover {
@@ -1078,15 +1078,15 @@ body {
 
 .game-options-button {
     font-size: 1.5rem;
-    padding: 1rem;
+    padding: 0.75rem;
     width: 20rem;
     background-color: #FF8B3D;
     color: white;
     border-radius: 25px;
     border: 3px solid #2F5597;
     position: absolute;
-    left: 735px;
-    bottom: 150px;
+    left: 365px;
+    bottom: 25px;
 }
 
 .game-options-button:hover {
@@ -1099,15 +1099,15 @@ body {
 
 .game-main-menu-button {
     font-size: 1.5rem;
-    padding: 1rem;
+    padding: 0.75rem;
     width: 18rem;
     background-color: #7C5295;
     color: white;
     border-radius: 25px;
     border: 3px solid #2F5597;
     position: absolute;
-    right: 500px;
-    bottom: 150px;
+    right: 100px;
+    bottom: 25px;
 }
 
 .game-main-menu-button:hover {
@@ -1656,6 +1656,73 @@ body {
         position: absolute;
         margin-top: 37px;
         margin-left: -40px;
+    }
+
+    .game-section {
+        height: 70vh;
+        background-color: #d3d3d3;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    
+    .game-style {
+        position: fixed;
+        top: 55%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        height: 65vh;
+        width: 750px;
+        background-color: #fafafa;
+        border-radius: 50px;
+        border: 3px solid #2F5597;
+        margin-bottom: 100px;
+    }
+
+    /* game reset button styling */
+
+    .game-restart-button {
+        font-size: 1.1rem;
+        padding: 0.75rem;
+        width: 8rem;
+        background-color: #D40C00;
+        color: white;
+        border-radius: 25px;
+        border: 3px solid #2F5597;
+        position: absolute;
+        left: 25px;
+        bottom: 25px;
+    }
+
+    /* game options button styling */
+
+    .game-options-button {
+        font-size: 1.1rem;
+        padding: 0.75rem;
+        width: 15rem;
+        background-color: #FF8B3D;
+        color: white;
+        border-radius: 25px;
+        border: 3px solid #2F5597;
+        position: absolute;
+        left: 195px;
+        bottom: 25px;
+    }
+
+    /* game main menu button styling */
+
+    .game-main-menu-button {
+        font-size: 1.1rem;
+        padding: 0.75rem;
+        width: 15rem;
+        background-color: #7C5295;
+        color: white;
+        border-radius: 25px;
+        border: 3px solid #2F5597;
+        position: absolute;
+        right: 25px;
+        bottom: 25px;
     }
 
 }
@@ -2241,6 +2308,275 @@ body {
         margin-top: 75px;
         margin-left: -200px;
     }
+
+    /* game.html code */
+
+/* game section styling code */
+
+.game-section {
+    height: 70vh;
+    background-color: #d3d3d3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.game-style {
+    position: fixed;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 65vh;
+    width: 1200px;
+    background-color: #fafafa;
+    border-radius: 50px;
+    border: 3px solid #2F5597;
+    margin-bottom: 100px;
+}
+
+/* game reset button styling */
+
+.game-restart-button {
+    font-size: 1.5rem;
+    padding: 1rem;
+    width: 10rem;
+    background-color: #D40C00;
+    color: white;
+    border-radius: 25px;
+    border: 3px solid #2F5597;
+    position: absolute;
+    left: 500px;
+    bottom: 150px;
+}
+
+.game-restart-button:hover {
+    background-color: #fafafa;
+    color: #2f5195;
+    font-weight: bold;
+}
+
+/* game options button styling */
+
+.game-options-button {
+    font-size: 1.5rem;
+    padding: 1rem;
+    width: 20rem;
+    background-color: #FF8B3D;
+    color: white;
+    border-radius: 25px;
+    border: 3px solid #2F5597;
+    position: absolute;
+    left: 735px;
+    bottom: 150px;
+}
+
+.game-options-button:hover {
+    background-color: #fafafa;
+    color: #2f5195;
+    font-weight: bold;
+}
+
+/* game main menu button styling */
+
+.game-main-menu-button {
+    font-size: 1.5rem;
+    padding: 1rem;
+    width: 18rem;
+    background-color: #7C5295;
+    color: white;
+    border-radius: 25px;
+    border: 3px solid #2F5597;
+    position: absolute;
+    right: 500px;
+    bottom: 150px;
+}
+
+.game-main-menu-button:hover {
+    background-color: #fafafa;
+    color: #2f5195;
+    font-weight: bold;
+}
+
+.game-menu {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 20px;
+}
+
+/* game timer styling */
+
+.game-timer {
+    background-color: #fafafa;
+    border: 3px solid #2f5195;
+    border-radius: 15px;
+    width: 15rem;
+    padding: 0.5rem;
+    text-align: center;
+}
+
+.game-timer-text {
+    background-color: #fafafa;
+    color: #2f5195;
+    font-size: 1.5rem;
+}
+
+/* game question number styling */
+
+.game-question-number {
+    background-color: #fafafa;
+    border: 3px solid #2f5195;
+    border-radius: 15px;
+    width: 15rem;
+    padding: 0.5rem;
+    text-align: center;
+}
+
+.game-question-text {
+    background-color: #fafafa;
+    color: #2f5195;
+    font-size: 1.5rem;
+}
+
+/* game question audio button styling */
+
+.game-audio {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 15px;
+}
+
+.game-question-audio {
+    background-color: #fafafa;
+    border: none;
+    color: #2f5195;
+    font-size: 2.5rem;
+}
+
+.game-question-audio:hover {
+    background-color: #fafafa;
+    border: none;
+    color: #38761d;
+    font-size: 2.5rem;
+}
+
+/* game question area styling */
+
+.game-question-area {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+/* game question styling */
+
+.game-question {
+    background-color: #fafafa;
+    border: 3px solid #2f5195;
+    border-radius: 15px;
+    width: 40rem;
+    padding: 0.5rem;
+    text-align: center;
+    font-size: 2rem;
+    color: #2f5195;
+}
+
+/* game questions 1 & 2 styling */
+
+.game-answer-1-2 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 30px;
+}
+
+/* game question 1 styling */
+
+.game-answer-1 {
+    font-size: 1.2rem;
+    padding: 1rem;
+    width: 7.5rem;
+    background-color: #2F5597;
+    color: white;
+    border-radius: 25px;
+    border: 3px solid #2F5597;
+    text-align: center;
+}
+
+.game-answer-1:hover {
+    background-color: #fafafa;
+    color: #2f5195;
+    font-weight: bold;
+}
+
+/* game question 2 styling */
+
+.game-answer-2 {
+    font-size: 1.2rem;
+    padding: 1rem;
+    width: 7.5rem;
+    background-color: #2F5597;
+    color: white;
+    border-radius: 25px;
+    border: 3px solid #2F5597;
+    text-align: center;
+}
+
+.game-answer-2:hover {
+    background-color: #fafafa;
+    color: #2f5195;
+    font-weight: bold;
+}
+
+/* game questions 1 & 2 styling */
+
+.game-answer-3-4 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 30px;
+}
+
+/* game question 3 styling */
+
+.game-answer-3 {
+    font-size: 1.2rem;
+    padding: 1rem;
+    width: 7.5rem;
+    background-color: #2F5597;
+    color: white;
+    border-radius: 25px;
+    border: 3px solid #2F5597;
+    text-align: center;
+}
+
+.game-answer-3:hover {
+    background-color: #fafafa;
+    color: #2f5195;
+    font-weight: bold;
+}
+
+/* game question 4 styling */
+
+.game-answer-4 {
+    font-size: 1.2rem;
+    padding: 1rem;
+    width: 7.5rem;
+    background-color: #2F5597;
+    color: white;
+    border-radius: 25px;
+    border: 3px solid #2F5597;
+    text-align: center;
+}
+
+.game-answer-4:hover {
+    background-color: #fafafa;
+    color: #2f5195;
+    font-weight: bold;
+}
 
 }
 
