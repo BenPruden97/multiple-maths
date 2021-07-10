@@ -539,7 +539,7 @@ body {
 }
 
 .linkedin-game i {
-    font-size: 2.5rem;
+    font-size: 2.2rem;
     color: #fafafa;
     display: flex;
     justify-content: center;
@@ -566,7 +566,7 @@ body {
 }
 
 .contact-game i {
-    font-size: 2.5rem;
+    font-size: 2.2rem;
     color: #fafafa;
     display: flex;
     justify-content: center;
@@ -593,7 +593,7 @@ body {
 }
 
 .github-game i {
-    font-size: 2.5rem;
+    font-size: 2.2rem;
     color: #fafafa;
     display: flex;
     justify-content: center;
@@ -1064,8 +1064,8 @@ body {
     border-radius: 25px;
     border: 3px solid #2F5597;
     position: absolute;
-    left: 100px;
-    bottom: 25px;
+    margin-left: 100px;
+    margin-top: 38px;
 }
 
 .game-restart-button:hover {
@@ -1085,8 +1085,8 @@ body {
     border-radius: 25px;
     border: 3px solid #2F5597;
     position: absolute;
-    left: 365px;
-    bottom: 25px;
+    margin-left: 365px;
+    margin-top: 38px;
 }
 
 .game-options-button:hover {
@@ -1106,8 +1106,8 @@ body {
     border-radius: 25px;
     border: 3px solid #2F5597;
     position: absolute;
-    right: 100px;
-    bottom: 25px;
+    margin-left: 800px;
+    margin-top: 38px;
 }
 
 .game-main-menu-button:hover {
@@ -1168,7 +1168,7 @@ body {
     text-align: center;
 }
 
-.game-question-text {
+.game-question-number-text {
     background-color: #fafafa;
     color: #2f5195;
     font-size: 1.5rem;
@@ -1710,8 +1710,8 @@ body {
         border-radius: 25px;
         border: 3px solid #2F5597;
         position: absolute;
-        left: 25px;
-        bottom: 25px;
+        margin-left: 25px;
+        margin-top: 25px;
     }
 
     /* game options button styling */
@@ -1725,8 +1725,8 @@ body {
         border-radius: 25px;
         border: 3px solid #2F5597;
         position: absolute;
-        left: 195px;
-        bottom: 25px;
+        margin-left: 195px;
+        margin-top: 25px;
     }
 
     /* game main menu button styling */
@@ -1740,8 +1740,8 @@ body {
         border-radius: 25px;
         border: 3px solid #2F5597;
         position: absolute;
-        right: 25px;
-        bottom: 25px;
+        margin-left: 480px;
+        margin-top: 25px;
     }
 
     /* game menu styling */
@@ -1801,7 +1801,7 @@ body {
     .game-question-number-text {
         background-color: #fafafa;
         color: #2f5195;
-        font-size: 1rem;
+        font-size: 1.2rem;
     }
 
     /* game question audio button styling */
@@ -1833,7 +1833,7 @@ body {
         display: flex;
         justify-content: center;
         align-items: center;
-        padding: 10px;
+        padding: 5px;
     }
 
     /* game question styling */
@@ -1855,7 +1855,7 @@ body {
         display: flex;
         justify-content: space-around;
         align-items: center;
-        padding: 30px;
+        padding: 15px;
     }
 
     /* game question 1 styling */
@@ -1890,7 +1890,7 @@ body {
         display: flex;
         justify-content: space-around;
         align-items: center;
-        padding: 30px;
+        padding: 15px;
     }
 
     /* game question 3 styling */
@@ -1917,6 +1917,68 @@ body {
         border-radius: 15px;
         border: 3px solid #2F5597;
         text-align: center;
+    }
+
+    /* game.html footer section */
+
+    .footer-section-game {
+        height: 10vh;
+        background-color: #2F5597;
+        display: flex;
+    }
+
+    /* Linkedin Button Styling for options & game.html */
+    
+    .linkedin-game i {
+        font-size: 2rem;
+        color: #fafafa;
+        display: flex;
+        justify-content: center;
+        margin-top: 15px;
+    }
+    
+    .linkedin-game h6 {
+        font-size: 1rem;
+        color: #fafafa;
+        display: flex;
+        justify-content: center;
+        margin-top: 5px;
+    }
+    
+    /* Contact Button Styling for options & game.html */
+    
+    .contact-game i {
+        font-size: 2rem;
+        color: #fafafa;
+        display: flex;
+        justify-content: center;
+        margin-top: 15px;
+    }
+    
+    .contact-game h6 {
+        font-size: 1rem;
+        color: #fafafa;
+        display: flex;
+        justify-content: center;
+        margin-top: 5px;
+    }
+    
+    /* GitHub Button Styling for options & game.html */
+    
+    .github-game i {
+        font-size: 2rem;
+        color: #fafafa;
+        display: flex;
+        justify-content: center;
+        margin-top: 15px;
+    }
+    
+    .github-game h6 {
+        font-size: 1rem;
+        color: #fafafa;
+        display: flex;
+        justify-content: center;
+        margin-top: 5px;
     }
 
 }
@@ -2540,6 +2602,8 @@ body {
         border-radius: 25px;
         border: 3px solid #2F5597;
         position: absolute;
+        margin-top: 25px;
+        margin-left: 25px;
     }
 
     /* game options button styling */
@@ -2553,7 +2617,8 @@ body {
         border-radius: 25px;
         border: 3px solid #2F5597;
         position: absolute;
-        margin-left: -60px;
+        margin-top: 25px;
+        margin-left: 135px;
     }
 
     /* game main menu button styling */
@@ -2567,6 +2632,8 @@ body {
         border-radius: 25px;
         border: 3px solid #2F5597;
         position: absolute;
+        margin-top: 25px;
+        margin-left: 340px;
     }
 
     /* game menu styling */
@@ -2626,7 +2693,7 @@ body {
     .game-question-number-text {
         background-color: #fafafa;
         color: #2f5195;
-        font-size: 1rem;
+        font-size: 1.2rem;
     }
 
     /* game question audio button styling */
@@ -2742,6 +2809,95 @@ body {
         border-radius: 15px;
         border: 3px solid #2F5597;
         text-align: center;
+    }
+
+    /* game.html footer section */
+
+.footer-section-game {
+    height: 10vh;
+    background-color: #2F5597;
+    display: flex;
+}
+
+    /* Linkedin Button Styling for options & game.html */
+
+    .linkedin-game {
+        flex-grow: 33.33%;
+        width: 33.33%;
+    }
+
+    .linkedin-game a {
+        text-decoration: none;
+    }
+
+    .linkedin-game i {
+        font-size: 2.5rem;
+        color: #fafafa;
+        display: flex;
+        justify-content: center;
+        margin-top: 15px;
+    }
+
+    .linkedin-game h6 {
+        font-size: 1rem;
+        color: #fafafa;
+        display: flex;
+        justify-content: center;
+        margin-top: 5px;
+    }
+
+    /* Contact Button Styling for options & game.html */
+
+    .contact-game {
+        flex-grow: 33.33%;
+        width: 33.33%;
+    }
+
+    .contact-game a {
+        text-decoration: none;
+    }
+
+    .contact-game i {
+        font-size: 2.5rem;
+        color: #fafafa;
+        display: flex;
+        justify-content: center;
+        margin-top: 15px;
+    }
+
+    .contact-game h6 {
+        font-size: 1rem;
+        color: #fafafa;
+        display: flex;
+        justify-content: center;
+        margin-top: 5px;
+    }
+
+    /* GitHub Button Styling for options & game.html */
+
+    .github-game {
+        flex-grow: 33.33%;
+        width: 33.33%;;
+    }
+
+    .github-game a {
+        text-decoration: none;
+    }
+
+    .github-game i {
+        font-size: 2.5rem;
+        color: #fafafa;
+        display: flex;
+        justify-content: center;
+        margin-top: 15px;
+    }
+
+    .github-game h6 {
+        font-size: 1rem;
+        color: #fafafa;
+        display: flex;
+        justify-content: center;
+        margin-top: 5px;
     }
 
 }
@@ -3592,6 +3748,198 @@ body {
         margin-left: -165px;
     }
 
+    /* game.html code */
+
+    /* game section styling code */
+
+    .game-section {
+        height: 120vh;
+        background-color: #d3d3d3;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .game-style {
+        position: absolute;
+        top: 80%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        height: 115vh;
+        width: 300px;
+        background-color: #fafafa;
+        border-radius: 50px;
+        border: 3px solid #2F5597;
+        margin-bottom: 100px;
+    }    
+
+    /* game reset button styling */
+
+    .game-restart-button {
+        font-size: 1rem;
+        padding: 0.5rem;
+        width: 6rem;
+        background-color: #D40C00;
+        color: white;
+        border-radius: 15px;
+        border: 3px solid #2F5597;
+        position: absolute;
+        margin-top: 20px;
+        margin-left: 100px;
+    }
+
+    /* game options button styling */
+
+    .game-options-button {
+        font-size: 1rem;
+        padding: 0.5rem;
+        width: 12rem;
+        background-color: #FF8B3D;
+        color: white;
+        border-radius: 15px;
+        border: 3px solid #2F5597;
+        position: absolute;
+        margin-top: 80px;
+        margin-left: 50px;
+    }
+
+    /* game main menu button styling */
+
+    .game-main-menu-button {
+        font-size: 1rem;
+        padding: 0.5rem;
+        width: 11rem;
+        background-color: #7C5295;
+        color: white;
+        border-radius: 15px;
+        border: 3px solid #2F5597;
+        position: absolute;
+        margin-top: 140px;
+        margin-left: 60px;
+    }
+
+    /* game menu styling */
+
+    .game-menu {
+        display: grid;
+        gap: 10px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    /* game timer styling */
+
+    .game-timer {
+        background-color: #fafafa;
+        border: 3px solid #2f5195;
+        border-radius: 15px;
+        width: 8rem;
+        padding: 0.5rem;
+        text-align: center;
+        margin-left: 15px;
+    }
+
+    .game-timer-text {
+        background-color: #fafafa;
+        color: #2f5195;
+        font-size: 1.2rem;
+    }
+
+    /* game score styling */
+
+    .game-score {
+        background-color: #fafafa;
+        border: 3px solid #2f5195;
+        border-radius: 15px;
+        width: 8rem;
+        padding: 0.5rem;
+        text-align: center;
+        margin-left: 15px;
+    }
+
+    .game-score-text {
+        background-color: #fafafa;
+        color: #2f5195;
+        font-size: 1.2rem;
+}
+
+    /* game question number styling */
+
+    .game-question-number {
+        background-color: #fafafa;
+        border: 3px solid #2f5195;
+        border-radius: 15px;
+        width: 10rem;
+        padding: 0.5rem;
+        text-align: center;
+    }
+
+    .game-question-number-text {
+        background-color: #fafafa;
+        color: #2f5195;
+        font-size: 1.2rem;
+    }
+
+    /* game question audio button styling */
+
+    .game-audio {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-top: 15px;
+    }
+
+    .game-question-audio {
+        background-color: #fafafa;
+        border: none;
+        color: #2f5195;
+        font-size: 2.5rem;
+    }
+
+    /* game question area styling */
+
+    .game-question-area {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 10px;
+    }
+
+    /* game question styling */
+
+    .game-question {
+        background-color: #fafafa;
+        border: 3px solid #2f5195;
+        border-radius: 15px;
+        width: 25rem;
+        padding: 0.5rem;
+        text-align: center;
+        font-size: 1.2rem;
+        color: #2f5195;
+    }
+
+    /* game questions 1 & 2 styling */
+
+    .game-answer-1-2 {
+        display: grid;
+        justify-content: space-around;
+        align-items: center;
+        gap: 10px;
+        padding: 10px;
+    }
+
+    /* game questions 3 & 4 styling */
+
+    .game-answer-3-4 {
+        display: grid;
+        justify-content: space-around;
+        align-items: center;
+        gap: 10px;
+        padding: 10px;
+        padding-top: 5px;
+    }
+
 }
 
 @media screen and (max-width: 375px) {
@@ -3650,6 +3998,261 @@ body {
 
     .github-options h6 {
         font-size: 0.5rem;
+        color: #fafafa;
+        display: flex;
+        justify-content: center;
+        margin-top: 5px;
+    }
+
+     /* game.html code */
+
+    /* game section styling code */
+
+    .game-section {
+        height: 185vh;
+        background-color: #d3d3d3;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .game-style {
+        position: absolute;
+        top: 112.5%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        height: 175vh;
+        width: 300px;
+        background-color: #fafafa;
+        border-radius: 50px;
+        border: 3px solid #2F5597;
+        margin-bottom: 100px;
+    }    
+
+    /* game reset button styling */
+
+    .game-restart-button {
+        font-size: 1rem;
+        padding: 0.5rem;
+        width: 6rem;
+        background-color: #D40C00;
+        color: white;
+        border-radius: 15px;
+        border: 3px solid #2F5597;
+        position: absolute;
+        margin-bottom: 140px;
+        margin-left: 100px;
+    }
+
+    /* game options button styling */
+
+    .game-options-button {
+        font-size: 1rem;
+        padding: 0.5rem;
+        width: 12rem;
+        background-color: #FF8B3D;
+        color: white;
+        border-radius: 15px;
+        border: 3px solid #2F5597;
+        position: absolute;
+        margin-top: 85px;
+        margin-left: 50px;
+    }
+
+    /* game main menu button styling */
+
+    .game-main-menu-button {
+        font-size: 1rem;
+        padding: 0.5rem;
+        width: 11rem;
+        background-color: #7C5295;
+        color: white;
+        border-radius: 15px;
+        border: 3px solid #2F5597;
+        position: absolute;
+        margin-top: 150px;
+        margin-left: 60px;
+    }
+
+    /* game menu styling */
+
+    .game-menu {
+        display: grid;
+        gap: 10px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    /* game timer styling */
+
+    .game-timer {
+        background-color: #fafafa;
+        border: 3px solid #2f5195;
+        border-radius: 15px;
+        width: 8rem;
+        padding: 0.5rem;
+        text-align: center;
+        margin-left: 15px;
+    }
+
+    .game-timer-text {
+        background-color: #fafafa;
+        color: #2f5195;
+        font-size: 1.2rem;
+    }
+
+    /* game score styling */
+
+    .game-score {
+        background-color: #fafafa;
+        border: 3px solid #2f5195;
+        border-radius: 15px;
+        width: 8rem;
+        padding: 0.5rem;
+        text-align: center;
+        margin-left: 15px;
+    }
+
+    .game-score-text {
+        background-color: #fafafa;
+        color: #2f5195;
+        font-size: 1.2rem;
+}
+
+    /* game question number styling */
+
+    .game-question-number {
+        background-color: #fafafa;
+        border: 3px solid #2f5195;
+        border-radius: 15px;
+        width: 10rem;
+        padding: 0.5rem;
+        text-align: center;
+    }
+
+    .game-question-number-text {
+        background-color: #fafafa;
+        color: #2f5195;
+        font-size: 1.2rem;
+    }
+
+    /* game question audio button styling */
+
+    .game-audio {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-top: 15px;
+    }
+
+    .game-question-audio {
+        background-color: #fafafa;
+        border: none;
+        color: #2f5195;
+        font-size: 2.5rem;
+    }
+
+    /* game question area styling */
+
+    .game-question-area {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 10px;
+    }
+
+    /* game question styling */
+
+    .game-question {
+        background-color: #fafafa;
+        border: 3px solid #2f5195;
+        border-radius: 15px;
+        width: 25rem;
+        padding: 0.5rem;
+        text-align: center;
+        font-size: 1.2rem;
+        color: #2f5195;
+    }
+
+    /* game questions 1 & 2 styling */
+
+    .game-answer-1-2 {
+        display: grid;
+        justify-content: space-around;
+        align-items: center;
+        gap: 10px;
+        padding: 10px;
+    }
+
+    /* game questions 3 & 4 styling */
+
+    .game-answer-3-4 {
+        display: grid;
+        justify-content: space-around;
+        align-items: center;
+        gap: 10px;
+        padding: 10px;
+        padding-top: 5px;
+    }
+
+    /* game.html footer section */
+
+    .footer-section-game {
+        height: 15vh;
+        background-color: #2F5597;
+        display: flex;
+        padding: 10px;
+    }
+
+    /* Linkedin Button Styling for options & game.html */
+
+    .linkedin-game i {
+        font-size: 1.5rem;
+        color: #fafafa;
+        display: flex;
+        justify-content: center;
+        margin-top: 15px;
+    }
+
+    .linkedin-game h6 {
+        font-size: 0.55rem;
+        color: #fafafa;
+        display: flex;
+        justify-content: center;
+        margin-top: 5px;
+    }
+
+    /* Contact Button Styling for options & game.html */
+
+    .contact-game i {
+        font-size: 1.5rem;
+        color: #fafafa;
+        display: flex;
+        justify-content: center;
+        margin-top: 15px;
+    }
+
+    .contact-game h6 {
+        font-size: 0.6rem;
+        color: #fafafa;
+        display: flex;
+        justify-content: center;
+        margin-top: 5px;
+    }
+
+    /* GitHub Button Styling for options & game.html */
+
+    .github-game i {
+        font-size: 1.5rem;
+        color: #fafafa;
+        display: flex;
+        justify-content: center;
+        margin-top: 15px;
+    }
+
+    .github-game h6 {
+        font-size: 0.6rem;
         color: #fafafa;
         display: flex;
         justify-content: center;
