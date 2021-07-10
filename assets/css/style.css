@@ -369,8 +369,8 @@ body {
 
 /* Footer Section of index.html */
 
-.footer-section {
-    height: 10vh;
+.footer-section-index {
+    height: 12vh;
     background-color: #2F5597;
     display: flex;
 }
@@ -430,6 +430,102 @@ body {
 }
 
 /* game.html footer section */
+
+.footer-section-options {
+    height: 10vh;
+    background-color: #2F5597;
+    display: flex;
+    padding: 5px;
+}
+
+/* Linkedin Button Styling for options & game.html */
+
+.linkedin-options {
+    flex-grow: 33.33%;
+    width: 33.33%;
+}
+
+.linkedin-options a {
+    text-decoration: none;
+}
+
+.linkedin-options i {
+    font-size: 2.5rem;
+    color: #fafafa;
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+.linkedin-options h6 {
+    font-size: 1rem;
+    color: #fafafa;
+    display: flex;
+    justify-content: center;
+    margin-top: 5px;
+}
+
+/* Contact Button Styling for options & game.html */
+
+.contact-options {
+    flex-grow: 33.33%;
+    width: 33.33%;
+}
+
+.contact-options a {
+    text-decoration: none;
+}
+
+.contact-options i {
+    font-size: 2.5rem;
+    color: #fafafa;
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+.contact-options h6 {
+    font-size: 1rem;
+    color: #fafafa;
+    display: flex;
+    justify-content: center;
+    margin-top: 5px;
+}
+
+/* GitHub Button Styling for options & game.html */
+
+.github-options {
+    flex-grow: 33.33%;
+    width: 33.33%;;
+}
+
+.github-options a {
+    text-decoration: none;
+}
+
+.github-options i {
+    font-size: 2.5rem;
+    color: #fafafa;
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+.github-options h6 {
+    font-size: 1rem;
+    color: #fafafa;
+    display: flex;
+    justify-content: center;
+    margin-top: 5px;
+}
+
+/* game.html footer section */
+
+.footer-section-game {
+    height: 12vh;
+    background-color: #2F5597;
+    display: flex;
+}
 
 /* Linkedin Button Styling for options & game.html */
 
@@ -2167,7 +2263,7 @@ body {
     /* Menu section styling for index.html */
 
     .menu-section {
-        height: 66vh;
+        height: 80vh;
         background-color: #d3d3d3;
         display: flex;
         justify-content: center;
@@ -2180,8 +2276,8 @@ body {
         justify-content: center;
         align-items: center;
         flex-direction: column;
-        height: 375px;
-        width: 300px;
+        height: 350px;
+        width: 280px;
         background-color: #fafafa;
         border-radius: 35px;
         border: 3px solid #2F5597;
@@ -2411,39 +2507,247 @@ body {
         border-radius: 1rem;
         border: 3px solid #fafafa;
     }
-    
+
     /* Footer Section of index.html */
 
-    .footer-section {
-        height: 60vh;
-        background-color: #2F5597;
-        display: grid;
-        grid-template-rows: 125px 125px;
-    }
+.footer-section-index {
+    height: 22vh;
+    background-color: #2F5597;
+    display: flex;
+    padding: 25px;
+}
 
-    /* Linkedin Button Styling for index.html */
+/* Linkedin Button Styling for index.html */
 
-    .linkedin-index i {
-        font-size: 1.5rem;
-        color: #fafafa;
-    }
-    
-    .linkedin-index h6 {
-        font-size: 0.75rem;
-        color: #fafafa;
-    }
+.linkedin-index {
+    flex-grow: 50%;
+    width: 50%;
+}
 
-    /* Github Button Styling for index.html */
+.linkedin-index a {
+    text-decoration: none;
+}
 
-    .github-index i {
-        font-size: 2.2rem;
-        color: #fafafa;
-    }
-    
-    .github-index h6 {
-        font-size: 0.75rem;
-        color: #fafafa;
-    }
+.linkedin-index i {
+    font-size: 2rem;
+    color: #fafafa;
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+.linkedin-index h6 {
+    font-size: 0.8rem;
+    color: #fafafa;
+    display: flex;
+    justify-content: center;
+    margin-top: 5px;
+}
+
+/* Github Button Styling for index.html */
+
+.github-index {
+    flex-grow: 50%;
+    width: 50%;
+}
+
+.github-index a {
+    text-decoration: none;
+}
+
+.github-index i {
+    font-size: 2rem;
+    color: #fafafa;
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+.github-index h6 {
+    font-size: 0.8rem;
+    color: #fafafa;
+    display: flex;
+    justify-content: center;
+    margin-top: 5px;
+}
+
+/* game.html footer section */
+
+.footer-section-options {
+    height: 12vh;
+    background-color: #2F5597;
+    display: flex;
+}
+
+/* Linkedin Button Styling for options & game.html */
+
+.linkedin-options {
+    flex-grow: 33.33%;
+    width: 33.33%;
+}
+
+.linkedin-options a {
+    text-decoration: none;
+}
+
+.linkedin-options i {
+    font-size: 2.5rem;
+    color: #fafafa;
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+.linkedin-options h6 {
+    font-size: 1rem;
+    color: #fafafa;
+    display: flex;
+    justify-content: center;
+    margin-top: 5px;
+}
+
+/* Contact Button Styling for options & game.html */
+
+.contact-options {
+    flex-grow: 33.33%;
+    width: 33.33%;
+}
+
+.contact-options a {
+    text-decoration: none;
+}
+
+.contact-options i {
+    font-size: 2.5rem;
+    color: #fafafa;
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+.contact-options h6 {
+    font-size: 1rem;
+    color: #fafafa;
+    display: flex;
+    justify-content: center;
+    margin-top: 5px;
+}
+
+/* GitHub Button Styling for options & game.html */
+
+.github-options {
+    flex-grow: 33.33%;
+    width: 33.33%;;
+}
+
+.github-options a {
+    text-decoration: none;
+}
+
+.github-options i {
+    font-size: 2.5rem;
+    color: #fafafa;
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+.github-options h6 {
+    font-size: 1rem;
+    color: #fafafa;
+    display: flex;
+    justify-content: center;
+    margin-top: 5px;
+}
+
+/* game.html footer section */
+
+.footer-section-game {
+    height: 12vh;
+    background-color: #2F5597;
+    display: flex;
+}
+
+/* Linkedin Button Styling for options & game.html */
+
+.linkedin-game {
+    flex-grow: 33.33%;
+    width: 33.33%;
+}
+
+.linkedin-game a {
+    text-decoration: none;
+}
+
+.linkedin-game i {
+    font-size: 2.5rem;
+    color: #fafafa;
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+.linkedin-game h6 {
+    font-size: 1rem;
+    color: #fafafa;
+    display: flex;
+    justify-content: center;
+    margin-top: 5px;
+}
+
+/* Contact Button Styling for options & game.html */
+
+.contact-game {
+    flex-grow: 33.33%;
+    width: 33.33%;
+}
+
+.contact-game a {
+    text-decoration: none;
+}
+
+.contact-game i {
+    font-size: 2.5rem;
+    color: #fafafa;
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+.contact-game h6 {
+    font-size: 1rem;
+    color: #fafafa;
+    display: flex;
+    justify-content: center;
+    margin-top: 5px;
+}
+
+/* GitHub Button Styling for options & game.html */
+
+.github-game {
+    flex-grow: 33.33%;
+    width: 33.33%;;
+}
+
+.github-game a {
+    text-decoration: none;
+}
+
+.github-game i {
+    font-size: 2.5rem;
+    color: #fafafa;
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+.github-game h6 {
+    font-size: 1rem;
+    color: #fafafa;
+    display: flex;
+    justify-content: center;
+    margin-top: 5px;
+}
 
     /* Options Section styling for options.hmtl */
 
