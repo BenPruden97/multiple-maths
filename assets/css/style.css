@@ -2510,249 +2510,250 @@ body {
 
     /* Footer Section of index.html */
 
-.footer-section-index {
-    height: 22vh;
-    background-color: #2F5597;
-    display: flex;
-    padding: 25px;
-}
+    .footer-section-index {
+        height: 22vh;
+        background-color: #2F5597;
+        display: flex;
+        padding: 25px;
+    }
 
-/* Linkedin Button Styling for index.html */
+    /* Linkedin Button Styling for index.html */
 
-.linkedin-index {
-    flex-grow: 50%;
-    width: 50%;
-}
+    .linkedin-index {
+        flex-grow: 50%;
+        width: 50%;
+    }
 
-.linkedin-index a {
-    text-decoration: none;
-}
+    .linkedin-index a {
+        text-decoration: none;
+    }
 
-.linkedin-index i {
-    font-size: 2rem;
-    color: #fafafa;
-    display: flex;
-    justify-content: center;
-    margin-top: 15px;
-}
+    .linkedin-index i {
+        font-size: 2rem;
+        color: #fafafa;
+        display: flex;
+        justify-content: center;
+        margin-top: 15px;
+    }
 
-.linkedin-index h6 {
-    font-size: 0.8rem;
-    color: #fafafa;
-    display: flex;
-    justify-content: center;
-    margin-top: 5px;
-}
+    .linkedin-index h6 {
+        font-size: 0.8rem;
+        color: #fafafa;
+        display: flex;
+        justify-content: center;
+        margin-top: 5px;
+    }
 
-/* Github Button Styling for index.html */
+    /* Github Button Styling for index.html */
 
-.github-index {
-    flex-grow: 50%;
-    width: 50%;
-}
+    .github-index {
+        flex-grow: 50%;
+        width: 50%;
+    }
 
-.github-index a {
-    text-decoration: none;
-}
+    .github-index a {
+        text-decoration: none;
+    }
 
-.github-index i {
-    font-size: 2rem;
-    color: #fafafa;
-    display: flex;
-    justify-content: center;
-    margin-top: 15px;
-}
+    .github-index i {
+        font-size: 2rem;
+        color: #fafafa;
+        display: flex;
+        justify-content: center;
+        margin-top: 15px;
+    }
 
-.github-index h6 {
-    font-size: 0.8rem;
-    color: #fafafa;
-    display: flex;
-    justify-content: center;
-    margin-top: 5px;
-}
+    .github-index h6 {
+        font-size: 0.8rem;
+        color: #fafafa;
+        display: flex;
+        justify-content: center;
+        margin-top: 5px;
+    }
 
-/* game.html footer section */
+    /* game.html footer section */
 
-.footer-section-options {
-    height: 12vh;
-    background-color: #2F5597;
-    display: flex;
-}
+    .footer-section-options {
+        height: 20vh;
+        background-color: #2F5597;
+        display: flex;
+        padding: 30px;
+    }
 
-/* Linkedin Button Styling for options & game.html */
+    /* Linkedin Button Styling for options & game.html */
 
-.linkedin-options {
-    flex-grow: 33.33%;
-    width: 33.33%;
-}
+    .linkedin-options {
+        flex-grow: 33.33%;
+        width: 33.33%;
+    }
 
-.linkedin-options a {
-    text-decoration: none;
-}
+    .linkedin-options a {
+        text-decoration: none;
+    }
 
-.linkedin-options i {
-    font-size: 2.5rem;
-    color: #fafafa;
-    display: flex;
-    justify-content: center;
-    margin-top: 15px;
-}
+    .linkedin-options i {
+        font-size: 2rem;
+        color: #fafafa;
+        display: flex;
+        justify-content: center;
+        margin-top: 15px;
+    }
 
-.linkedin-options h6 {
-    font-size: 1rem;
-    color: #fafafa;
-    display: flex;
-    justify-content: center;
-    margin-top: 5px;
-}
+    .linkedin-options h6 {
+        font-size: 0.6rem;
+        color: #fafafa;
+        display: flex;
+        justify-content: center;
+        margin-top: 5px;
+    }
 
-/* Contact Button Styling for options & game.html */
+    /* Contact Button Styling for options & game.html */
 
-.contact-options {
-    flex-grow: 33.33%;
-    width: 33.33%;
-}
+    .contact-options {
+        flex-grow: 33.33%;
+        width: 33.33%;
+    }
 
-.contact-options a {
-    text-decoration: none;
-}
+    .contact-options a {
+        text-decoration: none;
+    }
 
-.contact-options i {
-    font-size: 2.5rem;
-    color: #fafafa;
-    display: flex;
-    justify-content: center;
-    margin-top: 15px;
-}
+    .contact-options i {
+        font-size: 2rem;
+        color: #fafafa;
+        display: flex;
+        justify-content: center;
+        margin-top: 15px;
+    }
 
-.contact-options h6 {
-    font-size: 1rem;
-    color: #fafafa;
-    display: flex;
-    justify-content: center;
-    margin-top: 5px;
-}
+    .contact-options h6 {
+        font-size: 0.6rem;
+        color: #fafafa;
+        display: flex;
+        justify-content: center;
+        margin-top: 5px;
+    }
 
-/* GitHub Button Styling for options & game.html */
+    /* GitHub Button Styling for options & game.html */
 
-.github-options {
-    flex-grow: 33.33%;
-    width: 33.33%;;
-}
+    .github-options {
+        flex-grow: 33.33%;
+        width: 33.33%;;
+    }
 
-.github-options a {
-    text-decoration: none;
-}
+    .github-options a {
+        text-decoration: none;
+    }
 
-.github-options i {
-    font-size: 2.5rem;
-    color: #fafafa;
-    display: flex;
-    justify-content: center;
-    margin-top: 15px;
-}
+    .github-options i {
+        font-size: 2rem;
+        color: #fafafa;
+        display: flex;
+        justify-content: center;
+        margin-top: 15px;
+    }
 
-.github-options h6 {
-    font-size: 1rem;
-    color: #fafafa;
-    display: flex;
-    justify-content: center;
-    margin-top: 5px;
-}
+    .github-options h6 {
+        font-size: 0.6rem;
+        color: #fafafa;
+        display: flex;
+        justify-content: center;
+        margin-top: 5px;
+    }
 
-/* game.html footer section */
+    /* game.html footer section */
 
-.footer-section-game {
-    height: 12vh;
-    background-color: #2F5597;
-    display: flex;
-}
+    .footer-section-game {
+        height: 12vh;
+        background-color: #2F5597;
+        display: flex;
+    }
 
-/* Linkedin Button Styling for options & game.html */
+    /* Linkedin Button Styling for options & game.html */
 
-.linkedin-game {
-    flex-grow: 33.33%;
-    width: 33.33%;
-}
+    .linkedin-game {
+        flex-grow: 33.33%;
+        width: 33.33%;
+    }
 
-.linkedin-game a {
-    text-decoration: none;
-}
+    .linkedin-game a {
+        text-decoration: none;
+    }
 
-.linkedin-game i {
-    font-size: 2.5rem;
-    color: #fafafa;
-    display: flex;
-    justify-content: center;
-    margin-top: 15px;
-}
+    .linkedin-game i {
+        font-size: 2rem;
+        color: #fafafa;
+        display: flex;
+        justify-content: center;
+        margin-top: 15px;
+    }
 
-.linkedin-game h6 {
-    font-size: 1rem;
-    color: #fafafa;
-    display: flex;
-    justify-content: center;
-    margin-top: 5px;
-}
+    .linkedin-game h6 {
+        font-size: 0.6rem;
+        color: #fafafa;
+        display: flex;
+        justify-content: center;
+        margin-top: 5px;
+    }
 
-/* Contact Button Styling for options & game.html */
+    /* Contact Button Styling for options & game.html */
 
-.contact-game {
-    flex-grow: 33.33%;
-    width: 33.33%;
-}
+    .contact-game {
+        flex-grow: 33.33%;
+        width: 33.33%;
+    }
 
-.contact-game a {
-    text-decoration: none;
-}
+    .contact-game a {
+        text-decoration: none;
+    }
 
-.contact-game i {
-    font-size: 2.5rem;
-    color: #fafafa;
-    display: flex;
-    justify-content: center;
-    margin-top: 15px;
-}
+    .contact-game i {
+        font-size: 2rem;
+        color: #fafafa;
+        display: flex;
+        justify-content: center;
+        margin-top: 15px;
+    }
 
-.contact-game h6 {
-    font-size: 1rem;
-    color: #fafafa;
-    display: flex;
-    justify-content: center;
-    margin-top: 5px;
-}
+    .contact-game h6 {
+        font-size: 0.6rem;
+        color: #fafafa;
+        display: flex;
+        justify-content: center;
+        margin-top: 5px;
+    }
 
-/* GitHub Button Styling for options & game.html */
+    /* GitHub Button Styling for options & game.html */
 
-.github-game {
-    flex-grow: 33.33%;
-    width: 33.33%;;
-}
+    .github-game {
+        flex-grow: 33.33%;
+        width: 33.33%;;
+    }
 
-.github-game a {
-    text-decoration: none;
-}
+    .github-game a {
+        text-decoration: none;
+    }
 
-.github-game i {
-    font-size: 2.5rem;
-    color: #fafafa;
-    display: flex;
-    justify-content: center;
-    margin-top: 15px;
-}
+    .github-game i {
+        font-size: 2rem;
+        color: #fafafa;
+        display: flex;
+        justify-content: center;
+        margin-top: 15px;
+    }
 
-.github-game h6 {
-    font-size: 1rem;
-    color: #fafafa;
-    display: flex;
-    justify-content: center;
-    margin-top: 5px;
-}
+    .github-game h6 {
+        font-size: 0.6rem;
+        color: #fafafa;
+        display: flex;
+        justify-content: center;
+        margin-top: 5px;
+    }
 
     /* Options Section styling for options.hmtl */
 
     .option-section {
-        height: 150vh;
+        height: 140vh;
         background-color: #d3d3d3;
         display: flex;
         justify-content: center;
@@ -2761,10 +2762,10 @@ body {
     
     .option-style {
         position: absolute;
-        top: 95%;
+        top: 90%;
         left: 50%;
         transform: translate(-50%, -50%);
-        height: 140vh;
+        height: 130vh;
         width: 300px;
         background-color: #fafafa;
         border-radius: 50px;
@@ -3087,6 +3088,70 @@ body {
         position: absolute;
         margin-top: 150px;
         margin-left: -165px;
+    }
+
+}
+
+@media screen and (max-width: 375px) {
+
+    .footer-section-options {
+        height: 25vh;
+        background-color: #2F5597;
+        display: flex;
+        padding: 30px;
+    }
+
+    .option-section {
+        height: 210vh;
+        background-color: #d3d3d3;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .option-style {
+        position: absolute;
+        top: 125%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        height: 200vh;
+        width: 300px;
+        background-color: #fafafa;
+        border-radius: 50px;
+        border: 3px solid #2F5597;
+        margin-bottom: 100px;
+        padding: 15px;
+    }
+
+    /* Linkedin Button Styling for options & game.html */
+
+
+    .linkedin-options h6 {
+        font-size: 0.5rem;
+        color: #fafafa;
+        display: flex;
+        justify-content: center;
+        margin-top: 5px;
+    }
+
+    /* Contact Button Styling for options & game.html */
+
+    .contact-options h6 {
+        font-size: 0.5rem;
+        color: #fafafa;
+        display: flex;
+        justify-content: center;
+        margin-top: 5px;
+    }
+
+    /* GitHub Button Styling for options & game.html */
+
+    .github-options h6 {
+        font-size: 0.5rem;
+        color: #fafafa;
+        display: flex;
+        justify-content: center;
+        margin-top: 5px;
     }
 
 }
