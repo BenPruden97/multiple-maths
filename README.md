@@ -1,59 +1,58 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# Multiple Maths Quiz
 
-Welcome BenPruden97,
+## Interactive Frontend Development Milestone Project
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use.
+[A Link To Multiple Maths](https://benpruden97.github.io/multiple-maths/)
 
-## Gitpod Reminders
+# Table of Contents
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+* UX
+    * Project Goals
+    * Player Goals
+    * Developer/ Site Owner Goals
+* User Stories
+    * Player Stories
 
-`python3 -m http.server`
+# UX
 
-A blue button should appear to click: _Make Public_,
+## Project Goals
 
-Another blue button should appear to click: _Open Browser_.
+The primary goal for Multiple Maths is to help kids with their maths skills and knowledge over an interactive game quiz. There will be multiple choice answers based on the set of maths questions that they chose as well as the difficulty, time amount & question amount for the game. 
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+## Player Goals
 
-A blue button should appear to click: _Make Public_,
+* A fun, entertaining and interactive maths game to play.
+* For the game to improve the users maths skills and knowledge and to test themselves.
+* Section to choose how they would like to play the game including time amount, question amount & current score.
+* Nice and bright colours as well as easy navigation.
+* Section to record their high score.
+* Section to contact the developer with any questions, errors, bugs, or help.
 
-Another blue button should appear to click: _Open Browser_.
+## Developer/ Site Owner Goals
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+* To create a fun, interactive and entertaining maths quiz.
+* To help kids improve their maths skills and knowledge and to test themselves for improvement.
+* To have a contact option for future feedback for errors, bugs and game improvements/ ideas.
+* To create a visually good game interface to encourage the user to play the game.
+* To create a simple yet effective game for easy navigation and a good user experience.
+* To demonstrate my skills and creativity using HTML5, CSS2 and JavaScript applications. 
 
-To log into the Heroku toolbelt CLI:
+# User Stories
 
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+## Player Stories
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidently make it public then you can create a new one with _Regenerate API Key_.
+* To play a maths game that is fun to play
+* To play a game where I can help improve my current maths skills & knowledge and improve.
+* I would like to record my top high scores after my game has finished.
+* I would like a How to play option to find out how to play the game.
+* I would like to a contact option to get in contact for any reason such as errors or bugs, questions, or help.
+* I would like a timer to find out how much time I have left of the game.
+* I would like a question timer to see what question I am currently on.
+* I would like a score counter to see what my current score is.
+* I would like the answers to change colour or to make a sound to let me know if I have chosen the correct or incorrect answer.
+* An option of audio to listen to the question as young kids will be playing the game who may struggle to read the questions.
+* GitHub link to see the developer’s previous projects/ work.
 
-## Updates Since The Instructional Video
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
 
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
 
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
-
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
-
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
-
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
-
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
-
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
-
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
-
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
-
----
-
-Happy coding!
