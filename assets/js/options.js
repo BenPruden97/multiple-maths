@@ -54,7 +54,7 @@ document.getElementById("multi-questions").addEventListener("click", function(){
 
 // One Minute Timer click function
 
-document.getElementById("one-minue").addEventListener("click", function(){ 
+document.getElementById("one-minute").addEventListener("click", function(){ 
     quizTimer = 60000;
     console.log(quizTimer);
 });
@@ -148,5 +148,10 @@ function getQuestions(questionType, questionAmount) {
     return questions.slice(0,questionAmount)
 };
 
+// Shuffle Questions function to randomize the questions displayed so they are not always displayed in the same order
+
+function shuffleQuestions(questions) {
+    return questions.sort(() => Math.random() - 0.5)
+}
 
 
