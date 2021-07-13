@@ -7,10 +7,11 @@ const optionSection = document.getElementById("option-section-id");
 const gameSection = document.getElementById("game-section-id");
 gameSection.style.display = "none";
 
-// Game Questions, Timer and Question Amount Variables
+// Game Questions, Timer, Score and Question Amount Variables
 
 let mathQuestions = "addition";
 let quizTimer = 300000;
+let score = 0;
 let questionAmount = 8;
 
 // Maths Questions click functions
