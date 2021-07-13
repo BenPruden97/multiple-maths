@@ -107,5 +107,46 @@ document.getElementById("start-button").addEventListener("click", function(){
     console.log(questions)
 });
 
+// Get Questions function to get the questions needed for the quiz
+
+function getQuestions(questionType, questionAmount) {
+
+    let questions = [];
+
+    // Addition if statement to say if addition Questions was clicked then additionquestions array will be displayed
+
+    if (questionType === "addition"){
+        questions = shuffleQuestions(additionquestions);
+    }
+
+    // Subtraction if statement to say if subtraction Questions was clicked then subtractionquestions array will be displayed
+
+    if (questionType === "subtraction"){
+        questions = shuffleQuestions(subtractionquestions);
+    }
+
+    // multiplication if statement to say if multiplication Questions was clicked then multiplicationquestions array will be displayed
+
+    if (questionType === "multiplication"){
+        questions = shuffleQuestions(multiplicationquestions);
+    }
+
+    // Division if statement to say if division Questions was clicked then divisionquestions array will be displayed
+
+    if (questionType === "division"){
+        questions = shuffleQuestions(divisionquestions);
+    }
+
+    // Multi if statement to say if Multi Questions was clicked then multiquestions array will be displayed
+
+    if (questionType === "all"){
+        questions = shuffleQuestions(multiquestions);
+    }
+
+    // Return the Questions chosen and slice
+
+    return questions.slice(0,questionAmount)
+};
+
 
 
