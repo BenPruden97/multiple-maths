@@ -951,7 +951,6 @@ body {
     top: 55%;
     left: 50%;
     transform: translate(-50%, -50%);
-    height: 65vh;
     width: 1200px;
     background-color: #fafafa;
     border-radius: 50px;
@@ -959,59 +958,7 @@ body {
     margin-bottom: 100px;
 }
 
-/* game reset button styling */
-
-.game-restart-button {
-    font-size: 1.5rem;
-    padding: 0.75rem;
-    width: 10rem;
-    background-color: #333;
-    color: white;
-    border-radius: 25px;
-    border: 3px solid #2F5597;
-}
-
-.game-restart-button:hover {
-    background-color: #333;
-    color: #2f5195;
-    font-weight: bold;
-}
-
-/* game options button styling */
-
-.game-options-button {
-    font-size: 1.5rem;
-    padding: 0.75rem;
-    width: 20rem;
-    background-color: #FF8B3D;
-    color: white;
-    border-radius: 25px;
-    border: 3px solid #2F5597;
-}
-
-.game-options-button:hover {
-    background-color: #fafafa;
-    color: #2f5195;
-    font-weight: bold;
-}
-
-/* game main menu button styling */
-
-.game-main-menu-button {
-    font-size: 1.5rem;
-    padding: 0.75rem;
-    width: 18rem;
-    background-color: #7C5295;
-    color: white;
-    border-radius: 25px;
-    border: 3px solid #2F5597;
-}
-
-.game-main-menu-button:hover {
-    background-color: #fafafa;
-    color: #2f5195;
-    font-weight: bold;
-}
+/* Game Menu Styling */
 
 .game-menu {
     display: flex;
@@ -1122,7 +1069,7 @@ body {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    padding: 30px;
+    padding: 25px;
 }
 
 /* game question 1 styling */
@@ -1169,7 +1116,7 @@ body {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    padding: 30px;
+    padding: 25px;
 }
 
 /* game question 3 styling */
@@ -1205,6 +1152,66 @@ body {
 }
 
 .game-answer-4:hover {
+    background-color: #fafafa;
+    color: #2f5195;
+    font-weight: bold;
+}
+
+/* game reset button styling */
+
+.game-restart-button {
+    font-size: 1.5rem;
+    padding: 0.5rem;
+    width: 10rem;
+    background-color: #D40C00;
+    color: white;
+    border-radius: 25px;
+    border: 3px solid #2F5597;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.game-restart-button:hover {
+    background-color: #fafafa;
+    color: #2f5195;
+    font-weight: bold;
+}
+
+/* game options button styling */
+
+.game-options-button {
+    font-size: 1.5rem;
+    padding: 0.5rem;
+    width: 20rem;
+    background-color: #FF8B3D;
+    color: white;
+    border-radius: 25px;
+    border: 3px solid #2F5597;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.game-options-button:hover {
+    background-color: #fafafa;
+    color: #2f5195;
+    font-weight: bold;
+}
+
+/* game main menu button styling */
+
+.game-main-menu-button {
+    font-size: 1.5rem;
+    padding: 0.5rem;
+    width: 18rem;
+    background-color: #7C5295;
+    color: white;
+    border-radius: 25px;
+    border: 3px solid #2F5597;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.game-main-menu-button:hover {
     background-color: #fafafa;
     color: #2f5195;
     font-weight: bold;
@@ -1254,13 +1261,12 @@ body {
         top: 55%;
         left: 50%;
         transform: translate(-50%, -50%);
-        height: 62vh;
         width: 750px;
         background-color: #fafafa;
         border-radius: 50px;
-        border: 3px solid #2F5597;
+        border: 3px solid #2f5195;
         margin-bottom: 100px;
-        padding: 25px;
+        padding: 15px;
     }
 
     /* Maths questions text styling */
@@ -1268,7 +1274,7 @@ body {
     .maths-questions-text {
         text-align: center;
         font-size: 1.25rem;
-        color: #333;
+        color: #2f5195;
         text-transform: uppercase;
         padding: 5px;
         font-weight: bold;
@@ -1488,7 +1494,7 @@ body {
         font-size: 1rem;
         text-transform: uppercase;
         font-weight: bold;
-        padding-top: 10px;
+        padding-top: 20px;
         padding-bottom: 10px;
     }
     
@@ -1538,9 +1544,8 @@ body {
         color: #fafafa;
         border-radius: 25px;
         border: 3px solid #2F5597;
-        position: absolute;
-        margin-top: 130px;
-        margin-left: -400px;
+        margin-top: 35px;
+        margin-bottom: 10px;
     }
     
     /* Maths Questions - Start Button Styling */
@@ -1553,8 +1558,8 @@ body {
         color: #fafafa;
         border-radius: 25px;
         border: 3px solid #2F5597;
-        position: absolute;
-        margin-top: 37px;
+        margin-top: 35px;
+        margin-bottom: 10px;
     }
 
     /* Maths Questions - Back to Main Menu Button Styling */
@@ -1567,9 +1572,8 @@ body {
         color: white;
         border-radius: 25px;
         border: 3px solid #2F5597;
-        position: absolute;
-        margin-top: 37px;
-        margin-left: -40px;
+        margin-top: 35px;
+        margin-bottom: 10px;
     }
 
     /* game section styling */
@@ -1588,57 +1592,11 @@ body {
         top: 55%;
         left: 50%;
         transform: translate(-50%, -50%);
-        height: 65vh;
         width: 750px;
         background-color: #fafafa;
         border-radius: 50px;
         border: 3px solid #2F5597;
-        margin-bottom: 100px;
-    }
-
-    /* game reset button styling */
-
-    .game-restart-button {
-        font-size: 1.1rem;
-        padding: 0.75rem;
-        width: 8rem;
-        background-color: #D40C00;
-        color: white;
-        border-radius: 25px;
-        border: 3px solid #2F5597;
-        position: absolute;
-        margin-left: 25px;
-        margin-top: 25px;
-    }
-
-    /* game options button styling */
-
-    .game-options-button {
-        font-size: 1.1rem;
-        padding: 0.75rem;
-        width: 15rem;
-        background-color: #FF8B3D;
-        color: white;
-        border-radius: 25px;
-        border: 3px solid #2F5597;
-        position: absolute;
-        margin-left: 195px;
-        margin-top: 25px;
-    }
-
-    /* game main menu button styling */
-
-    .game-main-menu-button {
-        font-size: 1.1rem;
-        padding: 0.75rem;
-        width: 15rem;
-        background-color: #7C5295;
-        color: white;
-        border-radius: 25px;
-        border: 3px solid #2F5597;
-        position: absolute;
-        margin-left: 480px;
-        margin-top: 25px;
+        padding: 5px;
     }
 
     /* game menu styling */
@@ -1814,6 +1772,99 @@ body {
         border-radius: 15px;
         border: 3px solid #2F5597;
         text-align: center;
+    }
+
+     /* game reset button styling */
+
+     .game-restart-button {
+        font-size: 1.1rem;
+        padding: 0.75rem;
+        width: 8rem;
+        background-color: #D40C00;
+        color: white;
+        border-radius: 25px;
+        border: 3px solid #2F5597;
+        margin-top: 40px;
+    }
+
+    /* game options button styling */
+
+    .game-options-button {
+        font-size: 1.1rem;
+        padding: 0.75rem;
+        width: 15rem;
+        background-color: #FF8B3D;
+        color: white;
+        border-radius: 25px;
+        border: 3px solid #2F5597;
+        margin-top: 40px;
+    }
+
+    /* game main menu button styling */
+
+    .game-main-menu-button {
+        font-size: 1.1rem;
+        padding: 0.75rem;
+        width: 15rem;
+        background-color: #7C5295;
+        color: white;
+        border-radius: 25px;
+        border: 3px solid #2F5597;
+        margin-top: 40px;
+    }
+
+    /* Footer Section Styling */
+
+    .footer-section-options {
+        height: 10vh;
+    }
+
+    /* Linkedin Button Styling for options.html */
+
+    .linkedin-options i {
+        font-size: 2.2rem;
+        color: #fafafa;
+        display: flex;
+        justify-content: center;
+    }
+
+    .linkedin-options h6 {
+        font-size: 0.8rem;
+        color: #fafafa;
+        display: flex;
+        justify-content: center;
+    }
+
+    /* Contact Button Styling for options */
+
+    .contact-options i {
+        font-size: 2.2rem;
+        color: #fafafa;
+        display: flex;
+        justify-content: center;
+    }
+
+    .contact-options h6 {
+        font-size: 0.8rem;
+        color: #fafafa;
+        display: flex;
+        justify-content: center;
+    }
+
+    /* GitHub Button Styling for options */
+
+    .github-options i {
+        font-size: 2.2rem;
+        color: #fafafa;
+        display: flex;
+        justify-content: center;
+    }
+
+    .github-options h6 {
+        font-size: 0.8rem;
+        color: #fafafa;
+        display: flex;
+        justify-content: center;
     }
 
 }
@@ -2079,7 +2130,6 @@ body {
         top: 55%;
         left: 50%;
         transform: translate(-50%, -50%);
-        height: 60vh;
         width: 550px;
         background-color: #fafafa;
         border-radius: 50px;
@@ -2096,6 +2146,7 @@ body {
         color: #2f5195;
         text-transform: uppercase;
         padding: 10px;
+        padding-top: 20px;
         font-weight: bold;
     }
     
@@ -2247,7 +2298,7 @@ body {
         display: flex;
         justify-content: space-evenly;
         align-items: center;
-        padding-bottom: 15px;
+        padding-bottom: 10px;
     }
     
     /* Maths Timer - Title Styling */
@@ -2257,7 +2308,7 @@ body {
         font-size: 0.75rem;
         text-transform: uppercase;
         font-weight: bold;
-        padding-top: 10px;
+        padding-top: 15px;
         padding-bottom: 10px;
     }
     
@@ -2305,7 +2356,7 @@ body {
         display: flex;
         justify-content: space-evenly;
         align-items: center;
-        padding-bottom: 15px;
+        padding-bottom: 10px;
     }
     
     /* Maths Questions Amount - Title Styling */
@@ -2358,46 +2409,40 @@ body {
     /* Maths Questions - Reset Button Styling */
     
     .options-reset-button {
-        font-size: 1.1rem;
-        padding: 0.75rem;
-        width: 7rem;
+        font-size: 0.8rem;
+        padding: 0.5rem;
+        width: 5rem;
         background-color: #D40C00;
         color: #fafafa;
-        border-radius: 20px;
+        border-radius: 15px;
         border: 2px solid #2F5597;
-        position: absolute;
-        margin-top: 75px;
-        margin-left: -175px;
+        margin-top: 20px;
     }
     
     /* Maths Questions - Start Button Styling */
     
     .start-button {
-        font-size: 1.1rem;
-        padding: 0.75rem;
-        width: 10rem;
+        font-size: 0.8rem;
+        padding: 0.5rem;
+        width: 8rem;
         background-color: #38761d;
         color: #fafafa;
-        border-radius: 20px;
+        border-radius: 15px;
         border: 2px solid #2F5597;
-        position: absolute;
-        margin-top: 11px;
-        margin-left: 75px;
+        margin-top: 20px;
     }
 
     /* Maths Questions - Back to Main Menu Button Styling */
     
     .option-main-menu-button {
-        font-size: 1.1rem;
-        padding: 0.75rem;
-        width: 15rem;
+        font-size: 0.8rem;
+        padding: 0.5rem;
+        width: 10rem;
         background-color: #7C5295;
         color: white;
-        border-radius: 20px;
+        border-radius: 15px;
         border: 2px solid #2F5597;
-        position: absolute;
-        margin-top: 75px;
-        margin-left: -200px;
+        margin-top: 20px;
     }
 
     /* game.html code */
@@ -2418,58 +2463,12 @@ body {
         top: 55%;
         left: 50%;
         transform: translate(-50%, -50%);
-        height: 60vh;
-        width: 550px;
+        width: 540px;
         background-color: #fafafa;
         border-radius: 50px;
         border: 3px solid #2F5597;
         margin-bottom: 100px;
     }    
-
-    /* game reset button styling */
-
-    .game-restart-button {
-        font-size: 1rem;
-        padding: 0.5rem;
-        width: 6rem;
-        background-color: #D40C00;
-        color: white;
-        border-radius: 25px;
-        border: 3px solid #2F5597;
-        position: absolute;
-        margin-top: 25px;
-        margin-left: 25px;
-    }
-
-    /* game options button styling */
-
-    .game-options-button {
-        font-size: 1rem;
-        padding: 0.5rem;
-        width: 12rem;
-        background-color: #FF8B3D;
-        color: white;
-        border-radius: 25px;
-        border: 3px solid #2F5597;
-        position: absolute;
-        margin-top: 25px;
-        margin-left: 135px;
-    }
-
-    /* game main menu button styling */
-
-    .game-main-menu-button {
-        font-size: 1rem;
-        padding: 0.5rem;
-        width: 11rem;
-        background-color: #7C5295;
-        color: white;
-        border-radius: 25px;
-        border: 3px solid #2F5597;
-        position: absolute;
-        margin-top: 25px;
-        margin-left: 340px;
-    }
 
     /* game menu styling */
 
@@ -2582,15 +2581,15 @@ body {
         display: flex;
         justify-content: space-around;
         align-items: center;
-        padding: 30px;
+        padding: 20px;
     }
 
     /* game question 1 styling */
 
     .game-answer-1 {
         font-size: 1rem;
-        padding: 0.75rem;
-        width: 7.5rem;
+        padding: 0.5rem;
+        width: 6rem;
         background-color: #2F5597;
         color: white;
         border-radius: 15px;
@@ -2602,8 +2601,8 @@ body {
 
     .game-answer-2 {
         font-size: 1rem;
-        padding: 0.75rem;
-        width: 7.5rem;
+        padding: 0.5rem;
+        width: 6rem;
         background-color: #2F5597;
         color: white;
         border-radius: 15px;
@@ -2617,15 +2616,15 @@ body {
         display: flex;
         justify-content: space-around;
         align-items: center;
-        padding: 30px;
+        padding: 20px;
     }
 
     /* game question 3 styling */
 
     .game-answer-3 {
         font-size: 1rem;
-        padding: 0.75rem;
-        width: 7.5rem;
+        padding: 0.5rem;
+        width: 6rem;
         background-color: #2F5597;
         color: white;
         border-radius: 15px;
@@ -2637,13 +2636,55 @@ body {
 
     .game-answer-4 {
         font-size: 1rem;
-        padding: 0.75rem;
-        width: 7.5rem;
+        padding: 0.5rem;
+        width: 6rem;
         background-color: #2F5597;
         color: white;
         border-radius: 15px;
         border: 3px solid #2F5597;
         text-align: center;
+    }
+
+    /* game reset button styling */
+
+    .game-restart-button {
+        font-size: 0.8rem;
+        padding: 0.5rem;
+        width: 5rem;
+        background-color: #D40C00;
+        color: white;
+        border-radius: 15px;
+        border: 3px solid #2F5597;
+        margin-top: 15px;
+        margin-bottom: 5px;
+    }
+
+    /* game options button styling */
+
+    .game-options-button {
+        font-size: 0.8rem;
+        padding: 0.5rem;
+        width: 10rem;
+        background-color: #FF8B3D;
+        color: white;
+        border-radius: 15px;
+        border: 3px solid #2F5597;
+        margin-top: 15px;
+        margin-bottom: 5px;
+    }
+
+    /* game main menu button styling */
+
+    .game-main-menu-button {
+        font-size: 0.8rem;
+        padding: 0.5rem;
+        width: 10rem;
+        background-color: #7C5295;
+        color: white;
+        border-radius: 15px;
+        border: 3px solid #2F5597;
+        margin-top: 15px;
+        margin-bottom: 5px;
     }
 
 }
@@ -2978,29 +3019,18 @@ body {
     /* game.html footer section */
 
     .footer-section-options {
-        height: 20vh;
         background-color: #2F5597;
         display: flex;
-        padding: 30px;
+        padding: 0px;
     }
 
     /* Linkedin Button Styling for options & game.html */
-
-    .linkedin-options {
-        flex-grow: 33.33%;
-        width: 33.33%;
-    }
-
-    .linkedin-options a {
-        text-decoration: none;
-    }
 
     .linkedin-options i {
         font-size: 2rem;
         color: #fafafa;
         display: flex;
         justify-content: center;
-        margin-top: 15px;
     }
 
     .linkedin-options h6 {
@@ -3008,26 +3038,15 @@ body {
         color: #fafafa;
         display: flex;
         justify-content: center;
-        margin-top: 5px;
     }
 
     /* Contact Button Styling for options & game.html */
-
-    .contact-options {
-        flex-grow: 33.33%;
-        width: 33.33%;
-    }
-
-    .contact-options a {
-        text-decoration: none;
-    }
 
     .contact-options i {
         font-size: 2rem;
         color: #fafafa;
         display: flex;
         justify-content: center;
-        margin-top: 15px;
     }
 
     .contact-options h6 {
@@ -3035,26 +3054,15 @@ body {
         color: #fafafa;
         display: flex;
         justify-content: center;
-        margin-top: 5px;
     }
 
     /* GitHub Button Styling for options & game.html */
-
-    .github-options {
-        flex-grow: 33.33%;
-        width: 33.33%;;
-    }
-
-    .github-options a {
-        text-decoration: none;
-    }
 
     .github-options i {
         font-size: 2rem;
         color: #fafafa;
         display: flex;
         justify-content: center;
-        margin-top: 15px;
     }
 
     .github-options h6 {
@@ -3062,7 +3070,6 @@ body {
         color: #fafafa;
         display: flex;
         justify-content: center;
-        margin-top: 5px;
     }
 
     /* Options Section styling for options.hmtl */
@@ -3080,7 +3087,6 @@ body {
         top: 90%;
         left: 50%;
         transform: translate(-50%, -50%);
-        height: 130vh;
         width: 300px;
         background-color: #fafafa;
         border-radius: 50px;
@@ -3359,50 +3365,51 @@ body {
         border-radius: 5px;
         border: 2px solid #2F5597;
     }
+
+    .options-buttons {
+        display: grid;
+        gap: 0px;
+    }
     
     /* Maths Questions - Reset Button Styling */
     
     .options-reset-button {
-        font-size: 1.1rem;
-        padding: 0.75rem;
-        width: 7rem;
+        font-size: 0.8rem;
+        padding: 0.5rem;
+        width: 10rem;
         background-color: #D40C00;
         color: #fafafa;
-        border-radius: 20px;
+        border-radius: 15px;
         border: 2px solid #2F5597;
-        position: absolute;
-        margin-top: 90px;
-        margin-left: 0px;
+        margin-top: 15px;
+        margin-bottom: 10px;
+        margin-left: 5px;
     }
     
     /* Maths Questions - Start Button Styling */
     
     .start-button {
-        font-size: 1.1rem;
-        padding: 0.75rem;
+        font-size: 0.8rem;
+        padding: 0.5rem;
         width: 10rem;
         background-color: #38761d;
         color: #fafafa;
-        border-radius: 20px;
+        border-radius: 15px;
         border: 2px solid #2F5597;
-        position: absolute;
-        margin-top: 85px;
-        margin-left: -35px;
+        margin: 5px;
     }
 
     /* Maths Questions - Back to Main Menu Button Styling */
     
     .option-main-menu-button {
-        font-size: 1.1rem;
-        padding: 0.75rem;
-        width: 15rem;
+        font-size: 0.8rem;
+        padding: 0.5rem;
+        width: 10rem;
         background-color: #7C5295;
         color: white;
-        border-radius: 20px;
+        border-radius: 15px;
         border: 2px solid #2F5597;
-        position: absolute;
-        margin-top: 150px;
-        margin-left: -165px;
+        margin: 5px;
     }
 
     /* game.html code */
@@ -3410,7 +3417,7 @@ body {
     /* game section styling code */
 
     .game-section {
-        height: 120vh;
+        height: 110vh;
         background-color: #d3d3d3;
         display: flex;
         justify-content: center;
@@ -3420,61 +3427,14 @@ body {
 
     .game-style {
         position: absolute;
-        top: 80%;
+        top: 75%;
         left: 50%;
         transform: translate(-50%, -50%);
-        height: 115vh;
         width: 300px;
         background-color: #fafafa;
         border-radius: 50px;
         border: 3px solid #2F5597;
-        margin-bottom: 100px;
     }    
-
-    /* game reset button styling */
-
-    .game-restart-button {
-        font-size: 1rem;
-        padding: 0.5rem;
-        width: 6rem;
-        background-color: #D40C00;
-        color: white;
-        border-radius: 15px;
-        border: 3px solid #2F5597;
-        position: absolute;
-        margin-top: 20px;
-        margin-left: 100px;
-    }
-
-    /* game options button styling */
-
-    .game-options-button {
-        font-size: 1rem;
-        padding: 0.5rem;
-        width: 12rem;
-        background-color: #FF8B3D;
-        color: white;
-        border-radius: 15px;
-        border: 3px solid #2F5597;
-        position: absolute;
-        margin-top: 80px;
-        margin-left: 50px;
-    }
-
-    /* game main menu button styling */
-
-    .game-main-menu-button {
-        font-size: 1rem;
-        padding: 0.5rem;
-        width: 11rem;
-        background-color: #7C5295;
-        color: white;
-        border-radius: 15px;
-        border: 3px solid #2F5597;
-        position: absolute;
-        margin-top: 140px;
-        margin-left: 60px;
-    }
 
     /* game menu styling */
 
@@ -3597,19 +3557,104 @@ body {
         padding-top: 5px;
     }
 
+    .game-buttons {
+        display: grid;
+        gap: 0px;
+    }
+
+    /* game reset button styling */
+
+    .game-restart-button {
+        font-size: 1rem;
+        padding: 0.5rem;
+        width: 12rem;
+        background-color: #D40C00;
+        color: white;
+        border-radius: 15px;
+        border: 3px solid #2F5597;
+    }
+
+    /* game options button styling */
+
+    .game-options-button {
+        font-size: 1rem;
+        padding: 0.5rem;
+        width: 12rem;
+        background-color: #FF8B3D;
+        color: white;
+        border-radius: 15px;
+        border: 3px solid #2F5597;
+    }
+
+    /* game main menu button styling */
+
+    .game-main-menu-button {
+        font-size: 1rem;
+        padding: 0.5rem;
+        width: 12rem;
+        background-color: #7C5295;
+        color: white;
+        border-radius: 15px;
+        border: 3px solid #2F5597;
+    }
+
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 376px) {
 
     .footer-section-options {
-        height: 25vh;
+        height: 10vh;
         background-color: #2F5597;
         display: flex;
-        padding: 30px;
+    }
+
+    .linkedin-options i {
+        font-size: 2rem;
+        color: #fafafa;
+        display: flex;
+        justify-content: center;
+    }
+
+    .linkedin-options h6 {
+        font-size: 0.6rem;
+        color: #fafafa;
+        display: flex;
+        justify-content: center;
+    }
+
+    /* Contact Button Styling for options & game.html */
+
+    .contact-options i {
+        font-size: 2rem;
+        color: #fafafa;
+        display: flex;
+        justify-content: center;
+    }
+
+    .contact-options h6 {
+        font-size: 0.6rem;
+        color: #fafafa;
+        display: flex;
+        justify-content: center;
+    }
+
+    /* GitHub Button Styling for options & game.html */
+
+    .github-options i {
+        font-size: 2rem;
+        color: #fafafa;
+        display: flex;
+        justify-content: center;
+    }
+
+    .github-options h6 {
+        font-size: 0.6rem;
+        color: #fafafa;
+        display: flex;
+        justify-content: center;
     }
 
     .option-section {
-        height: 210vh;
         background-color: #d3d3d3;
         display: flex;
         justify-content: center;
@@ -3618,10 +3663,6 @@ body {
     
     .option-style {
         position: absolute;
-        top: 125%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        height: 200vh;
         width: 300px;
         background-color: #fafafa;
         border-radius: 50px;
@@ -3631,7 +3672,6 @@ body {
     }
 
     /* Linkedin Button Styling for options & game.html */
-
 
     .linkedin-options h6 {
         font-size: 0.5rem;
@@ -3661,12 +3701,12 @@ body {
         margin-top: 5px;
     }
 
-     /* game.html code */
+    /* game.html code */
 
     /* game section styling code */
 
     .game-section {
-        height: 185vh;
+        height: 140vh;
         background-color: #d3d3d3;
         display: flex;
         justify-content: center;
@@ -3676,15 +3716,13 @@ body {
 
     .game-style {
         position: absolute;
-        top: 112.5%;
+        top: 90%;
         left: 50%;
         transform: translate(-50%, -50%);
-        height: 175vh;
         width: 300px;
         background-color: #fafafa;
         border-radius: 50px;
         border: 3px solid #2F5597;
-        margin-bottom: 100px;
     }    
 
     /* game reset button styling */
@@ -3692,14 +3730,11 @@ body {
     .game-restart-button {
         font-size: 1rem;
         padding: 0.5rem;
-        width: 6rem;
+        width: 12rem;
         background-color: #D40C00;
         color: white;
         border-radius: 15px;
         border: 3px solid #2F5597;
-        position: absolute;
-        margin-bottom: 140px;
-        margin-left: 100px;
     }
 
     /* game options button styling */
@@ -3712,9 +3747,6 @@ body {
         color: white;
         border-radius: 15px;
         border: 3px solid #2F5597;
-        position: absolute;
-        margin-top: 85px;
-        margin-left: 50px;
     }
 
     /* game main menu button styling */
@@ -3722,14 +3754,11 @@ body {
     .game-main-menu-button {
         font-size: 1rem;
         padding: 0.5rem;
-        width: 11rem;
+        width: 12rem;
         background-color: #7C5295;
         color: white;
         border-radius: 15px;
         border: 3px solid #2F5597;
-        position: absolute;
-        margin-top: 150px;
-        margin-left: 60px;
     }
 
     /* game menu styling */
@@ -3854,3 +3883,56 @@ body {
     }
 
 }
+
+@media screen and (max-width: 350px) {
+
+    .option-section {
+        height: 190vh;
+        background-color: #d3d3d3;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .option-style {
+        position: absolute;
+        top: 115%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 300px;
+        background-color: #fafafa;
+        border-radius: 50px;
+        border: 3px solid #2F5597;
+        margin-bottom: 100px;
+        padding: 15px;
+    }
+
+    /* game.html code */
+
+    /* game section styling code */
+
+    .game-section {
+        height: 190vh;
+        background-color: #d3d3d3;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .game-style {
+        position: absolute;
+        top: 115%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 300px;
+        background-color: #fafafa;
+        border-radius: 50px;
+        border: 3px solid #2F5597;
+    }
+
+    .footer-section-options {
+        height: 15vh;
+    }
+
+};
