@@ -49,3 +49,20 @@ document.getElementById("multi-questions").addEventListener("click", function(){
     mathQuestions = "all";
     console.log(mathQuestions);
 });
+
+// Quiz Timer
+
+document.getElementById("one-minue").addEventListener("click", function(){ 
+    quizTimer = 60000;
+    console.log(quizTimer);
+});
+
+document.getElementById("three-minutes").addEventListener("click", function(){ 
+    quizTimer = 180000;
+    console.log(quizTimer);
+});
+
+document.getElementById("five-minutes").addEventListener("click", function(){ 
+    quizTimer = 300000;
+    console.log(quizTimer);
+});
