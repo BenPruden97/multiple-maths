@@ -519,95 +519,6 @@ body {
     margin-top: 5px;
 }
 
-/* game.html footer section */
-
-.footer-section-game {
-    height: 10vh;
-    background-color: #2F5597;
-    display: flex;
-}
-
-/* Linkedin Button Styling for options & game.html */
-
-.linkedin-game {
-    flex-grow: 33.33%;
-    width: 33.33%;
-}
-
-.linkedin-game a {
-    text-decoration: none;
-}
-
-.linkedin-game i {
-    font-size: 2.2rem;
-    color: #fafafa;
-    display: flex;
-    justify-content: center;
-    margin-top: 15px;
-}
-
-.linkedin-game h6 {
-    font-size: 1rem;
-    color: #fafafa;
-    display: flex;
-    justify-content: center;
-    margin-top: 5px;
-}
-
-/* Contact Button Styling for options & game.html */
-
-.contact-game {
-    flex-grow: 33.33%;
-    width: 33.33%;
-}
-
-.contact-game a {
-    text-decoration: none;
-}
-
-.contact-game i {
-    font-size: 2.2rem;
-    color: #fafafa;
-    display: flex;
-    justify-content: center;
-    margin-top: 15px;
-}
-
-.contact-game h6 {
-    font-size: 1rem;
-    color: #fafafa;
-    display: flex;
-    justify-content: center;
-    margin-top: 5px;
-}
-
-/* GitHub Button Styling for options & game.html */
-
-.github-game {
-    flex-grow: 33.33%;
-    width: 33.33%;;
-}
-
-.github-game a {
-    text-decoration: none;
-}
-
-.github-game i {
-    font-size: 2.2rem;
-    color: #fafafa;
-    display: flex;
-    justify-content: center;
-    margin-top: 15px;
-}
-
-.github-game h6 {
-    font-size: 1rem;
-    color: #fafafa;
-    display: flex;
-    justify-content: center;
-    margin-top: 5px;
-}
-
 /* options.html code */
 
 /* options section styling */
@@ -626,7 +537,6 @@ body {
     top: 55%;
     left: 50%;
     transform: translate(-50%, -50%);
-    height: 62vh;
     width: 1200px;
     background-color: #fafafa;
     border-radius: 50px;
@@ -971,9 +881,7 @@ body {
     color: #fafafa;
     border-radius: 25px;
     border: 3px solid #2F5597;
-    position: absolute;
-    margin-top: 132px;
-    margin-left: -750px;
+    margin-top: 50px;
 }
 
 
@@ -992,9 +900,8 @@ body {
     background-color: #38761d;
     color: #fafafa;
     border-radius: 25px;
-    border: 3px solid #2F5597;
-    position: absolute;
-    margin-top: 37px;
+    border: 3px solid #2f5195;
+    margin-top: 50px;
 }
 
 .start-button a {
@@ -1017,8 +924,7 @@ body {
     color: white;
     border-radius: 25px;
     border: 3px solid #2F5597;
-    position: absolute;
-    margin-top: 37px;
+    margin-top: 50px;
 }
 
 .option-main-menu-button:hover {
@@ -1059,17 +965,14 @@ body {
     font-size: 1.5rem;
     padding: 0.75rem;
     width: 10rem;
-    background-color: #D40C00;
+    background-color: #333;
     color: white;
     border-radius: 25px;
     border: 3px solid #2F5597;
-    position: absolute;
-    margin-left: 100px;
-    margin-top: 38px;
 }
 
 .game-restart-button:hover {
-    background-color: #fafafa;
+    background-color: #333;
     color: #2f5195;
     font-weight: bold;
 }
@@ -1084,9 +987,6 @@ body {
     color: white;
     border-radius: 25px;
     border: 3px solid #2F5597;
-    position: absolute;
-    margin-left: 365px;
-    margin-top: 38px;
 }
 
 .game-options-button:hover {
@@ -1105,9 +1005,6 @@ body {
     color: white;
     border-radius: 25px;
     border: 3px solid #2F5597;
-    position: absolute;
-    margin-left: 800px;
-    margin-top: 38px;
 }
 
 .game-main-menu-button:hover {
@@ -1917,68 +1814,6 @@ body {
         border-radius: 15px;
         border: 3px solid #2F5597;
         text-align: center;
-    }
-
-    /* game.html footer section */
-
-    .footer-section-game {
-        height: 10vh;
-        background-color: #2F5597;
-        display: flex;
-    }
-
-    /* Linkedin Button Styling for options & game.html */
-    
-    .linkedin-game i {
-        font-size: 2rem;
-        color: #fafafa;
-        display: flex;
-        justify-content: center;
-        margin-top: 15px;
-    }
-    
-    .linkedin-game h6 {
-        font-size: 1rem;
-        color: #fafafa;
-        display: flex;
-        justify-content: center;
-        margin-top: 5px;
-    }
-    
-    /* Contact Button Styling for options & game.html */
-    
-    .contact-game i {
-        font-size: 2rem;
-        color: #fafafa;
-        display: flex;
-        justify-content: center;
-        margin-top: 15px;
-    }
-    
-    .contact-game h6 {
-        font-size: 1rem;
-        color: #fafafa;
-        display: flex;
-        justify-content: center;
-        margin-top: 5px;
-    }
-    
-    /* GitHub Button Styling for options & game.html */
-    
-    .github-game i {
-        font-size: 2rem;
-        color: #fafafa;
-        display: flex;
-        justify-content: center;
-        margin-top: 15px;
-    }
-    
-    .github-game h6 {
-        font-size: 1rem;
-        color: #fafafa;
-        display: flex;
-        justify-content: center;
-        margin-top: 5px;
     }
 
 }
@@ -2811,95 +2646,6 @@ body {
         text-align: center;
     }
 
-    /* game.html footer section */
-
-.footer-section-game {
-    height: 10vh;
-    background-color: #2F5597;
-    display: flex;
-}
-
-    /* Linkedin Button Styling for options & game.html */
-
-    .linkedin-game {
-        flex-grow: 33.33%;
-        width: 33.33%;
-    }
-
-    .linkedin-game a {
-        text-decoration: none;
-    }
-
-    .linkedin-game i {
-        font-size: 2.5rem;
-        color: #fafafa;
-        display: flex;
-        justify-content: center;
-        margin-top: 15px;
-    }
-
-    .linkedin-game h6 {
-        font-size: 1rem;
-        color: #fafafa;
-        display: flex;
-        justify-content: center;
-        margin-top: 5px;
-    }
-
-    /* Contact Button Styling for options & game.html */
-
-    .contact-game {
-        flex-grow: 33.33%;
-        width: 33.33%;
-    }
-
-    .contact-game a {
-        text-decoration: none;
-    }
-
-    .contact-game i {
-        font-size: 2.5rem;
-        color: #fafafa;
-        display: flex;
-        justify-content: center;
-        margin-top: 15px;
-    }
-
-    .contact-game h6 {
-        font-size: 1rem;
-        color: #fafafa;
-        display: flex;
-        justify-content: center;
-        margin-top: 5px;
-    }
-
-    /* GitHub Button Styling for options & game.html */
-
-    .github-game {
-        flex-grow: 33.33%;
-        width: 33.33%;;
-    }
-
-    .github-game a {
-        text-decoration: none;
-    }
-
-    .github-game i {
-        font-size: 2.5rem;
-        color: #fafafa;
-        display: flex;
-        justify-content: center;
-        margin-top: 15px;
-    }
-
-    .github-game h6 {
-        font-size: 1rem;
-        color: #fafafa;
-        display: flex;
-        justify-content: center;
-        margin-top: 5px;
-    }
-
 }
 
 @media screen and (max-width: 576px) {
@@ -3312,95 +3058,6 @@ body {
     }
 
     .github-options h6 {
-        font-size: 0.6rem;
-        color: #fafafa;
-        display: flex;
-        justify-content: center;
-        margin-top: 5px;
-    }
-
-    /* game.html footer section */
-
-    .footer-section-game {
-        height: 12vh;
-        background-color: #2F5597;
-        display: flex;
-    }
-
-    /* Linkedin Button Styling for options & game.html */
-
-    .linkedin-game {
-        flex-grow: 33.33%;
-        width: 33.33%;
-    }
-
-    .linkedin-game a {
-        text-decoration: none;
-    }
-
-    .linkedin-game i {
-        font-size: 2rem;
-        color: #fafafa;
-        display: flex;
-        justify-content: center;
-        margin-top: 15px;
-    }
-
-    .linkedin-game h6 {
-        font-size: 0.6rem;
-        color: #fafafa;
-        display: flex;
-        justify-content: center;
-        margin-top: 5px;
-    }
-
-    /* Contact Button Styling for options & game.html */
-
-    .contact-game {
-        flex-grow: 33.33%;
-        width: 33.33%;
-    }
-
-    .contact-game a {
-        text-decoration: none;
-    }
-
-    .contact-game i {
-        font-size: 2rem;
-        color: #fafafa;
-        display: flex;
-        justify-content: center;
-        margin-top: 15px;
-    }
-
-    .contact-game h6 {
-        font-size: 0.6rem;
-        color: #fafafa;
-        display: flex;
-        justify-content: center;
-        margin-top: 5px;
-    }
-
-    /* GitHub Button Styling for options & game.html */
-
-    .github-game {
-        flex-grow: 33.33%;
-        width: 33.33%;;
-    }
-
-    .github-game a {
-        text-decoration: none;
-    }
-
-    .github-game i {
-        font-size: 2rem;
-        color: #fafafa;
-        display: flex;
-        justify-content: center;
-        margin-top: 15px;
-    }
-
-    .github-game h6 {
         font-size: 0.6rem;
         color: #fafafa;
         display: flex;
@@ -4194,69 +3851,6 @@ body {
         gap: 10px;
         padding: 10px;
         padding-top: 5px;
-    }
-
-    /* game.html footer section */
-
-    .footer-section-game {
-        height: 15vh;
-        background-color: #2F5597;
-        display: flex;
-        padding: 10px;
-    }
-
-    /* Linkedin Button Styling for options & game.html */
-
-    .linkedin-game i {
-        font-size: 1.5rem;
-        color: #fafafa;
-        display: flex;
-        justify-content: center;
-        margin-top: 15px;
-    }
-
-    .linkedin-game h6 {
-        font-size: 0.55rem;
-        color: #fafafa;
-        display: flex;
-        justify-content: center;
-        margin-top: 5px;
-    }
-
-    /* Contact Button Styling for options & game.html */
-
-    .contact-game i {
-        font-size: 1.5rem;
-        color: #fafafa;
-        display: flex;
-        justify-content: center;
-        margin-top: 15px;
-    }
-
-    .contact-game h6 {
-        font-size: 0.6rem;
-        color: #fafafa;
-        display: flex;
-        justify-content: center;
-        margin-top: 5px;
-    }
-
-    /* GitHub Button Styling for options & game.html */
-
-    .github-game i {
-        font-size: 1.5rem;
-        color: #fafafa;
-        display: flex;
-        justify-content: center;
-        margin-top: 15px;
-    }
-
-    .github-game h6 {
-        font-size: 0.6rem;
-        color: #fafafa;
-        display: flex;
-        justify-content: center;
-        margin-top: 5px;
     }
 
 }
