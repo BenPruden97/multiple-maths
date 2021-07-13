@@ -52,15 +52,21 @@ document.getElementById("multi-questions").addEventListener("click", function(){
 
 // Quiz Timer
 
+// One Minute Timer click function
+
 document.getElementById("one-minue").addEventListener("click", function(){ 
     quizTimer = 60000;
     console.log(quizTimer);
 });
 
+// Three Minutes Timer click function
+
 document.getElementById("three-minutes").addEventListener("click", function(){ 
     quizTimer = 180000;
     console.log(quizTimer);
 });
+
+// Five Minutes Timer click function
 
 document.getElementById("five-minutes").addEventListener("click", function(){ 
     quizTimer = 300000;
@@ -69,18 +75,37 @@ document.getElementById("five-minutes").addEventListener("click", function(){
 
 // Question Amount
 
+// Eight Questions Amount click function
+
 document.getElementById("eight-questions").addEventListener("click", function(){ 
     questionAmount = 8;
     console.log(questionAmount);
 });
+
+// Twelve Questions Amount click function
 
 document.getElementById("twelve-questions").addEventListener("click", function(){ 
     questionAmount = 12;
     console.log(questionAmount);
 });
 
+// Sixteen Questions Amount click function
+
 document.getElementById("sixteen-questions").addEventListener("click", function(){ 
     questionAmount = 16;
     console.log(questionAmount);
 });
+
+// Start Button
+
+// Start Button click function to display what is needed
+
+document.getElementById("start-button").addEventListener("click", function(){ 
+    gameSection.style.display = "block";
+    optionSection.style.display = "none";
+    const questions = getQuestions(mathQuestions, questionAmount);
+    console.log(questions)
+});
+
+
 
