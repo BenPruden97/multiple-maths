@@ -34,7 +34,9 @@
 
         <div class="row">
 
-            <div class="col-md-12 option-section">
+            <!--- Options Section -->
+
+            <div class="col-md-12 option-section" id="option-section-id">
 
                 <div class="option-style">
 
@@ -76,11 +78,11 @@
 
                     <div class="maths-timer">
 
-                        <button class="one-minute-button" id="one-minute" onclick="oneMinuteTimer()">1 Minute</button>
+                        <button class="one-minute-button" id="one-minute">1 Minute</button>
 
-                        <button class="three-minutes-button" id="three-minute" onclick="threeMinuteTimer()">3 Minutes</button>
+                        <button class="three-minutes-button" id="three-minutes">3 Minutes</button>
 
-                        <button class="five-minutes-button" id="five-minutes" onclick="fiveMinuteTimer()">5 Minutes</button>                        
+                        <button class="five-minutes-button" id="five-minutes">5 Minutes</button>                        
 
                     </div>
 
@@ -100,10 +102,83 @@
 
                         <button class="options-reset-button">Reset</button>
 
-                        <a href="game.html"><button class="start-button" id="start-button">Start</button></a>
+                        <a href="#"><button class="start-button" id="start-button">Start</button></a>
 
                         <a href="index.html"><button class="option-main-menu-button">Back to Home Page</button></a>
                     
+                    </div>
+
+                </div>
+
+            </div>
+
+            <!--- Game Section -->
+
+            <div class="col-md-12 game-section" id="game-section-id">
+
+                <div class="game-style">
+
+                    <div class="game-menu">
+
+                        <div class="game-timer">
+                            <div class="game-timer-text" id="game-timer-countdown">Timer: 1:00</div>
+                        </div>
+
+                        <div class="game-score">
+                            <div class="game-score-text" id="game-score-counter">Score: 1</div>
+                        </div>
+
+                        <div class="game-question-number">
+                            <div class="game-question-number-text" id="game-question-number">Question: 1/12</div>
+                        </div>
+
+
+                    </div>
+
+                    <div class="game-audio">
+
+                        <div>
+                            <button class="game-question-audio"><i class="fas fa-play-circle"></i></button>
+                        </div>
+
+                    </div>
+
+                    <div class="game-question-area">
+
+                        <div class="game-question" id="game-question">
+                            What is 100000 x 100000
+                        </div>
+                        
+                    </div>
+
+                    <div class="game-answer-1-2">
+
+                        <div>
+                            <button class="game-answer-1" id="game-answer-1" onclick="checkAnswer('game-answer-1')">1100</button>
+                        </div>
+
+                        <div>                            
+                            <button class="game-answer-2" id="game-answer-2" onclick="checkAnswer('game-answer-2')">1100</button>
+                        </div>
+
+                    </div>
+
+                    <div class="game-answer-3-4">
+
+                        <div>                            
+                            <button class="game-answer-3" id="game-answer-3" onclick="checkAnswer('game-answer-3')">1100</button>
+                        </div>
+
+                        <div>                          
+                            <button class="game-answer-4" id="game-answer-4" onclick="checkAnswer('game-answer-4')">1100</button>
+                        </div>
+
+                        <button class="game-restart-button">Restart</button>
+    
+                        <a href="options.html"><button class="game-options-button">Back to Options Menu</button></a>
+                        
+                        <a href="index.html"><button class="game-main-menu-button">Back to Home Page</button></a>
+
                     </div>
 
                 </div>
@@ -141,6 +216,11 @@
 
     </div>
 
-    <script src="./assets/js/script.js"></script>
+    <script src="./assets/js/addition/additionquestions.js"></script>
+    <script src="./assets/js/subtraction/subtractionquestions.js"></script>
+    <script src="./assets/js/multiplication/multiplicationquestions.js"></script>
+    <script src="./assets/js/division/divisionquestions.js"></script>
+    <script src="./assets/js/multi/multiquestions.js"></script>
+    <script src="./assets/js/options.js"></script>
 </body>
 </html>

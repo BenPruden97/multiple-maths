@@ -6,7 +6,7 @@ document.getElementById("open-how-to").addEventListener('click', function() {
 
 document.getElementById("close-how-to").addEventListener('click', function() {
     document.querySelector(".how-to").style.display = "none";
-});
+}); 
 
 // High Score button to open and close for high score pop up //
 
@@ -18,7 +18,6 @@ document.getElementById("close-high-score").addEventListener('click', function()
     document.querySelector(".high-score-popup").style.display = "none";
 });
 
-
 // Contact button to open and close the contact form //
 
 document.getElementById("open-contact-form").addEventListener('click', function() {
@@ -29,11 +28,3 @@ document.getElementById("close-contact-form").addEventListener('click', function
     document.querySelector(".contact-form").style.display = "none";
 });
 
-const start = document.getElementById("start-button");
-const timer = document.getElementById("game-timer");
-const questionLimit = document.getElementById("game-question-number");
-const question = document.getElementById("game-question");
-const answer1 = document.getElementById("game-answer-1");
-const answer2 = document.getElementById("game-answer-2");
-const answer3 = document.getElementById("game-answer-3");
-const answer4 = document.getElementById("game-answer-4");
