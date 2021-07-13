@@ -66,3 +66,21 @@ document.getElementById("five-minutes").addEventListener("click", function(){
     quizTimer = 300000;
     console.log(quizTimer);
 });
+
+// Question Amount
+
+document.getElementById("eight-questions").addEventListener("click", function(){ 
+    questionAmount = 8;
+    console.log(questionAmount);
+});
+
+document.getElementById("twelve-questions").addEventListener("click", function(){ 
+    questionAmount = 12;
+    console.log(questionAmount);
+});
+
+document.getElementById("sixteen-questions").addEventListener("click", function(){ 
+    questionAmount = 16;
+    console.log(questionAmount);
+});
+
