@@ -440,7 +440,7 @@ body {
 }
 
 .linkedin i {
-    font-size: 2.5rem;
+    font-size: 2.2rem;
     color: #fafafa;
     display: flex;
     justify-content: center;
@@ -467,7 +467,7 @@ body {
 }
 
 .contact i {
-    font-size: 2.5rem;
+    font-size: 2.2rem;
     color: #fafafa;
     display: flex;
     justify-content: center;
@@ -494,7 +494,7 @@ body {
 }
 
 .github i {
-    font-size: 2.5rem;
+    font-size: 2.2rem;
     color: #fafafa;
     display: flex;
     justify-content: center;
@@ -523,7 +523,7 @@ body {
 }
 
 .option-style {
-    position: fixed;
+    position: absolute;
     top: 55%;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -532,7 +532,7 @@ body {
     border-radius: 50px;
     border: 3px solid #2F5597;
     margin-bottom: 100px;
-    padding: 25px;
+    padding: 10px;
 }
 
 /* Maths Questions Text Styling */
@@ -1049,7 +1049,7 @@ body {
     width: 40rem;
     padding: 0.5rem;
     text-align: center;
-    font-size: 2rem;
+    font-size: 1.75rem;
     color: #2f5195;
 }
 
@@ -2046,26 +2046,52 @@ body {
 
     /* game question 1 styling */
 
+    .game-number-1 {
+        float: left;
+        height: 50px;
+        width: 4rem;
+        font-size: 1rem;
+        font-weight: bold;
+        padding: 15px;
+        background-color: #fafafa;
+        color: #2f5195;
+        border: 1px solid #2F5597;
+        text-align: center;
+    }   
+
     .game-answer-1 {
         font-size: 1rem;
-        padding: 0.75rem;
+        padding: 0.7rem;
+        height: 50px;
         width: 7.5rem;
         background-color: #2F5597;
         color: white;
-        border-radius: 15px;
         border: 3px solid #2F5597;
         text-align: center;
     }
 
     /* game question 2 styling */
 
+    .game-number-2 {
+        float: left;
+        height: 50px;
+        width: 4rem;
+        font-size: 1rem;
+        font-weight: bold;
+        padding: 15px;
+        background-color: #fafafa;
+        color: #2f5195;
+        border: 1px solid #2F5597;
+        text-align: center;
+    }
+
     .game-answer-2 {
         font-size: 1rem;
-        padding: 0.75rem;
+        padding: 0.7rem;
+        height: 50px;
         width: 7.5rem;
         background-color: #2F5597;
         color: white;
-        border-radius: 15px;
         border: 3px solid #2F5597;
         text-align: center;
     }
@@ -2081,26 +2107,52 @@ body {
 
     /* game question 3 styling */
 
+    .game-number-3 {
+        float: left;
+        height: 50px;
+        width: 4rem;
+        font-size: 1rem;
+        font-weight: bold;
+        padding: 15px;
+        background-color: #fafafa;
+        color: #2f5195;
+        border: 1px solid #2F5597;
+        text-align: center;
+    }
+
     .game-answer-3 {
         font-size: 1rem;
-        padding: 0.75rem;
+        padding: 0.7rem;
+        height: 50px;
         width: 7.5rem;
         background-color: #2F5597;
         color: white;
-        border-radius: 15px;
         border: 3px solid #2F5597;
         text-align: center;
     }
 
     /* game question 4 styling */
 
+    .game-number-4 {
+        float: left;
+        height: 50px;
+        width: 4rem;
+        font-size: 1rem;
+        font-weight: bold;
+        padding: 15px;
+        background-color: #fafafa;
+        color: #2f5195;
+        border: 1px solid #2F5597;
+        text-align: center;
+    }
+
     .game-answer-4 {
         font-size: 1rem;
-        padding: 0.75rem;
+        padding: 0.7rem;
+        height: 50px;
         width: 7.5rem;
         background-color: #2F5597;
         color: white;
-        border-radius: 15px;
         border: 3px solid #2F5597;
         text-align: center;
     }
@@ -3077,26 +3129,52 @@ body {
 
     /* game question 1 styling */
 
+    .game-number-1 {
+        float: left;
+        height: 40px;
+        width: 3rem;
+        font-size: 0.8rem;
+        font-weight: bold;
+        padding: 10px;
+        background-color: #fafafa;
+        color: #2f5195;
+        border: 1px solid #2F5597;
+        text-align: center;
+    }
+
     .game-answer-1 {
-        font-size: 1rem;
+        font-size: 0.8rem;
         padding: 0.5rem;
+        height: 40px;
         width: 6rem;
         background-color: #2F5597;
         color: white;
-        border-radius: 15px;
         border: 3px solid #2F5597;
         text-align: center;
     }
 
     /* game question 2 styling */
 
+    .game-number-2 {
+        float: left;
+        height: 40px;
+        width: 3rem;
+        font-size: 0.8rem;
+        font-weight: bold;
+        padding: 10px;
+        background-color: #fafafa;
+        color: #2f5195;
+        border: 1px solid #2F5597;
+        text-align: center;
+    }
+
     .game-answer-2 {
-        font-size: 1rem;
+        font-size: 0.8rem;
         padding: 0.5rem;
+        height: 40px;
         width: 6rem;
         background-color: #2F5597;
         color: white;
-        border-radius: 15px;
         border: 3px solid #2F5597;
         text-align: center;
     }
@@ -3112,26 +3190,52 @@ body {
 
     /* game question 3 styling */
 
+    .game-number-3 {
+        float: left;
+        height: 40px;
+        width: 3rem;
+        font-size: 0.8rem;
+        font-weight: bold;
+        padding: 10px;
+        background-color: #fafafa;
+        color: #2f5195;
+        border: 1px solid #2F5597;
+        text-align: center;
+    }
+
     .game-answer-3 {
-        font-size: 1rem;
+        font-size: 0.8rem;
         padding: 0.5rem;
+        height: 40px;
         width: 6rem;
         background-color: #2F5597;
         color: white;
-        border-radius: 15px;
         border: 3px solid #2F5597;
         text-align: center;
     }
 
     /* game question 4 styling */
 
+    .game-number-4 {
+        float: left;
+        height: 40px;
+        width: 3rem;
+        font-size: 0.8rem;
+        font-weight: bold;
+        padding: 10px;
+        background-color: #fafafa;
+        color: #2f5195;
+        border: 1px solid #2F5597;
+        text-align: center;
+    }
+
     .game-answer-4 {
-        font-size: 1rem;
+        font-size: 0.8rem;
         padding: 0.5rem;
+        height: 40px;
         width: 6rem;
         background-color: #2F5597;
         color: white;
-        border-radius: 15px;
         border: 3px solid #2F5597;
         text-align: center;
     }
