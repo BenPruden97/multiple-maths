@@ -12,7 +12,9 @@ gameSection.style.display = "none";
 let mathQuestions = "addition";
 let quizTimer = 300000;
 let score = 0;
+let questionCounter = 0;
 let questionAmount = 8;
+let acceptingAnswers = true;
 
 // Maths Questions click functions
 
@@ -154,5 +156,6 @@ function getQuestions(questionType, questionAmount) {
 function shuffleQuestions(questions) {
     return questions.sort(() => Math.random() - 0.5)
 }
+
 
 

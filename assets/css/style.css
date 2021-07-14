@@ -1064,13 +1064,26 @@ body {
 
 /* game question 1 styling */
 
+.game-number-1 {
+    float: left;
+    height: 60px;
+    width: 4rem;
+    font-size: 1rem;
+    font-weight: bold;
+    padding: 15px;
+    background-color: #fafafa;
+    color: #2f5195;
+    border: 1px solid #2F5597;
+    text-align: center;
+}
+
 .game-answer-1 {
     font-size: 1.2rem;
-    padding: 1rem;
-    width: 7.5rem;
+    padding: 0.5rem;
+    height: 60px;
+    width: 8rem;
     background-color: #2F5597;
     color: white;
-    border-radius: 25px;
     border: 3px solid #2F5597;
     text-align: center;
 }
@@ -1083,13 +1096,26 @@ body {
 
 /* game question 2 styling */
 
+.game-number-2 {
+    float: left;
+    height: 60px;
+    width: 4rem;
+    font-size: 1rem;
+    font-weight: bold;
+    padding: 15px;
+    background-color: #fafafa;
+    color: #2f5195;
+    border: 1px solid #2F5597;
+    text-align: center;
+}
+
 .game-answer-2 {
     font-size: 1.2rem;
-    padding: 1rem;
-    width: 7.5rem;
+    padding: 0.5rem;
+    height: 60px;
+    width: 8rem;
     background-color: #2F5597;
     color: white;
-    border-radius: 25px;
     border: 3px solid #2F5597;
     text-align: center;
 }
@@ -1111,13 +1137,26 @@ body {
 
 /* game question 3 styling */
 
+.game-number-3 {
+    float: left;
+    height: 60px;
+    width: 4rem;
+    font-size: 1rem;
+    font-weight: bold;
+    padding: 15px;
+    background-color: #fafafa;
+    color: #2f5195;
+    border: 1px solid #2F5597;
+    text-align: center;
+}
+
 .game-answer-3 {
     font-size: 1.2rem;
-    padding: 1rem;
-    width: 7.5rem;
+    padding: 0.5rem;
+    height: 60px;
+    width: 8rem;
     background-color: #2F5597;
     color: white;
-    border-radius: 25px;
     border: 3px solid #2F5597;
     text-align: center;
 }
@@ -1130,13 +1169,26 @@ body {
 
 /* game question 4 styling */
 
+.game-number-4 {
+    float: left;
+    height: 60px;
+    width: 4rem;
+    font-size: 1rem;
+    font-weight: bold;
+    padding: 15px;
+    background-color: #fafafa;
+    color: #2f5195;
+    border: 1px solid #2F5597;
+    text-align: center;
+}
+
 .game-answer-4 {
     font-size: 1.2rem;
-    padding: 1rem;
-    width: 7.5rem;
+    padding: 0.5rem;
+    height: 60px;
+    width: 8rem;
     background-color: #2F5597;
     color: white;
-    border-radius: 25px;
     border: 3px solid #2F5597;
     text-align: center;
 }
