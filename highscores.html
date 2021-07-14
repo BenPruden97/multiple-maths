@@ -11,7 +11,7 @@
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
     </style>
-    <title>Multiple Maths</title>
+    <title>Multiple Maths | High Scores</title>
 </head>
 <body>
 
@@ -30,25 +30,17 @@
 
     </div>
 
-    <div class="col-md-12 game-over-section" id="game-over-section-id">
+    <div class="col-md-12 high-score-section" id="high-score-section-id">
 
-        <div class="game-over-style">
+        <div class="high-score-style">
 
-            <h2>End of Quiz!</h2>
+            <h2>Your High Scores! <span><i class="fas fa-trophy"></i></span></h2>
 
-            <h5>You Scored: <span>0</span></h5>
+            <div class="high-score-options">
 
-            <h3>Please enter your name to save your new score:</h3>
+                <a href="options.html"><button class="high-score-play-button">Play!</button></a>
 
-            <div class="game-over-options">
-
-                <input type="text" name="name" id="player-name" maxlength="15" placeholder="Enter your name...">
-
-                <button class="save-score-button">Save Score</button>
-
-                <a href="options.html"><button class="play-again-button">Play Again</button></a>
-
-                <button class="game-high-score-button">High Scores</button>
+                <button class="clear-high-score-button">Clear High Scores</button>
 
             </div>
 
