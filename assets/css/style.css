@@ -421,7 +421,7 @@ body {
 
 /* game.html footer section */
 
-.footer-section-options {
+.footer-section {
     height: 10vh;
     background-color: #2F5597;
     display: flex;
@@ -430,16 +430,16 @@ body {
 
 /* Linkedin Button Styling for options & game.html */
 
-.linkedin-options {
+.linkedin {
     flex-grow: 33.33%;
     width: 33.33%;
 }
 
-.linkedin-options a {
+.linkedin a {
     text-decoration: none;
 }
 
-.linkedin-options i {
+.linkedin i {
     font-size: 2.5rem;
     color: #fafafa;
     display: flex;
@@ -447,7 +447,7 @@ body {
     margin-top: 15px;
 }
 
-.linkedin-options h6 {
+.linkedin h6 {
     font-size: 1rem;
     color: #fafafa;
     display: flex;
@@ -457,16 +457,16 @@ body {
 
 /* Contact Button Styling for options & game.html */
 
-.contact-options {
+.contact {
     flex-grow: 33.33%;
     width: 33.33%;
 }
 
-.contact-options a {
+.contact a {
     text-decoration: none;
 }
 
-.contact-options i {
+.contact i {
     font-size: 2.5rem;
     color: #fafafa;
     display: flex;
@@ -474,7 +474,7 @@ body {
     margin-top: 15px;
 }
 
-.contact-options h6 {
+.contact h6 {
     font-size: 1rem;
     color: #fafafa;
     display: flex;
@@ -484,16 +484,16 @@ body {
 
 /* GitHub Button Styling for options & game.html */
 
-.github-options {
+.github {
     flex-grow: 33.33%;
     width: 33.33%;;
 }
 
-.github-options a {
+.github a {
     text-decoration: none;
 }
 
-.github-options i {
+.github i {
     font-size: 2.5rem;
     color: #fafafa;
     display: flex;
@@ -501,7 +501,7 @@ body {
     margin-top: 15px;
 }
 
-.github-options h6 {
+.github h6 {
     font-size: 1rem;
     color: #fafafa;
     display: flex;
@@ -1259,6 +1259,127 @@ body {
     font-weight: bold;
 }
 
+/* Game Over Styling */
+
+.game-over-section {
+    height: 70vh;
+    background-color: #d3d3d3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.game-over-style {
+    display: block;
+    position: fixed;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 1200px;
+    background-color: #fafafa;
+    border-radius: 50px;
+    border: 3px solid #2F5597;
+    padding: 10px;
+}
+
+.game-over-style h2 {
+    font-size: 3rem;
+    color: #2f5195;
+    text-align: center;
+    padding: 20px;
+}
+
+.game-over-style h5 {
+    font-size: 2rem;
+    color: #2f5195;
+    text-align: center;
+    padding: 10px;
+}
+
+.game-over-style h3 {
+    font-size: 1.5rem;
+    color: #2f5195;
+    text-align: center;
+    padding: 10px;
+    padding-bottom: 25px;
+}
+
+.game-over-options {
+    display: grid;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.game-over-style input {
+    font-size: 1rem;
+    color: #2f5195;
+    padding: 2px;
+    border: 3px solid #2f5195;
+    margin-bottom: 15px;
+}
+
+/* Save Score Button Styling */
+
+.save-score-button {
+    font-size: 1.5rem;
+    padding: 1rem;
+    width: 15rem;
+    background-color: #2f5195;
+    color: white;
+    border-radius: 25px;
+    border: 3px solid #2F5597;
+}
+
+.save-score-button:hover {
+    background-color: #fafafa;
+    color: #2F5597;
+    font-weight: bold;
+}
+
+/* Play Again Button Styling */
+
+.play-again-button {
+    font-size: 1.5rem;
+    padding: 1rem;
+    width: 15rem;
+    background-color: #D40C00;
+    color: white;
+    border-radius: 25px;
+    border: 3px solid #2F5597;
+}
+
+.play-again-button a {
+    text-decoration: none;
+    color: #fafafa;
+}
+
+.play-again-button:hover {
+    background-color: #fafafa;
+    color: #2F5597;
+    font-weight: bold;
+}
+
+/* Game Over High Score Button Styling */
+
+.game-high-score-button {
+    font-size: 1.5rem;
+    padding: 1rem;
+    width: 15rem;
+    background-color: #38761D;
+    color: white;
+    border-radius: 25px;
+    border: 3px solid #2F5597;
+    margin-bottom: 30px;
+}
+
+.game-high-score-button:hover {
+    background-color: #fafafa;
+    color: #2F5597;
+    font-weight: bold;
+}
+
 /* game correct answer styling */
 
 .correct-answer {
@@ -1927,20 +2048,20 @@ body {
 
     /* Footer Section Styling */
 
-    .footer-section-options {
+    .footer-section {
         height: 10vh;
     }
 
     /* Linkedin Button Styling for options.html */
 
-    .linkedin-options i {
+    .linkedin i {
         font-size: 2.2rem;
         color: #fafafa;
         display: flex;
         justify-content: center;
     }
 
-    .linkedin-options h6 {
+    .linkedin h6 {
         font-size: 0.8rem;
         color: #fafafa;
         display: flex;
@@ -1949,14 +2070,14 @@ body {
 
     /* Contact Button Styling for options */
 
-    .contact-options i {
+    .contact i {
         font-size: 2.2rem;
         color: #fafafa;
         display: flex;
         justify-content: center;
     }
 
-    .contact-options h6 {
+    .contact h6 {
         font-size: 0.8rem;
         color: #fafafa;
         display: flex;
@@ -1965,14 +2086,14 @@ body {
 
     /* GitHub Button Styling for options */
 
-    .github-options i {
+    .github i {
         font-size: 2.2rem;
         color: #fafafa;
         display: flex;
         justify-content: center;
     }
 
-    .github-options h6 {
+    .github h6 {
         font-size: 0.8rem;
         color: #fafafa;
         display: flex;
@@ -3093,7 +3214,7 @@ body {
 
     /* game.html footer section */
 
-    .footer-section-options {
+    .footer-section {
         background-color: #2F5597;
         display: flex;
         padding: 0px;
@@ -3101,14 +3222,14 @@ body {
 
     /* Linkedin Button Styling for options & game.html */
 
-    .linkedin-options i {
+    .linkedin i {
         font-size: 2rem;
         color: #fafafa;
         display: flex;
         justify-content: center;
     }
 
-    .linkedin-options h6 {
+    .linkedin h6 {
         font-size: 0.6rem;
         color: #fafafa;
         display: flex;
@@ -3117,14 +3238,14 @@ body {
 
     /* Contact Button Styling for options & game.html */
 
-    .contact-options i {
+    .contact i {
         font-size: 2rem;
         color: #fafafa;
         display: flex;
         justify-content: center;
     }
 
-    .contact-options h6 {
+    .contact h6 {
         font-size: 0.6rem;
         color: #fafafa;
         display: flex;
@@ -3133,14 +3254,14 @@ body {
 
     /* GitHub Button Styling for options & game.html */
 
-    .github-options i {
+    .github i {
         font-size: 2rem;
         color: #fafafa;
         display: flex;
         justify-content: center;
     }
 
-    .github-options h6 {
+    .github h6 {
         font-size: 0.6rem;
         color: #fafafa;
         display: flex;
@@ -3677,20 +3798,20 @@ body {
 
 @media screen and (max-width: 376px) {
 
-    .footer-section-options {
+    .footer-section {
         height: 10vh;
         background-color: #2F5597;
         display: flex;
     }
 
-    .linkedin-options i {
+    .linkedin i {
         font-size: 2rem;
         color: #fafafa;
         display: flex;
         justify-content: center;
     }
 
-    .linkedin-options h6 {
+    .linkedin h6 {
         font-size: 0.6rem;
         color: #fafafa;
         display: flex;
@@ -3699,14 +3820,14 @@ body {
 
     /* Contact Button Styling for options & game.html */
 
-    .contact-options i {
+    .contact i {
         font-size: 2rem;
         color: #fafafa;
         display: flex;
         justify-content: center;
     }
 
-    .contact-options h6 {
+    .contact h6 {
         font-size: 0.6rem;
         color: #fafafa;
         display: flex;
@@ -3715,14 +3836,14 @@ body {
 
     /* GitHub Button Styling for options & game.html */
 
-    .github-options i {
+    .github i {
         font-size: 2rem;
         color: #fafafa;
         display: flex;
         justify-content: center;
     }
 
-    .github-options h6 {
+    .github h6 {
         font-size: 0.6rem;
         color: #fafafa;
         display: flex;
@@ -3748,7 +3869,7 @@ body {
 
     /* Linkedin Button Styling for options & game.html */
 
-    .linkedin-options h6 {
+    .linkedin h6 {
         font-size: 0.5rem;
         color: #fafafa;
         display: flex;
@@ -3758,7 +3879,7 @@ body {
 
     /* Contact Button Styling for options & game.html */
 
-    .contact-options h6 {
+    .contact h6 {
         font-size: 0.5rem;
         color: #fafafa;
         display: flex;
@@ -3768,7 +3889,7 @@ body {
 
     /* GitHub Button Styling for options & game.html */
 
-    .github-options h6 {
+    .github h6 {
         font-size: 0.5rem;
         color: #fafafa;
         display: flex;
@@ -4124,7 +4245,7 @@ body {
         border: 3px solid #2F5597;
     }
 
-    .footer-section-options {
+    .footer-section {
         height: 15vh;
     }
 
