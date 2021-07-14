@@ -167,10 +167,6 @@ body {
     color: #fafafa;
 }
 
-.how-to-text-small {
-    display: none;
-}
-
 .close-how-to {
     position: fixed;
     font-size: 1rem;
@@ -1960,10 +1956,6 @@ body {
         font-size: 0.74rem;
         color: #fafafa;
     }
-
-    .how-to-text-small {
-        display: none;
-    }
     
     .close-how-to {
         position: absolute;
@@ -2783,14 +2775,6 @@ body {
 
     .how-to-text {
         display: none;
-    }
-    
-    .how-to-text-small {
-        display: list-item;
-        padding: 10px;
-        padding-bottom: 5px;
-        font-size: 0.55rem;
-        color: #fafafa;
     }
     
     .close-how-to {
