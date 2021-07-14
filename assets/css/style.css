@@ -136,7 +136,7 @@ body {
 
 .how-to {
     display: none;
-    position: fixed;
+    position: absolute;
     top: 55%;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -145,11 +145,10 @@ body {
     border: 3px solid #2F5597;
     width: 750px;
     max-width: 750px;
-    height: 65vh;
 }
 
 .how-to-header {
-    padding-top: 15px;
+    padding: 15px 0 0 0;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -161,8 +160,8 @@ body {
 }
 
 .how-to-text {
-    padding: 15px;
-    padding-bottom: 5px;
+    padding: 10px;
+    padding-bottom: 70px;
     font-size: 0.9rem;
     color: #fafafa;
 }
@@ -177,7 +176,7 @@ body {
     border-radius: 1rem;
     border: 3px solid #2F5597;
     left: 37.5%;
-    bottom: 2.5%;
+    bottom: 15px;
 }
 
 .close-how-to:hover {
@@ -1923,8 +1922,7 @@ body {
     /* How to pop up styling of index.html */
     
     .how-to {
-        display: none;
-        position: fixed;
+        position: absolute;
         top: 55%;
         left: 50%;
         transform: translate(-50%, -50%);
@@ -1933,11 +1931,10 @@ body {
         border: 3px solid #2F5597;
         width: 500px;
         max-width: 500px;
-        height: 64vh;
     }
     
     .how-to-header {
-        padding-top: 20px;
+        padding: 30px 0 15px 0;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -1951,21 +1948,20 @@ body {
     }
     
     .how-to-text {
-        padding: 30px;
-        padding-bottom: 5px;
-        font-size: 0.74rem;
+        padding: 10px;
+        padding-bottom: 80px;
+        font-size: 0.75rem;
         color: #fafafa;
     }
     
     .close-how-to {
-        position: absolute;
         font-size: 1rem;
         padding: 0.65rem;
         width: 8rem;
         background-color: #D40C00;
         color: #fafafa;
         border-radius: 1rem;
-        border: 3px solid #fafafa;
+        border: 3px solid #2f5195;
         bottom: 20px;
     }
 
@@ -2748,16 +2744,13 @@ body {
     /* How to pop up styling */
 
     .how-to {
-        display: none;
-        position: fixed;
-        top: 52.5%;
-        left: 50%;
+        position: absolute;
         transform: translate(-50%, -50%);
         background-color: #FF883D;
         border-radius: 25px;
         border: 3px solid #2F5597;
         max-width: 350px;
-        height: 400px;
+        margin-top: 40px;
     }
     
     .how-to-header {
@@ -2772,13 +2765,9 @@ body {
         font-size: 0.8rem;
         text-decoration: underline;
     }
-
-    .how-to-text {
-        display: none;
-    }
     
     .close-how-to {
-        position: fixed;
+        position: absolute;
         font-size: 0.75rem;
         padding: 0.75rem;
         width: 8rem;
@@ -2786,8 +2775,7 @@ body {
         color: #fafafa;
         border-radius: 1rem;
         border: 3px solid #2F5597;
-        left: 50%;
-        bottom: 2.5%;
+        margin-left: -20px;
     }
 
     /* High score button styling */
@@ -3869,6 +3857,52 @@ body {
 }
 
 @media screen and (max-width: 350px) {
+
+    /* How to pop up styling */
+
+    .how-to {
+        position: absolute;
+        transform: translate(-50%, -50%);
+        background-color: #FF883D;
+        border-radius: 25px;
+        border: 3px solid #2F5597;
+        max-width: 300px;
+        margin-top: 25px;
+    }
+        
+    .how-to-header {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+        
+    .how-to-header .ht-header {
+        color: #fafafa;
+        font-size: 0.7rem;
+        text-decoration: underline;
+    }
+
+    .how-to-text {
+        font-size: 0.5rem;
+        color: #fafafa;
+        padding: 8px;
+        padding-bottom: 50px;
+    }
+        
+    .close-how-to {
+        position: absolute;
+        font-size: 0.5rem;
+        padding: 0.5rem;
+        width: 5rem;
+        background-color: #D40C00;
+        color: #fafafa;
+        border-radius: 0.5rem;
+        border: 3px solid #2F5597;
+        margin-left: -1px;
+        margin-bottom: -5px;
+    }
+
+    /* Option Section and Style styling */
 
     .option-section {
         height: 190vh;
