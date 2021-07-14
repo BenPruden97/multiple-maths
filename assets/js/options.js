@@ -114,41 +114,42 @@ document.getElementById("start-button").addEventListener("click", function(){
 
 function getQuestions(questionType, questionAmount) {
 
-    let questions = [];
+    let questions = {};
 
     // Addition if statement to say if addition Questions was clicked then additionquestions array will be displayed
 
-    if (questionType === "addition"){
+    if (questionType === "addition" || questionCounter > questionAmount) {
         questions = shuffleQuestions(additionquestions);
     }
 
     // Subtraction if statement to say if subtraction Questions was clicked then subtractionquestions array will be displayed
 
-    if (questionType === "subtraction"){
+    if (questionType === "subtraction") {
         questions = shuffleQuestions(subtractionquestions);
     }
 
     // multiplication if statement to say if multiplication Questions was clicked then multiplicationquestions array will be displayed
 
-    if (questionType === "multiplication"){
+    if (questionType === "multiplication") {
         questions = shuffleQuestions(multiplicationquestions);
     }
 
     // Division if statement to say if division Questions was clicked then divisionquestions array will be displayed
 
-    if (questionType === "division"){
+    if (questionType === "division") {
         questions = shuffleQuestions(divisionquestions);
     }
 
     // Multi if statement to say if Multi Questions was clicked then multiquestions array will be displayed
 
-    if (questionType === "all"){
+    if (questionType === "all") {
         questions = shuffleQuestions(multiquestions);
     }
 
     // Return the Questions chosen and slice
 
     return questions.slice(0,questionAmount)
+
 };
 
 // Shuffle Questions function to randomize the questions displayed so they are not always displayed in the same order
@@ -156,6 +157,5 @@ function getQuestions(questionType, questionAmount) {
 function shuffleQuestions(questions) {
     return questions.sort(() => Math.random() - 0.5)
 }
-
 
 
