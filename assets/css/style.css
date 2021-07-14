@@ -1271,8 +1271,7 @@ body {
 }
 
 .game-over-style {
-    display: block;
-    position: fixed;
+    position: absolute;
     top: 55%;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -1287,22 +1286,22 @@ body {
     font-size: 3rem;
     color: #2f5195;
     text-align: center;
-    padding: 20px;
+    padding: 15px;
 }
 
 .game-over-style h5 {
     font-size: 2rem;
     color: #2f5195;
     text-align: center;
-    padding: 10px;
+    padding: 5px;
 }
 
 .game-over-style h3 {
     font-size: 1.5rem;
     color: #2f5195;
     text-align: center;
-    padding: 10px;
-    padding-bottom: 25px;
+    padding: 5px;
+    padding-bottom: 15px;
 }
 
 .game-over-options {
@@ -1317,7 +1316,7 @@ body {
     color: #2f5195;
     padding: 2px;
     border: 3px solid #2f5195;
-    margin-bottom: 15px;
+    margin-bottom: 10px;
 }
 
 /* Save Score Button Styling */
@@ -1371,7 +1370,7 @@ body {
     color: white;
     border-radius: 25px;
     border: 3px solid #2F5597;
-    margin-bottom: 30px;
+    margin-bottom: 15px;
 }
 
 .game-high-score-button:hover {
@@ -1417,6 +1416,8 @@ body {
     align-items: center;
 }
 
+/* Gigh score play button styling */
+
 .high-score-play-button {
     font-size: 1.5rem;
     padding: 0.5rem;
@@ -1438,6 +1439,8 @@ body {
     color: #2F5597;
     font-weight: bold;
 }
+
+/* Clear high score button styling */
 
 .clear-high-score-button {
     font-size: 1.5rem;
@@ -2110,7 +2113,7 @@ body {
         width: 8rem;
         background-color: #D40C00;
         color: white;
-        border-radius: 25px;
+        border-radius: 15px;
         border: 3px solid #2F5597;
         margin-top: 40px;
     }
@@ -2123,7 +2126,7 @@ body {
         width: 15rem;
         background-color: #FF8B3D;
         color: white;
-        border-radius: 25px;
+        border-radius: 15px;
         border: 3px solid #2F5597;
         margin-top: 40px;
     }
@@ -2136,9 +2139,182 @@ body {
         width: 15rem;
         background-color: #7C5295;
         color: white;
-        border-radius: 25px;
+        border-radius: 15px;
         border: 3px solid #2F5597;
         margin-top: 40px;
+    }
+
+    /* Game Over html file Styling */
+
+    .game-over-section {
+        height: 70vh;
+        background-color: #d3d3d3;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .game-over-style {
+        position: absolute;
+        top: 55%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 750px;
+        background-color: #fafafa;
+        border-radius: 50px;
+        border: 3px solid #2F5597;
+        padding: 10px;
+    }
+
+    .game-over-style h2 {
+        font-size: 2.5rem;
+        color: #2f5195;
+        text-align: center;
+        padding: 10px;
+    }
+
+    .game-over-style h5 {
+        font-size: 2rem;
+        color: #2f5195;
+        text-align: center;
+        padding: 5px;
+    }
+
+    .game-over-style h3 {
+        font-size: 1.5rem;
+        color: #2f5195;
+        text-align: center;
+        padding: 10px;
+        padding-bottom: 25px;
+    }
+
+    .game-over-options {
+        display: grid;
+        gap: 10px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .game-over-style input {
+        font-size: 1rem;
+        color: #2f5195;
+        padding: 2px;
+        border: 3px solid #2f5195;
+        margin-bottom: 15px;
+    }
+
+    /* Save Score Button Styling */
+
+    .save-score-button {
+        font-size: 1.2rem;
+        padding: 0.75rem;
+        width: 15rem;
+        background-color: #2f5195;
+        color: white;
+        border-radius: 15px;
+        border: 3px solid #2F5597;
+    }
+
+    /* Play Again Button Styling */
+
+    .play-again-button {
+        font-size: 1.2rem;
+        padding: 0.75rem;
+        width: 15rem;
+        background-color: #D40C00;
+        color: white;
+        border-radius: 15px;
+        border: 3px solid #2F5597;
+    }
+
+    /* Game Over High Score Button Styling */
+
+    .game-high-score-button {
+        font-size: 1.2rem;
+        padding: 0.75rem;
+        width: 15rem;
+        background-color: #38761D;
+        color: white;
+        border-radius: 15px;
+        border: 3px solid #2F5597;
+        margin-bottom: 30px;
+    }
+
+    /* High Score html file sytling */
+
+    .high-score-section {
+        height: 70vh;
+        background-color: #d3d3d3;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .high-score-style {
+        position: absolute;
+        top: 55%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 750px;
+        background-color: #fafafa;
+        border-radius: 50px;
+        border: 3px solid #2F5597;
+        padding: 10px;
+    }
+
+    .high-score-style h2 {
+        font-size: 2rem;
+        color: #2f5195;
+        text-align: center;
+        padding: 20px;
+    }
+
+    .high-score-options {
+        display: grid;
+        gap: 10px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    /* Gigh score play button styling */
+
+    .high-score-play-button {
+        font-size: 1.2rem;
+        padding: 0.5rem;
+        width: 15rem;
+        background-color: #D40C00;
+        color: #fafafa;
+        border-radius: 15px;
+        border: 3px solid #2F5597;
+        margin-top: 50%;
+    }
+
+    /* Clear high score button styling */
+
+    .clear-high-score-button {
+        font-size: 1.2rem;
+        padding: 0.5rem;
+        width: 15rem;
+        background-color: #38761D;
+        color: white;
+        border-radius: 15px;
+        border: 3px solid #2F5597;
+    }
+
+    /* High score main menu button styling */
+
+    .high-score-main-menu-button {
+        font-size: 1.2rem;
+        padding: 0.5rem;
+        width: 15rem;
+        background-color: #7C5295;
+        color: #fafafa;
+        border-radius: 15px;
+        border: 3px solid #2F5597;
+        margin-left: 0px;
+        margin-bottom: 20px;
     }
 
     /* Footer Section Styling */
@@ -3002,6 +3178,179 @@ body {
         margin-bottom: 5px;
     }
 
+    /* Game Over html file Styling */
+
+    .game-over-section {
+        height: 70vh;
+        background-color: #d3d3d3;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .game-over-style {
+        position: absolute;
+        top: 55%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 550px;
+        background-color: #fafafa;
+        border-radius: 50px;
+        border: 3px solid #2F5597;
+        padding: 10px;
+    }
+
+    .game-over-style h2 {
+        font-size: 2rem;
+        color: #2f5195;
+        text-align: center;
+        padding: 20px;
+    }
+
+    .game-over-style h5 {
+        font-size: 1.5rem;
+        color: #2f5195;
+        text-align: center;
+        padding: 10px;
+    }
+
+    .game-over-style h3 {
+        font-size: 1.2rem;
+        color: #2f5195;
+        text-align: center;
+        padding: 10px;
+        padding-bottom: 25px;
+    }
+
+    .game-over-options {
+        display: grid;
+        gap: 10px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .game-over-style input {
+        font-size: 1rem;
+        color: #2f5195;
+        padding: 2px;
+        border: 3px solid #2f5195;
+        margin-bottom: 15px;
+    }
+
+    /* Save Score Button Styling */
+
+    .save-score-button {
+        font-size: 1rem;
+        padding: 0.6rem;
+        width: 15rem;
+        background-color: #2f5195;
+        color: white;
+        border-radius: 25px;
+        border: 3px solid #2F5597;
+    }
+
+    /* Play Again Button Styling */
+
+    .play-again-button {
+        font-size: 1rem;
+        padding: 0.6rem;
+        width: 15rem;
+        background-color: #D40C00;
+        color: white;
+        border-radius: 25px;
+        border: 3px solid #2F5597;
+    }
+
+    /* Game Over High Score Button Styling */
+
+    .game-high-score-button {
+        font-size: 1rem;
+        padding: 0.6rem;
+        width: 15rem;
+        background-color: #38761D;
+        color: white;
+        border-radius: 25px;
+        border: 3px solid #2F5597;
+        margin-bottom: 30px;
+    }
+
+    /* High Score html file sytling */
+
+    .high-score-section {
+        height: 70vh;
+        background-color: #d3d3d3;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .high-score-style {
+        position: absolute;
+        top: 55%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 550px;
+        background-color: #fafafa;
+        border-radius: 50px;
+        border: 3px solid #2F5597;
+        padding: 10px;
+    }
+
+    .high-score-style h2 {
+        font-size: 2rem;
+        color: #2f5195;
+        text-align: center;
+        padding: 20px;
+    }
+
+    .high-score-options {
+        display: grid;
+        gap: 10px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    /* Gigh score play button styling */
+
+    .high-score-play-button {
+        font-size: 1rem;
+        padding: 0.5rem;
+        width: 15rem;
+        background-color: #D40C00;
+        color: #fafafa;
+        border-radius: 15px;
+        border: 3px solid #2F5597;
+        margin-top: 50%;
+    }
+
+    /* Clear high score button styling */
+
+    .clear-high-score-button {
+        font-size: 1rem;
+        padding: 0.5rem;
+        width: 15rem;
+        background-color: #38761D;
+        color: white;
+        border-radius: 15px;
+        border: 3px solid #2F5597;
+    }
+
+    /* High score main menu button styling */
+
+    .high-score-main-menu-button {
+        font-size: 1rem;
+        padding: 0.5rem;
+        width: 15rem;
+        background-color: #7C5295;
+        color: #fafafa;
+        border-radius: 15px;
+        border: 3px solid #2F5597;
+        margin-left: 0px;
+        margin-bottom: 20px;
+    }
+
 }
 
 @media screen and (max-width: 576px) {
@@ -3856,7 +4205,7 @@ body {
     /* game reset button styling */
 
     .game-restart-button {
-        font-size: 1rem;
+        font-size: 0.8em;
         padding: 0.5rem;
         width: 12rem;
         background-color: #D40C00;
@@ -3868,7 +4217,7 @@ body {
     /* game options button styling */
 
     .game-options-button {
-        font-size: 1rem;
+        font-size: 0.8rem;
         padding: 0.5rem;
         width: 12rem;
         background-color: #FF8B3D;
@@ -3880,13 +4229,189 @@ body {
     /* game main menu button styling */
 
     .game-main-menu-button {
-        font-size: 1rem;
+        font-size: 0.8rem;
         padding: 0.5rem;
         width: 12rem;
         background-color: #7C5295;
         color: white;
         border-radius: 15px;
         border: 3px solid #2F5597;
+    }
+
+    /* Game Over html file Styling */
+
+    .game-over-section {
+        height: 70vh;
+        background-color: #d3d3d3;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .game-over-style {
+        position: absolute;
+        top: 55%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 350px;
+        background-color: #fafafa;
+        border-radius: 50px;
+        border: 3px solid #2F5597;
+        padding: 10px;
+    }
+
+    .game-over-style h2 {
+        font-size: 2rem;
+        color: #2f5195;
+        text-align: center;
+        padding: 10px;
+    }
+
+    .game-over-style h5 {
+        font-size: 1.5rem;
+        color: #2f5195;
+        text-align: center;
+        padding: 10px;
+    }
+
+    .game-over-style h3 {
+        font-size: 1.2rem;
+        color: #2f5195;
+        text-align: center;
+        padding: 10px;
+        padding-bottom: 25px;
+    }
+
+    .game-over-options {
+        display: grid;
+        gap: 10px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .game-over-style input {
+        font-size: 1rem;
+        color: #2f5195;
+        padding: 2px;
+        border: 3px solid #2f5195;
+        margin-bottom: 15px;
+    }
+
+    /* Save Score Button Styling */
+
+    .save-score-button {
+        font-size: 1rem;
+        padding: 0.5rem;
+        width: 10rem;
+        background-color: #2f5195;
+        color: white;
+        border-radius: 15px;
+        border: 3px solid #2F5597;
+        margin-left: 10px;
+    }
+
+    /* Play Again Button Styling */
+
+    .play-again-button {
+        font-size: 1rem;
+        padding: 0.5rem;
+        width: 10rem;
+        background-color: #D40C00;
+        color: white;
+        border-radius: 15px;
+        border: 3px solid #2F5597;
+        margin-left: 10px;
+    }
+
+    /* Game Over High Score Button Styling */
+
+    .game-high-score-button {
+        font-size: 1rem;
+        padding: 0.5rem;
+        width: 10rem;
+        background-color: #38761D;
+        color: white;
+        border-radius: 15px;
+        border: 3px solid #2F5597;
+        margin-left: 10px;
+        margin-bottom: 20px;
+    }
+
+    /* High Score html file sytling */
+
+    .high-score-section {
+        height: 70vh;
+        background-color: #d3d3d3;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .high-score-style {
+        position: absolute;
+        top: 55%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 350px;
+        background-color: #fafafa;
+        border-radius: 50px;
+        border: 3px solid #2F5597;
+        padding: 10px;
+    }
+
+    .high-score-style h2 {
+        font-size: 2rem;
+        color: #2f5195;
+        text-align: center;
+        padding: 20px;
+    }
+
+    .high-score-options {
+        display: grid;
+        gap: 10px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    /* Gigh score play button styling */
+
+    .high-score-play-button {
+        font-size: 1rem;
+        padding: 0.5rem;
+        width: 15rem;
+        background-color: #D40C00;
+        color: #fafafa;
+        border-radius: 15px;
+        border: 3px solid #2F5597;
+        margin-top: 50%;
+    }
+
+    /* Clear high score button styling */
+
+    .clear-high-score-button {
+        font-size: 1rem;
+        padding: 0.5rem;
+        width: 15rem;
+        background-color: #38761D;
+        color: white;
+        border-radius: 15px;
+        border: 3px solid #2F5597;
+    }
+
+    /* High score main menu button styling */
+
+    .high-score-main-menu-button {
+        font-size: 1rem;
+        padding: 0.5rem;
+        width: 15rem;
+        background-color: #7C5295;
+        color: #fafafa;
+        border-radius: 15px;
+        border: 3px solid #2F5597;
+        margin-left: 0px;
+        margin-bottom: 20px;
     }
 
 }
@@ -4173,6 +4698,182 @@ body {
         padding-top: 5px;
     }
 
+    /* Game Over html file Styling */
+
+    .game-over-section {
+        height: 80vh;
+        background-color: #d3d3d3;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .game-over-style {
+        position: absolute;
+        top: 60%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 350px;
+        background-color: #fafafa;
+        border-radius: 50px;
+        border: 3px solid #2F5597;
+        padding: 10px;
+    }
+
+    .game-over-style h2 {
+        font-size: 2rem;
+        color: #2f5195;
+        text-align: center;
+        padding: 10px;
+    }
+
+    .game-over-style h5 {
+        font-size: 1.5rem;
+        color: #2f5195;
+        text-align: center;
+        padding: 10px;
+    }
+
+    .game-over-style h3 {
+        font-size: 1.2rem;
+        color: #2f5195;
+        text-align: center;
+        padding: 10px;
+        padding-bottom: 25px;
+    }
+
+    .game-over-options {
+        display: grid;
+        gap: 10px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .game-over-style input {
+        font-size: 1rem;
+        color: #2f5195;
+        padding: 2px;
+        border: 3px solid #2f5195;
+        margin-bottom: 15px;
+    }
+
+    /* Save Score Button Styling */
+
+    .save-score-button {
+        font-size: 0.8rem;
+        padding: 0.5rem;
+        width: 10rem;
+        background-color: #2f5195;
+        color: white;
+        border-radius: 15px;
+        border: 3px solid #2F5597;
+        margin-left: 10px;
+    }
+
+    /* Play Again Button Styling */
+
+    .play-again-button {
+        font-size: 0.8rem;
+        padding: 0.5rem;
+        width: 10rem;
+        background-color: #D40C00;
+        color: white;
+        border-radius: 15px;
+        border: 3px solid #2F5597;
+        margin-left: 10px;
+    }
+
+    /* Game Over High Score Button Styling */
+
+    .game-high-score-button {
+        font-size: 0.8rem;
+        padding: 0.5rem;
+        width: 10rem;
+        background-color: #38761D;
+        color: white;
+        border-radius: 15px;
+        border: 3px solid #2F5597;
+        margin-left: 10px;
+        margin-bottom: 20px;
+    }
+
+    /* High Score html file sytling */
+
+    .high-score-section {
+        height: 80vh;
+        background-color: #d3d3d3;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .high-score-style {
+        position: absolute;
+        top: 60%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 300px;
+        background-color: #fafafa;
+        border-radius: 50px;
+        border: 3px solid #2F5597;
+        padding: 10px;
+    }
+
+    .high-score-style h2 {
+        font-size: 2rem;
+        color: #2f5195;
+        text-align: center;
+        padding: 20px;
+    }
+
+    .high-score-options {
+        display: grid;
+        gap: 10px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    /* Gigh score play button styling */
+
+    .high-score-play-button {
+        font-size: 0.8rem;
+        padding: 0.5rem;
+        width: 15rem;
+        background-color: #D40C00;
+        color: #fafafa;
+        border-radius: 15px;
+        border: 3px solid #2F5597;
+        margin-top: 50%;
+    }
+
+    /* Clear high score button styling */
+
+    .clear-high-score-button {
+        font-size: 0.8rem;
+        padding: 0.5rem;
+        width: 15rem;
+        background-color: #38761D;
+        color: white;
+        border-radius: 15px;
+        border: 3px solid #2F5597;
+    }
+
+    /* High score main menu button styling */
+
+    .high-score-main-menu-button {
+        font-size: 0.8rem;
+        padding: 0.5rem;
+        width: 15rem;
+        background-color: #7C5295;
+        color: #fafafa;
+        border-radius: 15px;
+        border: 3px solid #2F5597;
+        margin-left: 0px;
+        margin-bottom: 20px;
+    }
+
 }
 
 @media screen and (max-width: 350px) {
@@ -4338,6 +5039,50 @@ body {
         background-color: #fafafa;
         border-radius: 50px;
         border: 3px solid #2F5597;
+    }
+
+    /* Game Over html file Styling */
+
+    .game-over-section {
+        height: 105vh;
+        background-color: #d3d3d3;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    
+    .game-over-style {
+        position: absolute;
+        top: 72.5%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 300px;
+        background-color: #fafafa;
+        border-radius: 50px;
+        border: 3px solid #2F5597;
+        padding: 10px;
+    }
+
+    .high-score-section {
+        height: 105vh;
+        background-color: #d3d3d3;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .high-score-style {
+        position: absolute;
+        top: 72.5%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 300px;
+        background-color: #fafafa;
+        border-radius: 50px;
+        border: 3px solid #2F5597;
+        padding: 10px;
     }
 
     .footer-section {
