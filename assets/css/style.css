@@ -1259,7 +1259,7 @@ body {
     font-weight: bold;
 }
 
-/* Game Over Styling */
+/* Game Over html file Styling */
 
 .game-over-section {
     height: 70vh;
@@ -1380,7 +1380,102 @@ body {
     font-weight: bold;
 }
 
-/* game correct answer styling */
+/* High Score html file sytling */
+
+.high-score-section {
+    height: 70vh;
+    background-color: #d3d3d3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.high-score-style {
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 1200px;
+    background-color: #fafafa;
+    border-radius: 50px;
+    border: 3px solid #2F5597;
+    padding: 10px;
+}
+
+.high-score-style h2 {
+    font-size: 2.5rem;
+    color: #2f5195;
+    text-align: center;
+    padding: 20px;
+}
+
+.high-score-options {
+    display: grid;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.high-score-play-button {
+    font-size: 1.5rem;
+    padding: 0.5rem;
+    width: 15rem;
+    background-color: #D40C00;
+    color: #fafafa;
+    border-radius: 25px;
+    border: 3px solid #2F5597;
+    margin-top: 50%;
+}
+
+.high-score-play-button a {
+    text-decoration: none;
+    color: #fafafa;
+}
+
+.high-score-play-button:hover {
+    background-color: #fafafa;
+    color: #2F5597;
+    font-weight: bold;
+}
+
+.clear-high-score-button {
+    font-size: 1.5rem;
+    padding: 0.5rem;
+    width: 15rem;
+    background-color: #38761D;
+    color: white;
+    border-radius: 25px;
+    border: 3px solid #2F5597;
+}
+
+.clear-high-score-button:hover {
+    background-color: #fafafa;
+    color: #2F5597;
+    font-weight: bold;
+}
+
+/* High score main menu button styling */
+
+.high-score-main-menu-button {
+    font-size: 1.5rem;
+    padding: 0.5rem;
+    width: 18rem;
+    background-color: #7C5295;
+    color: #fafafa;
+    border-radius: 25px;
+    border: 3px solid #2F5597;
+    margin-bottom: 20px;
+    margin-left: -25px;
+}
+
+.high-score-main-menu-button:hover {
+    background-color: #fafafa;
+    color: #2f5295;
+    font-weight: bold;
+}
+
+/* Game correct answer styling */
 
 .correct-answer {
     font-size: 1.2rem;
