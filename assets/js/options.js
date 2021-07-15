@@ -107,7 +107,22 @@ document.getElementById("start-button").addEventListener("click", function(){
     gameSection.style.display = "block";
     optionSection.style.display = "none";
     const questions = getQuestions(mathQuestions, questionAmount);
-    console.log(questions)
+    console.log(questions);
+
+    const gameQuestion = document.getElementById('game-question');
+    gameQuestion.innerText = questions[0].question;
+
+    const gameAnswerOne = document.getElementById('game-answer-1');
+    gameAnswerOne.innerText = questions[0].AnswerA;
+
+    const gameAnswerTwo = document.getElementById('game-answer-2');
+    gameAnswerTwo.innerText = questions[0].AnswerB;
+
+    const gameAnswerThree = document.getElementById('game-answer-3');
+    gameAnswerThree.innerText = questions[0].AnswerC;
+
+    const gameAnswerFour = document.getElementById('game-answer-4');
+    gameAnswerFour.innerText = questions[0].AnswerD;
 });
 
 // Get Questions function to get the questions needed for the quiz
@@ -118,7 +133,7 @@ function getQuestions(questionType, questionAmount) {
 
     // Addition if statement to say if addition Questions was clicked then additionquestions array will be displayed
 
-    if (questionType === "addition" || questionCounter > questionAmount) {
+    if (questionType === "addition") {
         questions = shuffleQuestions(additionquestions);
     }
 
