@@ -11,10 +11,7 @@ gameSection.style.display = "none";
 
 let mathQuestions = "addition";
 let quizTimer = 300000;
-let score = 0;
-let questionCounter = 0;
 let questionAmount = 8;
-let acceptingAnswers = true;
 
 // Maths Questions click functions
 
@@ -123,6 +120,17 @@ document.getElementById("start-button").addEventListener("click", function(){
 
     const gameAnswerFour = document.getElementById('game-answer-4');
     gameAnswerFour.innerText = questions[0].AnswerD;
+
+    const quizTimerText = document.getElementById('game-timer-text');
+    quizTimerText.innerText = `Timer: ${quizTimer}`;
+
+    const scoreText = document.getElementById('game-score-text');
+    scoreText.innerText = `Score: 0`;
+
+    const questionAmountText = document.getElementById('game-question-number-text');
+    questionAmountText.innerHTML = `Question: 1/${questionAmount}`
+
+    getNewQuestion()
 });
 
 // Get Questions function to get the questions needed for the quiz
@@ -171,6 +179,32 @@ function getQuestions(questionType, questionAmount) {
 
 function shuffleQuestions(questions) {
     return questions.sort(() => Math.random() - 0.5)
+}
+
+let score = 0;
+let correctScore = 1;
+let questionCounter = 0;
+let acceptingAnswers = true;
+
+function getNewQuestion() {
+    if(questions.length === 0 || questionCounter > questionAmount) {
+        localStorage.setItem('mostRecentScore', score)
+
+        return window.location.assign('/game-over.html')
+    }
+
+    questionCounter++
+    const questionAmountText = document.getElementById('game-question-number-text');
+    questionAmountText.innerText = `Question ${questionCounter} / ${questionAmount}`
+
+}
+
+function correctAnswer() {
+    document.getElementById(questionCounter).classList.add('correct');
+}
+
+function incorrectAnswer() {
+    document.getElementById(questionCounter).classList.add('incorrect');
 }
 
 

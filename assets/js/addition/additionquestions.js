@@ -336,11 +336,11 @@ let additionquestions = [
         correctAnswer: "81",
     },
     {
-        question: "What is 33 + 23",
-        AnswerA: "50",
-        AnswerB: "55",
-        AnswerC: "60",
-        AnswerD: "65",
+        question: "What is 32 + 23",
+        AnswerA: "53",
+        AnswerB: "54",
+        AnswerC: "55",
+        AnswerD: "56",
         correctAnswer: "55",
     },
     {
