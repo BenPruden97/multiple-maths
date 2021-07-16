@@ -123,11 +123,18 @@ document.getElementById("start-button").addEventListener("click", function(){
 
     const quizTimerText = document.getElementById('game-timer-text');
 
-    var oneMinute = 60000,
-    min = Math.floor((oneMinute/1000/60) << 0),
-    sec = Math.floor((oneMinute/1000) % 60);
+    var timerMinute = quizTimer,
+    min = Math.floor((timerMinute/1000/60) << 0),
+    sec = Math.floor((timerMinute/1000) % 60);
 
     quizTimerText.innerText = `Timer: ${min}:${sec +`0`}`;
+
+    setInterval(timerMinute, 1000);
+
+    if (timerMinute < 0) {
+        clearInterval();
+        document.quizTimerText.innerHTML = `Time is up!`;
+    }
 
     const scoreText = document.getElementById('game-score-text');
     scoreText.innerText = `Score: 0`;
@@ -193,11 +200,10 @@ function checkAnswer() {
     console.log(checkAnswer); 
 };
 
+// Reset Option function to reset the options section if the user chooses the wrong options
+
 function resetOptions() {
     location.reload();
 }
 
-function restartGame() {
-    location.reload();
-}
 
