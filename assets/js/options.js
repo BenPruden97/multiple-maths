@@ -193,3 +193,11 @@ function checkAnswer() {
     console.log(checkAnswer); 
 };
 
+function resetOptions() {
+    location.reload();
+}
+
+function restartGame() {
+    location.reload();
+}
+
