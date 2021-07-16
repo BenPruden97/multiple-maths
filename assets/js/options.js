@@ -12,6 +12,8 @@ gameSection.style.display = "none";
 let mathQuestions = "addition";
 let quizTimer = 300000;
 let questionAmount = 8;
+let score = 0;
+let questionCounter = 1;
 
 // Maths Questions click functions
 
@@ -106,20 +108,19 @@ document.getElementById("start-button").addEventListener("click", function(){
     const questions = getQuestions(mathQuestions, questionAmount);
     console.log(questions);
 
+    // Game Question Code for the start of the game
+
     const gameQuestion = document.getElementById('game-question');
     gameQuestion.innerText = questions[0].question;
 
-    const gameAnswerOne = document.getElementById('game-answer-1');
-    gameAnswerOne.innerText = questions[0].AnswerA;
+    // Game Answers Code for the start of the game
 
-    const gameAnswerTwo = document.getElementById('game-answer-2');
-    gameAnswerTwo.innerText = questions[0].AnswerB;
+    const gameAnswers = document.getElementsByClassName('game-answers');
+    for (let i = 0; i < gameAnswers.length; i++) {
+        gameAnswers[i].innerText = questions[0].answers[i];
+    }
 
-    const gameAnswerThree = document.getElementById('game-answer-3');
-    gameAnswerThree.innerText = questions[0].AnswerC;
-
-    const gameAnswerFour = document.getElementById('game-answer-4');
-    gameAnswerFour.innerText = questions[0].AnswerD;
+    // Quiz Timer Code for the start of the game
 
     const quizTimerText = document.getElementById('game-timer-text');
 
@@ -136,11 +137,15 @@ document.getElementById("start-button").addEventListener("click", function(){
         document.quizTimerText.innerHTML = `Time is up!`;
     }
 
+    // Score Code for the start of the game
+
     const scoreText = document.getElementById('game-score-text');
-    scoreText.innerText = `Score: 0`;
+    scoreText.innerText = `Score: ${score}`;
+
+    // Question Amount Text Code for the start of the game
 
     const questionAmountText = document.getElementById('game-question-number-text');
-    questionAmountText.innerHTML = `Question: 1/${questionAmount}`;
+    questionAmountText.innerHTML = `Question: ${questionCounter}/${questionAmount}`;
 });
 
 // Get Questions function to get the questions needed for the quiz
@@ -191,9 +196,7 @@ function shuffleQuestions(questions) {
     return questions.sort(() => Math.random() - 0.5)
 }
 
-let score = 0;
 let correctScore = 1;
-let questionCounter = 0;
 let acceptingAnswers = true;
 
 function checkAnswer() {
