@@ -225,3 +225,24 @@ Each page of Multiple Maths consists of:
 * A play! button which will take the user back to the options.html page to play the game again.
 * A back to home page button to take the user back to the index.html page. 
 
+## Features to Implement in the Future
+
+There are a few features that the developer would like to implement in the near future:
+
+### The first is a new set of options which will allow the user to choose the difficulty of the questions that they would need to answer.
+
+The three options would be:
+
+* Easy Difficulty - if the user chose this difficulty then the questions in the quiz will be of easy difficulty.
+* Medium Difficulty - if the user chose this difficulty then the questions in the quiz will be of medium difficulty.
+* Hard Difficulty - if the user chose this difficulty then the questions in the quiz will be of hard difficulty.
+
+### Feature number 2 would allow the user to choose another answer if the first answer they chose was incorrect.
+
+This would allow the user to think again about the question and try to pick the correct answer from the 3 remaining as the first answer clicked would disappear. This would allow the user a second chance but also improve the users maths skills and knowledge.
+
+### Feature number 3 would allow the user to choose between a quiz or input the answer themselves
+
+The user will be able to choose whether they would like to have a multiple choice quiz or just a question and answer box where the user would have to input the answer themselves without any options. This would be better for teenagers or above as they would need to workout the answer in their head or on a piece of paper.
+
+### The last feature would be a global leaderboard of highscores so that the user can see the highscores of other players. This would allow the user to play Multiple Maths for a competitive purpose and could benefit schools as they could have a class leaderboard or school leaderboard for example.
