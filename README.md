@@ -61,8 +61,32 @@ The primary goal for Multiple Maths is to help kids with their maths skills and 
 
 # Five Development Planes
 
+To be able to design and create a web-based interactive quiz, I must ensure that the quiz is easy navigational between all pages, looks appealing to the user and meets both the user stories and project goals criteria to allow the user to play the quiz without any issues or bugs and for the quiz to work correctly on all device screen sizes. To keep track of this I used the Five Development Planes, which I have described below:
+
 ## Strategy
 
+Here is how I broke down the Strategy Development Plane:
+
+* Users:
+    * Users that are new to Multiple Maths
+    * Users that are currently playing Multiple Maths  
+    * User that are returning to Multiple Maths
+
+* Target Audience:
+    * Users that love maths/ maths equations
+    * Users that love to play a quiz
+    * Users that would like to improve on their maths skills/ knowledge
+    * Children/ Teeangers
+
+* 
+
+* The quiz will need to ensure that the user can:
+    * Play the quiz without any issues, errors or help
+    * Easily navigate around the quiz
+    * Be able to choose the options the user would like to play the quiz
+    * See their score each quiz and save the users highscores
+    * Contact the developer for any suggestions, issues, problems, errors or help
+    * Connect with the developer from the social links in the footer section
 
 
 
