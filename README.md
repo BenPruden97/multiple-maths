@@ -78,21 +78,51 @@ Here is how I broke down the Strategy Development Plane:
     * Users that would like to improve on their maths skills/ knowledge
     * Children/ Teeangers
 
-* 
-
 * The quiz will need to ensure that the user can:
     * Play the quiz without any issues, errors or help
     * Easily navigate around the quiz
     * Be able to choose the options the user would like to play the quiz
+    * Determine whether the user has selceted the correct or incorrect answer
     * See their score each quiz and save the users highscores
+    * Select to reset the options chosen and to play again
     * Contact the developer for any suggestions, issues, problems, errors or help
     * Connect with the developer from the social links in the footer section
 
+With the above strategy options in mind, I have created a strategy table (below) to show the importance and viability for all of the following options:
 
+![Strategy Table](../assets/readme-file-images/strategy-importance-table.png)
 
 ## Scope
 
+Here is how I broke down the Scope Development Plane in order to align with the Strategy Development Plane above:
 
+* Content Requirements
+    * Vibrant and attractive colours
+    * Easily readable primary font and backup font
+    * Buttons can be clicked on easily for all device screen sizes for user experience
+    * Headings and text used can be easily seen on all device screen sizes
+
+* Functionality Requirements
+    * Choose the quiz options that the user would like
+    * Easily navigate around the quiz
+    * Contact developer
+    * Connect with developer on social platforms
+    * Save Highscores
+    * Timer Amount
+    * Question Amount
+    * Reset button to reset options chosen
+    * Play Again button to play the quiz again
+
+* Quiz Requirements
+    * Addition questions & answers
+    * Subtraction questions & answers
+    * Multiplication questions & answers
+    * Division questions & answers
+    * Multi questions & answers (displays all 4 maths equations questions & answers)
+    * Score Counter
+    * Question Counter
+    * Timer
+    * Correct & Incorrect Answer feedback
 
 ## Structure
 
