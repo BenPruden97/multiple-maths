@@ -84,14 +84,22 @@ The primary goal for Multiple Maths is to help kids with their maths skills and 
 
 ### Colours used during my development
 
-* ![#D3D3D3 Colour](./assets/readme-file-images/#d3d3d3-colour.png)
-* ![#FAFAFA Colour](./assets/readme-file-images/#fafafa-colour.png)
-* ![#2F5195 Colour](./assets/readme-file-images/#2f5195-colour.png)
-* ![#D40C00 Colour](./assets/readme-file-images/#d40c00-colour.png)
-* ![#FF8B3D Colour](./assets/readme-file-images/#ff8b3d-colour.png)
-* ![#38761D Colour](./assets/readme-file-images/#38761d-colour.png)
-* ![#7C5295 Colour](./assets/readme-file-images/#7c5295-colour.png)
+* ![#D3D3D3 Colour](../assets/readme-file-images/#d3d3d3-colour.png) - This colour was used as the main background for all pages.
+* ![#FAFAFA Colour](../assets/readme-file-images/#fafafa-colour.png) - This colour was used as a background as well as text, headings and icon colours
+* ![#2F5195 Colour](../assets/readme-file-images/#2f5195-colour.png) - This is the main colour of my project as it was used the most to style different types of elements
+* ![#D40C00 Colour](../assets/readme-file-images/#d40c00-colour.png) - This colour was used for the play, reset and subtraction buttons within my project
+* ![#FF8B3D Colour](../assets/readme-file-images/#ff8b3d-colour.png) - This colour was used for the how to play button and buttons within the options.html file
+* ![#38761D Colour](../assets/readme-file-images/#38761d-colour.png) - This colour was used for the highscores.html file and buttons within the options.html file
+* ![#7C5295 Colour](../assets/readme-file-images/#7c5295-colour.png) - This colour was used for the contact form button and pop up as well as buttons for the options.html file
 
+### Typography
+
+* The primary font used for my project was Roboto as it is a very clear and easily readable font and as my target audience is children/ teenagers, the readabiliy is very important.
+* I used the sans-serif font as my fallback font just incase Roboto was not able to load onto a users computer.
+
+### Images
+
+* The images used within my project or readme file we created by me using powerpoint presentation. I found powerpoint very easy to use and was able to create the images/ screenshots I needed. I also designed my Multiple Maths logo in Powerpoint presentation.
 
 
 
