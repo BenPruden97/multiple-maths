@@ -12,6 +12,12 @@
     * Developer/ Site Owner Goals
 * User Stories
     * Player Stories
+* Five Development Planes
+    * Strategy
+    * Scope
+    * Structure
+    * Skeleton
+    * Surface
 
 # UX
 
@@ -52,6 +58,39 @@ The primary goal for Multiple Maths is to help kids with their maths skills and 
 * I would like the answers to change colour or to make a sound to let me know if I have chosen the correct or incorrect answer.
 * An option of audio to listen to the question as young kids will be playing the game who may struggle to read the questions.
 * GitHub link to see the developer’s previous projects/ work.
+
+# Five Development Planes
+
+## Strategy
+
+
+
+
+## Scope
+
+
+
+## Structure
+
+
+
+
+## Skeleton
+
+
+
+
+## Surface
+
+### Colours used during my development
+
+* ![#D3D3D3 Colour](./assets/readme-file-images/#d3d3d3-colour.png)
+* ![#FAFAFA Colour](./assets/readme-file-images/#fafafa-colour.png)
+* ![#2F5195 Colour](./assets/readme-file-images/#2f5195-colour.png)
+* ![#D40C00 Colour](./assets/readme-file-images/#d40c00-colour.png)
+* ![#FF8B3D Colour](./assets/readme-file-images/#ff8b3d-colour.png)
+* ![#38761D Colour](./assets/readme-file-images/#38761d-colour.png)
+* ![#7C5295 Colour](./assets/readme-file-images/#7c5295-colour.png)
 
 
 
