@@ -1362,13 +1362,14 @@ body {
     color: #2f5195;
     text-align: center;
     padding: 20px;
+    margin-bottom: 25%;
 }
 
 .high-score-options {
-    display: grid;
-    gap: 10px;
-    justify-content: center;
+    display: flex;
+    justify-content: space-between;
     align-items: center;
+    margin: 0 50px;
 }
 
 /* Gigh score play button styling */
@@ -1381,7 +1382,6 @@ body {
     color: #fafafa;
     border-radius: 25px;
     border: 3px solid #2F5597;
-    margin-top: 50%;
 }
 
 .high-score-play-button a {
@@ -1423,8 +1423,6 @@ body {
     color: #fafafa;
     border-radius: 25px;
     border: 3px solid #2F5597;
-    margin-bottom: 20px;
-    margin-left: -25px;
 }
 
 .high-score-main-menu-button:hover {
@@ -2263,34 +2261,34 @@ body {
         color: #2f5195;
         text-align: center;
         padding: 20px;
+        margin-bottom: 50%;
     }
 
     .high-score-options {
-        display: grid;
-        gap: 10px;
-        justify-content: center;
+        display: flex;
+        justify-content: space-between;
         align-items: center;
+        margin: 0 30px;
     }
 
     /* Gigh score play button styling */
 
     .high-score-play-button {
-        font-size: 1.2rem;
+        font-size: 1.1rem;
         padding: 0.5rem;
-        width: 15rem;
+        width: 8rem;
         background-color: #D40C00;
         color: #fafafa;
         border-radius: 15px;
         border: 3px solid #2F5597;
-        margin-top: 50%;
     }
 
     /* Clear high score button styling */
 
     .clear-high-score-button {
-        font-size: 1.2rem;
+        font-size: 1.1rem;
         padding: 0.5rem;
-        width: 15rem;
+        width: 12rem;
         background-color: #38761D;
         color: white;
         border-radius: 15px;
@@ -2300,15 +2298,13 @@ body {
     /* High score main menu button styling */
 
     .high-score-main-menu-button {
-        font-size: 1.2rem;
+        font-size: 1.1rem;
         padding: 0.5rem;
-        width: 15rem;
+        width: 12rem;
         background-color: #7C5295;
         color: #fafafa;
         border-radius: 15px;
         border: 3px solid #2F5597;
-        margin-left: 0px;
-        margin-bottom: 20px;
     }
 
     /* Footer Section Styling */
@@ -3322,34 +3318,34 @@ body {
         color: #2f5195;
         text-align: center;
         padding: 20px;
+        margin-bottom: 70%;
     }
 
     .high-score-options {
-        display: grid;
-        gap: 10px;
-        justify-content: center;
+        display: flex;
+        justify-content: space-between;
         align-items: center;
+        margin: 0 30px;
     }
 
     /* Gigh score play button styling */
 
     .high-score-play-button {
-        font-size: 1rem;
+        font-size: 0.8rem;
         padding: 0.5rem;
-        width: 15rem;
+        width: 6rem;
         background-color: #D40C00;
         color: #fafafa;
         border-radius: 15px;
         border: 3px solid #2F5597;
-        margin-top: 50%;
     }
 
     /* Clear high score button styling */
 
     .clear-high-score-button {
-        font-size: 1rem;
+        font-size: 0.8rem;
         padding: 0.5rem;
-        width: 15rem;
+        width: 10rem;
         background-color: #38761D;
         color: white;
         border-radius: 15px;
@@ -3359,15 +3355,13 @@ body {
     /* High score main menu button styling */
 
     .high-score-main-menu-button {
-        font-size: 1rem;
+        font-size: 0.8rem;
         padding: 0.5rem;
-        width: 15rem;
+        width: 10rem;
         background-color: #7C5295;
         color: #fafafa;
         border-radius: 15px;
         border: 3px solid #2F5597;
-        margin-left: 0px;
-        margin-bottom: 20px;
     }
 
 }
@@ -4255,21 +4249,21 @@ body {
     }
 
     .game-over-style h2 {
-        font-size: 2rem;
+        font-size: 1.75rem;
         color: #2f5195;
         text-align: center;
         padding: 10px;
     }
 
     .game-over-style h5 {
-        font-size: 1.5rem;
+        font-size: 1.3rem;
         color: #2f5195;
         text-align: center;
         padding: 10px;
     }
 
     .game-over-style h3 {
-        font-size: 1.2rem;
+        font-size: 1rem;
         color: #2f5195;
         text-align: center;
         padding: 10px;
@@ -4355,37 +4349,37 @@ body {
     }
 
     .high-score-style h2 {
-        font-size: 2rem;
+        font-size: 1.5rem;
         color: #2f5195;
         text-align: center;
         padding: 20px;
+        margin-bottom: 70%;
     }
 
     .high-score-options {
         display: grid;
-        gap: 10px;
         justify-content: center;
         align-items: center;
+        gap: 5px;
     }
 
     /* Gigh score play button styling */
 
     .high-score-play-button {
-        font-size: 1rem;
-        padding: 0.5rem;
+        font-size: 0.8rem;
+        padding: 0.3rem;
         width: 15rem;
         background-color: #D40C00;
         color: #fafafa;
         border-radius: 15px;
         border: 3px solid #2F5597;
-        margin-top: 50%;
     }
 
     /* Clear high score button styling */
 
     .clear-high-score-button {
-        font-size: 1rem;
-        padding: 0.5rem;
+        font-size: 0.8rem;
+        padding: 0.3rem;
         width: 15rem;
         background-color: #38761D;
         color: white;
@@ -4396,15 +4390,15 @@ body {
     /* High score main menu button styling */
 
     .high-score-main-menu-button {
-        font-size: 1rem;
-        padding: 0.5rem;
+        font-size: 0.8rem;
+        padding: 0.3rem;
         width: 15rem;
         background-color: #7C5295;
         color: #fafafa;
         border-radius: 15px;
         border: 3px solid #2F5597;
         margin-left: 0px;
-        margin-bottom: 20px;
+        margin-bottom: 10px;
     }
 
 }
@@ -4680,21 +4674,21 @@ body {
     }
 
     .game-over-style h2 {
-        font-size: 2rem;
+        font-size: 1.75rem;
         color: #2f5195;
         text-align: center;
         padding: 10px;
     }
 
     .game-over-style h5 {
-        font-size: 1.5rem;
+        font-size: 1.2rem;
         color: #2f5195;
         text-align: center;
         padding: 10px;
     }
 
     .game-over-style h3 {
-        font-size: 1.2rem;
+        font-size: 1rem;
         color: #2f5195;
         text-align: center;
         padding: 10px;
@@ -4780,37 +4774,37 @@ body {
     }
 
     .high-score-style h2 {
-        font-size: 2rem;
+        font-size: 1.2rem;
         color: #2f5195;
         text-align: center;
         padding: 20px;
+        margin-bottom: 80%;
     }
 
     .high-score-options {
         display: grid;
-        gap: 10px;
+        gap: 5px;
         justify-content: center;
         align-items: center;
     }
 
-    /* Gigh score play button styling */
+    /* High score play button styling */
 
     .high-score-play-button {
         font-size: 0.8rem;
-        padding: 0.5rem;
+        padding: 0.3rem;
         width: 15rem;
         background-color: #D40C00;
         color: #fafafa;
         border-radius: 15px;
         border: 3px solid #2F5597;
-        margin-top: 50%;
     }
 
     /* Clear high score button styling */
 
     .clear-high-score-button {
         font-size: 0.8rem;
-        padding: 0.5rem;
+        padding: 0.3rem;
         width: 15rem;
         background-color: #38761D;
         color: white;
@@ -4822,14 +4816,14 @@ body {
 
     .high-score-main-menu-button {
         font-size: 0.8rem;
-        padding: 0.5rem;
+        padding: 0.3rem;
         width: 15rem;
         background-color: #7C5295;
         color: #fafafa;
         border-radius: 15px;
         border: 3px solid #2F5597;
         margin-left: 0px;
-        margin-bottom: 20px;
+        margin-bottom: 10px;
     }
 
 }
