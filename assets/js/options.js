@@ -209,4 +209,8 @@ function resetOptions() {
     location.reload();
 }
 
+function readQuestion() {
+    
+}
+
 

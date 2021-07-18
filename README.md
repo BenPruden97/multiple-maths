@@ -343,3 +343,14 @@ Seun is my mentor and she has been great throughout my Multiple Maths project. T
 There were times when I was stuck during my project and the tutor support system was really helpful in finding a solution to some of the problems I was running into. This allowed me to continue to make progress for my project instead of being stuck on a problem and not making any progress at all which allowed me to finish before the deadline.
 
 # Screenshots
+
+## Home Page - index.html
+
+## Options Page - options.html
+
+## Game Page - Within options.html
+
+## Game Over Page - game-over.html
+
+## Highscores Page - highscores.html
+
