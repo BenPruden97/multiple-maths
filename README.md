@@ -138,13 +138,13 @@ Here is how I broke down the Scope Development Plane in order to align with the 
 
 ### Colours used during my development
 
-* ![#D3D3D3 Colour](https://github.com/BenPruden97/multiple-maths/blob/master/assets/readme-file-images/%23d3d3d3-colour.png) - This colour was used as the main background for all pages.
-* ![#FAFAFA Colour](https://github.com/BenPruden97/multiple-maths/blob/master/assets/readme-file-images/%23fafafa-colour.png) - This colour was used as a background as well as text, headings and icon colours
-* ![#2F5195 Colour](https://github.com/BenPruden97/multiple-maths/blob/master/assets/readme-file-images/%232f5195-colour.png) - This is the main colour of my project as it was used the most to style different types of elements
-* ![#D40C00 Colour](https://github.com/BenPruden97/multiple-maths/blob/master/assets/readme-file-images/%23d40c00-colour.png) - This colour was used for the play, reset and subtraction buttons within my project
-* ![#FF8B3D Colour](https://github.com/BenPruden97/multiple-maths/blob/master/assets/readme-file-images/%23ff8b3d-colour.png) - This colour was used for the how to play button and buttons within the options.html file
-* ![#38761D Colour](https://github.com/BenPruden97/multiple-maths/blob/master/assets/readme-file-images/%2338761d-colour.png) - This colour was used for the highscores.html file and buttons within the options.html file
-* ![#7C5295 Colour](https://github.com/BenPruden97/multiple-maths/blob/master/assets/readme-file-images/%237c5295-colour.png) - This colour was used for the contact form button and pop up as well as buttons for the options.html file
+* ![#D3D3D3 Colour](https://github.com/BenPruden97/multiple-maths/blob/master/assets/readme-file-images/%23d3d3d3-colour-block.png) - This colour was used as the main background for all pages.
+* ![#FAFAFA Colour](https://github.com/BenPruden97/multiple-maths/blob/master/assets/readme-file-images/%23fafafa-colour-block.png) - This colour was used as a background as well as text, headings and icon colours
+* ![#2F5195 Colour](https://github.com/BenPruden97/multiple-maths/blob/master/assets/readme-file-images/%232f5195-colour-block.png) - This is the main colour of my project as it was used the most to style different types of elements
+* ![#D40C00 Colour](https://github.com/BenPruden97/multiple-maths/blob/master/assets/readme-file-images/%23d40c00-colour-block.png) - This colour was used for the play, reset and subtraction buttons within my project
+* ![#FF8B3D Colour](https://github.com/BenPruden97/multiple-maths/blob/master/assets/readme-file-images/%23ff8b3d-colour-block.png) - This colour was used for the how to play button and buttons within the options.html file
+* ![#38761D Colour](https://github.com/BenPruden97/multiple-maths/blob/master/assets/readme-file-images/%2338761d-colour-block.png) - This colour was used for the highscores.html file and buttons within the options.html file
+* ![#7C5295 Colour](https://github.com/BenPruden97/multiple-maths/blob/master/assets/readme-file-images/%237c5295-colour-block.png) - This colour was used for the contact form button and pop up as well as buttons for the options.html file
 
 ### Typography
 
@@ -294,7 +294,7 @@ Multiple Maths was developed using GitPod, which was commited to git using git a
 6. Click save and refresh the page.
 7. You will then see a message of "Your site is published at with your GitHub repository URL.
 
-![GitHub Project Repository Publushed URL]()
+![GitHub Project Repository Published URL](https://github.com/BenPruden97/multiple-maths/blob/master/assets/readme-file-images/github-pages-url.png)
 
 ### Forking a repository
 
@@ -346,11 +346,21 @@ There were times when I was stuck during my project and the tutor support system
 
 ## Home Page - index.html
 
+![Home Page Screenshot](https://github.com/BenPruden97/multiple-maths/blob/master/assets/readme-file-images/home-page-index.html.png)
+
 ## Options Page - options.html
+
+![Options Page Screenshot](https://github.com/BenPruden97/multiple-maths/blob/master/assets/readme-file-images/options-page-options.html.png)
 
 ## Game Page - Within options.html
 
+![Game Page Screenshot](https://github.com/BenPruden97/multiple-maths/blob/master/assets/readme-file-images/game-page-options.html.png)
+
 ## Game Over Page - game-over.html
 
+![Game Over Page Screenshot](https://github.com/BenPruden97/multiple-maths/blob/master/assets/readme-file-images/game-over-page-game-over.html.png)
+
 ## Highscores Page - highscores.html
+
+![Highscore Page Screenshot](https://github.com/BenPruden97/multiple-maths/blob/master/assets/readme-file-images/highscores-page-highscores.html.png)
 
