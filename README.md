@@ -317,6 +317,29 @@ Multiple Maths was developed using GitPod, which was commited to git using git a
 
 # Credits
 
+## Templates Used
 
+I used the Code Institute Student Template to complete my Multiple Maths Project: [GitPod Full Template](https://github.com/Code-Institute-Org/gitpod-full-template)
+
+## Websites I used for help, guidance or tutorials
+
+Here is a list of the websites I used to find solutions or help if I was stuck on a particular section of my quiz.
+
+1. [Youtube](https://www.youtube.com/)
+2. [Bootstrap](https://getbootstrap.com/)
+3. [W3Schools](https://www.w3schools.com/)
+4. [Stack Overflow](https://stackoverflow.com/)
+5. [CSS Tricks](https://css-tricks.com/)
+6. [Developer Mozilla](https://developer.mozilla.org/en-US/)
+
+## Audio
+
+## Seun - my Mentor
+
+Seun is my mentor and she has been great throughout my Multiple Maths project. The three sessions we had for the beginning. middle and end of my project were really helpful and Seun guided me in the right direction. Seun also answered questions that I sent to her through Slacked even though she does not have to. Seun also gave me a lot of tips and tricks as well as different programs I can used for my project including local storage for my highscores section of my quiz.
+
+## Tutor Support
+
+There were times when I was stuck during my project and the tutor support system was really helpful in finding a solution to some of the problems I was running into. This allowed me to continue to make progress for my project instead of being stuck on a problem and not making any progress at all which allowed me to finish before the deadline.
 
 # Screenshots
