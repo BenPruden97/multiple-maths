@@ -246,3 +246,47 @@ This would allow the user to think again about the question and try to pick the 
 The user will be able to choose whether they would like to have a multiple choice quiz or just a question and answer box where the user would have to input the answer themselves without any options. This would be better for teenagers or above as they would need to workout the answer in their head or on a piece of paper.
 
 ### The last feature would be a global leaderboard of highscores so that the user can see the highscores of other players. This would allow the user to play Multiple Maths for a competitive purpose and could benefit schools as they could have a class leaderboard or school leaderboard for example.
+
+# Issues & Bugs
+
+
+# Technologies Used
+
+## Languages Used
+
+* HTML5
+* CSS3
+* Javascript
+
+## Frameworks, Libraries & Programs Used
+
+* [Bootstrap](https://getbootstrap.com/)
+
+* [Google Fonts](https://fonts.google.com/) - I used google fonts to import my primary font, Roboto onto my project.
+
+* [Font Awesome](https://fontawesome.com/) - I used font awesome to import icons onto my project.
+
+* [Adobe XD](https://www.adobe.com/uk/products/xd.html) - I used the adobe xd software to create the wireframes for my project.
+
+* [Powerpoint Presentation](https://www.microsoft.com/en-us/microsoft-365/powerpoint) - I used powerpoint presentation to create images and my logo for my project.
+
+* [Git](https://git-scm.com/) - I used git as version control for my project by using the GitPod terminal to git add, commit and push to my GitHub.
+
+* [GitPod](https://www.gitpod.io/) - I used GitPod as my development hosting platform to create all of my projects code.
+
+* [GitHub](https://github.com/) - GitHub was used as my project software hosting platform to store all of my project files and folders.
+
+
+# Testing
+
+
+
+# Multiple Maths Deployment
+
+
+
+# Credits
+
+
+
+# Screenshots
