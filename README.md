@@ -276,14 +276,44 @@ The user will be able to choose whether they would like to have a multiple choic
 
 * [GitHub](https://github.com/) - GitHub was used as my project software hosting platform to store all of my project files and folders.
 
-
 # Testing
 
 
 
 # Multiple Maths Deployment
 
+Multiple Maths was developed using GitPod, which was commited to git using git add, commit and pushed to GitHub using the GitPod terminal.
 
+## Deploying on GitHub Pages
+
+1. Log into your GitHub account and find your site repository.
+2. Select the settings option on the far right.
+3. Scroll down the page until your find the GitHub pages section.
+4. Locate the source tab and set the branch to master
+5. Also set the folder to the right of the branch to /root from the drop down menu.
+6. Click save and refresh the page.
+7. You will then see a message of "Your site is published at with your GitHub repository URL.
+
+![GitHub Project Repository Publushed URL]()
+
+### Forking a repository
+
+1. Log into your GitHub account and find your site repository.
+2. At the top right of your repository page, click on the "Fork" button.
+3. After clicking on the "Fork" option, you should now have a copy of your GitHub repository in your GitHub account.
+
+### Cloning a repository
+
+1. Log into your GitHub account and find your site repository.
+2. Once you are logged in, navigate to the main page of your repository
+3. Click on the green code button. Once you click on the button, there will be a dropdown with 3 options which are:
+    * To clone your repository using HTTPS, click on the "HTTPS" option and copy the link using the copy button to the right of the https link.
+    * To clone your repository using a SSH key, click on the "SSH" option and copy the link using the copy button to the right of the SSH link.
+    * To clone your repository using a GitHub CLI, click on the "GitHub CLI" option and copy the link using the copy button to the right of the GitHub CLI link.
+4. Open Git Bash
+5. Change the current working directory to the location where you would like the cloned directory to be stored.
+6. Type "git clone" and then paste the URL you copied earlier
+7. Lastly press "Enter" to create your local clone.
 
 # Credits
 
