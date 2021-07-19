@@ -260,7 +260,7 @@ The user will be able to choose whether they would like to have a multiple choic
 
 ## Frameworks, Libraries & Programs Used
 
-* [Bootstrap](https://getbootstrap.com/)
+* [Bootstrap](https://getbootstrap.com/) - Bootstrap was used as a css framework to help with the responsiveness of my project for all device screen sizes.
 
 * [Google Fonts](https://fonts.google.com/) - I used google fonts to import my primary font, Roboto onto my project.
 
@@ -346,21 +346,21 @@ There were times when I was stuck during my project and the tutor support system
 
 ## Home Page - index.html
 
-![Home Page Screenshot](https://github.com/BenPruden97/multiple-maths/blob/master/assets/readme-file-images/home-page-index.html.png)
+![Home Page Screenshot](https://github.com/BenPruden97/multiple-maths/blob/master/assets/readme-file-images/index.html-screenshot.png)
 
 ## Options Page - options.html
 
-![Options Page Screenshot](https://github.com/BenPruden97/multiple-maths/blob/master/assets/readme-file-images/options-page-options.html.png)
+![Options Page Screenshot](https://github.com/BenPruden97/multiple-maths/blob/master/assets/readme-file-images/options-page-options.html-screenshot.png)
 
 ## Game Page - Within options.html
 
-![Game Page Screenshot](https://github.com/BenPruden97/multiple-maths/blob/master/assets/readme-file-images/game-page-options.html.png)
+![Game Page Screenshot](https://github.com/BenPruden97/multiple-maths/blob/master/assets/readme-file-images/game-page-options.html-screenshot.png)
 
 ## Game Over Page - game-over.html
 
-![Game Over Page Screenshot](https://github.com/BenPruden97/multiple-maths/blob/master/assets/readme-file-images/game-over-page-game-over.html.png)
+![Game Over Page Screenshot](https://github.com/BenPruden97/multiple-maths/blob/master/assets/readme-file-images/page-game-over.html-screenshot.png)
 
 ## Highscores Page - highscores.html
 
-![Highscore Page Screenshot](https://github.com/BenPruden97/multiple-maths/blob/master/assets/readme-file-images/highscores-page-highscores.html.png)
+![Highscore Page Screenshot](https://github.com/BenPruden97/multiple-maths/blob/master/assets/readme-file-images/highscores.html-screenshot.png)
 
