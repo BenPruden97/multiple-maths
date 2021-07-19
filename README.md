@@ -126,13 +126,17 @@ Here is how I broke down the Scope Development Plane in order to align with the 
 
 ## Structure
 
+In the Structure Development Plane I have created a hierarchial structure chart to show how the users of Multiple Maths can navigate around the site with ease and effiency, here is my Structure Development Plane:
 
-
+![Structure Development Plane](https://github.com/BenPruden97/multiple-maths/blob/master/assets/readme-file-images/structure-development-plane.png)
 
 ## Skeleton
 
+In the Skeleton Development Plane I created my wireframe mockups using Adobe XD:
 
+### Home Page Wireframes
 
+![Home Page Wireframes](https://github.com/BenPruden97/multiple-maths/blob/master/assets/readme-file-images/home-page-wireframes.png)
 
 ## Surface
 
@@ -358,7 +362,7 @@ There were times when I was stuck during my project and the tutor support system
 
 ## Game Over Page - game-over.html
 
-![Game Over Page Screenshot](https://github.com/BenPruden97/multiple-maths/blob/master/assets/readme-file-images/page-game-over.html-screenshot.png)
+![Game Over Page Screenshot](https://github.com/BenPruden97/multiple-maths/blob/master/assets/readme-file-images/game-over.html-screenshot.png)
 
 ## Highscores Page - highscores.html
 
