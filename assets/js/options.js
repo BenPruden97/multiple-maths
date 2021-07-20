@@ -7,6 +7,10 @@ const optionSection = document.getElementById("option-section-id");
 const gameSection = document.getElementById("game-section-id");
 gameSection.style.display = "none";
 
+// Game Answers button that have the same class name
+
+const gameAnswers = document.getElementsByClassName("game-answers");
+
 // Game Questions, Timer, Score and Question Amount Variables
 
 let mathQuestions = "addition";
@@ -15,7 +19,7 @@ let questionAmount = 8;
 let score = 0;
 let questionCounter = 1;
 let questionNumber = 0;
-
+let questions;
 
 // Maths Questions click functions
 
@@ -107,27 +111,15 @@ document.getElementById("sixteen-questions").addEventListener("click", function(
 document.getElementById("start-button").addEventListener("click", function(){ 
     gameSection.style.display = "block";
     optionSection.style.display = "none";
-    const questions = getQuestions(mathQuestions, questionAmount);
+    questions = getQuestions(mathQuestions, questionAmount);
     console.log(questions);
 
-    // Calling get question function
-
-    getQuestion(questionNumber)
-
-    // Displaying the question
-
-    displayQuestion(questionNumber)
-
-    countdownClockUpdate()
-
-    // Score Code for the start of the game
+    startGame();
 
     updateScore(currentScore)
 
-    // Question Amount Text Code for the start of the game
-
-    const questionAmountText = document.getElementById('game-question-number-text');
-    questionAmountText.innerHTML = `Question: ${questionNumber + 1}/${questionAmount}`;
+    countdownClockUpdate()
+    
 });
 
 // Get Questions function to get the questions needed for the quiz
@@ -178,18 +170,20 @@ function shuffleQuestions(questions) {
     return questions.sort(() => Math.random() - 0.5)
 }
 
+let currentScore;
+
 function startGame() {
-    let questionNumber = 0;
-    let currentScore;
-    getQuestion(newQuestion);
-    displayQuestion(newQuestion);
+    updateScore(currentScore);
+    getQuestion(questionNumber);
+    displayQuestion(questionNumber);
+    currentQuestion(questionNumber);
 }
 
 function getQuestion(questionNumber) {
     for (let i = 0; i < gameAnswers.length; i++) {
     gameAnswers[i].innerText = questions[questionNumber].answers[i];
     }
-    displayQuestion(newQuestion);
+    displayQuestion(questionNumber);
 };
 
 function displayQuestion(questionNumber) {
@@ -202,9 +196,14 @@ function checkAnswer() {
     console.log(selectedAnswer);
 };
 
+function currentQuestion(questionNumber) {
+    const questionAmountText = document.getElementById('game-question-number-text');
+    questionAmountText.innerHTML = `Question: ${questionNumber + 1}/${questionAmount}`;
+}
+
 function updateScore(currentScore) {
     const scoreText = document.getElementById('game-score-text');
-    scoreText.innerText = `Score: ${currentScore}`;
+    scoreText.innerText = `Score: ${correctScore}`;
 }
 
 let correctScore = 1;
