@@ -116,7 +116,7 @@ document.getElementById("start-button").addEventListener("click", function(){
 
     startGame();
 
-    updateScore(currentScore)
+    updateScore(Score)
 
     countdownClockUpdate()
     
@@ -170,7 +170,7 @@ function shuffleQuestions(questions) {
     return questions.sort(() => Math.random() - 0.5)
 }
 
-let currentScore;
+let currentScore = 0;
 
 function startGame() {
     updateScore(currentScore);
@@ -201,12 +201,11 @@ function currentQuestion(questionNumber) {
     questionAmountText.innerHTML = `Question: ${questionNumber + 1}/${questionAmount}`;
 }
 
-function updateScore(currentScore) {
+function updateScore(Score) {
     const scoreText = document.getElementById('game-score-text');
-    scoreText.innerText = `Score: ${correctScore}`;
+    scoreText.innerText = `Score: ${Score}`;
 }
 
-let correctScore = 1;
 let acceptingAnswers = true;
 
 // Reset Option function to reset the options section if the user chooses the wrong options
