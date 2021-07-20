@@ -15,6 +15,7 @@ let questionAmount = 8;
 let score = 0;
 let questionCounter = 1;
 
+
 // Maths Questions click functions
 
 // Addition Maths Questions click function
@@ -108,17 +109,11 @@ document.getElementById("start-button").addEventListener("click", function(){
     const questions = getQuestions(mathQuestions, questionAmount);
     console.log(questions);
 
-    // Game Question Code for the start of the game
+    // Calling get question function
 
-    const gameQuestion = document.getElementById('game-question');
-    gameQuestion.innerText = questions[0].question;
+    getQuestion(questionNumber)
 
-    // Game Answers Code for the start of the game
-
-    const gameAnswers = document.getElementsByClassName('game-answers');
-    for (let i = 0; i < gameAnswers.length; i++) {
-        gameAnswers[i].innerText = questions[0].answers[i];
-    }
+    displayQuestion(questionNumber)
 
     // Quiz Timer Code for the start of the game
 
@@ -139,13 +134,12 @@ document.getElementById("start-button").addEventListener("click", function(){
 
     // Score Code for the start of the game
 
-    const scoreText = document.getElementById('game-score-text');
-    scoreText.innerText = `Score: ${score}`;
+    
 
     // Question Amount Text Code for the start of the game
 
     const questionAmountText = document.getElementById('game-question-number-text');
-    questionAmountText.innerHTML = `Question: ${questionCounter}/${questionAmount}`;
+    questionAmountText.innerHTML = `Question: ${questionNumber + 1}/${questionAmount}`;
 });
 
 // Get Questions function to get the questions needed for the quiz
@@ -196,21 +190,42 @@ function shuffleQuestions(questions) {
     return questions.sort(() => Math.random() - 0.5)
 }
 
+function startGame() {
+    let questionNumber = 0;
+    let currentScore;
+    getQuestion(newQuestion);
+    displayQuestion(newQuestion);
+}
+
+function getQuestion(questionNumber) {
+    for (let i = 0; i < gameAnswers.length; i++) {
+    gameAnswers[i].innerText = questions[questionNumber].answers[i];
+    }
+    displayQuestion(newQuestion);
+};
+
+function displayQuestion(questionNumber) {
+    const gameQuestion = document.getElementById('game-question');
+    gameQuestion.innerText = questions[questionNumber].question;
+}
+
+function checkAnswer() {
+    let selectedAnswer = event.currentTarget.innerText;
+    console.log(selectedAnswer);
+};
+
+function updateScore(currentScore) {
+    const scoreText = document.getElementById('game-score-text');
+    scoreText.innerText = `Score: ${currentScore}`;
+}
+
 let correctScore = 1;
 let acceptingAnswers = true;
 
-function checkAnswer() {
-    console.log(checkAnswer); 
-};
+
 
 // Reset Option function to reset the options section if the user chooses the wrong options
 
 function resetOptions() {
-    location.reload();
-}
-
-function readQuestion() {
-    
-}
-
-
+    location.reload()
+};
