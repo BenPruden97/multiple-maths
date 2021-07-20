@@ -14,6 +14,7 @@ let quizTimer = 300000;
 let questionAmount = 8;
 let score = 0;
 let questionCounter = 1;
+let questionNumber = 0;
 
 
 // Maths Questions click functions
@@ -65,14 +66,14 @@ document.getElementById("one-minute").addEventListener("click", function(){
 // Three Minutes Timer click function
 
 document.getElementById("three-minutes").addEventListener("click", function(){ 
-    quizTimer = 180000;
+    quizTimer = 3;
     console.log(quizTimer);
 });
 
 // Five Minutes Timer click function
 
 document.getElementById("five-minutes").addEventListener("click", function(){ 
-    quizTimer = 300000;
+    quizTimer = 5;
     console.log(quizTimer);
 });
 
@@ -113,28 +114,15 @@ document.getElementById("start-button").addEventListener("click", function(){
 
     getQuestion(questionNumber)
 
+    // Displaying the question
+
     displayQuestion(questionNumber)
 
-    // Quiz Timer Code for the start of the game
-
-    const quizTimerText = document.getElementById('game-timer-text');
-
-    var timerMinute = quizTimer,
-    min = Math.floor((timerMinute/1000/60) << 0),
-    sec = Math.floor((timerMinute/1000) % 60);
-
-    quizTimerText.innerText = `Timer: ${min}:${sec +`0`}`;
-
-    setInterval(timerMinute, 1000);
-
-    if (timerMinute < 0) {
-        clearInterval();
-        document.quizTimerText.innerHTML = `Time is up!`;
-    }
+    countdownClockUpdate()
 
     // Score Code for the start of the game
 
-    
+    updateScore(currentScore)
 
     // Question Amount Text Code for the start of the game
 
@@ -222,10 +210,32 @@ function updateScore(currentScore) {
 let correctScore = 1;
 let acceptingAnswers = true;
 
-
-
 // Reset Option function to reset the options section if the user chooses the wrong options
 
 function resetOptions() {
     location.reload()
+};
+
+// Quiz Timer Code for the start of the game
+
+var startingMinutes = 1;
+let time = startingMinutes * 60;
+
+const countdownClock = document.getElementById("game-timer-text");
+
+setInterval(countdownClockUpdate, 1000);
+
+function countdownClockUpdate() {
+	
+    var minutes = Math.floor(time / 60);
+    var seconds = time % 60;
+    
+    countdownClock.innerHTML = `Timer: ${`0` + minutes}:${seconds}`;
+    time--;
+    
+    if(time < 0) {
+    clearInterval();
+    document.getElementById("game-timer-text").innerHTML = "Hello"
+    }
+    
 };
