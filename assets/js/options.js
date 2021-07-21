@@ -20,6 +20,7 @@ let score = 0;
 let questionCounter = 1;
 let questionNumber = 0;
 let questions;
+let correctAnswer;
 
 // Maths Questions click functions
 
@@ -63,7 +64,7 @@ document.getElementById("multi-questions").addEventListener("click", function(){
 // One Minute Timer click function
 
 document.getElementById("one-minute").addEventListener("click", function(){ 
-    quizTimer = 60000;
+    quizTimer = 1;
     console.log(quizTimer);
 });
 
@@ -116,7 +117,7 @@ document.getElementById("start-button").addEventListener("click", function(){
 
     startGame();
 
-    updateScore(Score)
+    updateScore(score)
 
     countdownClockUpdate()
     
@@ -170,10 +171,8 @@ function shuffleQuestions(questions) {
     return questions.sort(() => Math.random() - 0.5)
 }
 
-let currentScore = 0;
-
 function startGame() {
-    updateScore(currentScore);
+    updateScore(score);
     getQuestion(questionNumber);
     displayQuestion(questionNumber);
     currentQuestion(questionNumber);
@@ -183,6 +182,7 @@ function getQuestion(questionNumber) {
     for (let i = 0; i < gameAnswers.length; i++) {
     gameAnswers[i].innerText = questions[questionNumber].answers[i];
     }
+    correctAnswer = questions[questionNumber].correctAnswer;
     displayQuestion(questionNumber);
 };
 
@@ -192,9 +192,33 @@ function displayQuestion(questionNumber) {
 }
 
 function checkAnswer() {
-    let selectedAnswer = event.currentTarget.innerText;
-    console.log(selectedAnswer);
+    let selectedAnswerBox = event.currentTarget;
+    let selectedAnswer = selectedAnswerBox.innerText;
+
+    if (selectedAnswer === currentQuestion.correctAnswer) {
+        console.log(selectedAnswer);
+    } else {
+        console.log(selectedAnswer);
+    }
 };
+
+function markCorrectAnswer(selectedAnswer) {
+    if (event.currentTarget === currentQuestion.correctAnswer) {
+        classToApply = "correct";
+        updateScore++
+        scoreText.innerText = updateScore;
+        questionNumber++
+        displayQuestion++
+    }
+};
+
+function markincorrectAnswer() {
+    if (event.currentTarget != currentQuestion.correctAnswer) {
+        questionNumber++
+        displayQuestion++
+        classToApply = "incorrect";
+    }
+}
 
 function currentQuestion(questionNumber) {
     const questionAmountText = document.getElementById('game-question-number-text');
@@ -206,7 +230,7 @@ function updateScore(Score) {
     scoreText.innerText = `Score: ${Score}`;
 }
 
-let acceptingAnswers = true;
+
 
 // Reset Option function to reset the options section if the user chooses the wrong options
 
@@ -216,7 +240,7 @@ function resetOptions() {
 
 // Quiz Timer Code for the start of the game
 
-var startingMinutes = 1;
+var startingMinutes = quizTimer;
 let time = startingMinutes * 60;
 
 const countdownClock = document.getElementById("game-timer-text");
@@ -226,9 +250,10 @@ setInterval(countdownClockUpdate, 1000);
 function countdownClockUpdate() {
 	
     var minutes = Math.floor(time / 60);
+
     var seconds = time % 60;
-    
-    countdownClock.innerHTML = `Timer: ${`0` + minutes}:${seconds}`;
+
+    countdownClock.innerHTML = `Timer: ${minutes}:${seconds}`;
     time--;
     
     if(time < 0) {
@@ -237,3 +262,4 @@ function countdownClockUpdate() {
     }
     
 };
+
