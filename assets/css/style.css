@@ -1439,22 +1439,32 @@ body {
     width: 7.5rem;
     background-color: #38761D;
     color: white;
-    border-radius: 25px;
     border: 3px solid #38761D;
     text-align: center;
 }
 
+.correct-answer:hover {
+    background-color: #38761d;
+    color: #fafafa;
+    font-weight: 400;
+}
+
 /* game wrong answer styling */
 
-.wrong-answer {
+.incorrect-answer {
     font-size: 1.2rem;
     padding: 1rem;
     width: 7.5rem;
     background-color: #D40C00;
     color: white;
-    border-radius: 25px;
     border: 3px solid #D40C00;
     text-align: center;
+}
+
+.incorrect-answer:hover {
+    background-color: #d40c00;
+    color: #fafafa;
+    font-weight: 400;
 }
 
 /* Error Page styling */

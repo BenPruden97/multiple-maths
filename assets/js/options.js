@@ -197,20 +197,39 @@ function displayQuestion(questionNumber) {
 var allGameAnswers = document.querySelectorAll(".game-answers").forEach(button => {
     button.addEventListener("click", event => {
         var allGameAnswersText = button.innerText;
-        checkAnswer(allGameAnswersText);
+
+        // result will store what the checkAnswer function returns
+        // it will return either true or false depending on the answer
+        let result = checkAnswer(allGameAnswersText);
+
+        if (result == true) {
+            button.classList.add("correct-answer");
+        } else {
+            button.classList.add("incorrect-answer");
+        }
+
+        // Write an if statement that checks the value of 
+        // what result is
+        // if true, you can access the button here inside this function
+        // button.classList.add('') <<< add a class with a rule that changes the button color
+        // if false, add a different class
+
+
     });
 });
 
 function checkAnswer(theAnswer) {
 
-    let selectedAnswer = event.innerText;
-
-    correctAnswer = questions[questionNumber].correctAnswer;
+    let correctAnswer = questions[questionNumber].correctAnswer;
 
     if (theAnswer == correctAnswer) {
         console.log("correct")
+        // returning value to where the function was called
+        return true;
     } else {
         console.log("incorrect")
+        // returning value to where the function was called
+        return false;
     }
 
 };
