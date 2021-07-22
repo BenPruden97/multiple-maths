@@ -77,7 +77,9 @@ The primary goal for Multiple Maths is to help kids with their maths skills and 
 * To have a contact option for future feedback for errors, bugs and game improvements/ ideas.
 * To create a visually good game interface to encourage the user to play the game.
 * To create a simple yet effective game for easy navigation and a good user experience.
-* To demonstrate my skills and creativity using HTML5, CSS2 and JavaScript applications. 
+* To demonstrate my skills and creativity using HTML5, CSS2 and JavaScript applications.
+
+[Back to Table of Contents](#table-of-contents)
 
 # User Stories
 
@@ -94,6 +96,8 @@ The primary goal for Multiple Maths is to help kids with their maths skills and 
 * I would like the answers to change colour or to make a sound to let me know if I have chosen the correct or incorrect answer.
 * An option of audio to listen to the question as young kids will be playing the game who may struggle to read the questions.
 * GitHub link to see the developer’s previous projects/ work.
+
+[Back to Table of Contents](#table-of-contents)
 
 # Five Development Planes
 
@@ -195,6 +199,8 @@ In the Skeleton Development Plane I created my wireframe mockups using Adobe XD:
 
 * The images used within my project or readme file we created by me using powerpoint presentation. I found powerpoint very easy to use and was able to create the images/ screenshots I needed. I also designed my Multiple Maths logo in Powerpoint presentation.
 
+[Back to Table of Contents](#table-of-contents)
+
 # Multiple Maths Features
 
 ## Design Features
@@ -263,7 +269,9 @@ Each page of Multiple Maths consists of:
 
 * A clear high scores button which will clear all of the users saved high scores from the highscores.html page.
 * A play! button which will take the user back to the options.html page to play the game again.
-* A back to home page button to take the user back to the index.html page. 
+* A back to home page button to take the user back to the index.html page.
+
+[Back to Table of Contents](#table-of-contents)
 
 ## Features to Implement in the Future
 
@@ -295,8 +303,12 @@ The user will be able to choose whether they would like to have a multiple choic
 
 The last feature would be a global leaderboard of highscores so that the user can see the highscores of other players. This would allow the user to play Multiple Maths for a competitive purpose and could benefit schools as they could have a class leaderboard or school leaderboard for example.
 
+[Back to Table of Contents](#table-of-contents)
+
 # Issues & Bugs
 
+
+[Back to Table of Contents](#table-of-contents)
 
 # Technologies Used
 
@@ -324,9 +336,13 @@ The last feature would be a global leaderboard of highscores so that the user ca
 
 * [GitHub](https://github.com/) - GitHub was used as my project software hosting platform to store all of my project files and folders.
 
+[Back to Table of Contents](#table-of-contents)
+
 # Testing
 
+I have created a seperate file for the Testing section for my README.md file. You can find the testing for my project within my TESTING.md which can be found here - [file](TESTING.md)
 
+[Back to Table of Contents](#table-of-contents)
 
 # Multiple Maths Deployment
 
@@ -363,6 +379,8 @@ Multiple Maths was developed using GitPod, which was commited to git using git a
 6. Type "git clone" and then paste the URL you copied earlier
 7. Lastly press "Enter" to create your local clone.
 
+[Back to Table of Contents](#table-of-contents)
+
 # Credits
 
 ## Templates Used
@@ -380,8 +398,6 @@ Here is a list of the websites I used to find solutions or help if I was stuck o
 5. [CSS Tricks](https://css-tricks.com/)
 6. [Developer Mozilla](https://developer.mozilla.org/en-US/)
 
-## Audio
-
 ## Seun - my Mentor
 
 Seun is my mentor and she has been great throughout my Multiple Maths project. The three sessions we had for the beginning. middle and end of my project were really helpful and Seun guided me in the right direction. Seun also answered questions that I sent to her through Slacked even though she does not have to. Seun also gave me a lot of tips and tricks as well as different programs I can used for my project including local storage for my highscores section of my quiz.
@@ -389,6 +405,8 @@ Seun is my mentor and she has been great throughout my Multiple Maths project. T
 ## Tutor Support
 
 There were times when I was stuck during my project and the tutor support system was really helpful in finding a solution to some of the problems I was running into. This allowed me to continue to make progress for my project instead of being stuck on a problem and not making any progress at all which allowed me to finish before the deadline.
+
+[Back to Table of Contents](#table-of-contents)
 
 # Screenshots
 
@@ -411,4 +429,6 @@ There were times when I was stuck during my project and the tutor support system
 ## Highscores Page - highscores.html
 
 ![Highscore Page Screenshot](https://github.com/BenPruden97/multiple-maths/blob/master/assets/readme-file-images/highscores.html-screenshot.png)
+
+[Back to Table of Contents](#table-of-contents)
 
