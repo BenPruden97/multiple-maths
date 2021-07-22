@@ -14,10 +14,13 @@ const gameAnswers = document.getElementsByClassName("game-answers");
 // Game Questions, Timer, Score and Question Amount Variables
 
 let mathQuestions = "addition";
-let quizTimer = 300000;
+let quizTimerOne = 1;
 let questionAmount = 8;
 let score = 0;
+let correctScore = 1;
 let questionCounter = 1;
+let quizTimerThree = 3;
+let quizTimerFive = 5;
 let questionNumber = 0;
 let questions;
 let correctAnswer;
@@ -191,20 +194,26 @@ function displayQuestion(questionNumber) {
     gameQuestion.innerText = questions[questionNumber].question;
 }
 
-function checkAnswer() {
-    let selectedAnswerBox = event.currentTarget;
-    let selectedAnswer = selectedAnswerBox.innerText;
+function checkAnswer(event) {
+    let selectedAnswer = event.innerText;
 
-    if (selectedAnswer === currentQuestion.correctAnswer) {
-        console.log(selectedAnswer);
+    correctAnswer = questions[questionNumber].correctAnswer;
+
+    console.log(selectedAnswer);
+
+    if (selectedAnswer == questions[questionNumber].correctAnswer) {
+        console.log("correct");
+        classToApply = "correct";
     } else {
-        console.log(selectedAnswer);
+        console.log("incorrect");
+        classToApply = "incorrect";
     }
+    selectedAnswer.par
 };
 
-function markCorrectAnswer(selectedAnswer) {
-    if (event.currentTarget === currentQuestion.correctAnswer) {
-        classToApply = "correct";
+function markCorrectAnswer(event) {
+    if (selectedAnswer == questions[questionNumber].correctAnswer) {
+        gameAnswers.classToApply = "correct";
         updateScore++
         scoreText.innerText = updateScore;
         questionNumber++
@@ -213,10 +222,10 @@ function markCorrectAnswer(selectedAnswer) {
 };
 
 function markincorrectAnswer() {
-    if (event.currentTarget != currentQuestion.correctAnswer) {
+    if (selectedAnswer != questions[questionNumber].correctAnswer) {
         questionNumber++
         displayQuestion++
-        classToApply = "incorrect";
+        gameAnswers.classToApply = "incorrect";
     }
 }
 
@@ -230,8 +239,6 @@ function updateScore(Score) {
     scoreText.innerText = `Score: ${Score}`;
 }
 
-
-
 // Reset Option function to reset the options section if the user chooses the wrong options
 
 function resetOptions() {
@@ -240,7 +247,7 @@ function resetOptions() {
 
 // Quiz Timer Code for the start of the game
 
-var startingMinutes = quizTimer;
+var startingMinutes = 800;
 let time = startingMinutes * 60;
 
 const countdownClock = document.getElementById("game-timer-text");
@@ -262,4 +269,3 @@ function countdownClockUpdate() {
     }
     
 };
-
