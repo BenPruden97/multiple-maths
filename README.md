@@ -29,7 +29,7 @@
     * [Game Page Features](#game-page-features)
     * [Game Over Page Features](#game-over-page-features)
     * [Highscores Page Features](#highscores-page-features)
-* [Features to Implements](#Features-to-implement)
+* [Features to Implements](#Features-to-implement-in-the-future)
     * [First Feature to Implement](#feature-number-1)
     * [Second Feature to Implement](#feature-number-2)
     * [Third Feature to Implement](#feature-number-3)
@@ -37,23 +37,23 @@
 * [Issues & Bugs](#issues-&-bugs)
 * [Technologies Used](#technologies-used)
     * [Languages Used](#languages-used)
-    * [Frameworks, Libraries & Programs Used](#frameworks-libraries-&-programs-used)
-* [Testing.md File]
-* [Multiple Maths Deployment](#mulitple-maths-deployment)
+    * [Frameworks, Libraries & Programs Used](#frameworks-libraries-programs-used)
+* [Testing](#testing)
+* [Multiple Maths Deployment](#multiple-maths-deployment)
     * [Deploying onto GitHub Pages](#deploying-onto-github-pages)
     * [Forking a Repository](#forking-a-repository)
     * [Cloning a Repository](#cloning-a-repository)
 * [Credits](#credits)
     * [Template Used](#template-used)
-    * [Websites Used for Help, Guidance & Tutorials](#websites-used-for-help-guidance-&-tutorials)
-    * [Seun - My Mentor](#seun-my-mentor)
+    * [Websites Used for Help, Guidance & Tutorials](#websites-used-for-help-,-guidance-&-tutorials)
+    * [My Mentor](#my-mentor)
     * [Tutor Support](#tutor-support)
 * [Screenshots](#screenshots)
-    * [Home Page Screenshot](#home-page-screenshot)
-    * [Options Page Screenshot](#options-page-screenshot)
-    * [Game Page Screenshot](#game-page-screenshot)
-    * [Game Over Page Screenshot](#game-over-page-screenshot)
-    * [Highscores Page Screenshot](#highscores-page-screenshot)
+    * [Home Page Screenshot](#home-page-index.html)
+    * [Options Page Screenshot](#options-page-options.html)
+    * [Game Page Screenshot](#game-page-within-options.html)
+    * [Game Over Page Screenshot](#game-over-page-game-over.html)
+    * [Highscores Page Screenshot](#highscores-page-highscores.html)
 
 # UX
 
@@ -340,7 +340,7 @@ The last feature would be a global leaderboard of highscores so that the user ca
 
 # Testing
 
-I have created a seperate file for the Testing section for my README.md file. You can find the testing for my project within my TESTING.md which can be found here - [file](TESTING.md)
+I have created a seperate file for the Testing section for my README.md file. You can find the testing for my project within my TESTING.md which can be found here - [TESTING.md File](TESTING.md)
 
 [Back to Table of Contents](#table-of-contents)
 
@@ -348,7 +348,7 @@ I have created a seperate file for the Testing section for my README.md file. Yo
 
 Multiple Maths was developed using GitPod, which was commited to git using git add, commit and pushed to GitHub using the GitPod terminal.
 
-## Deploying on GitHub Pages
+## Deploying onto GitHub Pages
 
 1. Log into your GitHub account and find your site repository.
 2. Select the settings option on the far right.
@@ -383,7 +383,7 @@ Multiple Maths was developed using GitPod, which was commited to git using git a
 
 # Credits
 
-## Templates Used
+## Template Used
 
 I used the Code Institute Student Template to complete my Multiple Maths Project: [GitPod Full Template](https://github.com/Code-Institute-Org/gitpod-full-template)
 
@@ -398,7 +398,7 @@ Here is a list of the websites I used to find solutions or help if I was stuck o
 5. [CSS Tricks](https://css-tricks.com/)
 6. [Developer Mozilla](https://developer.mozilla.org/en-US/)
 
-## Seun - my Mentor
+## My Mentor
 
 Seun is my mentor and she has been great throughout my Multiple Maths project. The three sessions we had for the beginning. middle and end of my project were really helpful and Seun guided me in the right direction. Seun also answered questions that I sent to her through Slacked even though she does not have to. Seun also gave me a lot of tips and tricks as well as different programs I can used for my project including local storage for my highscores section of my quiz.
 

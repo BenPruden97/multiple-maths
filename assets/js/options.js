@@ -199,15 +199,14 @@ function checkAnswer(event) {
 
     correctAnswer = questions[questionNumber].correctAnswer;
 
-    console.log(selectedAnswer);
+    console.log(this)
 
-    if (selectedAnswer == questions[questionNumber].correctAnswer) {
-        console.log("correct");
-        classToApply = "correct";
+    if (this.innerText === correctAnswer) {
+        this.classList.add("correct")
     } else {
-        console.log("incorrect");
-        classToApply = "incorrect";
+        this.classList.add("incorrect")
     }
+
 };
 
 function markCorrectAnswer() {
