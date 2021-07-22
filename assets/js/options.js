@@ -208,10 +208,9 @@ function checkAnswer(event) {
         console.log("incorrect");
         classToApply = "incorrect";
     }
-    selectedAnswer.par
 };
 
-function markCorrectAnswer(event) {
+function markCorrectAnswer() {
     if (selectedAnswer == questions[questionNumber].correctAnswer) {
         gameAnswers.classToApply = "correct";
         updateScore++
@@ -247,7 +246,7 @@ function resetOptions() {
 
 // Quiz Timer Code for the start of the game
 
-var startingMinutes = 800;
+var startingMinutes = 1;
 let time = startingMinutes * 60;
 
 const countdownClock = document.getElementById("game-timer-text");

@@ -6,18 +6,54 @@
 
 # Table of Contents
 
-* UX
-    * Project Goals
-    * Player Goals
-    * Developer/ Site Owner Goals
-* User Stories
-    * Player Stories
-* Five Development Planes
-    * Strategy
-    * Scope
-    * Structure
-    * Skeleton
-    * Surface
+* [UX](#UX)
+    * [Project Goals](#project-goals)
+    * [Player Goals](#player-goals)
+    * [Developer/ Site Owner Goals](#developer-site-owner-goals)
+* [User Stories](#user-stories)
+    * [Player Stories](#player-stories)
+* [Five Development Planes](#five-development-planes)
+    * [Strategy](#strategy)
+    * [Scope](#scope)
+    * [Structure](#structure)
+    * [Skeleton](#skeleton)
+    * [Surface](#surface)
+* [Multiple Maths Features](#multiple-maths-features)
+    * [Design Features](#design-features)
+    * [Home Page Features](#home-page-features)
+    * [Options Page Features](#options-page-features)
+        * [Choose Your Maths Questions](#choose-your-maths-questions)
+        * [Choose Your Time Limit](#choose-your-time-limit)
+        * [Choose Your Question Amount](#choose-your-question-amount)
+        * [Button Options](#button-options)
+    * [Game Page Features](#game-page-features)
+    * [Game Over Page Features](#game-over-page-features)
+    * [Highscores Page Features](#highscores-page-features)
+* [Features to Implements](#Features-to-implement)
+    * [First Feature to Implement](#feature-number-1)
+    * [Second Feature to Implement](#feature-number-2)
+    * [Third Feature to Implement](#feature-number-3)
+    * [Fourth Feature to Implement](#feature-number-4)
+* [Issues & Bugs](#issues-&-bugs)
+* [Technologies Used](#technologies-used)
+    * [Languages Used](#languages-used)
+    * [Frameworks, Libraries & Programs Used](#frameworks-libraries-&-programs-used)
+* [Testing.md File]
+* [Multiple Maths Deployment](#mulitple-maths-deployment)
+    * [Deploying onto GitHub Pages](#deploying-onto-github-pages)
+    * [Forking a Repository](#forking-a-repository)
+    * [Cloning a Repository](#cloning-a-repository)
+* [Credits](#credits)
+    * [Template Used](#template-used)
+    * [Websites Used for Help, Guidance & Tutorials](#websites-used-for-help-guidance-&-tutorials)
+    * [Seun - My Mentor](#seun-my-mentor)
+    * [Tutor Support](#tutor-support)
+* [Screenshots](#screenshots)
+    * [Home Page Screenshot](#home-page-screenshot)
+    * [Options Page Screenshot](#options-page-screenshot)
+    * [Game Page Screenshot](#game-page-screenshot)
+    * [Game Over Page Screenshot](#game-over-page-screenshot)
+    * [Highscores Page Screenshot](#highscores-page-screenshot)
 
 # UX
 
@@ -233,7 +269,9 @@ Each page of Multiple Maths consists of:
 
 There are a few features that the developer would like to implement in the near future:
 
-### The first is a new set of options which will allow the user to choose the difficulty of the questions that they would need to answer.
+### Feature Number 1 
+
+Would be a new set of options which will allow the user to choose the difficulty of the questions that they would need to answer.
 
 The three options would be:
 
@@ -241,15 +279,21 @@ The three options would be:
 * Medium Difficulty - if the user chose this difficulty then the questions in the quiz will be of medium difficulty.
 * Hard Difficulty - if the user chose this difficulty then the questions in the quiz will be of hard difficulty.
 
-### Feature number 2 would allow the user to choose another answer if the first answer they chose was incorrect.
+### Feature Number 2 
+
+Would allow the user to choose another answer if the first answer they chose was incorrect.
 
 This would allow the user to think again about the question and try to pick the correct answer from the 3 remaining as the first answer clicked would disappear. This would allow the user a second chance but also improve the users maths skills and knowledge.
 
-### Feature number 3 would allow the user to choose between a quiz or input the answer themselves
+### Feature Number 3
+
+Would allow the user to choose between a quiz or input the answer themselves
 
 The user will be able to choose whether they would like to have a multiple choice quiz or just a question and answer box where the user would have to input the answer themselves without any options. This would be better for teenagers or above as they would need to workout the answer in their head or on a piece of paper.
 
-### The last feature would be a global leaderboard of highscores so that the user can see the highscores of other players. This would allow the user to play Multiple Maths for a competitive purpose and could benefit schools as they could have a class leaderboard or school leaderboard for example.
+### Feature number 4
+
+The last feature would be a global leaderboard of highscores so that the user can see the highscores of other players. This would allow the user to play Multiple Maths for a competitive purpose and could benefit schools as they could have a class leaderboard or school leaderboard for example.
 
 # Issues & Bugs
 
@@ -325,7 +369,7 @@ Multiple Maths was developed using GitPod, which was commited to git using git a
 
 I used the Code Institute Student Template to complete my Multiple Maths Project: [GitPod Full Template](https://github.com/Code-Institute-Org/gitpod-full-template)
 
-## Websites I used for help, guidance or tutorials
+## Websites Used for Help, Guidance & Tutorials
 
 Here is a list of the websites I used to find solutions or help if I was stuck on a particular section of my quiz.
 
