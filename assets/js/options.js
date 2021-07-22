@@ -194,17 +194,23 @@ function displayQuestion(questionNumber) {
     gameQuestion.innerText = questions[questionNumber].question;
 }
 
-function checkAnswer(event) {
+var allGameAnswers = document.querySelectorAll(".game-answers").forEach(button => {
+    button.addEventListener("click", event => {
+        var allGameAnswersText = button.innerText;
+        checkAnswer(allGameAnswersText);
+    });
+});
+
+function checkAnswer(theAnswer) {
+
     let selectedAnswer = event.innerText;
 
     correctAnswer = questions[questionNumber].correctAnswer;
 
-    console.log(this)
-
-    if (this.innerText === correctAnswer) {
-        this.classList.add("correct")
+    if (theAnswer == correctAnswer) {
+        console.log("correct")
     } else {
-        this.classList.add("incorrect")
+        console.log("incorrect")
     }
 
 };
