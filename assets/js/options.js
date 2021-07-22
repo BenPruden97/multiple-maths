@@ -204,8 +204,10 @@ var allGameAnswers = document.querySelectorAll(".game-answers").forEach(button =
 
         if (result == true) {
             button.classList.add("correct-answer");
+            speak('Correct!');
         } else {
             button.classList.add("incorrect-answer");
+            speak('Incorrect');
         }
 
         // Write an if statement that checks the value of 
@@ -291,4 +293,19 @@ function countdownClockUpdate() {
     document.getElementById("game-timer-text").innerHTML = "Hello"
     }
     
+};
+
+// Speech Synthesis function to read the current question and whether the user has clicked on the correct or incorrect answer
+
+function speak (message) {
+    var msg = new SpeechSynthesisUtterance(message);
+    msg.lang = "en-US";
+    var voices = window.speechSynthesis.getVoices();
+    window.speechSynthesis.speak(msg);
+};
+
+// Speech Synthesis eadQuestion() to read out the current question for the quiz
+
+function readQuestion() {
+    speak(`${questions[questionNumber].question}`);
 };
