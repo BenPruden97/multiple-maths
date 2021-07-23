@@ -39,15 +39,19 @@
 
             <h2>End of Quiz!</h2>
 
-            <h5>You Scored: <span>0</span></h5>
+            <h5 id="finalScore">You Scored: <span>0</span></h5>
 
             <h3>Please enter your name to save your new score:</h3>
 
             <div class="game-over-options">
 
-                <input type="text" name="name" id="player-name" maxlength="15" placeholder="Enter your name...">
+                <form>
 
-                <button class="save-score-button">Save Score</button>
+                    <input type="text" name="name" id="player-name" maxlength="15" placeholder="Enter your name...">
+
+                    <button type="submit" class="save-score-button" id="save-score-button">Save Score</button>
+                
+                </form>
 
                 <a href="options.html"><button class="play-again-button">Play Again</button></a>
 

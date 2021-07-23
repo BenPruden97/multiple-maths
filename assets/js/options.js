@@ -117,13 +117,13 @@ document.getElementById("start-button").addEventListener("click", function(){
 
     function countdownClockUpdate() {
 
-        if (quizTimer == 0) {
+        if (quizTimer <= 0) {
             
             clearTimeout(timerId);
             
             console.log("I am out of time")
         } else {
-            countdownClock.innerHTML = `Timer: ${Math.floor(quizTimer / 60)}:${quizTimer % 60}`;
+            countdownClock.innerHTML = `Timer: ${`0` + Math.floor(quizTimer / 60)}:${quizTimer % 60}`;
             quizTimer--;
         }
     
@@ -253,11 +253,9 @@ function checkAnswer(theAnswer) {
     let correctAnswer = questions[questionNumber].correctAnswer;
 
     if (theAnswer == correctAnswer) {
-        console.log("correct")
         // returning value to where the function was called
         return true;
     } else {
-        console.log("incorrect")
         // returning value to where the function was called
         return false;
     }

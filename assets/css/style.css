@@ -1063,12 +1063,6 @@ body {
     text-align: center;
 }
 
-.game-answer-1:hover {
-    background-color: #fafafa;
-    color: #2f5597;
-    font-weight: bold;
-}
-
 /* game question 2 styling */
 
 .game-number-2 {
@@ -1093,12 +1087,6 @@ body {
     color: #fafafa;
     border: 3px solid #2F5597;
     text-align: center;
-}
-
-.game-answer-2:hover {
-    background-color: #fafafa;
-    color: #2f5597;
-    font-weight: bold;
 }
 
 /* game questions 1 & 2 styling */
@@ -1136,12 +1124,6 @@ body {
     text-align: center;
 }
 
-.game-answer-3:hover {
-    background-color: #fafafa;
-    color: #2f5597;
-    font-weight: bold;
-}
-
 /* game question 4 styling */
 
 .game-number-4 {
@@ -1166,12 +1148,6 @@ body {
     color: #fafafa;
     border: 3px solid #2F5597;
     text-align: center;
-}
-
-.game-answer-4:hover {
-    background-color: #fafafa;
-    color: #2f5597;
-    font-weight: bold;
 }
 
 /* game options button styling */

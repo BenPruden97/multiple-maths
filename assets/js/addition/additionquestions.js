@@ -22,7 +22,7 @@ let additionquestions = [
     {
         question: "What is 16 + 16",
         answers: [31, 32, 33, 34],
-        correctAnswer: 42,
+        correctAnswer: 32,
     },
     {
         question: "What is 18 + 18",
