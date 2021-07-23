@@ -225,14 +225,39 @@ var allGameAnswers = document.querySelectorAll(".game-answers").forEach(button =
         } else {
             button.classList.add("incorrect-answer");
             speak('Incorrect');
+
         }
 
-        let correctAnswerQuestion = setTimeout(() => {
+        let getSiblings = function (e) {
+                
+            let siblings = [];
+
+            if (!e.parentNode) {
+                return siblings;
+            }
+
+            let sibling = e.parentNode.firstChild;
+
+            while (sibling) {
+                if (sibling.nodeType == 1 && sibling !== e) {
+                    siblings.push(sibling);
+                }
+                sibling = sibling.nextSibling;
+            }
+            return siblings;
+
+        }
+
+        let siblings = getSiblings(document.querySelector(".game-answers"));
+        siblingText = siblings.map(e => e.innerHTML);
+        console.log(siblingText);
+
+        setTimeout(() => {
             button.classList.remove("correct-answer");
             getNewQuestion();
         }, 750);
         
-        let incorrectAnswerQuestion = setTimeout(() => {
+        setTimeout(() => {
             button.classList.remove("incorrect-answer");
             getNewQuestion();
         }, 750);
