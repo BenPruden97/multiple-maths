@@ -14,7 +14,7 @@ const gameAnswers = document.getElementsByClassName("game-answers");
 // Game Questions, Timer, Score and Question Amount Variables
 
 let mathQuestions = "addition";
-let quizTimerOne = 1;
+let quizTimer = 1;
 let questionAmount = 8;
 let score = 0;
 let correctScore = 1;
@@ -183,16 +183,26 @@ function startGame() {
 
 function getQuestion(questionNumber) {
     for (let i = 0; i < gameAnswers.length; i++) {
-    gameAnswers[i].innerText = questions[questionNumber].answers[i];
-    }
-    correctAnswer = questions[questionNumber].correctAnswer;
-    displayQuestion(questionNumber);
+        gameAnswers[i].innerText = questions[questionNumber].answers[i];
+        }
+        correctAnswer = questions[questionNumber].correctAnswer;
+        displayQuestion(questionNumber);
 };
 
 function displayQuestion(questionNumber) {
     const gameQuestion = document.getElementById('game-question');
     gameQuestion.innerText = questions[questionNumber].question;
 }
+
+function getNewQuestion() {
+    
+    getQuestion(questionNumber);
+
+    displayQuestion(questionNumber);
+
+    allGameAnswers;
+
+};
 
 var allGameAnswers = document.querySelectorAll(".game-answers").forEach(button => {
     button.addEventListener("click", event => {
@@ -205,11 +215,13 @@ var allGameAnswers = document.querySelectorAll(".game-answers").forEach(button =
         if (result == true) {
             button.classList.add("correct-answer");
             speak('Correct!');
-            questionAmountText++;
+            score = score + 1;
+            updateScore(score);
+            questionNumber = questionNumber + 1;
+            currentQuestion(questionNumber)
         } else {
             button.classList.add("incorrect-answer");
             speak('Incorrect');
-            markincorrectAnswer();
         }
 
         // Write an if statement that checks the value of 
@@ -240,8 +252,8 @@ function checkAnswer(theAnswer) {
 
 function markCorrectAnswer() {
     if (theAnswer == correctAnswer) {
-        updateScore++
-        scoreText.innerText = updateScore;
+        score = score + 1;
+        scoreText.innerText = score;
         questionNumber++
         displayQuestion++
     }
@@ -251,7 +263,6 @@ function markincorrectAnswer() {
     if (theAnswer != correctAnswer) {
         questionNumber++
         displayQuestion++
-        gameAnswers.classToApply = "incorrect";
     }
 }
 
@@ -260,9 +271,9 @@ function currentQuestion(questionNumber) {
     questionAmountText.innerHTML = `Question: ${questionNumber + 1}/${questionAmount}`;
 }
 
-function updateScore(Score) {
+function updateScore(score) {
     const scoreText = document.getElementById('game-score-text');
-    scoreText.innerText = `Score: ${Score}`;
+    scoreText.innerText = `Score: ${score}`;
 }
 
 // Reset Option function to reset the options section if the user chooses the wrong options

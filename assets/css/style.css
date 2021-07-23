@@ -100,7 +100,7 @@ body {
     padding: 1rem;
     width: 15rem;
     background-color: #D40C00;
-    color: white;
+    color: #fafafa;
     border-radius: 25px;
     border: 3px solid #2F5597;
 }
@@ -192,7 +192,7 @@ body {
     padding: 1rem;
     width: 15rem;
     background-color: #38761D;
-    color: white;
+    color: #fafafa;
     border-radius: 25px;
     border: 3px solid #2F5597;
 }
@@ -245,7 +245,7 @@ body {
 
 .close-high-score:hover {
     background-color: #fafafa;
-    color: #2f5295;
+    color: #2f5597;
     font-weight: bold;
 }
 
@@ -256,7 +256,7 @@ body {
     padding: 1rem;
     width: 15rem;
     background-color: #7c5295;
-    color: white;
+    color: #fafafa;
     border-radius: 25px;
     border: 3px solid #2f5597;
 }
@@ -298,13 +298,13 @@ body {
 }
 
 ::placeholder {
-    color: #2f5295;
+    color: #2f5597;
 }
 
 .contact-form input {
-    border: 2px solid #2f5295;
+    border: 2px solid #2f5597;
     background-color: #fafafa;
-    color: #2f5295;
+    color: #2f5597;
     margin-left: 10px;
     width: 96%;
     font-weight: bold;
@@ -313,9 +313,9 @@ body {
 }
 
 .contact-form textarea {
-    border: 2px solid #2f5295;
+    border: 2px solid #2f5597;
     background-color: #fafafa;
-    color: #2f5295;
+    color: #2f5597;
     margin-left: 10px;
     width: 96%;
     font-weight: bold;
@@ -334,9 +334,9 @@ body {
 
 .submit-button:hover {
     background-color: #fafafa;
-    color: #2f5295;
+    color: #2f5597;
     font-weight: bold;
-    border: 3px solid #2f5295;
+    border: 3px solid #2f5597;
 }
 
 .close-contact-form {
@@ -352,9 +352,9 @@ body {
 
 .close-contact-form:hover {
     background-color: #fafafa;
-    color: #2f5295;
+    color: #2f5597;
     font-weight: bold;
-    border: 3px solid #2f5295;
+    border: 3px solid #2f5597;
 }
 
 /* Footer Section of index.html */
@@ -515,7 +515,7 @@ body {
 .maths-questions-text {
     text-align: center;
     font-size: 1.5rem;
-    color: #2f5195;
+    color: #2f5597;
     text-transform: uppercase;
     padding: 5px;
     font-weight: bold;
@@ -544,27 +544,27 @@ body {
 
 .add-button:hover {
     background-color: #fafafa;
-    color: #2f5295;
+    color: #2f5597;
     font-weight: bold;
 }
 
 /* Maths Questions - Subtraction Button Styling */
 
 .sub-button {
-    background-color: #D40C00;
+    background-color: #d40c00;
     width: 135px;
     height: 135px;
     color: #fafafa;
     font-size: 4.5rem;
     padding-bottom: 7rem;
     border-radius: 100%;
-    border: 4px solid #2F5597;
+    border: 4px solid #2f5597;
     font-weight: bold;
 }
 
 .sub-button:hover {
     background-color: #fafafa;
-    color: #2f5295;
+    color: #2f5597;
     font-weight: bold;
 }
 
@@ -584,7 +584,7 @@ body {
 
 .multiply-button:hover {
     background-color: #fafafa;
-    color: #2f5295;
+    color: #2f5597;
     font-weight: bold;
 }
 
@@ -604,7 +604,7 @@ body {
 
 .divide-button:hover {
     background-color: #fafafa;
-    color: #2f5295;
+    color: #2f5597;
     font-weight: bold;
 }
 
@@ -631,7 +631,7 @@ body {
 
 .multiple-button:hover {
     background-color: #fafafa;
-    color: #2f5295;
+    color: #2f5597;
 }
 
 /* Multiple Maths Button - Addition Symbol Styling */
@@ -703,7 +703,7 @@ body {
 /* Maths Timer - Title Styling */
 
 .maths-timer-text {
-    color: #2f5195;
+    color: #2f5597;
     font-size: 1.25rem;
     text-transform: uppercase;
     font-weight: bold;
@@ -719,7 +719,7 @@ body {
     width: 175px;
     height: 50px;
     background-color: #2f5597;
-    color: white;
+    color: #fafafa;
     border-radius: 10px;
     border: 3px solid #2F5597;
 }
@@ -736,7 +736,7 @@ body {
     width: 175px;
     height: 50px;
     background-color: #FF883D;
-    color: white;
+    color: #fafafa;
     border-radius: 10px;
     border: 3px solid #2F5597;
 }
@@ -753,7 +753,7 @@ body {
     width: 175px;
     height: 50px;
     background-color: #7C5295;
-    color: white;
+    color: #fafafa;
     border-radius: 10px;
     border: 3px solid #2F5597;
 }
@@ -776,7 +776,7 @@ body {
 /* Maths Questions Amount - Title Styling */
 
 .maths-questions-limit-text {
-    color: #2f5195;
+    color: #2f5597;
     font-size: 1.25rem;
     text-transform: uppercase;
     font-weight: bold;
@@ -792,7 +792,7 @@ body {
     width: 175px;
     height: 50px;
     background-color: #2f5597;
-    color: white;
+    color: #fafafa;
     border-radius: 10px;
     border: 3px solid #2F5597;
 }
@@ -809,7 +809,7 @@ body {
     width: 175px;
     height: 50px;
     background-color: #FF883D;
-    color: white;
+    color: #fafafa;
     border-radius: 10px;
     border: 3px solid #2F5597;
 }
@@ -826,7 +826,7 @@ body {
     width: 175px;
     height: 50px;
     background-color: #7C5295;
-    color: white;
+    color: #fafafa;
     border-radius: 10px;
     border: 3px solid #2F5597;
 }
@@ -852,7 +852,7 @@ body {
 
 .options-reset-button:hover {
     background-color: #fafafa;
-    color: #2f5295;
+    color: #2f5597;
     font-weight: bold;
 }
 
@@ -865,7 +865,7 @@ body {
     background-color: #38761d;
     color: #fafafa;
     border-radius: 25px;
-    border: 3px solid #2f5195;
+    border: 3px solid #2f5597;
     margin-top: 50px;
 }
 
@@ -875,7 +875,7 @@ body {
 
 .start-button:hover {
     background-color: #fafafa;
-    color: #2f5295;
+    color: #2f5597;
     font-weight: bold;
 }
 
@@ -886,7 +886,7 @@ body {
     padding: 0.5rem;
     width: 18rem;
     background-color: #7C5295;
-    color: white;
+    color: #fafafa;
     border-radius: 25px;
     border: 3px solid #2F5597;
     margin-top: 50px;
@@ -894,7 +894,7 @@ body {
 
 .option-main-menu-button:hover {
     background-color: #fafafa;
-    color: #2f5295;
+    color: #2f5597;
     font-weight: bold;
 }
 
@@ -936,7 +936,7 @@ body {
 
 .game-timer {
     background-color: #fafafa;
-    border: 3px solid #2f5195;
+    border: 3px solid #2f5597;
     border-radius: 15px;
     width: 15rem;
     padding: 0.5rem;
@@ -945,7 +945,7 @@ body {
 
 .game-timer-text {
     background-color: #fafafa;
-    color: #2f5195;
+    color: #2f5597;
     font-size: 1.5rem;
 }
 
@@ -953,7 +953,7 @@ body {
 
 .game-score {
     background-color: #fafafa;
-    border: 3px solid #2f5195;
+    border: 3px solid #2f5597;
     border-radius: 15px;
     width: 15rem;
     padding: 0.5rem;
@@ -962,7 +962,7 @@ body {
 
 .game-score-text {
     background-color: #fafafa;
-    color: #2f5195;
+    color: #2f5597;
     font-size: 1.5rem;
 }
 
@@ -970,7 +970,7 @@ body {
 
 .game-question-number {
     background-color: #fafafa;
-    border: 3px solid #2f5195;
+    border: 3px solid #2f5597;
     border-radius: 15px;
     width: 15rem;
     padding: 0.5rem;
@@ -979,7 +979,7 @@ body {
 
 .game-question-number-text {
     background-color: #fafafa;
-    color: #2f5195;
+    color: #2f5597;
     font-size: 1.5rem;
 }
 
@@ -995,7 +995,7 @@ body {
 .game-question-audio {
     background-color: #fafafa;
     border: none;
-    color: #2f5195;
+    color: #2f5597;
     font-size: 2.5rem;
 }
 
@@ -1019,13 +1019,13 @@ body {
 
 .game-question {
     background-color: #fafafa;
-    border: 3px solid #2f5195;
+    border: 3px solid #2f5597;
     border-radius: 15px;
     width: 40rem;
     padding: 0.5rem;
     text-align: center;
     font-size: 1.75rem;
-    color: #2f5195;
+    color: #2f5597;
 }
 
 /* game questions 1 & 2 styling */
@@ -1047,7 +1047,7 @@ body {
     font-weight: bold;
     padding: 15px;
     background-color: #fafafa;
-    color: #2f5195;
+    color: #2f5597;
     border: 1px solid #2F5597;
     text-align: center;
 }
@@ -1058,14 +1058,14 @@ body {
     height: 60px;
     width: 8rem;
     background-color: #2F5597;
-    color: white;
+    color: #fafafa;
     border: 3px solid #2F5597;
     text-align: center;
 }
 
 .game-answer-1:hover {
     background-color: #fafafa;
-    color: #2f5195;
+    color: #2f5597;
     font-weight: bold;
 }
 
@@ -1079,7 +1079,7 @@ body {
     font-weight: bold;
     padding: 15px;
     background-color: #fafafa;
-    color: #2f5195;
+    color: #2f5597;
     border: 1px solid #2F5597;
     text-align: center;
 }
@@ -1090,14 +1090,14 @@ body {
     height: 60px;
     width: 8rem;
     background-color: #2F5597;
-    color: white;
+    color: #fafafa;
     border: 3px solid #2F5597;
     text-align: center;
 }
 
 .game-answer-2:hover {
     background-color: #fafafa;
-    color: #2f5195;
+    color: #2f5597;
     font-weight: bold;
 }
 
@@ -1120,7 +1120,7 @@ body {
     font-weight: bold;
     padding: 15px;
     background-color: #fafafa;
-    color: #2f5195;
+    color: #2f5597;
     border: 1px solid #2F5597;
     text-align: center;
 }
@@ -1131,14 +1131,14 @@ body {
     height: 60px;
     width: 8rem;
     background-color: #2F5597;
-    color: white;
+    color: #fafafa;
     border: 3px solid #2F5597;
     text-align: center;
 }
 
 .game-answer-3:hover {
     background-color: #fafafa;
-    color: #2f5195;
+    color: #2f5597;
     font-weight: bold;
 }
 
@@ -1152,7 +1152,7 @@ body {
     font-weight: bold;
     padding: 15px;
     background-color: #fafafa;
-    color: #2f5195;
+    color: #2f5597;
     border: 1px solid #2F5597;
     text-align: center;
 }
@@ -1163,14 +1163,14 @@ body {
     height: 60px;
     width: 8rem;
     background-color: #2F5597;
-    color: white;
+    color: #fafafa;
     border: 3px solid #2F5597;
     text-align: center;
 }
 
 .game-answer-4:hover {
     background-color: #fafafa;
-    color: #2f5195;
+    color: #2f5597;
     font-weight: bold;
 }
 
@@ -1181,7 +1181,7 @@ body {
     padding: 0.5rem;
     width: 20rem;
     background-color: #FF8B3D;
-    color: white;
+    color: #fafafa;
     border-radius: 25px;
     border: 3px solid #2F5597;
     margin-top: 20px;
@@ -1190,7 +1190,7 @@ body {
 
 .game-options-button:hover {
     background-color: #fafafa;
-    color: #2f5195;
+    color: #2f5597;
     font-weight: bold;
 }
 
@@ -1201,7 +1201,7 @@ body {
     padding: 0.5rem;
     width: 18rem;
     background-color: #7C5295;
-    color: white;
+    color: #fafafa;
     border-radius: 25px;
     border: 3px solid #2F5597;
     margin-top: 20px;
@@ -1210,7 +1210,7 @@ body {
 
 .game-main-menu-button:hover {
     background-color: #fafafa;
-    color: #2f5195;
+    color: #2f5597;
     font-weight: bold;
 }
 
@@ -1239,21 +1239,21 @@ body {
 
 .game-over-style h2 {
     font-size: 3rem;
-    color: #2f5195;
+    color: #2f5597;
     text-align: center;
     padding: 15px;
 }
 
 .game-over-style h5 {
     font-size: 2rem;
-    color: #2f5195;
+    color: #2f5597;
     text-align: center;
     padding: 5px;
 }
 
 .game-over-style h3 {
     font-size: 1.5rem;
-    color: #2f5195;
+    color: #2f5597;
     text-align: center;
     padding: 5px;
     padding-bottom: 15px;
@@ -1268,9 +1268,9 @@ body {
 
 .game-over-style input {
     font-size: 1rem;
-    color: #2f5195;
+    color: #2f5597;
     padding: 2px;
-    border: 3px solid #2f5195;
+    border: 3px solid #2f5597;
     margin-bottom: 10px;
 }
 
@@ -1280,8 +1280,8 @@ body {
     font-size: 1.5rem;
     padding: 1rem;
     width: 15rem;
-    background-color: #2f5195;
-    color: white;
+    background-color: #2f5597;
+    color: #fafafa;
     border-radius: 25px;
     border: 3px solid #2F5597;
 }
@@ -1299,7 +1299,7 @@ body {
     padding: 1rem;
     width: 15rem;
     background-color: #D40C00;
-    color: white;
+    color: #fafafa;
     border-radius: 25px;
     border: 3px solid #2F5597;
 }
@@ -1322,7 +1322,7 @@ body {
     padding: 1rem;
     width: 15rem;
     background-color: #38761D;
-    color: white;
+    color: #fafafa;
     border-radius: 25px;
     border: 3px solid #2F5597;
     margin-bottom: 15px;
@@ -1359,7 +1359,7 @@ body {
 
 .high-score-style h2 {
     font-size: 2.5rem;
-    color: #2f5195;
+    color: #2f5597;
     text-align: center;
     padding: 20px;
     margin-bottom: 25%;
@@ -1402,7 +1402,7 @@ body {
     padding: 0.5rem;
     width: 15rem;
     background-color: #38761D;
-    color: white;
+    color: #fafafa;
     border-radius: 25px;
     border: 3px solid #2F5597;
 }
@@ -1427,7 +1427,7 @@ body {
 
 .high-score-main-menu-button:hover {
     background-color: #fafafa;
-    color: #2f5295;
+    color: #2f5597;
     font-weight: bold;
 }
 
@@ -1438,7 +1438,7 @@ body {
     padding: 1rem;
     width: 7.5rem;
     background-color: #38761D;
-    color: white;
+    color: #fafafa;
     border: 3px solid #38761D;
     text-align: center;
 }
@@ -1447,6 +1447,7 @@ body {
     background-color: #38761d;
     color: #fafafa;
     font-weight: 400;
+    border: 3px solid #38761D;
 }
 
 /* game wrong answer styling */
@@ -1456,7 +1457,7 @@ body {
     padding: 1rem;
     width: 7.5rem;
     background-color: #D40C00;
-    color: white;
+    color: #fafafa;
     border: 3px solid #D40C00;
     text-align: center;
 }
@@ -1465,6 +1466,7 @@ body {
     background-color: #d40c00;
     color: #fafafa;
     font-weight: 400;
+    border: 3px solid #D40C00;
 }
 
 /* Error Page styling */
@@ -1478,14 +1480,14 @@ body {
 }
 
 .error-page h1 {
-    color: #2f5195;
+    color: #2f5597;
     text-align: center;
     font-size: 2rem;
     margin: 15px;
 }
 
 .error-page p {
-    color: #2f5195;
+    color: #2f5597;
     text-align: center;
     font-size: 1.5rem;
     margin: 15px;
@@ -1494,8 +1496,8 @@ body {
 .error-page button {
     cursor: pointer;
     background-color: #fafafa;
-    color: #2f5195;
-    border: 3px solid #2f5195;
+    color: #2f5597;
+    border: 3px solid #2f5597;
     border-radius: 15px;
     font-size: 1rem;
     padding: 1.5rem;
@@ -1509,7 +1511,7 @@ body {
 }
 
 .error-page button:hover {
-    background-color: #2f5195;
+    background-color: #2f5597;
     color: #fafafa;
 }
 
@@ -1549,7 +1551,7 @@ body {
     .contact-form input {
         border: 2px solid #fafafa;
         background-color: #fafafa;
-        color: #2f5295;
+        color: #2f5597;
         margin-left: 10px;
         width: 96%;
         padding: 2px;
@@ -1558,7 +1560,7 @@ body {
     .contact-form textarea {
         border: 2px solid #fafafa;
         background-color: #fafafa;
-        color: #2f5295;
+        color: #2f5597;
         margin-left: 10px;
         width: 96%;
     }
@@ -1604,7 +1606,7 @@ body {
         width: 750px;
         background-color: #fafafa;
         border-radius: 50px;
-        border: 3px solid #2f5195;
+        border: 3px solid #2f5597;
         margin-bottom: 100px;
         padding: 15px;
     }
@@ -1614,7 +1616,7 @@ body {
     .maths-questions-text {
         text-align: center;
         font-size: 1.25rem;
-        color: #2f5195;
+        color: #2f5597;
         text-transform: uppercase;
         padding: 5px;
         font-weight: bold;
@@ -1773,7 +1775,7 @@ body {
     /* Maths Timer - Title Styling */
     
     .maths-timer-text {
-        color: #2f5195;
+        color: #2f5597;
         font-size: 1rem;
         text-transform: uppercase;
         font-weight: bold;
@@ -1788,7 +1790,7 @@ body {
         width: 125px;
         height: 40px;
         background-color: #2f5597;
-        color: white;
+        color: #fafafa;
         border-radius: 10px;
         border: 3px solid #2F5597;
     }
@@ -1800,7 +1802,7 @@ body {
         width: 125px;
         height: 40px;
         background-color: #FF883D;
-        color: white;
+        color: #fafafa;
         border-radius: 10px;
         border: 3px solid #2F5597;
     }
@@ -1812,7 +1814,7 @@ body {
         width: 125px;
         height: 40px;
         background-color: #7C5295;
-        color: white;
+        color: #fafafa;
         border-radius: 10px;
         border: 3px solid #2F5597;
     }
@@ -1830,7 +1832,7 @@ body {
     /* Maths Questions Amount - Title Styling */
     
     .maths-questions-limit-text {
-        color: #2f5195;
+        color: #2f5597;
         font-size: 1rem;
         text-transform: uppercase;
         font-weight: bold;
@@ -1845,7 +1847,7 @@ body {
         width: 125px;
         height: 40px;
         background-color: #2f5597;
-        color: white;
+        color: #fafafa;
         border-radius: 10px;
         border: 3px solid #2F5597;
     }
@@ -1857,7 +1859,7 @@ body {
         width: 125px;
         height: 40px;
         background-color: #FF883D;
-        color: white;
+        color: #fafafa;
         border-radius: 10px;
         border: 3px solid #2F5597;
     }
@@ -1869,7 +1871,7 @@ body {
         width: 125px;
         height: 40px;
         background-color: #7C5295;
-        color: white;
+        color: #fafafa;
         border-radius: 10px;
         border: 3px solid #2F5597;
     }
@@ -1909,7 +1911,7 @@ body {
         padding: 0.75rem;
         width: 15rem;
         background-color: #7C5295;
-        color: white;
+        color: #fafafa;
         border-radius: 25px;
         border: 3px solid #2F5597;
         margin-top: 35px;
@@ -1951,7 +1953,7 @@ body {
 
     .game-timer {
         background-color: #fafafa;
-        border: 3px solid #2f5195;
+        border: 3px solid #2f5597;
         border-radius: 15px;
         width: 8rem;
         padding: 0.5rem;
@@ -1960,7 +1962,7 @@ body {
 
     .game-timer-text {
         background-color: #fafafa;
-        color: #2f5195;
+        color: #2f5597;
         font-size: 1.2rem;
     }
 
@@ -1968,7 +1970,7 @@ body {
 
     .game-score {
         background-color: #fafafa;
-        border: 3px solid #2f5195;
+        border: 3px solid #2f5597;
         border-radius: 15px;
         width: 8rem;
         padding: 0.5rem;
@@ -1977,7 +1979,7 @@ body {
 
     .game-score-text {
         background-color: #fafafa;
-        color: #2f5195;
+        color: #2f5597;
         font-size: 1.2rem;
     }
 
@@ -1985,7 +1987,7 @@ body {
 
     .game-question-number {
         background-color: #fafafa;
-        border: 3px solid #2f5195;
+        border: 3px solid #2f5597;
         border-radius: 15px;
         width: 10rem;
         padding: 0.5rem;
@@ -1994,7 +1996,7 @@ body {
 
     .game-question-number-text {
         background-color: #fafafa;
-        color: #2f5195;
+        color: #2f5597;
         font-size: 1.2rem;
     }
 
@@ -2010,7 +2012,7 @@ body {
     .game-question-audio {
         background-color: #fafafa;
         border: none;
-        color: #2f5195;
+        color: #2f5597;
         font-size: 2.5rem;
     }
 
@@ -2034,13 +2036,13 @@ body {
 
     .game-question {
         background-color: #fafafa;
-        border: 3px solid #2f5195;
+        border: 3px solid #2f5597;
         border-radius: 15px;
         width: 25rem;
         padding: 0.5rem;
         text-align: center;
         font-size: 1.5rem;
-        color: #2f5195;
+        color: #2f5597;
     }
 
     /* game questions 1 & 2 styling */
@@ -2062,7 +2064,7 @@ body {
         font-weight: bold;
         padding: 15px;
         background-color: #fafafa;
-        color: #2f5195;
+        color: #2f5597;
         border: 1px solid #2F5597;
         text-align: center;
     }   
@@ -2073,7 +2075,7 @@ body {
         height: 50px;
         width: 7.5rem;
         background-color: #2F5597;
-        color: white;
+        color: #fafafa;
         border: 3px solid #2F5597;
         text-align: center;
     }
@@ -2088,7 +2090,7 @@ body {
         font-weight: bold;
         padding: 15px;
         background-color: #fafafa;
-        color: #2f5195;
+        color: #2f5597;
         border: 1px solid #2F5597;
         text-align: center;
     }
@@ -2099,7 +2101,7 @@ body {
         height: 50px;
         width: 7.5rem;
         background-color: #2F5597;
-        color: white;
+        color: #fafafa;
         border: 3px solid #2F5597;
         text-align: center;
     }
@@ -2123,7 +2125,7 @@ body {
         font-weight: bold;
         padding: 15px;
         background-color: #fafafa;
-        color: #2f5195;
+        color: #2f5597;
         border: 1px solid #2F5597;
         text-align: center;
     }
@@ -2134,7 +2136,7 @@ body {
         height: 50px;
         width: 7.5rem;
         background-color: #2F5597;
-        color: white;
+        color: #fafafa;
         border: 3px solid #2F5597;
         text-align: center;
     }
@@ -2149,7 +2151,7 @@ body {
         font-weight: bold;
         padding: 15px;
         background-color: #fafafa;
-        color: #2f5195;
+        color: #2f5597;
         border: 1px solid #2F5597;
         text-align: center;
     }
@@ -2160,7 +2162,7 @@ body {
         height: 50px;
         width: 7.5rem;
         background-color: #2F5597;
-        color: white;
+        color: #fafafa;
         border: 3px solid #2F5597;
         text-align: center;
     }
@@ -2172,7 +2174,7 @@ body {
         padding: 0.75rem;
         width: 15rem;
         background-color: #FF8B3D;
-        color: white;
+        color: #fafafa;
         border-radius: 15px;
         border: 3px solid #2F5597;
         margin-top: 40px;
@@ -2185,7 +2187,7 @@ body {
         padding: 0.75rem;
         width: 15rem;
         background-color: #7C5295;
-        color: white;
+        color: #fafafa;
         border-radius: 15px;
         border: 3px solid #2F5597;
         margin-top: 40px;
@@ -2216,21 +2218,21 @@ body {
 
     .game-over-style h2 {
         font-size: 2.5rem;
-        color: #2f5195;
+        color: #2f5597;
         text-align: center;
         padding: 10px;
     }
 
     .game-over-style h5 {
         font-size: 2rem;
-        color: #2f5195;
+        color: #2f5597;
         text-align: center;
         padding: 5px;
     }
 
     .game-over-style h3 {
         font-size: 1.5rem;
-        color: #2f5195;
+        color: #2f5597;
         text-align: center;
         padding: 10px;
         padding-bottom: 25px;
@@ -2245,9 +2247,9 @@ body {
 
     .game-over-style input {
         font-size: 1rem;
-        color: #2f5195;
+        color: #2f5597;
         padding: 2px;
-        border: 3px solid #2f5195;
+        border: 3px solid #2f5597;
         margin-bottom: 15px;
     }
 
@@ -2257,8 +2259,8 @@ body {
         font-size: 1.2rem;
         padding: 0.75rem;
         width: 15rem;
-        background-color: #2f5195;
-        color: white;
+        background-color: #2f5597;
+        color: #fafafa;
         border-radius: 15px;
         border: 3px solid #2F5597;
     }
@@ -2270,7 +2272,7 @@ body {
         padding: 0.75rem;
         width: 15rem;
         background-color: #D40C00;
-        color: white;
+        color: #fafafa;
         border-radius: 15px;
         border: 3px solid #2F5597;
     }
@@ -2282,7 +2284,7 @@ body {
         padding: 0.75rem;
         width: 15rem;
         background-color: #38761D;
-        color: white;
+        color: #fafafa;
         border-radius: 15px;
         border: 3px solid #2F5597;
         margin-bottom: 30px;
@@ -2313,7 +2315,7 @@ body {
 
     .high-score-style h2 {
         font-size: 2rem;
-        color: #2f5195;
+        color: #2f5597;
         text-align: center;
         padding: 20px;
         margin-bottom: 50%;
@@ -2345,7 +2347,7 @@ body {
         padding: 0.5rem;
         width: 12rem;
         background-color: #38761D;
-        color: white;
+        color: #fafafa;
         border-radius: 15px;
         border: 3px solid #2F5597;
     }
@@ -2443,7 +2445,7 @@ body {
         padding: 1rem;
         width: 12rem;
         background-color: #D40C00;
-        color: white;
+        color: #fafafa;
         border-radius: 15px;
         border: 3px solid #2F5597;
     }
@@ -2502,7 +2504,7 @@ body {
         background-color: #D40C00;
         color: #fafafa;
         border-radius: 1rem;
-        border: 3px solid #2f5195;
+        border: 3px solid #2f5597;
         bottom: 20px;
     }
 
@@ -2513,7 +2515,7 @@ body {
         padding: 1rem;
         width: 12rem;
         background-color: #38761D;
-        color: white;
+        color: #fafafa;
         border-radius: 15px;
         border: 3px solid #2F5597;
     }
@@ -2565,7 +2567,7 @@ body {
         padding: 1rem;
         width: 12rem;
         background-color: #7C5295;
-        color: white;
+        color: #fafafa;
         border-radius: 15px;
         border: 3px solid #2F5597;
     }
@@ -2603,7 +2605,7 @@ body {
     .contact-form input {
         border: 2px solid #fafafa;
         background-color: #fafafa;
-        color: #2f5295;
+        color: #2f5597;
         margin-left: 10px;
         width: 96%;
         padding: 2px;
@@ -2612,7 +2614,7 @@ body {
     .contact-form textarea {
         border: 2px solid #fafafa;
         background-color: #fafafa;
-        color: #2f5295;
+        color: #2f5597;
         margin-left: 10px;
         width: 96%;
     }
@@ -2656,7 +2658,7 @@ body {
         width: 550px;
         background-color: #fafafa;
         border-radius: 50px;
-        border: 3px solid #2F5597;
+        border: 3px solid #2f5597;
         margin-bottom: 100px;
         padding: 15px;
     }
@@ -2666,7 +2668,7 @@ body {
     .maths-questions-text {
         text-align: center;
         font-size: 1.2rem;
-        color: #2f5195;
+        color: #2f5597;
         text-transform: uppercase;
         padding: 10px;
         padding-top: 20px;
@@ -2827,7 +2829,7 @@ body {
     /* Maths Timer - Title Styling */
     
     .maths-timer-text {
-        color: #2f5195;
+        color: #2f5597;
         font-size: 0.75rem;
         text-transform: uppercase;
         font-weight: bold;
@@ -2842,7 +2844,7 @@ body {
         width: 100px;
         height: 30px;
         background-color: #2f5597;
-        color: white;
+        color: #fafafa;
         border-radius: 5px;
         border: 2px solid #2F5597;
     }
@@ -2854,7 +2856,7 @@ body {
         width: 100px;
         height: 30px;
         background-color: #FF883D;
-        color: white;
+        color: #fafafa;
         border-radius: 5px;
         border: 2px solid #2F5597;
     }
@@ -2866,7 +2868,7 @@ body {
         width: 100px;
         height: 30px;
         background-color: #7C5295;
-        color: white;
+        color: #fafafa;
         border-radius: 5px;
         border: 2px solid #2F5597;
     }
@@ -2885,7 +2887,7 @@ body {
     /* Maths Questions Amount - Title Styling */
     
     .maths-questions-limit-text {
-        color: #2f5195;
+        color: #2f5597;
         font-size: 0.75rem;
         text-transform: uppercase;
         font-weight: bold;
@@ -2900,7 +2902,7 @@ body {
         width: 100px;
         height: 30px;
         background-color: #2f5597;
-        color: white;
+        color: #fafafa;
         border-radius: 5px;
         border: 2px solid #2F5597;
     }
@@ -2912,7 +2914,7 @@ body {
         width: 100px;
         height: 30px;
         background-color: #FF883D;
-        color: white;
+        color: #fafafa;
         border-radius: 5px;
         border: 2px solid #2F5597;
     }
@@ -2924,7 +2926,7 @@ body {
         width: 100px;
         height: 30px;
         background-color: #7C5295;
-        color: white;
+        color: #fafafa;
         border-radius: 5px;
         border: 2px solid #2F5597;
     }
@@ -2962,7 +2964,7 @@ body {
         padding: 0.5rem;
         width: 10rem;
         background-color: #7C5295;
-        color: white;
+        color: #fafafa;
         border-radius: 15px;
         border: 2px solid #2F5597;
         margin-top: 20px;
@@ -3006,7 +3008,7 @@ body {
 
     .game-timer {
         background-color: #fafafa;
-        border: 3px solid #2f5195;
+        border: 3px solid #2f5597;
         border-radius: 15px;
         width: 8rem;
         padding: 0.5rem;
@@ -3015,7 +3017,7 @@ body {
 
     .game-timer-text {
         background-color: #fafafa;
-        color: #2f5195;
+        color: #2f5597;
         font-size: 1.2rem;
     }
 
@@ -3023,7 +3025,7 @@ body {
 
     .game-score {
         background-color: #fafafa;
-        border: 3px solid #2f5195;
+        border: 3px solid #2f5597;
         border-radius: 15px;
         width: 8rem;
         padding: 0.5rem;
@@ -3032,7 +3034,7 @@ body {
 
     .game-score-text {
         background-color: #fafafa;
-        color: #2f5195;
+        color: #2f5597;
         font-size: 1.2rem;
 }
 
@@ -3040,7 +3042,7 @@ body {
 
     .game-question-number {
         background-color: #fafafa;
-        border: 3px solid #2f5195;
+        border: 3px solid #2f5597;
         border-radius: 15px;
         width: 10rem;
         padding: 0.5rem;
@@ -3049,7 +3051,7 @@ body {
 
     .game-question-number-text {
         background-color: #fafafa;
-        color: #2f5195;
+        color: #2f5597;
         font-size: 1.2rem;
     }
 
@@ -3065,7 +3067,7 @@ body {
     .game-question-audio {
         background-color: #fafafa;
         border: none;
-        color: #2f5195;
+        color: #2f5597;
         font-size: 2.5rem;
     }
 
@@ -3089,13 +3091,13 @@ body {
 
     .game-question {
         background-color: #fafafa;
-        border: 3px solid #2f5195;
+        border: 3px solid #2f5597;
         border-radius: 15px;
         width: 25rem;
         padding: 0.5rem;
         text-align: center;
         font-size: 1.5rem;
-        color: #2f5195;
+        color: #2f5597;
     }
 
     /* game questions 1 & 2 styling */
@@ -3117,7 +3119,7 @@ body {
         font-weight: bold;
         padding: 10px;
         background-color: #fafafa;
-        color: #2f5195;
+        color: #2f5597;
         border: 1px solid #2F5597;
         text-align: center;
     }
@@ -3128,7 +3130,7 @@ body {
         height: 40px;
         width: 6rem;
         background-color: #2F5597;
-        color: white;
+        color: #fafafa;
         border: 3px solid #2F5597;
         text-align: center;
     }
@@ -3143,7 +3145,7 @@ body {
         font-weight: bold;
         padding: 10px;
         background-color: #fafafa;
-        color: #2f5195;
+        color: #2f5597;
         border: 1px solid #2F5597;
         text-align: center;
     }
@@ -3154,7 +3156,7 @@ body {
         height: 40px;
         width: 6rem;
         background-color: #2F5597;
-        color: white;
+        color: #fafafa;
         border: 3px solid #2F5597;
         text-align: center;
     }
@@ -3178,7 +3180,7 @@ body {
         font-weight: bold;
         padding: 10px;
         background-color: #fafafa;
-        color: #2f5195;
+        color: #2f5597;
         border: 1px solid #2F5597;
         text-align: center;
     }
@@ -3189,7 +3191,7 @@ body {
         height: 40px;
         width: 6rem;
         background-color: #2F5597;
-        color: white;
+        color: #fafafa;
         border: 3px solid #2F5597;
         text-align: center;
     }
@@ -3204,7 +3206,7 @@ body {
         font-weight: bold;
         padding: 10px;
         background-color: #fafafa;
-        color: #2f5195;
+        color: #2f5597;
         border: 1px solid #2F5597;
         text-align: center;
     }
@@ -3215,7 +3217,7 @@ body {
         height: 40px;
         width: 6rem;
         background-color: #2F5597;
-        color: white;
+        color: #fafafa;
         border: 3px solid #2F5597;
         text-align: center;
     }
@@ -3227,7 +3229,7 @@ body {
         padding: 0.5rem;
         width: 10rem;
         background-color: #FF8B3D;
-        color: white;
+        color: #fafafa;
         border-radius: 15px;
         border: 3px solid #2F5597;
         margin-top: 15px;
@@ -3241,7 +3243,7 @@ body {
         padding: 0.5rem;
         width: 10rem;
         background-color: #7C5295;
-        color: white;
+        color: #fafafa;
         border-radius: 15px;
         border: 3px solid #2F5597;
         margin-top: 15px;
@@ -3273,21 +3275,21 @@ body {
 
     .game-over-style h2 {
         font-size: 2rem;
-        color: #2f5195;
+        color: #2f5597;
         text-align: center;
         padding: 20px;
     }
 
     .game-over-style h5 {
         font-size: 1.5rem;
-        color: #2f5195;
+        color: #2f5597;
         text-align: center;
         padding: 10px;
     }
 
     .game-over-style h3 {
         font-size: 1.2rem;
-        color: #2f5195;
+        color: #2f5597;
         text-align: center;
         padding: 10px;
         padding-bottom: 25px;
@@ -3302,9 +3304,9 @@ body {
 
     .game-over-style input {
         font-size: 1rem;
-        color: #2f5195;
+        color: #2f5597;
         padding: 2px;
-        border: 3px solid #2f5195;
+        border: 3px solid #2f5597;
         margin-bottom: 15px;
     }
 
@@ -3314,8 +3316,8 @@ body {
         font-size: 1rem;
         padding: 0.6rem;
         width: 15rem;
-        background-color: #2f5195;
-        color: white;
+        background-color: #2f5597;
+        color: #fafafa;
         border-radius: 25px;
         border: 3px solid #2F5597;
     }
@@ -3327,7 +3329,7 @@ body {
         padding: 0.6rem;
         width: 15rem;
         background-color: #D40C00;
-        color: white;
+        color: #fafafa;
         border-radius: 25px;
         border: 3px solid #2F5597;
     }
@@ -3339,7 +3341,7 @@ body {
         padding: 0.6rem;
         width: 15rem;
         background-color: #38761D;
-        color: white;
+        color: #fafafa;
         border-radius: 25px;
         border: 3px solid #2F5597;
         margin-bottom: 30px;
@@ -3370,7 +3372,7 @@ body {
 
     .high-score-style h2 {
         font-size: 2rem;
-        color: #2f5195;
+        color: #2f5597;
         text-align: center;
         padding: 20px;
         margin-bottom: 70%;
@@ -3402,7 +3404,7 @@ body {
         padding: 0.5rem;
         width: 10rem;
         background-color: #38761D;
-        color: white;
+        color: #fafafa;
         border-radius: 15px;
         border: 3px solid #2F5597;
     }
@@ -3468,7 +3470,7 @@ body {
         padding: 1rem;
         width: 9rem;
         background-color: #D40C00;
-        color: white;
+        color: #fafafa;
         border-radius: 15px;
         border: 3px solid #2F5597;
     }
@@ -3529,7 +3531,7 @@ body {
         padding: 1rem;
         width: 9rem;
         background-color: #38761D;
-        color: white;
+        color: #fafafa;
         border-radius: 15px;
         border: 3px solid #2F5597;
     }
@@ -3582,7 +3584,7 @@ body {
         padding: 1rem;
         width: 9rem;
         background-color: #7C5295;
-        color: white;
+        color: #fafafa;
         border-radius: 15px;
         border: 3px solid #2F5597;
     }
@@ -3618,9 +3620,9 @@ body {
     }
     
     .contact-form input {
-        border: 2px solid #2f5195;
+        border: 2px solid #2f5597;
         background-color: #fafafa;
-        color: #2f5295;
+        color: #2f5597;
         font-size: 0.75rem;
         margin-left: 10px;
         width: 96%;
@@ -3629,14 +3631,14 @@ body {
     }
 
     ::placeholder {
-        color: #2f5295;
+        color: #2f5597;
         font-size: 0.75rem;
     }
     
     .contact-form textarea {
-        border: 2px solid #2f5195;
+        border: 2px solid #2f5597;
         background-color: #fafafa;
-        color: #2f5195;
+        color: #2f5597;
         margin-left: 10px;
         width: 96%;
     }
@@ -3794,7 +3796,7 @@ body {
     .maths-questions-text {
         text-align: center;
         font-size: 1.2rem;
-        color: #2f5195;
+        color: #2f5597;
         text-transform: uppercase;
         padding: 10px;
         font-weight: bold;
@@ -3957,7 +3959,7 @@ body {
     /* Maths Timer - Title Styling */
     
     .maths-timer-text {
-        color: #2f5195;
+        color: #2f5597;
         font-size: 0.75rem;
         text-transform: uppercase;
         font-weight: bold;
@@ -3972,7 +3974,7 @@ body {
         width: 100px;
         height: 30px;
         background-color: #2f5597;
-        color: white;
+        color: #fafafa;
         border-radius: 5px;
         border: 2px solid #2F5597;
     }
@@ -3984,7 +3986,7 @@ body {
         width: 100px;
         height: 30px;
         background-color: #FF883D;
-        color: white;
+        color: #fafafa;
         border-radius: 5px;
         border: 2px solid #2F5597;
     }
@@ -3996,7 +3998,7 @@ body {
         width: 100px;
         height: 30px;
         background-color: #7C5295;
-        color: white;
+        color: #fafafa;
         border-radius: 5px;
         border: 2px solid #2F5597;
     }
@@ -4016,7 +4018,7 @@ body {
     /* Maths Questions Amount - Title Styling */
     
     .maths-questions-limit-text {
-        color: #2f5195;
+        color: #2f5597;
         font-size: 0.75rem;
         text-transform: uppercase;
         font-weight: bold;
@@ -4031,7 +4033,7 @@ body {
         width: 100px;
         height: 30px;
         background-color: #2f5597;
-        color: white;
+        color: #fafafa;
         border-radius: 5px;
         border: 2px solid #2F5597;
     }
@@ -4043,7 +4045,7 @@ body {
         width: 100px;
         height: 30px;
         background-color: #FF883D;
-        color: white;
+        color: #fafafa;
         border-radius: 5px;
         border: 2px solid #2F5597;
     }
@@ -4055,7 +4057,7 @@ body {
         width: 100px;
         height: 30px;
         background-color: #7C5295;
-        color: white;
+        color: #fafafa;
         border-radius: 5px;
         border: 2px solid #2F5597;
     }
@@ -4100,7 +4102,7 @@ body {
         padding: 0.5rem;
         width: 10rem;
         background-color: #7C5295;
-        color: white;
+        color: #fafafa;
         border-radius: 15px;
         border: 2px solid #2F5597;
         margin: 5px;
@@ -4143,7 +4145,7 @@ body {
 
     .game-timer {
         background-color: #fafafa;
-        border: 3px solid #2f5195;
+        border: 3px solid #2f5597;
         border-radius: 15px;
         width: 8rem;
         padding: 0.5rem;
@@ -4153,7 +4155,7 @@ body {
 
     .game-timer-text {
         background-color: #fafafa;
-        color: #2f5195;
+        color: #2f5597;
         font-size: 1.2rem;
     }
 
@@ -4161,7 +4163,7 @@ body {
 
     .game-score {
         background-color: #fafafa;
-        border: 3px solid #2f5195;
+        border: 3px solid #2f5597;
         border-radius: 15px;
         width: 8rem;
         padding: 0.5rem;
@@ -4171,7 +4173,7 @@ body {
 
     .game-score-text {
         background-color: #fafafa;
-        color: #2f5195;
+        color: #2f5597;
         font-size: 1.2rem;
 }
 
@@ -4179,7 +4181,7 @@ body {
 
     .game-question-number {
         background-color: #fafafa;
-        border: 3px solid #2f5195;
+        border: 3px solid #2f5597;
         border-radius: 15px;
         width: 10rem;
         padding: 0.5rem;
@@ -4188,7 +4190,7 @@ body {
 
     .game-question-number-text {
         background-color: #fafafa;
-        color: #2f5195;
+        color: #2f5597;
         font-size: 1.2rem;
     }
 
@@ -4204,7 +4206,7 @@ body {
     .game-question-audio {
         background-color: #fafafa;
         border: none;
-        color: #2f5195;
+        color: #2f5597;
         font-size: 2.5rem;
     }
 
@@ -4221,13 +4223,13 @@ body {
 
     .game-question {
         background-color: #fafafa;
-        border: 3px solid #2f5195;
+        border: 3px solid #2f5597;
         border-radius: 15px;
         width: 25rem;
         padding: 0.5rem;
         text-align: center;
         font-size: 1.2rem;
-        color: #2f5195;
+        color: #2f5597;
     }
 
     /* game questions 1 & 2 styling */
@@ -4263,7 +4265,7 @@ body {
         padding: 0.5rem;
         width: 12rem;
         background-color: #FF8B3D;
-        color: white;
+        color: #fafafa;
         border-radius: 15px;
         border: 3px solid #2F5597;
     }
@@ -4275,7 +4277,7 @@ body {
         padding: 0.5rem;
         width: 12rem;
         background-color: #7C5295;
-        color: white;
+        color: #fafafa;
         border-radius: 15px;
         border: 3px solid #2F5597;
     }
@@ -4305,21 +4307,21 @@ body {
 
     .game-over-style h2 {
         font-size: 1.75rem;
-        color: #2f5195;
+        color: #2f5597;
         text-align: center;
         padding: 10px;
     }
 
     .game-over-style h5 {
         font-size: 1.3rem;
-        color: #2f5195;
+        color: #2f5597;
         text-align: center;
         padding: 10px;
     }
 
     .game-over-style h3 {
         font-size: 1rem;
-        color: #2f5195;
+        color: #2f5597;
         text-align: center;
         padding: 10px;
         padding-bottom: 25px;
@@ -4334,9 +4336,9 @@ body {
 
     .game-over-style input {
         font-size: 1rem;
-        color: #2f5195;
+        color: #2f5597;
         padding: 2px;
-        border: 3px solid #2f5195;
+        border: 3px solid #2f5597;
         margin-bottom: 15px;
     }
 
@@ -4346,8 +4348,8 @@ body {
         font-size: 1rem;
         padding: 0.5rem;
         width: 10rem;
-        background-color: #2f5195;
-        color: white;
+        background-color: #2f5597;
+        color: #fafafa;
         border-radius: 15px;
         border: 3px solid #2F5597;
         margin-left: 10px;
@@ -4360,7 +4362,7 @@ body {
         padding: 0.5rem;
         width: 10rem;
         background-color: #D40C00;
-        color: white;
+        color: #fafafa;
         border-radius: 15px;
         border: 3px solid #2F5597;
         margin-left: 10px;
@@ -4373,7 +4375,7 @@ body {
         padding: 0.5rem;
         width: 10rem;
         background-color: #38761D;
-        color: white;
+        color: #fafafa;
         border-radius: 15px;
         border: 3px solid #2F5597;
         margin-left: 10px;
@@ -4405,7 +4407,7 @@ body {
 
     .high-score-style h2 {
         font-size: 1.5rem;
-        color: #2f5195;
+        color: #2f5597;
         text-align: center;
         padding: 20px;
         margin-bottom: 70%;
@@ -4437,7 +4439,7 @@ body {
         padding: 0.3rem;
         width: 15rem;
         background-color: #38761D;
-        color: white;
+        color: #fafafa;
         border-radius: 15px;
         border: 3px solid #2F5597;
     }
@@ -4567,7 +4569,7 @@ body {
         padding: 0.5rem;
         width: 12rem;
         background-color: #FF8B3D;
-        color: white;
+        color: #fafafa;
         border-radius: 15px;
         border: 3px solid #2F5597;
     }
@@ -4579,7 +4581,7 @@ body {
         padding: 0.5rem;
         width: 12rem;
         background-color: #7C5295;
-        color: white;
+        color: #fafafa;
         border-radius: 15px;
         border: 3px solid #2F5597;
     }
@@ -4597,7 +4599,7 @@ body {
 
     .game-timer {
         background-color: #fafafa;
-        border: 3px solid #2f5195;
+        border: 3px solid #2f5597;
         border-radius: 15px;
         width: 8rem;
         padding: 0.5rem;
@@ -4607,7 +4609,7 @@ body {
 
     .game-timer-text {
         background-color: #fafafa;
-        color: #2f5195;
+        color: #2f5597;
         font-size: 1.2rem;
     }
 
@@ -4615,7 +4617,7 @@ body {
 
     .game-score {
         background-color: #fafafa;
-        border: 3px solid #2f5195;
+        border: 3px solid #2f5597;
         border-radius: 15px;
         width: 8rem;
         padding: 0.5rem;
@@ -4625,7 +4627,7 @@ body {
 
     .game-score-text {
         background-color: #fafafa;
-        color: #2f5195;
+        color: #2f5597;
         font-size: 1.2rem;
 }
 
@@ -4633,7 +4635,7 @@ body {
 
     .game-question-number {
         background-color: #fafafa;
-        border: 3px solid #2f5195;
+        border: 3px solid #2f5597;
         border-radius: 15px;
         width: 10rem;
         padding: 0.5rem;
@@ -4642,7 +4644,7 @@ body {
 
     .game-question-number-text {
         background-color: #fafafa;
-        color: #2f5195;
+        color: #2f5597;
         font-size: 1.2rem;
     }
 
@@ -4658,7 +4660,7 @@ body {
     .game-question-audio {
         background-color: #fafafa;
         border: none;
-        color: #2f5195;
+        color: #2f5597;
         font-size: 2.5rem;
     }
 
@@ -4675,13 +4677,13 @@ body {
 
     .game-question {
         background-color: #fafafa;
-        border: 3px solid #2f5195;
+        border: 3px solid #2f5597;
         border-radius: 15px;
         width: 25rem;
         padding: 0.5rem;
         text-align: center;
         font-size: 1.2rem;
-        color: #2f5195;
+        color: #2f5597;
     }
 
     /* game questions 1 & 2 styling */
@@ -4730,21 +4732,21 @@ body {
 
     .game-over-style h2 {
         font-size: 1.75rem;
-        color: #2f5195;
+        color: #2f5597;
         text-align: center;
         padding: 10px;
     }
 
     .game-over-style h5 {
         font-size: 1.2rem;
-        color: #2f5195;
+        color: #2f5597;
         text-align: center;
         padding: 10px;
     }
 
     .game-over-style h3 {
         font-size: 1rem;
-        color: #2f5195;
+        color: #2f5597;
         text-align: center;
         padding: 10px;
         padding-bottom: 25px;
@@ -4759,9 +4761,9 @@ body {
 
     .game-over-style input {
         font-size: 1rem;
-        color: #2f5195;
+        color: #2f5597;
         padding: 2px;
-        border: 3px solid #2f5195;
+        border: 3px solid #2f5597;
         margin-bottom: 15px;
     }
 
@@ -4771,8 +4773,8 @@ body {
         font-size: 0.8rem;
         padding: 0.5rem;
         width: 10rem;
-        background-color: #2f5195;
-        color: white;
+        background-color: #2f5597;
+        color: #fafafa;
         border-radius: 15px;
         border: 3px solid #2F5597;
         margin-left: 10px;
@@ -4785,7 +4787,7 @@ body {
         padding: 0.5rem;
         width: 10rem;
         background-color: #D40C00;
-        color: white;
+        color: #fafafa;
         border-radius: 15px;
         border: 3px solid #2F5597;
         margin-left: 10px;
@@ -4798,7 +4800,7 @@ body {
         padding: 0.5rem;
         width: 10rem;
         background-color: #38761D;
-        color: white;
+        color: #fafafa;
         border-radius: 15px;
         border: 3px solid #2F5597;
         margin-left: 10px;
@@ -4830,7 +4832,7 @@ body {
 
     .high-score-style h2 {
         font-size: 1.2rem;
-        color: #2f5195;
+        color: #2f5597;
         text-align: center;
         padding: 20px;
         margin-bottom: 80%;
@@ -4862,7 +4864,7 @@ body {
         padding: 0.3rem;
         width: 15rem;
         background-color: #38761D;
-        color: white;
+        color: #fafafa;
         border-radius: 15px;
         border: 3px solid #2F5597;
     }
@@ -4965,9 +4967,9 @@ body {
     }
     
     .contact-form input {
-        border: 1px solid #2f5195;
+        border: 1px solid #2f5597;
         background-color: #fafafa;
-        color: #2f5295;
+        color: #2f5597;
         font-size: 0.7rem;
         margin-left: 10px;
         width: 96%;
@@ -4975,14 +4977,14 @@ body {
     }
 
     ::placeholder {
-        color: #2f5295;
+        color: #2f5597;
         font-size: 0.7rem;
     }
     
     .contact-form textarea {
-        border: 1px solid #2f5195;
+        border: 1px solid #2f5597;
         background-color: #fafafa;
-        color: #2f5195;
+        color: #2f5597;
         margin-left: 10px;
         width: 96%;
     }
