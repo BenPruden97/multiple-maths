@@ -34,7 +34,7 @@
     * [Second Feature to Implement](#feature-number-2)
     * [Third Feature to Implement](#feature-number-3)
     * [Fourth Feature to Implement](#feature-number-4)
-* [Issues & Bugs](#issues-&-bugs)
+* [Issues & Bugs](#issues-and-bugs)
     * [Issue Number One](#issue-number-1)
     * [Issue Number Two](#issue-number-2)
     * [Issue Number Three](#issue-number-3)
@@ -42,7 +42,7 @@
     * [Issue Number Five](#issue-number-5)
 * [Technologies Used](#technologies-used)
     * [Languages Used](#languages-used)
-    * [Frameworks, Libraries & Programs Used](#frameworks-libraries-programs-used)
+    * [Frameworks, Libraries & Programs Used](#frameworks-libraries-and-programs-used)
 * [Testing](#testing)
 * [Multiple Maths Deployment](#multiple-maths-deployment)
     * [Deploying onto GitHub Pages](#deploying-onto-github-pages)
@@ -50,7 +50,7 @@
     * [Cloning a Repository](#cloning-a-repository)
 * [Credits](#credits)
     * [Template Used](#template-used)
-    * [Websites Used for Help, Guidance & Tutorials](#websites-used-for-help-,-guidance-&-tutorials)
+    * [Websites Used for Help, Guidance & Tutorials](#websites-used-for-help-,-guidance-and-tutorials)
     * [My Mentor](#my-mentor)
     * [Tutor Support](#tutor-support)
 * [Screenshots](#screenshots)
@@ -183,6 +183,14 @@ In the Skeleton Development Plane I created my wireframe mockups using Adobe XD:
 
 ![Home Page Wireframes](https://github.com/BenPruden97/multiple-maths/blob/master/assets/readme-file-images/home-page-wireframes.png)
 
+![Options Page Wireframes](https://github.com/BenPruden97/multiple-maths/blob/master/assets/readme-file-images/options-page-wireframes.png)
+
+![Game Page Wireframes](https://github.com/BenPruden97/multiple-maths/blob/master/assets/readme-file-images/game-page-wireframes.png)
+
+![Game Over Page Wireframes](https://github.com/BenPruden97/multiple-maths/blob/master/assets/readme-file-images/game-over-page-wireframes.png)
+
+![Highscores Page Wireframes](https://github.com/BenPruden97/multiple-maths/blob/master/assets/readme-file-images/highscores-page-wireframes.png)
+
 ## Surface
 
 ### Colours used during my development
@@ -310,7 +318,7 @@ The last feature would be a global leaderboard of highscores so that the user ca
 
 [Back to Table of Contents](#table-of-contents)
 
-# Issues & Bugs
+# Issues and Bugs
 
 I ran into some issues while developing Multiple Maths which I have listed below:
 
@@ -346,7 +354,7 @@ There is an issue with the highscores part of my project as it does not differen
 * CSS3
 * Javascript
 
-## Frameworks, Libraries & Programs Used
+## Frameworks, Libraries and Programs Used
 
 * [Bootstrap](https://getbootstrap.com/) - Bootstrap was used as a css framework to help with the responsiveness of my project for all device screen sizes.
 
@@ -415,7 +423,7 @@ Multiple Maths was developed using GitPod, which was commited to git using git a
 
 I used the Code Institute Student Template to complete my Multiple Maths Project: [GitPod Full Template](https://github.com/Code-Institute-Org/gitpod-full-template)
 
-## Websites Used for Help, Guidance & Tutorials
+## Websites Used for Help, Guidance and Tutorials
 
 Here is a list of the websites I used to find solutions or help if I was stuck on a particular section of my quiz.
 
