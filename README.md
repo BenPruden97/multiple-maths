@@ -289,9 +289,9 @@ The three options would be:
 
 ### Feature Number 2 
 
-Would allow the user to choose another answer if the first answer they chose was incorrect.
+Would be to have seperate quiz pages for each of the question types instead of there being one page for all question types.
 
-This would allow the user to think again about the question and try to pick the correct answer from the 3 remaining as the first answer clicked would disappear. This would allow the user a second chance but also improve the users maths skills and knowledge.
+This would give the quiz better functionality but also be able to add more options for each question type. This will also help with the highscores section so that each question type will have its own highscore page with the highscores for that question type only instead of all question types within one highscores page. This will also help with some issues that popped up during the development stage and with some future implementations such as the question difficulties.
 
 ### Feature Number 3
 
@@ -307,6 +307,29 @@ The last feature would be a global leaderboard of highscores so that the user ca
 
 # Issues & Bugs
 
+I ran into some issues while developing Multiple Maths which I have listed below:
+
+### Issue Number 1:
+
+One issue that I faced within my milestone project was the audio button that read out the current question to the user. All of the question types read out were fine apart from the subtraction question type. Instead of the audio reading (What is number minus number) it reads out (What is number to number). This maybe confusing to the user especially as Multiple Maths is for a younger audience. I tried to find the best way of displaying the question for the audio button to read out the question correctly but was unable to find a solution without messing up the subtraction questions format so I decided to leave the audio button how it is. I did this as I feel that the audio button option benefits Multiple Maths for younger children who may not be able to understand the question or numbers within the question, they are also able to see clearly what the operator for the question is and what question type they chose from the options.html file.
+
+### Issue Number 2:
+
+Another issue that I faced witin my milestone project was the game answer buttons within my options.html file. At first I had the buttons with an onclick and this as a parameter. I then had an event function to display the innerText within the console log. However when I would click on a button, the event function would display all of the window elements within the console. I had to change this as I only wanted the innerText from the buttons. I then removed the onclick function from the buttons and created an event listener for the click of the answer buttons. I was then able to create a function to be able to display the innerText for the buttons and then determine which of the buttons held the correctAnswer for that question. This allowed me to display the correct and incorrect answer classes so the user will then know if they chose the correct answer or not from the classes shown and then be able to move on with the rest of the quiz.
+
+![Timer Issue](https://github.com/BenPruden97/multiple-maths/blob/master/assets/readme-file-images/timer-issue.png)
+
+### Issue Number 3:
+
+The display of the timer has an issue when the timer goes into single digits for the seconds section of the timer. I was able to fix this for the minutes section as the minutes do not go above double digits. To fix this is added an extra 0 within the innerText for the timer section that would display the 0 before the minute chosen. I could not do the same for the seconds section as the seconds go into double digits and would look like this (01:030 instead 01:30). I tried to find a solution online through tutorials and videos but I wasn't able to find the right solution to fix this issue.
+
+### Issue Number 4:
+
+The original idea for the quiz was to have difficulty options so that the user could choose how easy, medium or hard their quiz would be for the question type that they chose within the options.html file. I created easy, medium & hard js files for each question type with objects with the set of questions, answers and correct answers within them. After doing so I found it very difficult as to how I was going to first display that the user had clicked on the question type and to then display the difficulty of questions that the user chose as they were all in different files. I looked online using websites for tutorials and help and spoke to my mentor about this and we decided that it would be best to remove the difficulty section from the project and to cut all of the easy, medium & hard js files for each question type and then copy them all into one js file named additionquestions.js and so on for the rest of the question types. This made the functionality of the quiz a lot easier as the user would then be able to click onto the question type of their choice and then would display all of the questions within that question type js file.
+
+### Issue Number 5:
+
+There is an issue with the highscores part of my project as it does not differentiate between the question types so the highscores for all question types will all be displayed within one highscores page. There was no quick solution for this but this can be fixed by creating a quiz page and highscores page for each question type. This way the user would complete the quiz for the chosen question type and then be taken to that question types highscore page to save their highscore and view all of their highscores recorded for that question type. This will allow the user to see how well they are doing for each question type and determine what questions they need to focus on more in the future. (I have added this issues solution as something to implement in the future). 
 
 [Back to Table of Contents](#table-of-contents)
 

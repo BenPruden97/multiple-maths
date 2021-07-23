@@ -227,14 +227,6 @@ var allGameAnswers = document.querySelectorAll(".game-answers").forEach(button =
             speak('Incorrect');
         }
 
-        // Write an if statement that checks the value of 
-        // what result is
-        // if true, you can access the button here inside this function
-        // button.classList.add('') <<< add a class with a rule that changes the button color
-        // if false, add a different class
-
-        // SetTimeout() to remove correct-answer class after 750ms and then display the next question
-
         let correctAnswerQuestion = setTimeout(() => {
             button.classList.remove("correct-answer");
             getNewQuestion();
@@ -248,35 +240,18 @@ var allGameAnswers = document.querySelectorAll(".game-answers").forEach(button =
     });
 });
 
+
 function checkAnswer(theAnswer) {
 
     let correctAnswer = questions[questionNumber].correctAnswer;
 
     if (theAnswer == correctAnswer) {
-        // returning value to where the function was called
         return true;
     } else {
-        // returning value to where the function was called
         return false;
     }
 
 };
-
-function markCorrectAnswer() {
-    if (theAnswer == correctAnswer) {
-        score = score + 1;
-        scoreText.innerText = score;
-        questionNumber++
-        displayQuestion++
-    }
-};
-
-function markincorrectAnswer() {
-    if (theAnswer != correctAnswer) {
-        questionNumber++
-        displayQuestion++
-    }
-}
 
 function currentQuestion(questionNumber) {
     const questionAmountText = document.getElementById('game-question-number-text');
@@ -294,8 +269,6 @@ function resetOptions() {
     location.reload()
 };
 
-
-
 // Speech Synthesis function to read the current question and whether the user has clicked on the correct or incorrect answer
 
 function speak (message) {
@@ -309,3 +282,4 @@ function speak (message) {
 function readQuestion() {
     speak(`${questions[questionNumber].question}`);
 };
+
