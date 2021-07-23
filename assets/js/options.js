@@ -205,9 +205,11 @@ var allGameAnswers = document.querySelectorAll(".game-answers").forEach(button =
         if (result == true) {
             button.classList.add("correct-answer");
             speak('Correct!');
+            questionAmountText++;
         } else {
             button.classList.add("incorrect-answer");
             speak('Incorrect');
+            markincorrectAnswer();
         }
 
         // Write an if statement that checks the value of 
@@ -237,8 +239,7 @@ function checkAnswer(theAnswer) {
 };
 
 function markCorrectAnswer() {
-    if (selectedAnswer == questions[questionNumber].correctAnswer) {
-        gameAnswers.classToApply = "correct";
+    if (theAnswer == correctAnswer) {
         updateScore++
         scoreText.innerText = updateScore;
         questionNumber++
@@ -247,7 +248,7 @@ function markCorrectAnswer() {
 };
 
 function markincorrectAnswer() {
-    if (selectedAnswer != questions[questionNumber].correctAnswer) {
+    if (theAnswer != correctAnswer) {
         questionNumber++
         displayQuestion++
         gameAnswers.classToApply = "incorrect";
@@ -299,7 +300,6 @@ function countdownClockUpdate() {
 
 function speak (message) {
     var msg = new SpeechSynthesisUtterance(message);
-    msg.lang = "en-US";
     var voices = window.speechSynthesis.getVoices();
     window.speechSynthesis.speak(msg);
 };
