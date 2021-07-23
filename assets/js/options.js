@@ -14,13 +14,11 @@ const gameAnswers = document.getElementsByClassName("game-answers");
 // Game Questions, Timer, Score and Question Amount Variables
 
 let mathQuestions = "addition";
-let quizTimer = 1;
+let quizTimer = 60;
 let questionAmount = 8;
 let score = 0;
 let correctScore = 1;
 let questionCounter = 1;
-let quizTimerThree = 3;
-let quizTimerFive = 5;
 let questionNumber = 0;
 let questions;
 let correctAnswer;
@@ -31,35 +29,30 @@ let correctAnswer;
 
 document.getElementById("addition-questions").addEventListener("click", function(){ 
     mathQuestions = "addition";
-    console.log(mathQuestions);
 });
 
 // Subtraction Maths Questions click function
 
 document.getElementById("subtraction-questions").addEventListener("click", function(){ 
     mathQuestions = "subtraction";
-    console.log(mathQuestions);
 });
 
 // Multiplcation Maths Questions click function
 
 document.getElementById("multiplication-questions").addEventListener("click", function(){ 
     mathQuestions = "multiplication";
-    console.log(mathQuestions);
 });
 
 // Division Maths Questions click function
 
 document.getElementById("division-questions").addEventListener("click", function(){ 
     mathQuestions = "division";
-    console.log(mathQuestions);
 });
 
 // Multi Maths Questions click function (to display all types of questions)
 
 document.getElementById("multi-questions").addEventListener("click", function(){ 
     mathQuestions = "all";
-    console.log(mathQuestions);
 });
 
 // Quiz Timer
@@ -67,22 +60,19 @@ document.getElementById("multi-questions").addEventListener("click", function(){
 // One Minute Timer click function
 
 document.getElementById("one-minute").addEventListener("click", function(){ 
-    quizTimer = 1;
-    console.log(quizTimer);
+    quizTimer = 60;
 });
 
 // Three Minutes Timer click function
 
 document.getElementById("three-minutes").addEventListener("click", function(){ 
-    quizTimer = 3;
-    console.log(quizTimer);
+    quizTimer = 180;
 });
 
 // Five Minutes Timer click function
 
 document.getElementById("five-minutes").addEventListener("click", function(){ 
-    quizTimer = 5;
-    console.log(quizTimer);
+    quizTimer = 300;
 });
 
 // Question Amount
@@ -91,21 +81,18 @@ document.getElementById("five-minutes").addEventListener("click", function(){
 
 document.getElementById("eight-questions").addEventListener("click", function(){ 
     questionAmount = 8;
-    console.log(questionAmount);
 });
 
 // Twelve Questions Amount click function
 
 document.getElementById("twelve-questions").addEventListener("click", function(){ 
     questionAmount = 12;
-    console.log(questionAmount);
 });
 
 // Sixteen Questions Amount click function
 
 document.getElementById("sixteen-questions").addEventListener("click", function(){ 
     questionAmount = 16;
-    console.log(questionAmount);
 });
 
 // Start Button
@@ -122,7 +109,25 @@ document.getElementById("start-button").addEventListener("click", function(){
 
     updateScore(score)
 
-    countdownClockUpdate()
+    const countdownClock = document.getElementById("game-timer-text");
+
+    let timerId = setInterval(countdownClockUpdate, 1000);
+
+    // Quiz Timer Code for the start of the game
+
+    function countdownClockUpdate() {
+
+        if (quizTimer == 0) {
+            
+            clearTimeout(timerId);
+            
+            console.log("I am out of time")
+        } else {
+            countdownClock.innerHTML = `Timer: ${Math.floor(quizTimer / 60)}:${quizTimer % 60}`;
+            quizTimer--;
+        }
+    
+    };
     
 });
 
@@ -195,11 +200,7 @@ function displayQuestion(questionNumber) {
 }
 
 function getNewQuestion() {
-    
-    if(getQuestion(questionNumber).length === 0 || questionNumber >= questionAmount){
-        document.getElementById("game-section-id").style.display = "none";
-    }
-    
+        
     getQuestion(questionNumber);
     displayQuestion(questionNumber);
     allGameAnswers;
@@ -295,30 +296,7 @@ function resetOptions() {
     location.reload()
 };
 
-// Quiz Timer Code for the start of the game
 
-var startingMinutes = 1;
-let time = startingMinutes * 60;
-
-const countdownClock = document.getElementById("game-timer-text");
-
-setInterval(countdownClockUpdate, 1000);
-
-function countdownClockUpdate() {
-	
-    var minutes = Math.floor(time / 60);
-
-    var seconds = time % 60;
-
-    countdownClock.innerHTML = `Timer: ${minutes}:${seconds}`;
-    time--;
-    
-    if(time < 0) {
-    clearInterval();
-    document.getElementById("game-timer-text").innerHTML = "Hello"
-    }
-    
-};
 
 // Speech Synthesis function to read the current question and whether the user has clicked on the correct or incorrect answer
 

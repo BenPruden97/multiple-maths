@@ -184,7 +184,7 @@ In the Skeleton Development Plane I created my wireframe mockups using Adobe XD:
 
 * ![#D3D3D3 Colour](https://github.com/BenPruden97/multiple-maths/blob/master/assets/readme-file-images/%23d3d3d3-colour-block.png) - This colour was used as the main background for all pages.
 * ![#FAFAFA Colour](https://github.com/BenPruden97/multiple-maths/blob/master/assets/readme-file-images/%23fafafa-colour-block.png) - This colour was used as a background as well as text, headings and icon colours
-* ![#2F5195 Colour](https://github.com/BenPruden97/multiple-maths/blob/master/assets/readme-file-images/%232f5195-colour-block.png) - This is the main colour of my project as it was used the most to style different types of elements
+* ![#2F5597 Colour](https://github.com/BenPruden97/multiple-maths/blob/master/assets/readme-file-images/%232f5195-colour-block.png) - This is the main colour of my project as it was used the most to style different types of elements
 * ![#D40C00 Colour](https://github.com/BenPruden97/multiple-maths/blob/master/assets/readme-file-images/%23d40c00-colour-block.png) - This colour was used for the play, reset and subtraction buttons within my project
 * ![#FF8B3D Colour](https://github.com/BenPruden97/multiple-maths/blob/master/assets/readme-file-images/%23ff8b3d-colour-block.png) - This colour was used for the how to play button and buttons within the options.html file
 * ![#38761D Colour](https://github.com/BenPruden97/multiple-maths/blob/master/assets/readme-file-images/%2338761d-colour-block.png) - This colour was used for the highscores.html file and buttons within the options.html file
