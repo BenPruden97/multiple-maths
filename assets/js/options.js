@@ -183,10 +183,10 @@ function startGame() {
 
 function getQuestion(questionNumber) {
     for (let i = 0; i < gameAnswers.length; i++) {
-        gameAnswers[i].innerText = questions[questionNumber].answers[i];
-        }
-        correctAnswer = questions[questionNumber].correctAnswer;
-        displayQuestion(questionNumber);
+    gameAnswers[i].innerText = questions[questionNumber].answers[i];
+    }
+    correctAnswer = questions[questionNumber].correctAnswer;
+    displayQuestion(questionNumber);
 };
 
 function displayQuestion(questionNumber) {
@@ -196,10 +196,12 @@ function displayQuestion(questionNumber) {
 
 function getNewQuestion() {
     
+    if(getQuestion(questionNumber).length === 0 || questionNumber >= questionAmount){
+        document.getElementById("game-section-id").style.display = "none";
+    }
+    
     getQuestion(questionNumber);
-
     displayQuestion(questionNumber);
-
     allGameAnswers;
 
 };
@@ -230,6 +232,17 @@ var allGameAnswers = document.querySelectorAll(".game-answers").forEach(button =
         // button.classList.add('') <<< add a class with a rule that changes the button color
         // if false, add a different class
 
+        // SetTimeout() to remove correct-answer class after 750ms and then display the next question
+
+        let correctAnswerQuestion = setTimeout(() => {
+            button.classList.remove("correct-answer");
+            getNewQuestion();
+        }, 750);
+        
+        let incorrectAnswerQuestion = setTimeout(() => {
+            button.classList.remove("incorrect-answer");
+            getNewQuestion();
+        }, 750);
 
     });
 });
@@ -268,7 +281,7 @@ function markincorrectAnswer() {
 
 function currentQuestion(questionNumber) {
     const questionAmountText = document.getElementById('game-question-number-text');
-    questionAmountText.innerHTML = `Question: ${questionNumber + 1}/${questionAmount}`;
+    questionAmountText.innerHTML = `Question: ${questionNumber}/${questionAmount}`;
 }
 
 function updateScore(score) {

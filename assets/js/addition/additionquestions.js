@@ -147,7 +147,7 @@ let additionquestions = [
     {
         question: "What is 58 + 17",
         answers: [70, 75, 80, 85],
-        correctAnswer: 85,
+        correctAnswer: 75,
     },
     {
         question: "What is 61 + 19",
