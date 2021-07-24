@@ -32,30 +32,35 @@ let correctAnswer;
 
 document.getElementById("addition-questions").addEventListener("click", function(){ 
     mathQuestions = "addition";
+    console.log("additon");
 });
 
 // Subtraction Maths Questions click function
 
 document.getElementById("subtraction-questions").addEventListener("click", function(){ 
     mathQuestions = "subtraction";
+    console.log("subtraction");
 });
 
 // Multiplcation Maths Questions click function
 
 document.getElementById("multiplication-questions").addEventListener("click", function(){ 
     mathQuestions = "multiplication";
+    console.log("multiplication");
 });
 
 // Division Maths Questions click function
 
 document.getElementById("division-questions").addEventListener("click", function(){ 
     mathQuestions = "division";
+    console.log("division");
 });
 
 // Multi Maths Questions click function (to display all types of questions)
 
 document.getElementById("multi-questions").addEventListener("click", function(){ 
     mathQuestions = "all";
+    console.log("all");
 });
 
 // Quiz Timer
@@ -64,18 +69,21 @@ document.getElementById("multi-questions").addEventListener("click", function(){
 
 document.getElementById("one-minute").addEventListener("click", function(){ 
     quizTimer = 60;
+    console.log(60);
 });
 
 // Three Minutes Timer click function
 
 document.getElementById("three-minutes").addEventListener("click", function(){ 
     quizTimer = 180;
+    console.log(180);
 });
 
 // Five Minutes Timer click function
 
 document.getElementById("five-minutes").addEventListener("click", function(){ 
     quizTimer = 300;
+    console.log(300);
 });
 
 // Question Amount
@@ -84,18 +92,21 @@ document.getElementById("five-minutes").addEventListener("click", function(){
 
 document.getElementById("eight-questions").addEventListener("click", function(){ 
     questionAmount = 8;
+    console.log(8);
 });
 
 // Twelve Questions Amount click function
 
 document.getElementById("twelve-questions").addEventListener("click", function(){ 
     questionAmount = 12;
+    console.log(12);
 });
 
 // Sixteen Questions Amount click function
 
 document.getElementById("sixteen-questions").addEventListener("click", function(){ 
     questionAmount = 16;
+    console.log(16);
 });
 
 // Start Button

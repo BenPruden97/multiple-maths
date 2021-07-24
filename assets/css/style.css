@@ -1339,7 +1339,7 @@ body {
 
 .correct-answer {
     font-size: 1.2rem;
-    padding: 1rem;
+    padding: 0rem;
     width: 12rem;
     background-color: #38761D;
     color: #fafafa;
@@ -1351,7 +1351,7 @@ body {
     background-color: #38761d;
     color: #fafafa;
     font-weight: 300;
-    padding: 0.5rem;
+    padding: 0rem;
     border: 3px solid #38761D;
 }
 
@@ -1359,7 +1359,7 @@ body {
 
 .incorrect-answer {
     font-size: 1.2rem;
-    padding: 1rem;
+    padding: 0rem;
     width: 12rem;
     background-color: #D40C00;
     color: #fafafa;

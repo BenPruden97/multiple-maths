@@ -38,6 +38,8 @@ There is an audio option above the question displayed which reads out the curren
 ### GitHub & LinkedIn link to see the developer’s previous projects & work/ experience.
 There is a link to my GitHub and LinkedIn profile within the footer so the user can see any of my previous projects and work/ experience.
 
+[Back to Table of Contents](#table-of-contents)
+
 # Testing Functionality of Project
 
 ### Testing the Play Button on my Home Page to take the user to the Options Page
@@ -48,7 +50,7 @@ There is a link to my GitHub and LinkedIn profile within the footer so the user 
 
 This will display a How To Play pop-up with information about Multiple Maths and how to play the quiz and the different options available.
 
-![How To Play Button](assets/testing-file-videos-screenshots/home-to-play-button.gif)
+![How To Play Button](assets/testing-file-videos-screenshots/how-to-play-button.gif)
 
 ### Testing the Highscores Button on my Home Page to take the user to the Highscores Page
 
@@ -72,67 +74,146 @@ This will take the user back to the Home Page.
 The LinkedIn icon and text will take the user to the developer's LinkedIn profile on a new tab.
 The GitHub icon and text will take the user to the developer's GitHub profile on a new tab.
 
-![Highscores Button](assets/testing-file-videos-screenshots/footer-social-links.gif)
+![LinkedIn & GitHub social links](assets/testing-file-videos-screenshots/footer-social-links.gif)
 
 ### Testing the Addition question type using the addition, 1 minute timer and 8 questions option
 
+![Addition Question Type One](assets/testing-file-videos-screenshots/addition-one.gif)
+
 ### Testing the Addition question type using the addition, 3 minute timer and 12 questions option
+
+![Addition Question Type Two](assets/testing-file-videos-screenshots/addition-two.gif)
 
 ### Testing the Addition question type using the addition, 5 minute timer and 16 questions option
 
+![Addition Question Type Three](assets/testing-file-videos-screenshots/addition-three.gif)
+
 ### Testing the Subtraction question type using the addition, 1 minute timer and 8 questions option
+
+![Subtraction Question Type One](assets/testing-file-videos-screenshots/subtraction-one.gif)
 
 ### Testing the Subtraction question type using the addition, 3 minute timer and 12 questions option
 
+![Subtraction Question Type Two](assets/testing-file-videos-screenshots/subtraction-two.gif)
+
 ### Testing the Subtraction question type using the addition, 5 minute timer and 16 questions option
+
+![Subtraction Question Type Three](assets/testing-file-videos-screenshots/subtraction-three.gif)
 
 ### Testing the Mulitplication question type using the addition, 1 minute timer and 8 questions option
 
+![Multiplication Question Type One](assets/testing-file-videos-screenshots/multiplication-one.gif)
+
 ### Testing the Mulitplication question type using the addition, 3 minute timer and 12 questions option
+
+![Multiplication Question Type Two](assets/testing-file-videos-screenshots/multiplication-two.gif)
 
 ### Testing the Mulitplication question type using the addition, 5 minute timer and 16 questions option
 
+![Multiplication Question Type Three](assets/testing-file-videos-screenshots/multiplication-three.gif)
+
 ### Testing the Division question type using the addition, 1 minute timer and 8 questions option
+
+![Division Question Type One](assets/testing-file-videos-screenshots/division-one.gif)
 
 ### Testing the Division question type using the addition, 3 minute timer and 12 questions option
 
+![Division Question Type Two](assets/testing-file-videos-screenshots/division-two.gif)
+
 ### Testing the Division question type using the addition, 5 minute timer and 16 questions option
+
+![Division Question Type Three](assets/testing-file-videos-screenshots/division-three.gif)
 
 ### Testing the Multi question type using the addition, 1 minute timer and 8 questions option
 
+![Multi Question Type One](assets/testing-file-videos-screenshots/multi-one.gif)
+
 ### Testing the Multi question Type using the addition, 3 minute timer and 12 questions option
+
+![Multi Question Type Two](assets/testing-file-videos-screenshots/multi-two.gif)
 
 ### Testing the Multi question Type using the addition, 5 minute timer and 16 questions option
 
+![Multi Question Type Three](assets/testing-file-videos-screenshots/multi-three.gif)
+
 ### The Reset Button will reset the options that the user has chosen if they would like to change anything
+
+![Reset Button](assets/testing-file-videos-screenshots/reset-button.gif)
 
 ### The Start Button will take the user to the game quiz displaying the options chosen by the user
 
+![Start Button](assets/testing-file-videos-screenshots/start-button.gif)
+
 ### The Back to Options Menu button will take the user back to the Options Page
+
+![Back to Options Page Button](assets/testing-file-videos-screenshots/back-to-options.gif)
 
 ### The Back to Home Page button will take the user back to the Home Page
 
+![Back to Home Page Button](assets/testing-file-videos-screenshots/back-to-home-page.gif)
+
+### Testing the quiz timer to display the countdown timer that the user chose from the options page
+
+![Timer Counter Options](assets/testing-file-videos-screenshots/timer-counter.gif)
+
+### Testing the score counter which displays at 0 when the quiz is started and increase by 1 everytime the user gets a question correct
+
+![Score Counter](assets/testing-file-videos-screenshots/score-counter.gif)
+
+### Testing the question Amount which displays the current question that is diplaying and the question amount that the user chose from the options page
+
+![Question Amount Options](assets/testing-file-videos-screenshots/question-amount.gif)
+
 ### Testing the Audio button to read out the current question
 
-### Testing the answer buttons to change to the correct and incorrect classes once the user clicks on an answer
+![Question Audio Button](assets/testing-file-videos-screenshots/question-audio-button.gif)
 
+### Testing the answer buttons to change to the correct class if the answer clicked is correct
 
+![Correct Answer](assets/testing-file-videos-screenshots/correct-answer.gif)
 
+### Testing the answer buttons to change to the incorrect class if the answer clicked is incorrect
 
+![Incorrect Answer](assets/testing-file-videos-screenshots/incorrect-answer.gif)
 
+### Testing the clear highscores function to remove the current highscores from the highscores page
 
+### Testing the quiz timer over page so if the user runs out of time then this page pops up to let the user know that they ran out of time and to play again or go back to the home page
 
+### Testing the game over page so when the user types in their name and save their score that it shows up within the highscores page
 
+### Testing the responsiveness of the home page
 
+![Home Page Responsive Test](assets/testing-file-videos-screenshots/home-page-responsive.gif)
 
+### Testing the responsiveness of the options page
 
+![Options Page Responsive Test](assets/testing-file-videos-screenshots/options-page-responsive.gif)
 
+### Testing the responsiveness of the game page
+
+![Game Page Responsive Test](assets/testing-file-videos-screenshots/game-page-responsive.gif)
+
+### Testing the responsiveness of the game over page
+
+![Game Page Responsive Test](assets/testing-file-videos-screenshots/game-over-page-responsive.gif)
+
+### Testing the responsiveness of the highscores page
+
+![Game Page Responsive Test](assets/testing-file-videos-screenshots/highscores-page-responsive.gif)
+
+[Back to Table of Contents](#table-of-contents)
 
 # Testing Code Validation
 
+[Back to Table of Contents](#table-of-contents)
 
 # Testing Project Performance
+
+[Back to Table of Contents](#table-of-contents)
 
 
 
 # Test Project for Different Browsers
+
+[Back to Table of Contents](#table-of-contents)
