@@ -54,7 +54,6 @@ This will display a How To Play pop-up with information about Multiple Maths and
 
 ### Testing the Highscores Button on my Home Page to take the user to the Highscores Page
 
-# testing
 ![Highscores Button](assets/testing-file-videos-screenshots/highscores-button.gif)
 
 ### Testing the Contact Us Button on my Home Page
@@ -150,7 +149,7 @@ The GitHub icon and text will take the user to the developer's GitHub profile on
 
 ### The Back to Home Page button will take the user back to the Home Page
 
-![Back to Home Page Button](assets/testing-file-videos-screenshots/back-to-home-page.gif)
+![Back to Home Page Button](assets/testing-file-videos-screenshots/back-to-home-page-button.gif)
 
 ### Testing the quiz timer to display the countdown timer that the user chose from the options page
 
@@ -196,11 +195,11 @@ The GitHub icon and text will take the user to the developer's GitHub profile on
 
 ### Testing the responsiveness of the game over page
 
-![Game Page Responsive Test](assets/testing-file-videos-screenshots/game-over-page-responsive.gif)
+![Game Over Page Responsive Test](assets/testing-file-videos-screenshots/game-over-responsive.gif)
 
 ### Testing the responsiveness of the highscores page
 
-![Game Page Responsive Test](assets/testing-file-videos-screenshots/highscores-page-responsive.gif)
+![Highscores Page Responsive Test](assets/testing-file-videos-screenshots/highscores-responsive.gif)
 
 [Back to Table of Contents](#table-of-contents)
 
