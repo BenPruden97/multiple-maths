@@ -268,6 +268,8 @@ var allGameAnswers = document.querySelectorAll(".gameAnswerButtons").forEach(but
             let siblings = getSiblings(event.target)// Edited by Jo
             console.log(siblings) /// returns undefined???
             speak('Incorrect');
+            currentQuestion(questionNumber)
+            questionNumber = questionNumber + 1;
         }
 
         setTimeout(() => {
