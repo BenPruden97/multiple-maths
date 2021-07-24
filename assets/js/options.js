@@ -11,6 +11,9 @@ gameSection.style.display = "none";
 
 const gameAnswers = document.getElementsByClassName("gameAnswerButtons");
 
+const gameAnswerTimer = document.getElementById("game-timer-over-id");
+gameAnswerTimer.style.display = "none"
+
 // Game Questions, Timer, Score and Question Amount Variables
 
 let mathQuestions = "addition";
@@ -121,7 +124,8 @@ document.getElementById("start-button").addEventListener("click", function(){
             
             clearTimeout(timerId);
             
-            console.log("I am out of time")
+            gameSection.style.display = "none";
+            gameAnswerTimer.style.display = "block";
         } else {
             countdownClock.innerHTML = `Timer: ${`0` + Math.floor(quizTimer / 60)}:${quizTimer % 60}`;
             quizTimer--;

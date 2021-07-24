@@ -1421,6 +1421,77 @@ body {
     color: #fafafa;
 }
 
+.game-timer-over-section {
+    height: 70vh;
+    background-color: #d3d3d3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.game-timer-over-style {
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 750px;
+    height: 400px;
+    background-color: #fafafa;
+    border-radius: 50px;
+    border: 3px solid #2F5597;
+    padding: 10px;
+}
+
+.game-timer-over-style h2 {
+    font-size: 2rem;
+    color: #2f5597;
+    text-align: center;
+    padding: 20px;
+    margin-top: 30px;
+}
+
+.game-timer-over-style h5 {
+    margin-top: 30px;
+    font-size: 2rem;
+    color: #2f5597;
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 50px;
+}
+
+.timer-play-again-button {
+    font-size: 1.5rem;
+    padding: 1rem;
+    width: 15rem;
+    background-color: #D40C00;
+    color: #fafafa;
+    border-radius: 25px;
+    border: 3px solid #2F5597;
+}
+
+.timer-play-again-button:hover {
+    background-color: #fafafa;
+    color: #2F5597;
+    font-weight: bold;
+}
+
+.timer-over-main-menu-button {
+    font-size: 1.5rem;
+    padding: 1rem;
+    width: 18rem;
+    background-color: #7c5295;
+    color: #fafafa;
+    border-radius: 25px;
+    border: 3px solid #2f5597;
+}
+
+.timer-over-main-menu-button:hover {
+    background-color: #fafafa;
+    color: #2f5597;
+    font-weight: bold;
+}
+
 @media screen and (max-width: 1200px) {
 
     /* Contact Form popup styling */
@@ -3006,7 +3077,7 @@ body {
         border-radius: 15px;
         border: 3px solid #2F5597;
         margin-top: 15px;
-        margin-bottom: 5px;
+        margin-bottom: 15px;
     }
 
     /* game main menu button styling */
@@ -3192,6 +3263,67 @@ body {
         color: #fafafa;
         border-radius: 15px;
         border: 3px solid #2F5597;
+    }
+
+    /* Game Timer Over Section */
+
+    .game-timer-over-section {
+        height: 70vh;
+        background-color: #d3d3d3;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    
+    .game-timer-over-style {
+        position: absolute;
+        top: 55%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 550px;
+        height: 400px;
+        background-color: #fafafa;
+        border-radius: 50px;
+        border: 3px solid #2F5597;
+        padding: 10px;
+    }
+    
+    .game-timer-over-style h2 {
+        font-size: 1.5rem;
+        color: #2f5597;
+        text-align: center;
+        padding: 20px;
+        margin-top: 30px;
+    }
+    
+    .game-timer-over-style h5 {
+        margin-top: 15px;
+        font-size: 1.5rem;
+        color: #2f5597;
+        text-align: center;
+        padding: 20px;
+        margin-bottom: 50px;
+    }
+    
+    .timer-play-again-button {
+        font-size: 1.2rem;
+        padding: 1rem;
+        width: 10rem;
+        background-color: #D40C00;
+        color: #fafafa;
+        border-radius: 25px;
+        border: 3px solid #2F5597;
+    }
+
+    .timer-over-main-menu-button {
+        font-size: 1.2rem;
+        padding: 1rem;
+        width: 15rem;
+        background-color: #7c5295;
+        color: #fafafa;
+        border-radius: 25px;
+        border: 3px solid #2f5597;
     }
 
 }
@@ -3929,7 +4061,7 @@ body {
     .game-timer-text {
         background-color: #fafafa;
         color: #2f5597;
-        font-size: 1.2rem;
+        font-size: 1rem;
     }
 
     /* game score styling */
@@ -3947,7 +4079,7 @@ body {
     .game-score-text {
         background-color: #fafafa;
         color: #2f5597;
-        font-size: 1.2rem;
+        font-size: 1rem;
 }
 
     /* game question number styling */
@@ -3964,7 +4096,7 @@ body {
     .game-question-number-text {
         background-color: #fafafa;
         color: #2f5597;
-        font-size: 1.2rem;
+        font-size: 1rem;
     }
 
     /* game question audio button styling */
@@ -4001,7 +4133,7 @@ body {
         width: 25rem;
         padding: 0.5rem;
         text-align: center;
-        font-size: 1.2rem;
+        font-size: 1rem;
         color: #2f5597;
     }
 
@@ -4222,6 +4354,75 @@ body {
         border: 3px solid #2F5597;
         margin-left: 0px;
         margin-bottom: 10px;
+    }
+
+    /* Game Timer Over Section */
+
+    .game-timer-over-section {
+        height: 70vh;
+        background-color: #d3d3d3;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    
+    .game-timer-over-style {
+        position: absolute;
+        top: 55%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 350px;
+        height: 400px;
+        background-color: #fafafa;
+        border-radius: 50px;
+        border: 3px solid #2F5597;
+        padding: 10px;
+    }
+    
+    .game-timer-over-style h2 {
+        font-size: 1.5rem;
+        color: #2f5597;
+        text-align: center;
+        padding: 20px;
+        margin-top: 30px;
+    }
+    
+    .game-timer-over-style h5 {
+        margin-top: 15px;
+        font-size: 1.5rem;
+        color: #2f5597;
+        text-align: center;
+        padding: 20px;
+        margin-bottom: 35px;
+    }
+
+    .game-timer-over-options {
+        display: grid;
+        gap: 10px;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .timer-play-again-button {
+        font-size: 1rem;
+        padding: 0.75rem;
+        width: 9rem;
+        background-color: #D40C00;
+        color: #fafafa;
+        border-radius: 25px;
+        border: 3px solid #2F5597;
+        margin-left: 25px;
+    }
+
+    .timer-over-main-menu-button {
+        font-size: 1rem;
+        padding: 0.75rem;
+        width: 12rem;
+        background-color: #7c5295;
+        color: #fafafa;
+        border-radius: 25px;
+        border: 3px solid #2f5597;
     }
 
 }
@@ -4642,6 +4843,74 @@ body {
         margin-bottom: 10px;
     }
 
+    /* Game Timer Over Section */
+
+    .game-timer-over-section {
+        height: 70vh;
+        background-color: #d3d3d3;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    
+    .game-timer-over-style {
+        position: absolute;
+        top: 55%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 300px;
+        background-color: #fafafa;
+        border-radius: 50px;
+        border: 3px solid #2F5597;
+        padding: 10px;
+    }
+    
+    .game-timer-over-style h2 {
+        font-size: 1.5rem;
+        color: #2f5597;
+        text-align: center;
+        padding: 20px;
+        margin-top: 30px;
+    }
+    
+    .game-timer-over-style h5 {
+        font-size: 1.5rem;
+        color: #2f5597;
+        text-align: center;
+        padding: 20px;
+        margin-bottom: 25px;
+        margin-top: 10px;
+    }
+
+    .game-timer-over-options {
+        display: grid;
+        gap: 10px;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .timer-play-again-button {
+        font-size: 1rem;
+        padding: 0.75rem;
+        width: 8rem;
+        background-color: #D40C00;
+        color: #fafafa;
+        border-radius: 25px;
+        border: 3px solid #2F5597;
+        margin-left: 25px;
+    }
+
+    .timer-over-main-menu-button {
+        font-size: 1rem;
+        padding: 0.75rem;
+        width: 12rem;
+        background-color: #7c5295;
+        color: #fafafa;
+        border-radius: 25px;
+        border: 3px solid #2f5597;
+    }
+
     /* Error page styling */
 
     .error-page button {
@@ -4857,6 +5126,74 @@ body {
         border-radius: 50px;
         border: 3px solid #2F5597;
         padding: 10px;
+    }
+
+    /* Game Timer Over Section */
+
+    .game-timer-over-section {
+        height: 70vh;
+        background-color: #d3d3d3;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    
+    .game-timer-over-style {
+        position: absolute;
+        top: 55%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 300px;
+        height: 300px;
+        background-color: #fafafa;
+        border-radius: 50px;
+        border: 3px solid #2F5597;
+    }
+    
+    .game-timer-over-style h2 {
+        font-size: 1.1rem;
+        color: #2f5597;
+        text-align: center;
+        padding: 10px;
+        margin-top: 10px;
+    }
+    
+    .game-timer-over-style h5 {
+        font-size: 1.2rem;
+        color: #2f5597;
+        text-align: center;
+        padding: 20px;
+        margin-bottom: 20px;
+        margin-top: 5px;
+    }
+
+    .game-timer-over-options {
+        display: grid;
+        gap: 10px;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .timer-play-again-button {
+        font-size: 0.8rem;
+        padding: 0.6rem;
+        width: 8rem;
+        background-color: #D40C00;
+        color: #fafafa;
+        border-radius: 25px;
+        border: 3px solid #2F5597;
+        margin-left: 30px;
+    }
+
+    .timer-over-main-menu-button {
+        font-size: 0.8rem;
+        padding: 0.6rem;
+        width: 12rem;
+        background-color: #7c5295;
+        color: #fafafa;
+        border-radius: 25px;
+        border: 3px solid #2f5597;
     }
 
     /* Footer section styling */
