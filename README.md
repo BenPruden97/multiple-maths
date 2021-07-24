@@ -90,7 +90,7 @@ The primary goal for Multiple Maths is to help kids with their maths skills and 
 
 ## Player Stories
 
-* To play a maths game that is fun to play
+* To play a maths game where I can choose which questions I would like to answer.
 * To play a game where I can help improve my current maths skills & knowledge and improve.
 * I would like to record my top high scores after my game has finished.
 * I would like a How to play option to find out how to play the game.
