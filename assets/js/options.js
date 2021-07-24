@@ -126,6 +126,7 @@ document.getElementById("start-button").addEventListener("click", function(){
             
             gameSection.style.display = "none";
             gameAnswerTimer.style.display = "block";
+
         } else {
             countdownClock.innerHTML = `Timer: ${`0` + Math.floor(quizTimer / 60)}:${quizTimer % 60}`;
             quizTimer--;
@@ -204,6 +205,12 @@ function displayQuestion(questionNumber) {
 }
 
 function getNewQuestion() {
+
+    if (questions.length === 0 || questionNumber > questionAmount) {
+        localStorage.setItem("mostRecentScore", score)
+
+        return window.location.assign("/game-over.html")
+    }
         
     getQuestion(questionNumber);
     displayQuestion(questionNumber);
@@ -254,12 +261,12 @@ var allGameAnswers = document.querySelectorAll(".gameAnswerButtons").forEach(but
 
         setTimeout(() => {
             button.classList.remove("correct-answer");
-            getNewQuestion();
+            getNewQuestion()
         }, 750);
         
         setTimeout(() => {
             button.classList.remove("incorrect-answer");
-            getNewQuestion();
+            getNewQuestion()
         }, 750);
 
     });
