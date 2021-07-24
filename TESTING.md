@@ -42,37 +42,37 @@
 
 ### Testing the Play Button on my Home Page to take the user to the Options Page
 
-![Home Page Play Button](https://github.com/BenPruden97/multiple-maths/blob/master/assets/testing-file-videos-screenshots/home-page-play-button.gif)
+![Home Page Play Button](assets/testing-file-videos-screenshots/home-page-play-button.gif)
 
 ### Testing the How To Play Button on my Home Page
 
 This will display a How To Play pop-up with information about Multiple Maths and how to play the quiz and the different options available.
 
-![How To Play Button](https://github.com/BenPruden97/multiple-maths/blob/master/assets/testing-file-videos-screenshots/how-to-play-button.gif)
+![How To Play Button](assets/testing-file-videos-screenshots/home-to-play-button.gif)
 
 ### Testing the Highscores Button on my Home Page to take the user to the Highscores Page
 
 # testing
-![Highscores Button](https://github.com/BenPruden97/multiple-maths/blob/master/assets/testing-file-videos-screenshots/highscores-button.gif)
+![Highscores Button](assets/testing-file-videos-screenshots/highscores-button.gif)
 
 ### Testing the Contact Us Button on my Home Page
 
 This will display a Contact Us pop-up with a contact form for the user to be able to get in touch with any problems, errors, help or questions they may have.
 
-![Contact Us Button](https://github.com/BenPruden97/multiple-maths/blob/master/assets/testing-file-videos-screenshots/contact-us-button.gif)
+![Contact Us Button](assets/testing-file-videos-screenshots/contact-us-button.gif)
 
 ### Testing the Logo at the top of each page
 
 This will take the user back to the Home Page.
 
-![Logo](https://github.com/BenPruden97/multiple-maths/blob/master/assets/testing-file-videos-screenshots/logo.gif)
+![Logo](assets/testing-file-videos-screenshots/logo.gif)
 
 ### Testing the Social Links within the Footer
 
 The LinkedIn icon and text will take the user to the developer's LinkedIn profile on a new tab.
 The GitHub icon and text will take the user to the developer's GitHub profile on a new tab.
 
-![Highscores Button](https://github.com/BenPruden97/multiple-maths/blob/master/assets/testing-file-videos-screenshots/footer-social-links.gif)
+![Highscores Button](assets/testing-file-videos-screenshots/footer-social-links.gif)
 
 ### Testing the Addition question type using the addition, 1 minute timer and 8 questions option
 
