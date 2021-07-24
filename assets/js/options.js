@@ -9,7 +9,7 @@ gameSection.style.display = "none";
 
 // Game Answers button that have the same class name
 
-const gameAnswers = document.getElementsByClassName("game-answers");
+const gameAnswers = document.getElementsByClassName("gameAnswerButtons");
 
 // Game Questions, Timer, Score and Question Amount Variables
 
@@ -207,7 +207,16 @@ function getNewQuestion() {
 
 };
 
-var allGameAnswers = document.querySelectorAll(".game-answers").forEach(button => {
+function getSiblings(e){
+    for (item of e.target.parentElement.children) {
+        if (item !== e.target){
+            console.log(item)
+            return item;
+        }
+    }
+}
+
+var allGameAnswers = document.querySelectorAll(".gameAnswerButtons").forEach(button => {
     button.addEventListener("click", event => {
         var allGameAnswersText = button.innerText;
 
@@ -223,34 +232,15 @@ var allGameAnswers = document.querySelectorAll(".game-answers").forEach(button =
             questionNumber = questionNumber + 1;
             currentQuestion(questionNumber)
         } else {
+
             button.classList.add("incorrect-answer");
+
+            console.log(event)
+
+            event => getSiblings(event)
+
             speak('Incorrect');
-
         }
-
-        let getSiblings = function (e) {
-                
-            let siblings = [];
-
-            if (!e.parentNode) {
-                return siblings;
-            }
-
-            let sibling = e.parentNode.firstChild;
-
-            while (sibling) {
-                if (sibling.nodeType == 1 && sibling !== e) {
-                    siblings.push(sibling);
-                }
-                sibling = sibling.nextSibling;
-            }
-            return siblings;
-
-        }
-
-        let siblings = getSiblings(document.querySelector(".game-answers"));
-        siblingText = siblings.map(e => e.innerHTML);
-        console.log(siblingText);
 
         setTimeout(() => {
             button.classList.remove("correct-answer");
