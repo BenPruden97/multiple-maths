@@ -52,6 +52,7 @@ This will display a How To Play pop-up with information about Multiple Maths and
 
 ### Testing the Highscores Button on my Home Page to take the user to the Highscores Page
 
+# testing
 ![Highscores Button](https://github.com/BenPruden97/multiple-maths/blob/master/assets/testing-file-videos-screenshots/highscores-button.gif)
 
 ### Testing the Contact Us Button on my Home Page
