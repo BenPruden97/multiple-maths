@@ -207,13 +207,17 @@ function getNewQuestion() {
 
 };
 
-function getSiblings(e){
-    for (item of e.target.parentElement.children) {
-        if (item !== e.target){
+function getSiblings(element){ // Jo changed event to element
+    console.log("ELEMENT IN GETSIBLINGS IS ", element)
+    console.log("PARENT ELEMENT IS ", element.parentElement)
+    siblings = []
+    for (let item of element.parentElement.parentElement.children) {
+        if (item !== element){
             console.log(item)
-            return item;
+            siblings.push(item);
         }
     }
+    return siblings
 }
 
 var allGameAnswers = document.querySelectorAll(".gameAnswerButtons").forEach(button => {
@@ -235,10 +239,12 @@ var allGameAnswers = document.querySelectorAll(".gameAnswerButtons").forEach(but
 
             button.classList.add("incorrect-answer");
 
-            console.log(event)
+            // console.log(event)
 
-            event => getSiblings(event)
-
+            // event => getSiblings(event) 
+            console.log(event.target)
+            let siblings = getSiblings(event.target)// Edited by Jo
+            console.log(siblings) /// returns undefined???
             speak('Incorrect');
         }
 

@@ -1181,6 +1181,7 @@ body {
     padding: 2px;
     border: 3px solid #2f5597;
     margin-bottom: 10px;
+    margin-left: 25px;
 }
 
 /* Save Score Button Styling */
@@ -4100,10 +4101,11 @@ body {
 
     .game-over-style input {
         font-size: 1rem;
+        width: 10rem;
         color: #2f5597;
-        padding: 2px;
         border: 3px solid #2f5597;
         margin-bottom: 15px;
+        margin-left: 10px;
     }
 
     /* Save Score Button Styling */
@@ -4517,10 +4519,11 @@ body {
 
     .game-over-style input {
         font-size: 1rem;
+        width: 10rem;
         color: #2f5597;
-        padding: 2px;
         border: 3px solid #2f5597;
         margin-bottom: 15px;
+        margin-left: 10px;
     }
 
     /* Save Score Button Styling */

@@ -40,6 +40,79 @@
 
 # Testing Functionality of Project
 
+### Testing the Play Button on my Home Page to take the user to the Options Page
+
+### Testing the How To Play Button on my Home Page
+
+This will display a How To Play pop-up with information about Multiple Maths and how to play the quiz and the different options available.
+
+### Testing the Highscores Button on my Home Page to take the user to the Highscores Page
+
+### Testing the Contact Us Button on my Home Page
+
+This will display a Contact Us pop-up with a contact form for the user to be able to get in touch with any problems, errors, help or questions they may have.
+
+### Testing the Logo at the top of each page
+
+This will take the user back to the Home Page.
+
+### Testing the Social Links within the Footer
+
+The LinkedIn icon and text will take the user to the developer's LinkedIn profile on a new tab.
+The GitHub icon and text will take the user to the developer's GitHub profile on a new tab.
+
+### Testing the Addition question type using the addition, 1 minute timer and 8 questions option
+
+### Testing the Addition question type using the addition, 3 minute timer and 12 questions option
+
+### Testing the Addition question type using the addition, 5 minute timer and 16 questions option
+
+### Testing the Subtraction question type using the addition, 1 minute timer and 8 questions option
+
+### Testing the Subtraction question type using the addition, 3 minute timer and 12 questions option
+
+### Testing the Subtraction question type using the addition, 5 minute timer and 16 questions option
+
+### Testing the Mulitplication question type using the addition, 1 minute timer and 8 questions option
+
+### Testing the Mulitplication question type using the addition, 3 minute timer and 12 questions option
+
+### Testing the Mulitplication question type using the addition, 5 minute timer and 16 questions option
+
+### Testing the Division question type using the addition, 1 minute timer and 8 questions option
+
+### Testing the Division question type using the addition, 3 minute timer and 12 questions option
+
+### Testing the Division question type using the addition, 5 minute timer and 16 questions option
+
+### Testing the Multi question type using the addition, 1 minute timer and 8 questions option
+
+### Testing the Multi question Type using the addition, 3 minute timer and 12 questions option
+
+### Testing the Multi question Type using the addition, 5 minute timer and 16 questions option
+
+### The Reset Button will reset the options that the user has chosen if they would like to change anything
+
+### The Start Button will take the user to the game quiz displaying the options chosen by the user
+
+### The Back to Options Menu button will take the user back to the Options Page
+
+### The Back to Home Page button will take the user back to the Home Page
+
+### Testing the Audio button to read out the current question
+
+### Testing the answer buttons to change to the correct and incorrect classes once the user clicks on an answer
+
+
+
+
+
+
+
+
+
+
+
 
 
 # Testing Code Validation
