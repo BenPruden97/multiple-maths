@@ -29,11 +29,15 @@ saveHighScore = e => {
 
     highScores.splice(5);
 
-    localStorage.setItem("highScores", JSON.stringify(highScores));
+    localStorage.setItem(mostRecentScore, JSON.stringify(highScores));
+
+    document.getElementById("currentHighscores").innerText = localStorage.getItem(mostRecentScore);
+
     window.location.assign("/highscores.html");
 
 }
 
-function clearHighScores() {
-    window.localStorage.clear();
-}
+const clearHighscores = document.getElementById("clearHighscores").addEventListener("click", function() {
+    localStorage.clear();
+})
+

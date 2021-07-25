@@ -34,6 +34,7 @@
     * [Second Feature to Implement](#feature-number-2)
     * [Third Feature to Implement](#feature-number-3)
     * [Fourth Feature to Implement](#feature-number-4)
+    * [Fifth Feature to Implement](#feature-number-5)
 * [Issues & Bugs](#issues-and-bugs)
     * [Issue Number One](#issue-number-1)
     * [Issue Number Two](#issue-number-2)
@@ -317,6 +318,10 @@ The user will be able to choose whether they would like to have a multiple choic
 The last feature would be a global leaderboard of highscores so that the user can see the highscores of other players. This would allow the user to play Multiple Maths for a competitive purpose and could benefit schools as they could have a class leaderboard or school leaderboard for example.
 
 [Back to Table of Contents](#table-of-contents)
+
+### Feature Number 5 
+
+To get the highscores page to display the users highscores that they have recorded from their localStorage
 
 # Issues and Bugs
 
