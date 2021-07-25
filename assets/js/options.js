@@ -205,6 +205,8 @@ function startGame() {
 function getQuestion(questionNumber) {
 
     if (questionNumber === questionAmount) {
+
+        localStorage.setItem("mostRecentScore", score)
             
         return window.location.assign("/game-over.html");
 
