@@ -175,12 +175,6 @@ The GitHub icon and text will take the user to the developer's GitHub profile on
 
 ![Incorrect Answer](assets/testing-file-videos-screenshots/incorrect-answer.gif)
 
-### Testing the clear highscores function to remove the current highscores from the highscores page
-
-### Testing the quiz timer over page so if the user runs out of time then this page pops up to let the user know that they ran out of time and to play again or go back to the home page
-
-### Testing the game over page so when the user types in their name and save their score that it shows up within the highscores page
-
 ### Testing the responsiveness of the home page
 
 ![Home Page Responsive Test](assets/testing-file-videos-screenshots/home-page-responsive.gif)
@@ -205,12 +199,36 @@ The GitHub icon and text will take the user to the developer's GitHub profile on
 
 # Testing Code Validation
 
+Home Page HTML Validation
+
+![Home Page HTML Validation](assets/testing-file-videos-screenshots/home-page-html-validator.png)
+
+Options Page HTML Validation
+
+![Options Page HTML Validation](assets/testing-file-videos-screenshots/options-page-html-validator.png)
+
+Game Over Page HTML Validation
+
+![Game Over Page HTML Validation](assets/testing-file-videos-screenshots/game-over-page-html-validator.png)
+
+Highscores Page HTML Validation
+
+![Highscores Page HTML Validation](assets/testing-file-videos-screenshots/highscores-page-html-validator.png)
+
+Style.CSS Sheet Validation
+
+![Style.CSS Sheet CSS Validation](assets/testing-file-videos-screenshots/style-css-validator.png)
+
 [Back to Table of Contents](#table-of-contents)
 
 # Testing Project Performance
 
-[Back to Table of Contents](#table-of-contents)
+![Home Page Performance](assets/testing-file-videos-screenshots/home-page-performance.png)
 
-# Test Project for Different Browsers
+![Options Page Performance](assets/testing-file-videos-screenshots/options-page-performance.png)
+
+![Game Over Page Performance](assets/testing-file-videos-screenshots/game-over-page-performance.png)
+
+![Highscores Page Performance](assets/testing-file-videos-screenshots/highscores-page-performance.png)
 
 [Back to Table of Contents](#table-of-contents)
