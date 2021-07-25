@@ -211,8 +211,6 @@ The GitHub icon and text will take the user to the developer's GitHub profile on
 
 [Back to Table of Contents](#table-of-contents)
 
-
-
 # Test Project for Different Browsers
 
 [Back to Table of Contents](#table-of-contents)

@@ -203,6 +203,13 @@ function startGame() {
 }
 
 function getQuestion(questionNumber) {
+
+    if (questionNumber === questionAmount) {
+            
+        return window.location.assign("/game-over.html");
+
+    };
+
     for (let i = 0; i < gameAnswers.length; i++) {
     gameAnswers[i].innerText = questions[questionNumber].answers[i];
     }
@@ -216,12 +223,6 @@ function displayQuestion(questionNumber) {
 }
 
 function getNewQuestion() {
-
-    if (questions.length === 0 || questionNumber > questionAmount) {
-        localStorage.setItem("mostRecentScore", score)
-
-        return window.location.assign("/game-over.html")
-    }
         
     getQuestion(questionNumber);
     displayQuestion(questionNumber);
