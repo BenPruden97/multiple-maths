@@ -201,6 +201,10 @@ The GitHub icon and text will take the user to the developer's GitHub profile on
 
 Home Page HTML Validation
 
+Most of the errors for my HTML Pages were based on my buttons being displayed within an anchor tag. I kept them this way as I wanted the whoel button to be clickable instead of just the text.
+
+[I used HTML Validator to validate all of my HTML Pages](https://validator.w3.org/)
+
 ![Home Page HTML Validation](assets/testing-file-videos-screenshots/home-page-html-validator.png)
 
 Options Page HTML Validation
@@ -215,11 +219,21 @@ Highscores Page HTML Validation
 
 ![Highscores Page HTML Validation](assets/testing-file-videos-screenshots/highscores-page-html-validator.png)
 
+[I used CSS Validator to validate my Style.css Sheet](https://jigsaw.w3.org/css-validator/)
+
 Style.CSS Sheet Validation
+
+The errors within my CSS validation had nothing to do with my actual style.css sheet and no errors appeared.
 
 ![Style.CSS Sheet CSS Validation](assets/testing-file-videos-screenshots/style-css-validator.png)
 
 [Back to Table of Contents](#table-of-contents)
+
+JavaScript Validation
+
+[I used JSHint to validate my JavaScript files](https://jshint.com/)
+
+There were a lot of errors for using const and let which I ignored and also for missing semi colons which I have updated.
 
 # Testing Project Performance
 

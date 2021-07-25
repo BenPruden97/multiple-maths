@@ -193,7 +193,7 @@ function getQuestions(questionType, questionAmount) {
 
 function shuffleQuestions(questions) {
     return questions.sort(() => Math.random() - 0.5)
-}
+};
 
 function startGame() {
     updateScore(score);
