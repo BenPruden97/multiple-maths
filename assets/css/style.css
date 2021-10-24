@@ -363,7 +363,7 @@ body {
 /* Linkedin Button Styling for index.html */
 
 .linkedin-index {
-    flex-grow: 50%;
+    flex-grow: 2;
     width: 50%;
 }
 
@@ -390,7 +390,7 @@ body {
 /* Github Button Styling for index.html */
 
 .github-index {
-    flex-grow: 50%;
+    flex-grow: 2;
     width: 50%;
 }
 
@@ -428,7 +428,7 @@ body {
 /* Linkedin Button Styling for options & game.html */
 
 .linkedin {
-    flex-grow: 50%;
+    flex-grow: 2;
     width: 50%;
 }
 
@@ -455,7 +455,7 @@ body {
 /* GitHub Button Styling for options & game.html */
 
 .github {
-    flex-grow: 50%;
+    flex-grow: 2;
     width: 50%;
 }
 
@@ -3581,7 +3581,7 @@ body {
     /* Linkedin Button Styling for index.html */
 
     .linkedin-index {
-        flex-grow: 50%;
+        flex-grow: 2;
         width: 50%;
     }
 
@@ -3608,7 +3608,7 @@ body {
     /* Github Button Styling for index.html */
 
     .github-index {
-        flex-grow: 50%;
+        flex-grow: 2;
         width: 50%;
     }
 
@@ -5209,4 +5209,4 @@ body {
         margin-left: 55px;
     }
 
-};
+}
