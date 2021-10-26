@@ -205,27 +205,27 @@ Most of the errors for my HTML Pages were based on my buttons being displayed wi
 
 [I used HTML Validator to validate all of my HTML Pages](https://validator.w3.org/)
 
-![Home Page HTML Validation](assets/testing-file-videos-screenshots/home-page-html-validator.png)
+![Home Page HTML Validation](assets/testing-file-videos-screenshots/home-page-html-validation.png)
 
 Options Page HTML Validation
 
-![Options Page HTML Validation](assets/testing-file-videos-screenshots/options-page-html-validator.png)
+![Options Page HTML Validation](assets/testing-file-videos-screenshots/options-page-html-validation.png)
 
 Game Over Page HTML Validation
 
-![Game Over Page HTML Validation](assets/testing-file-videos-screenshots/game-over-page-html-validator.png)
+![Game Over Page HTML Validation](assets/testing-file-videos-screenshots/game-over-page-html-validation.png)
 
 Highscores Page HTML Validation
 
-![Highscores Page HTML Validation](assets/testing-file-videos-screenshots/highscores-page-html-validator.png)
+![Highscores Page HTML Validation](assets/testing-file-videos-screenshots/highscores-page-html-validation.png)
 
 [I used CSS Validator to validate my Style.css Sheet](https://jigsaw.w3.org/css-validator/)
 
 Style.CSS Sheet Validation
 
-The errors within my CSS validation had nothing to do with my actual style.css sheet and no errors appeared.
+No errors or warnings within the style.css file.
 
-![Style.CSS Sheet CSS Validation](assets/testing-file-videos-screenshots/style-css-validator.png)
+![Style.CSS Sheet CSS Validation](assets/testing-file-videos-screenshots/css-validator.png)
 
 [Back to Table of Contents](#table-of-contents)
 
