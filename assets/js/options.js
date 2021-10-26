@@ -208,7 +208,7 @@ function getQuestion(questionNumber) {
 
         localStorage.setItem("mostRecentScore", score)
             
-        return window.location.assign("/game-over.html");
+        return window.location.assign("game-over.html");
 
     };
 
