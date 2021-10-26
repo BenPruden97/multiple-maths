@@ -98,17 +98,20 @@ body {
 .play-button {
     font-size: 1.5rem;
     padding: 1rem;
-    width: 15rem;
+    width: 16rem;
     background-color: #D40C00;
     color: #fafafa;
     border-radius: 25px;
     border: 3px solid #2F5597;
+    text-align: center;
+    text-decoration: none;
 }
 
 .play-button:hover {
     background-color: #fafafa;
     color: #2F5597;
     font-weight: bold;
+    text-decoration: none;
 }
 
 /* how to play button and how to play pop up text for index.html */
@@ -116,7 +119,7 @@ body {
 .how-to-button {
     font-size: 1.5rem;
     padding: 1rem;
-    width: 15rem;
+    width: 16rem;
     background-color: #FF8B3D;
     color: #fafafa;
     border-radius: 25px;
@@ -182,20 +185,23 @@ body {
 
 /* high score button and high score pop up text for index.html */
 
-.high-score-button {
+.high-score-button{
     font-size: 1.5rem;
-    padding: 1rem;
-    width: 15rem;
+    padding: 1rem 2.25rem;
+    width: 16rem;
     background-color: #38761D;
     color: #fafafa;
     border-radius: 25px;
     border: 3px solid #2F5597;
+    text-decoration: none;
+    text-align: center;
 }
 
 .high-score-button:hover {
     background-color: #fafafa;
     color: #2f5597;
     font-weight: bold;
+    text-decoration: none;
 }
 
 .high-score-popup {
@@ -249,7 +255,7 @@ body {
 .contact-button {
     font-size: 1.5rem;
     padding: 1rem;
-    width: 15rem;
+    width: 16rem;
     background-color: #7c5295;
     color: #fafafa;
     border-radius: 25px;
@@ -885,6 +891,8 @@ body {
     border-radius: 25px;
     border: 3px solid #2F5597;
     margin-top: 50px;
+    text-align: center;
+    text-decoration: none;
 }
 
 .option-main-menu-button:hover {
@@ -1090,6 +1098,8 @@ body {
     border: 3px solid #2F5597;
     margin-top: 10px;
     margin-bottom: 10px;
+    text-align: center;
+    text-decoration: none;
 }
 
 .game-options-button:hover {
@@ -1110,6 +1120,8 @@ body {
     border: 3px solid #2F5597;
     margin-top: 10px;
     margin-bottom: 10px;
+    text-align: center;
+    text-decoration: none;
 }
 
 .game-main-menu-button:hover {
@@ -1287,6 +1299,8 @@ body {
     color: #fafafa;
     border-radius: 25px;
     border: 3px solid #2F5597;
+    text-align: center;
+    text-decoration: none;
 }
 
 .high-score-play-button a {
@@ -1328,6 +1342,8 @@ body {
     color: #fafafa;
     border-radius: 25px;
     border: 3px solid #2F5597;
+    text-decoration: none;
+    text-align: center;
 }
 
 .high-score-main-menu-button:hover {
@@ -1469,6 +1485,8 @@ body {
     color: #fafafa;
     border-radius: 25px;
     border: 3px solid #2F5597;
+    text-decoration: none;
+    text-align: center;
 }
 
 .timer-play-again-button:hover {
@@ -1485,6 +1503,8 @@ body {
     color: #fafafa;
     border-radius: 25px;
     border: 3px solid #2f5597;
+    text-align: center;
+    text-decoration: none;
 }
 
 .timer-over-main-menu-button:hover {
